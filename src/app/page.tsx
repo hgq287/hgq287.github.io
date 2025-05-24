@@ -11,7 +11,7 @@ export default async function Home() {
   const sections = await Promise.all(
     files.map(async (filename) => {
       const raw = await fs.readFile(path.join(dataDir, filename), 'utf-8');
-      const html = await marked.parse(raw); // ✅ fixed here
+      const html = await marked.parse(raw);
       return {
         title: filename.replace('.md', '').toUpperCase(),
         contentHtml: html,
