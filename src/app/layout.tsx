@@ -1,8 +1,8 @@
 import './globals.css';
 
 export const metadata = {
-  title: 'hgq287 - Profile',
-  description: 'Full-Stack Software Engineer Portfolio',
+  title: 'Hg Q. - Portfolio & Profiles',
+  description: 'A Full-Stack Software Engineer and Solutions Architect',
 };
 
 export default function RootLayout({
