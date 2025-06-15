@@ -7,7 +7,7 @@ export default function MarkdownSection({
 }) {
   return (
     <section>
-      <h2>{title}</h2>
+      <h3>{title}</h3>
       <article dangerouslySetInnerHTML={{ __html: contentHtml }} />
       <hr />
     </section>
