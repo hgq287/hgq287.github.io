@@ -1,5 +1,5 @@
 
-## Technical Skills
+## 🛠️ Technical Skills
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 ### 👨‍💻 Programming Languages
 - Python (incl. FastAPI, Scikit-Learn, TensorFlow, CoreML)

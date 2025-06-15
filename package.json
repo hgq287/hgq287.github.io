@@ -8,6 +8,7 @@
     "deploy": "yarn build && touch out/.nojekyll && gh-pages -d out"
   },
   "dependencies": {
+    "framer-motion": "^12.18.1",
     "github-markdown-css": "^5.8.1",
     "gray-matter": "^4.0.3",
     "marked": "^15.0.12",

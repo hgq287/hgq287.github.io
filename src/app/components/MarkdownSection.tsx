@@ -1,4 +1,7 @@
+import AnimatedSection from './AnimatedSection'
+
 export default function MarkdownSection({
+  // eslint-disable-next-line @typescript-eslint/no-unused-vars
   title,
   contentHtml,
 }: {
@@ -6,10 +9,12 @@ export default function MarkdownSection({
   contentHtml: string;
 }) {
   return (
-    <section>
-      <h3>{title}</h3>
-      <article dangerouslySetInnerHTML={{ __html: contentHtml }} />
-      <hr />
-    </section>
-  );
+    <AnimatedSection>
+      <article
+        className="prose prose-neutral dark:prose-invert"
+        dangerouslySetInnerHTML={{ __html: contentHtml }}
+      />
+      <hr className="my-8 border-neutral-300 dark:border-neutral-600" />
+    </AnimatedSection>
+  )
 }

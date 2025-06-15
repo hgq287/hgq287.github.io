@@ -20,7 +20,7 @@ export default async function Home() {
       const raw = await fs.readFile(path.join(dataDir, file.filename), 'utf-8');
       const html = await marked.parse(raw);
       return {
-        title: '',
+        title: file.title,
         contentHtml: html,
       };
     })
