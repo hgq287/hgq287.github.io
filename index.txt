@@ -7,7 +7,7 @@ a:I[4911,[],"AsyncMetadataOutlet"]
 c:I[9665,[],"ViewportBoundary"]
 e:I[6614,[],""]
 :HL["/_next/static/css/d304d7a571e17a01.css","style"]
-0:{"P":null,"b":"cuI7Z0WmfQLRrEdjRHEfJ","p":"","c":["",""],"i":false,"f":[[["",{"children":["__PAGE__",{}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/d304d7a571e17a01.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","children":["$","body",null,{"children":["$","main",null,{"children":["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]}]}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$L4",["$","$L5",null,{"children":"$L6"}],null,["$","$L7",null,{"children":["$L8","$L9",["$","$La",null,{"promise":"$@b"}]]}]]}],{},null,false]},null,false],["$","$1","h",{"children":[null,["$","$1","QgpIUmY3olq6t4WB03NPd",{"children":[["$","$Lc",null,{"children":"$Ld"}],null]}],null]}],false]],"m":"$undefined","G":["$e","$undefined"],"s":false,"S":true}
+0:{"P":null,"b":"z742VQw7sfuofJRrwXywF","p":"","c":["",""],"i":false,"f":[[["",{"children":["__PAGE__",{}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/d304d7a571e17a01.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","children":["$","body",null,{"children":["$","main",null,{"children":["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]}]}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$L4",["$","$L5",null,{"children":"$L6"}],null,["$","$L7",null,{"children":["$L8","$L9",["$","$La",null,{"promise":"$@b"}]]}]]}],{},null,false]},null,false],["$","$1","h",{"children":[null,["$","$1","LOQZXlTuAm7qZRpr3HMCU",{"children":[["$","$Lc",null,{"children":"$Ld"}],null]}],null]}],false]],"m":"$undefined","G":["$e","$undefined"],"s":false,"S":true}
 f:"$Sreact.suspense"
 10:I[4911,[],"AsyncMetadata"]
 6:["$","$f",null,{"fallback":null,"children":["$","$L10",null,{"promise":"$@11"}]}]
@@ -16,20 +16,147 @@ d:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","cont
 8:null
 11:{"metadata":[["$","title","0",{"children":"hgq287 - Profile"}],["$","meta","1",{"name":"description","content":"Full-Stack Software Engineer Portfolio"}]],"error":null,"digest":"$undefined"}
 b:{"metadata":"$11:metadata","error":null,"digest":"$undefined"}
-12:T50e,<hr>
-<h2>title: Full-Stack Software Engineer</h2>
-<h1>Full-Stack Software Engineer</h1>
-<p><strong>$20.00/hr</strong></p>
-<hr>
-<p>I’m a Full-Stack Software Engineer with 10+ years of experience helping businesses and startups turn ideas into reliable, high-performance applications. I’ve built real-time chat systems, video calls, Kanban boards, financial tools, crypto trading bots, and mobile apps using <strong>Swift, Objective-C, Vue.js, Next.js, React Native, Flutter, Go, TypeScript, NestJS, and Python.</strong></p>
+12:T730,<h2>a Solutions Architect with over 10+ years of full-stack experience</h2>
+<p>━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</p>
+<p>I’m a Full-Stack Software Engineer and Solutions Architect with 10+ years of experience helping businesses and startups turn ideas into reliable, high-performance applications. I’ve built real-time chat systems, video calls, Kanban boards, financial tools, crypto trading bots, and mobile apps using <strong>Swift, Objective-C, Vue.js, Next.js, React Native, Flutter, Go, TypeScript, NestJS, and Python.</strong></p>
 <p>Certified in Agile methodologies and AWS cloud solutions, I bring a strong foundation in scalable system architecture, clean code principles, and cloud-ready deployments.</p>
 <p>Whether you need to develop from scratch, improve existing features, or scale your product, I focus on clean architecture, smooth user experience, and long-term maintainability. I’m easy to collaborate with, deliver on time, and always aim to bring real value to your project.</p>
+<p>I also maintain a daily running and meditation habit (tracked on Strava), which reflects the consistency, discipline, and long-term focus that I bring to my engineering work.</p>
 <p>Let’s build something great together!</p>
+<p>📧 Email: <a href="mailto:hgq287@gmail.com">hgq287@gmail.com</a><br>📱 Phone: +84 989 935 331<br>💬 Let&#39;s talk anytime.</p>
 <hr>
-<h2>Portfolio &amp; Profiles</h2>
+<h3>Portfolio &amp; Profiles</h3>
 <ul>
 <li>🌐 <a href="https://github.com/hgq287">GitHub</a></li>
-<li>✍️ <a href="https://hgq287.com">Blog</a></li>
+<li>✍️ <a href="https://your-blog-url.com">Blog</a></li>
 <li>💬 <a href="https://stackoverflow.com/users/12345813/hgq287">Stack Overflow</a></li>
+<li>🔗 <a href="https://www.linkedin.com/in/hgq287">LinkedIn</a></li>
+<li>📝 <a href="https://medium.com/@hgq287">Medium – @hgq287</a></li>
 </ul>
-4:[["$","h1",null,{"children":"👋 Welcome to My Portfolio"}],[["$","section","ABOUT",{"children":[["$","h2",null,{"children":"ABOUT"}],["$","article",null,{"dangerouslySetInnerHTML":{"__html":"$12"}}],["$","hr",null,{}]]}],["$","section","SKILLS",{"children":[["$","h2",null,{"children":"SKILLS"}],["$","article",null,{"dangerouslySetInnerHTML":{"__html":"<h1>Skills</h1>\n<ul>\n<li>JavaScript, TypeScript  </li>\n<li>Next.js, React  </li>\n<li>Swift, Objective-C  </li>\n<li>Python, Go</li>\n</ul>\n"}}],["$","hr",null,{}]]}],["$","section","PROJECTS",{"children":[["$","h2",null,{"children":"PROJECTS"}],["$","article",null,{"dangerouslySetInnerHTML":{"__html":""}}],["$","hr",null,{}]]}],["$","section","CONTACT",{"children":[["$","h2",null,{"children":"CONTACT"}],["$","article",null,{"dangerouslySetInnerHTML":{"__html":""}}],["$","hr",null,{}]]}]]]
+13:T9a6,<h2>💼 Experience</h2>
+<p>━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</p>
+<h3>🧑‍🏫 Technical Mentor &amp; Solution Architect (Evening Role) – HaikoTek Ltd.</h3>
+<p><strong>May 2025 – Present · Remote</strong>  </p>
+<ul>
+<li>Mentored junior developers in mobile and backend development (Flutter, React Native, Firebase, AWS).</li>
+<li>Guided app architecture, clean code practices, and scalable systems.</li>
+<li>Focused on sharing practical experience across full-stack development.</li>
+</ul>
+<p><strong>Skills</strong>: Python · TensorFlow · Flutter · React Native · Firebase · Google ML · AWS</p>
+<hr>
+<h3>🤖 Crypto Trading Bot Engineer (Freelance)</h3>
+<p><strong>Aug 2023 – Present · Remote</strong>  </p>
+<ul>
+<li>Built trading bots using Python and AI to analyze exchange data.</li>
+<li>Applied ML for prediction and strategy optimization.</li>
+<li>Integrated with exchange APIs for automated trading.</li>
+</ul>
+<p><strong>Skills</strong>: Node.js · NestJS · Flutter · React Native · Machine Learning · AWS · Firebase</p>
+<hr>
+<h3>🍎 Senior iOS/macOS Developer – Floware</h3>
+<p><strong>Aug 2017 – Present</strong>  </p>
+<ul>
+<li>Built macOS/iOS apps with IMAP, CalDAV, chat, video call, Kanban, etc.</li>
+<li>Designed modern UI using Swift and Objective-C.</li>
+<li>Developed cross-platform mobile apps using React Native &amp; Flutter.</li>
+</ul>
+<p><strong>Skills</strong>: Xcode · Swift · Objective-C · Flutter · React Native</p>
+<hr>
+<h3>🌐 WordPress &amp; Content Expert (Freelancer)</h3>
+<p><strong>Sep 2014 – Aug 2017</strong>  </p>
+<ul>
+<li>Created WordPress websites with custom PHP/MySQL integrations.</li>
+<li>Handled UI/UX, SEO optimization, and content creation.</li>
+</ul>
+<p><strong>Skills</strong>: WordPress · PHP · MySQL</p>
+<hr>
+<h3>🧩 Senior Full-stack Developer – Mecsu</h3>
+<p><strong>Jun 2013 – May 2015 · Ho Chi Minh City</strong>  </p>
+<ul>
+<li>Developed and maintained company websites and internal tools.</li>
+<li>Integrated hosting solutions and scalable backend systems.</li>
+</ul>
+<p><strong>Skills</strong>: Web Hosting · AWS · PHP Frameworks</p>
+<hr>
+<h3>🔧 Embedded Software Engineer – ADC</h3>
+<p><strong>Jan 2011 – Jun 2013 · Vietnam</strong>  </p>
+<ul>
+<li>Developed firmware and drivers (RS232, RS485, MISO) for barcode scanners.</li>
+<li>Debugged and optimized embedded systems for retail hardware.</li>
+</ul>
+14:T72d,<h2>Technical Skills</h2>
+<p>━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</p>
+<h3>👨‍💻 Programming Languages</h3>
+<ul>
+<li>Python (incl. FastAPI, Scikit-Learn, TensorFlow, CoreML)</li>
+<li>JavaScript / TypeScript (React.js, Next.js, Node.js, NestJS)</li>
+<li>Swift / SwiftUI / Objective-C (iOS, macOS)</li>
+<li>PHP (WordPress, PHP Frameworks)</li>
+<li>Go (cơ bản)</li>
+<li>SQL: SQLite, MySQL, MongoDB</li>
+</ul>
+<h3>📱 Mobile Development</h3>
+<ul>
+<li>SwiftUI (macOS/iOS)</li>
+<li>React Native</li>
+<li>Flutter</li>
+<li>Xcode</li>
+</ul>
+<h3>🌐 Web Development</h3>
+<ul>
+<li>HTML5 / CSS3 / Tailwind CSS</li>
+<li>Vue.js, Next.js, React.js, NestJS</li>
+<li>WordPress (Theme &amp; Plugin Developer, Content Expert)</li>
+<li>API Development (RESTful APIs, Backend Ops)</li>
+</ul>
+<h3>☁️ Cloud &amp; DevOps</h3>
+<ul>
+<li>AWS (EC2, Lambda, API Gateway, S3, DynamoDB)</li>
+<li>Firebase (Auth, Firestore, Hosting)</li>
+<li>Google Cloud (VertexAI, ML APIs)</li>
+<li>Web Hosting &amp; CDN</li>
+<li>Docker, CI/CD Pipelines</li>
+</ul>
+<h3>🤖 AI / ML / Data</h3>
+<ul>
+<li>Scikit-Learn, TensorFlow, CoreML</li>
+<li>Google ML, AWS AI Services</li>
+<li>Data pre-processing, model deployment</li>
+<li>Risk management in ML pipelines</li>
+</ul>
+<h3>💼 Tools &amp; Ecosystem</h3>
+<ul>
+<li>Git, GitHub, GitLab</li>
+<li>Command Prompt / Terminal Tools</li>
+<li>macOS Development</li>
+<li>ESL (English as a Second Language – Communication/Teaching)</li>
+<li>Agile/Scrum, Technical Mentoring</li>
+</ul>
+<h3>🧪 Personal Projects</h3>
+<ul>
+<li><strong>dttool</strong>: Python CLI toolkit for developers</li>
+<li><strong>CyberLeafX</strong>: macOS HTTP/HTTPS proxy analyzer in SwiftUI</li>
+<li><strong>Crypto Trading Bot</strong>: Personal project using Python, Binance API, ML</li>
+</ul>
+15:T74d,<h2>📂 Projects</h2>
+<p>━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</p>
+<h3>🛡️ SnifLeaf – macOS HTTPS Proxy &amp; Network Inspector</h3>
+<p><strong>Apr 2025 – Present</strong> · Associated with @HaikoTek<br>🔗 GitHub: <a href="https://github.com/hgq287/SnifLeaf">github.com/hgq287/SnifLeaf</a><br>Built with: <code>Swift</code>, <code>SwiftUI</code>, <code>Combine</code>, <code>NetworkExtension</code></p>
+<p>An open-source macOS tool built for developers, testers, and QA engineers to inspect and analyze network traffic in real time. Whether you&#39;re debugging, verifying request flows, or analyzing API behavior — <strong>SnifLeaf</strong> gives you full visibility into your app&#39;s network activity.</p>
+<blockquote>
+<p>💡 A lightweight and native alternative to Charles Proxy, built from scratch using modern Apple frameworks.<br>🙌 <em>Open-source and actively maintained — <a href="https://github.com/hgq287/SnifLeaf/pulls">Contributions are welcome!</a></em></p>
+</blockquote>
+<hr>
+<h3>🧰 dttool – Python Toolkit &amp; Developer REST API</h3>
+<p><strong>Mar 2025 – Present</strong> · Associated with @Anonymous<br>🔗 GitHub: <a href="https://github.com/hgq287/dttool">github.com/hgq287/dttool</a><br>Built with: <code>Python</code>, <code>FastAPI</code>, <code>Pandas</code></p>
+<p>A versatile Python toolkit and RESTful API designed to:</p>
+<ul>
+<li>Convert between formats: JSON, CSV, Excel, Feather</li>
+<li>Track API call history</li>
+<li>Manage quick technical notes</li>
+<li>Handle RGB-to-HEX conversions, and more.</li>
+</ul>
+<blockquote>
+<p>⚙️ Built with scalability in mind — perfect for devs and data engineers.<br>🙌 <em>Open-source and extendable — <a href="https://github.com/hgq287/dttool/pulls">Contributions are welcome!</a></em></p>
+</blockquote>
+4:[["$","h1",null,{"children":"👋 Welcome to Hg Q."}],[["$","section","",{"children":[["$","h3",null,{"children":""}],["$","article",null,{"dangerouslySetInnerHTML":{"__html":"$12"}}],["$","hr",null,{}]]}],["$","section","",{"children":[["$","h3",null,{"children":""}],["$","article",null,{"dangerouslySetInnerHTML":{"__html":"<h2>🎓 Education</h2>\n<p>━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</p>\n<p><strong>Ho Chi Minh City University of Technology</strong><br><em>Bachelor of Engineering (BE), Computer Engineering</em><br>📍 Ho Chi Minh City, Vietnam<br>📅 2006 – 2011</p>\n"}}],["$","hr",null,{}]]}],["$","section","",{"children":[["$","h3",null,{"children":""}],["$","article",null,{"dangerouslySetInnerHTML":{"__html":"$13"}}],["$","hr",null,{}]]}],["$","section","",{"children":[["$","h3",null,{"children":""}],["$","article",null,{"dangerouslySetInnerHTML":{"__html":"$14"}}],["$","hr",null,{}]]}],["$","section","",{"children":[["$","h3",null,{"children":""}],["$","article",null,{"dangerouslySetInnerHTML":{"__html":"$15"}}],["$","hr",null,{}]]}],["$","section","",{"children":[["$","h3",null,{"children":""}],["$","article",null,{"dangerouslySetInnerHTML":{"__html":"<h2>Contact</h2>\n<p>━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</p>\n<ul>\n<li>📧 <strong>Email:</strong> <a href=\"mailto:hgq287@gmail.com\">hgq287@gmail.com</a>  </li>\n<li>📱 <strong>Phone:</strong> <a href=\"tel:+84989935331\">+84 989 935 331</a>  </li>\n<li>💼 <strong>LinkedIn:</strong> <a href=\"https://linkedin.com/in/hgq287\">linkedin.com/in/hgq287</a>  </li>\n<li>🌐 <strong>GitHub:</strong> <a href=\"https://github.com/hgq287\">github.com/hgq287</a>  </li>\n<li>📝 <strong>Blog:</strong> <a href=\"https://stackoverflow.com/users/12345813/hgq287\">stackoverflow.com/users/12345813/hgq287</a>  </li>\n<li>🎂 <strong>Birthday:</strong> July 28</li>\n</ul>\n"}}],["$","hr",null,{}]]}]]]
