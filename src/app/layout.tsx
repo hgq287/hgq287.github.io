@@ -3,7 +3,7 @@ import { ThemeProvider } from 'next-themes';
 
 export const metadata = {
   title: 'Hg Q. - Portfolio & Profiles',
-  description: 'A Full-Stack Software Engineer and Solutions Architect',
+  description: 'A Full-Stack Software Engineer and Solutions Architect'
 };
 
 export default function RootLayout({

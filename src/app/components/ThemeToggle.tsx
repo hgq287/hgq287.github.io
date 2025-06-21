@@ -15,30 +15,18 @@ export default function ThemeToggle() {
 
   return (
     <button
+      className="theme-toggle-btn"
       onClick={() => setTheme(isLight ? 'dark' : 'light')}
-      style={{
-        background: 'transparent',
-        border: '1px solid var(--color-primary)',
-        color: 'var(--color-primary)',
-        borderRadius: '999px',
-        padding: '0.4rem 0.8rem',
-        fontWeight: 600,
-        display: 'flex',
-        alignItems: 'center',
-        gap: '0.5rem',
-        cursor: 'pointer',
-        transition: 'all 0.2s ease-in-out',
-      }}
     >
       {isLight ? (
         <>
-          <MoonIcon size={25} color="#000000" />
-          {/* <span>Dark</span> */}
+          <MoonIcon size={20} color="#000000" />
+          <span style={{paddingLeft: 5}}>Dark</span>
         </>
       ) : (
         <>
-          <SunIcon size={25} color="#ffffff" />
-          {/* <span>Light</span> */}
+          <SunIcon size={20} color="#ffffff" />
+          <span style={{paddingLeft: 5}}>Light</span>
         </>
       )}
     </button>

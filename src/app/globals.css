@@ -2,6 +2,7 @@
   --color-bg: #121212;
   --color-text: #ffffff;
   --color-divider: rgba(255, 255, 255, 0.08);
+  --color-accent: #aaa;
 }
 
 [data-theme='light'] {
@@ -29,17 +30,73 @@ body {
 .header__content {
   max-width: 1200px;
   margin: 0 auto;
-  padding: 0.75rem 1rem;
+  padding: 0.1rem 1rem;
   display: flex;
-  justify-content: flex-end;
+  justify-content: space-between;
   align-items: center;
 }
 
 .header__title {
-  font-size: 1.125rem;
+  font-size: 1.225rem;
   font-weight: 500;
   color: var(--color-text);
   margin-right: auto;
+}
+
+.logo-icon {
+  padding-top: 0px;
+}
+
+.wellcome-text {
+  font-weight: 300;
+  font-size: 16px;
+  font-family: 'Segoe UI', 'Helvetica Neue', sans-serif;
+  letter-spacing: 0.5px;
+}
+
+.author-name {
+  font-family: 'Georgia', serif;
+  font-style: italic;
+  font-size: 22px;
+  line-height: 1.2;
+  font-weight: 300;
+  color: var(--color-accent);
+}
+
+.header__actions {
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.theme-toggle-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 80px;
+  height: 36px;
+  border-radius: 8px;
+  background-color: transparent;
+  border: 1px solid var(--color-divider);
+  color: var(--color-text);
+  cursor: pointer
+}
+
+.theme-toggle-btn:hover {
+  border-color: var(--color-accent);
+  color: var(--color-text);
+}
+
+.github-link {
+  color: var(--color-text);
+  display: flex;
+  align-items: center;
+}
+
+.github-link:hover {
+  border-color: var(--color-accent);
+  color: var(--color-text);
 }
 
 .main-content {
