@@ -1,4 +1,5 @@
 import './globals.css';
+import { ThemeProvider } from 'next-themes';
 
 export const metadata = {
   title: 'Hg Q. - Portfolio & Profiles',
@@ -11,9 +12,11 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en">
+    <html lang="en" suppressHydrationWarning>
       <body>
-        <main>{children}</main>
+        <ThemeProvider attribute="data-theme" defaultTheme="light">
+          {children}
+        </ThemeProvider>
       </body>
     </html>
   );

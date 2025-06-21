@@ -1,3 +1,4 @@
+import Header from './components/Header';
 import MarkdownSection from './components/MarkdownSection';
 import { marked } from 'marked';
 import fs from 'fs/promises';
@@ -28,10 +29,12 @@ export default async function Home() {
 
   return (
     <>
-      <h1>👋 Welcome to Hg Q.</h1>
-      {sections.map(({ title, contentHtml }) => (
-        <MarkdownSection key={title} title={title} contentHtml={contentHtml} />
-      ))}
+      <Header />
+      <main className="main-content">
+        {sections.map(({ title, contentHtml }) => (
+          <MarkdownSection key={title} title={title} contentHtml={contentHtml} />
+        ))}
+      </main>
     </>
   );
 }
