@@ -40,8 +40,3 @@
 - macOS Development
 - ESL (English as a Second Language – Communication/Teaching)
 - Agile/Scrum, Technical Mentoring
-
-### 🧪 Personal Projects
-- **dttool**: Python CLI toolkit for developers
-- **CyberLeafX**: macOS HTTP/HTTPS proxy analyzer in SwiftUI
-- **Crypto Trading Bot**: Personal project using Python, Binance API, ML
