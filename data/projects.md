@@ -1,7 +1,7 @@
 ## 📂 Projects
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-### 🛡️ SnifLeaf – macOS HTTPS Proxy & Network Inspector  
+### 🛡️ SnifLeaf – iOS/macOS HTTPS Proxy & Network Inspector  
 **Apr 2025 – Present** · Associated with @HaikoTek  
 🔗 GitHub: [github.com/hgq287/SnifLeaf](https://github.com/hgq287/SnifLeaf)  
 Built with: `Swift`, `SwiftUI`, `Combine`, `NetworkExtension`
