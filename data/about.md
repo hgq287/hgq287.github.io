@@ -1,5 +1,5 @@
 ## 🎯 a Solutions Architect with over 10+ years of full-stack experience
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+━━━━━━━━━━━━━━━━━━━
 
 I’m a Full-Stack Software Engineer and Solutions Architect with 10+ years of experience helping businesses and startups turn ideas into reliable, high-performance applications. I’ve built real-time chat systems, video calls, Kanban boards, financial tools, crypto trading bots, and mobile apps using **Swift, Objective-C, Vue.js, Next.js, React Native, Flutter, Go, TypeScript, NestJS, and Python.**
 
@@ -15,7 +15,7 @@ Let’s build something great together!
 📱 Phone: +84 989 935 331  
 💬 Let's talk anytime.
 
----
+<hr style="border: none; border-top: 1px solid #e0e0e0; width: 50%; margin: 0;" />
 
 ### Portfolio & Profiles
 
