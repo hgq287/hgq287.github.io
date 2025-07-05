@@ -1,6 +1,6 @@
 
 ## 🛠️ Technical Skills
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+━━━━━━━━━━━━━━━━━━━
 ### 👨‍💻 Programming Languages
 - Python (incl. FastAPI, Scikit-Learn, TensorFlow, CoreML)
 - JavaScript / TypeScript (React.js, Next.js, Node.js, NestJS)

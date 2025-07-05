@@ -1,5 +1,6 @@
 import Header from './components/Header';
 import MarkdownSection from './components/MarkdownSection';
+import Copyright from './components/Copyright';
 import { marked } from 'marked';
 import fs from 'fs/promises';
 import path from 'path';
@@ -34,6 +35,7 @@ export default async function Home() {
         {sections.map(({ title, contentHtml }) => (
           <MarkdownSection key={title} title={title} contentHtml={contentHtml} />
         ))}
+        <Copyright />
       </main>
     </>
   );

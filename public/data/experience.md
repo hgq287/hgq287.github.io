@@ -1,5 +1,5 @@
 ## 💼 Experience
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+━━━━━━━━━━━━━━━━━━━
 
 ### 🧑‍🏫 Technical Mentor & Solution Architect (Evening Role) – HaikoTek Ltd.
 **May 2025 – Present · Remote**  
@@ -9,7 +9,7 @@
 
 **Skills**: Python · TensorFlow · Flutter · React Native · Firebase · Google ML · AWS
 
----
+<hr style="border: none; border-top: 1px solid #e0e0e0; width: 50%; margin: 0;" />
 
 ### 🤖 Crypto Trading Bot Engineer (Freelance)
 **Aug 2023 – Present · Remote**  
@@ -19,7 +19,7 @@
 
 **Skills**: Node.js · NestJS · Flutter · React Native · Machine Learning · AWS · Firebase
 
----
+<hr style="border: none; border-top: 1px solid #e0e0e0; width: 50%; margin: 0;" />
 
 ### 🍎 Senior iOS/macOS Developer – Floware
 **Aug 2017 – Present**  
@@ -27,9 +27,9 @@
 - Designed modern UI using Swift and Objective-C.
 - Developed cross-platform mobile apps using React Native & Flutter.
 
-**Skills**: Xcode · Swift · Objective-C · Flutter · React Native
+**Skills**: Xcode · Objective-C · Swift · C/C++ 
 
----
+<hr style="border: none; border-top: 1px solid #e0e0e0; width: 50%; margin: 0;" />
 
 ### 🌐 WordPress & Content Expert (Freelancer)
 **Sep 2014 – Aug 2017**  
@@ -38,7 +38,7 @@
 
 **Skills**: WordPress · PHP · MySQL
 
----
+<hr style="border: none; border-top: 1px solid #e0e0e0; width: 50%; margin: 0;" />
 
 ### 🧩 Senior Full-stack Developer – Mecsu
 **Jun 2013 – May 2015 · Ho Chi Minh City**  
@@ -47,7 +47,7 @@
 
 **Skills**: Web Hosting · AWS · PHP Frameworks
 
----
+<hr style="border: none; border-top: 1px solid #e0e0e0; width: 50%; margin: 0;" />
 
 ### 🔧 Embedded Software Engineer – ADC
 **Jan 2011 – Jun 2013 · Vietnam**  

@@ -1,5 +1,5 @@
 ## 📂 Projects
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+━━━━━━━━━━━━━━━━━━━
 
 ### 🛡️ SnifLeaf – iOS/macOS HTTPS Proxy & Network Inspector  
 **Apr 2025 – Present** · Associated with @HaikoTek  
@@ -11,7 +11,7 @@ An open-source macOS tool built for developers, testers, and QA engineers to ins
 > 💡 A lightweight and native alternative to Charles Proxy, built from scratch using modern Apple frameworks.  
 > 🙌 *Open-source and actively maintained — [Contributions are welcome!](https://github.com/hgq287/SnifLeaf/pulls)*
 
----
+<hr style="border: none; border-top: 1px solid #e0e0e0; width: 50%; margin: 0;" />
 
 ### 🧰 dttool – Python Toolkit & Developer REST API  
 **Mar 2025 – Present** · Associated with @Anonymous  
