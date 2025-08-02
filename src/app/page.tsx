@@ -13,7 +13,8 @@ export default async function Home() {
     {'filename': 'education.md', 'title': 'Education'}, 
     {'filename': 'experience.md', 'title': 'Experience'},
     {'filename': 'skills.md', 'title': 'Technical Skills'}, 
-    {'filename':'projects.md', 'title': 'projects'}, 
+    {'filename':'projects.md', 'title': 'projects'},
+    {'filename':'hobby.md', 'title': 'hobbies'},  
     {'filename':'contact.md', 'title': 'Contact'}
   ];
 
