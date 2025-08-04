@@ -11,6 +11,18 @@
 
 <hr style="border: none; border-top: 1px solid #e0e0e0; width: 50%; margin: 0;" />
 
+### 🧩 Mobile Solutions Architect – Varin Team  
+**Jan 2024 – Apr 2025**  
+Built and maintained cross-platform mobile apps using **Flutter** and **React Native** for both iOS and Android.  
+- Delivered smooth user experiences and fast performance across devices.  
+- Integrated REST APIs, handled local data persistence, and implemented real-time features.  
+- Collaborated in a fast-paced, agile team focused on delivering consistent business value.  
+- Emphasized clean code, modular design, and scalable architecture.
+
+**Skills**: Dart · Flutter · Node.js · React Native
+
+<hr style="border: none; border-top: 1px solid #e0e0e0; width: 50%; margin: 0;" />
+
 ### 🤖 Crypto Trading Bot Engineer (Freelance)
 **Aug 2023 – Present · Remote**  
 - Built trading bots using Python and AI to analyze exchange data.
