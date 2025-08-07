@@ -34,7 +34,7 @@ Built and maintained cross-platform mobile apps using **Flutter** and **React Na
 <hr style="border: none; border-top: 1px solid #e0e0e0; width: 50%; margin: 0;" />
 
 ### 🍎 Senior iOS/macOS Developer – Floware
-**Aug 2017 – Present**  
+**Aug 2015 – Present**  
 - Built macOS/iOS apps with IMAP, CalDAV, chat, video call, Kanban, etc.
 - Designed modern UI using Swift and Objective-C.
 - Developed cross-platform mobile apps using React Native & Flutter.
@@ -52,7 +52,7 @@ Built and maintained cross-platform mobile apps using **Flutter** and **React Na
 
 <hr style="border: none; border-top: 1px solid #e0e0e0; width: 50%; margin: 0;" />
 
-### 🧩 Senior Full-stack Developer – Mecsu
+### 🧩 Senior Full-stack Developer – Mecsu JSC
 **Jun 2013 – May 2015 · Ho Chi Minh City**  
 - Developed and maintained company websites and internal tools.
 - Integrated hosting solutions and scalable backend systems.
