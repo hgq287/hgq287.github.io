@@ -37,7 +37,6 @@ Built and maintained cross-platform mobile apps using **Flutter** and **React Na
 **Aug 2015 – Present**  
 - Built macOS/iOS apps with IMAP, CalDAV, chat, video call, Kanban, etc.
 - Designed modern UI using Swift and Objective-C.
-- Developed cross-platform mobile apps using React Native & Flutter.
 
 **Skills**: Xcode · Objective-C · Swift · C/C++ 
 

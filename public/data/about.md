@@ -20,7 +20,6 @@ Let’s build something great together!
 ### Portfolio & Profiles
 
 - 🌐 [GitHub](https://github.com/hgq287)
-- ✍️ [Blog](https://your-blog-url.com)
 - 💬 [Stack Overflow](https://stackoverflow.com/users/12345813/hgq287)
+- ✍️ [Blog](https://medium.com/@hgq287)
 - 🔗 [LinkedIn](https://www.linkedin.com/in/hgq287)
-- 📝 [Medium – @hgq287](https://medium.com/@hgq287)

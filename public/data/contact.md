@@ -1,10 +1,14 @@
 ## 📇 Contact
 ━━━━━━━━━━━━━━━━━━━
 
-- 📧 **Email:** [hgq287@gmail.com](mailto:hgq287@gmail.com)  
-- 📱 **Phone:** [+84 989 935 331](tel:+84989935331)  
-- 💼 **LinkedIn:** [linkedin.com/in/hgq287](https://linkedin.com/in/hgq287)  
-- 🌐 **GitHub:** [github.com/hgq287](https://github.com/hgq287)  
-- 📝 **Blog:** [stackoverflow.com/users/12345813/hgq287](https://stackoverflow.com/users/12345813/hgq287)  
-- 🎂 **Birthday:** July 28
+📧 Email: hgq287@gmail.com  
+📱 Phone: +84 989 935 331  
+💬 Let's talk anytime.
 
+<hr style="border: none; border-top: 1px solid #e0e0e0; width: 50%; margin: 0;" />
+
+### Tech Stack
+
+- 🌐 [GitHub](https://github.com/hgq287) - Repository of open-source and personal projects
+- 💬 [Stack Overflow](https://stackoverflow.com/users/12345813/hgq287) - Active participation in the developer community
+- ✍️ [Blog](https://medium.com/@hgq287) - Sharing insights, tutorials, and experiences in technology
