@@ -20,7 +20,7 @@ export default function Header() {
     >
       <div className="header__content">
         <h1 className="header__title">
-          <Image src="/favicon.ico" alt="Logo" className="logo-icon" width={32} height={32} />
+          <Image src="static/favicon.ico" alt="Logo" className="logo-icon" width={32} height={32} />
           <span style={{marginLeft: 10}} className="wellcome-text">
             Welcome to <span className="author-name">Hg Q.</span> 👋
           </span>

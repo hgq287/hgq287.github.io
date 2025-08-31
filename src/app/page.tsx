@@ -6,16 +6,16 @@ import fs from 'fs/promises';
 import path from 'path';
 
 export default async function Home() {
-  const dataDir = path.join(process.cwd(), 'public/data');
+  const dataDir = path.join(process.cwd(), 'public/content');
 
   const files = [
-    {'filename': 'about.md', 'title': 'a Solutions Architect with over 10+ years of full-stack experience'}, 
-    {'filename': 'education.md', 'title': 'Education'}, 
-    {'filename': 'experience.md', 'title': 'Experience'},
-    {'filename': 'skills.md', 'title': 'Technical Skills'}, 
-    {'filename':'projects.md', 'title': 'projects'},
-    {'filename':'hobby.md', 'title': 'hobbies'},  
-    {'filename':'contact.md', 'title': 'Contact'}
+    {'filename': 'about.mdx', 'title': 'a Solutions Architect with over 10+ years of full-stack experience'}, 
+    {'filename': 'education.mdx', 'title': 'Education'}, 
+    {'filename': 'experience.mdx', 'title': 'Experience'},
+    {'filename': 'skills.mdx', 'title': 'Technical Skills'}, 
+    {'filename':'projects.mdx', 'title': 'projects'},
+    {'filename':'hobbies.mdx', 'title': 'hobbies'},  
+    {'filename':'contact.mdx', 'title': 'Contact'}
   ];
 
   const sections = await Promise.all(
