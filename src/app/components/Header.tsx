@@ -22,7 +22,12 @@ export default function Header() {
         <h1 className="header__title">
           <Image src="/favicon.ico" alt="Logo" className="logo-icon" width={32} height={32} />
           <span style={{marginLeft: 10}} className="wellcome-text">
-            Welcome to <span className="author-name">Hg Q.</span> 👋
+            <span className="author-name">Hg Q.</span> 👋
+            <br />
+            <span style={{marginLeft: 10}} className="tagline">
+              Built, not just listed
+            </span>
+             
           </span>
         </h1>
         <div className="header__actions">
