@@ -21,12 +21,12 @@ export default function ThemeToggle() {
       {isLight ? (
         <>
           <MoonIcon size={20} color="#000000" />
-          <span style={{paddingLeft: 5}}>Dark</span>
+          {/* <span style={{paddingLeft: 5}}>Dark</span> */}
         </>
       ) : (
         <>
           <SunIcon size={20} color="#ffffff" />
-          <span style={{paddingLeft: 5}}>Light</span>
+          {/* <span style={{paddingLeft: 5}}>Light</span> */}
         </>
       )}
     </button>

@@ -2,7 +2,8 @@
   --color-bg: #121212;
   --color-text: #ffffff;
   --color-divider: rgba(255, 255, 255, 0.08);
-  --color-accent: #aaa;
+  --color-accent: #ccc;
+  --accent-fg-color: #526cfe;
   --tag-line: #555;
 }
 
@@ -41,7 +42,7 @@ body {
   font-size: 1.225rem;
   font-weight: 500;
   color: var(--color-text);
-  margin-right: auto;
+  margin-right: 4rem;
 }
 
 .logo-icon {
@@ -57,7 +58,7 @@ body {
 
 .tagline {
   font-weight: 300;
-  font-size: 14px;
+  font-size: 13px;
   font-family: 'Segoe UI', 'Helvetica Neue', sans-serif;
   letter-spacing: 0.5px;
   color: var(--tag-line);
@@ -72,6 +73,17 @@ body {
   color: var(--color-accent);
 }
 
+.nav{display:flex;gap:1rem;align-items:center}
+.nav__link{
+  color:var(--color-text);
+  text-decoration:none;
+  padding:0.4rem 0.6rem;
+  border-radius:6px;
+  transition:background .15s, color .15s;
+  font-weight:400;
+}
+.nav__link:hover{ color: var(--accent-fg-color) }
+
 .header__actions {
   margin-left: auto;
   display: flex;
@@ -83,17 +95,18 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 80px;
+  width: 36px;
   height: 36px;
-  border-radius: 8px;
+  border-radius: 18px;
   background-color: transparent;
-  border: 1px solid var(--color-divider);
+  border: 1px solid transparent;
   color: var(--color-text);
   cursor: pointer
 }
 
 .theme-toggle-btn:hover {
   border-color: var(--color-accent);
+  background-color: var(--color-accent);
   color: var(--color-text);
 }
 
