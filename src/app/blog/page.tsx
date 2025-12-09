@@ -7,6 +7,7 @@ type PostMeta = { slug:string; title:string; date:string; excerpt?:string; cover
 
 export default async function BlogPage(){
   const postsDir = path.join(process.cwd(), 'posts')
+  console.log('Posts directory:', postsDir);
   const hasPosts = fs.existsSync(postsDir) && fs.readdirSync(postsDir).some(f => f.endsWith('.md'))
 
   if(!hasPosts) {
