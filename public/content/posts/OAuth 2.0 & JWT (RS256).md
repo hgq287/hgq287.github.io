@@ -1,1 +1,0 @@
-# Modern Authentication System: OAuth 2.0 & JWT (RS256)

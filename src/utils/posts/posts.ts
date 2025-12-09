@@ -2,32 +2,66 @@ import fs from 'fs'
 import path from 'path'
 import matter from 'gray-matter'
 
-const contentDir = path.join(process.cwd(), 'public/content')
+export type PostMeta = {
+  slug: string;
+  title: string;
+  date: string;
+  excerpt?: string;
+  cover?: string;
+  tags: string[];
+};
 
-export function getAllPosts() {
-  const postsDir = path.join(contentDir, 'posts')
-  if (!fs.existsSync(postsDir)) {
-    return []
-  }
+export type Post = PostMeta & { content: string };
 
-  const files = fs.readdirSync(postsDir).filter(f => f.endsWith('.md'))
-  const posts = files.map(f => {
-    const raw = fs.readFileSync(path.join(postsDir, f), 'utf-8')
-    const { data } = matter(raw)
-    return { slug: f.replace('.md', ''), title: data.title, date: data.date }
-  }).sort((a, b) => (a.date < b.date ? 1 : -1))
+const POSTS_DIR = path.join(process.cwd(), "public/content/posts");
 
-  return posts
+export function getAllPosts(): Post[] {
+  const files = fs.readdirSync(POSTS_DIR);
+
+  return files
+    .filter(f => f.endsWith(".md"))
+    .map(filename => {
+      const slug = filename.replace(".md", "");
+      const raw = fs.readFileSync(path.join(POSTS_DIR, filename), "utf-8");
+      const { data, content } = matter(raw);
+
+      return {
+        slug,
+        title: data.title || slug,
+        date: data.date || "",
+        excerpt: data.excerpt || "",
+        cover: data.cover || "",
+        tags: data.tags || [],
+        content
+      };
+    })
+    .sort((a, b) => (a.date > b.date ? -1 : 1));
 }
 
-export function getPostBySlug(slug: string) {
-  const postsDir = path.join(contentDir, 'posts')
-  const filePath = path.join(postsDir, `${slug}.md`)
-  if (!fs.existsSync(filePath)) {
-    return null
-  }
+export function getPostBySlug(slug: string): Post {
+  const file = fs.readFileSync(
+    path.join(POSTS_DIR, slug + ".md"),
+    "utf-8"
+  );
+  const { data, content } = matter(file);
 
-  const raw = fs.readFileSync(filePath, 'utf-8')
-  const { data, content } = matter(raw)
-  return { slug, title: data.title, date: data.date, content }
+  return {
+    slug,
+    title: data.title,
+    date: data.date,
+    excerpt: data.excerpt,
+    cover: data.cover,
+    tags: data.tags,
+    content,
+  };
+}
+
+export function getPostsByPage(page = 1, pageSize = 10) {
+  const posts = getAllPosts();
+  const start = (page - 1) * pageSize;
+  return posts.slice(start, start + pageSize);
+}
+
+export function getPostsByTag(tag: string) {
+  return getAllPosts().filter(p => p.tags.includes(tag));
 }
