@@ -1,25 +1,57 @@
 "use client";
+import Link from 'next/link';
+import { PostMetadata } from '../../types/post.types';
 
-import Link from "next/link";
-import { PostMeta } from "../../utils/posts/posts";
+interface BlogSidebarProps {
+  allPostsMetadata: PostMetadata[];
+  activeSlug: string; 
+}
 
-export default function BlogSidebar({ posts }: { posts: PostMeta[] }) {
+const linkBaseStyle = {
+    display: 'block',
+    padding: '8px 12px',
+    borderRadius: '4px',
+    transition: 'all 0.15s ease-in-out',
+    fontSize: '14px',
+    lineHeight: '1.4',
+};
+
+export default function BlogSidebar({ allPostsMetadata, activeSlug }: BlogSidebarProps) {
   return (
-    <aside className="w-64 border-r p-4 h-screen overflow-y-auto sticky top-0">
-      <h2 className="font-bold mb-4 text-lg">All Posts</h2>
-
-      <ul className="space-y-2">
-        {posts.map(p => (
-          <li key={p.slug}>
-            <Link
-              href={`/blog/${p.slug}`}
-              className="hover:text-blue-600 text-sm"
-            >
-              {p.title}
-            </Link>
-          </li>
-        ))}
-      </ul>
-    </aside>
+    <div style={{ fontFamily: 'inherit' }}>
+      <h3 style={{ fontSize: '1.25rem', fontWeight: 'bold', marginBottom: '16px', color: '#1a202c' }}>
+        All Posts
+      </h3>
+      <nav>
+        <ul style={{ listStyleType: 'none', padding: 0, margin: 0, display: 'flex', flexDirection: 'column', gap: '4px' }}>
+          {allPostsMetadata.map(post => {
+            const isActive = post.slug === activeSlug;
+            const linkStyle = {
+                ...linkBaseStyle,
+                backgroundColor: isActive ? '#3b82f6' : 'transparent', 
+                color: isActive ? '#fff' : '#4a5568', 
+                fontWeight: isActive ? '600' : '400',
+            };
+        
+            return (
+              <li key={post.slug}>
+                <Link 
+                  href={`/blog/${post.slug}`} 
+                  style={linkStyle}
+                  onMouseOver={(e) => {
+                    if (!isActive) e.currentTarget.style.backgroundColor = '#f0f4f8'; 
+                  }}
+                  onMouseOut={(e) => {
+                    if (!isActive) e.currentTarget.style.backgroundColor = 'transparent';
+                  }}
+                >
+                  <div style={{ lineHeight: 1.4, fontWeight: 'inherit' }}>{post.title}</div>
+                </Link>
+              </li>
+            );
+          })}
+        </ul>
+      </nav>
+    </div>
   );
 }

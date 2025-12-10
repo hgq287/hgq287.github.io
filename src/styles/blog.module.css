@@ -1,0 +1,56 @@
+:root {
+  --sticky-top-offset: 15px; 
+  --border-color: #e0e0e0; 
+  --font-family-base: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+
+.blogLayout {
+  display: grid;
+  grid-template-columns: 280px 1fr 200px;
+  max-width: 1400px; 
+  margin: 0 auto; 
+  font-family: var(--font-family-base);
+}
+
+@media (max-width: 1024px) {
+  .blogLayout {
+    grid-template-columns: 1fr; 
+    padding: 20px;
+  }
+}
+
+/* --- Sidebar Column --- */
+.sidebarWrapper {
+  padding: 10px 15px 10px 15px; 
+  border-right: 1px solid var(--border-color); 
+  position: sticky;
+  top: var(--sticky-top-offset); 
+  height: calc(100vh - var(--sticky-top-offset)); 
+  overflow-y: auto; 
+}
+
+/* --- Main Content Column --- */
+.mainContent {
+  padding: 40px 48px; 
+  line-height: 1.6;
+  color: #1a202c; 
+}
+
+/* --- Minimap Column --- */
+.minimapWrapper {
+  padding: 10px 15px 10px 15px; 
+  border-left: 1px solid var(--border-color);
+  position: sticky;
+  top: var(--sticky-top-offset); 
+  height: calc(100vh - var(--sticky-top-offset));
+  overflow-y: auto;
+}
+
+@media (max-width: 1024px) {
+  .sidebarWrapper, .minimapWrapper {
+    display: none;
+  }
+  .mainContent {
+    padding: 20px;
+  }
+}
