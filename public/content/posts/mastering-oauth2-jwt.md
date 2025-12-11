@@ -1,7 +1,7 @@
 ---
 slug: "mastering-oauth2-jwt"
 title: "Building a Modern Authentication System: OAuth 2.0 & JWT (RS256)"
-date: "2025-12-09"
+date: "2025-12-11"
 excerpt: "A simple guide to our Hybrid Security Architecture, using stateless JWT Access Tokens and revocable Refresh Tokens for better security and speed."
 tags:
   - OAuth2
