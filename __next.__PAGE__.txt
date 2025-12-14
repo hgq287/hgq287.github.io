@@ -86,9 +86,9 @@
 <li>Developed firmware and drivers (RS232, RS485, MISO) for barcode scanners.</li>
 <li>Debugged and optimized embedded systems for retail hardware.</li>
 </ul>
-0:{"buildId":"ntCW-poxEQAFX3QP5qYwy","rsc":["$","$1","c",{"children":[[["$","$L2",null,{}],["$","main",null,{"className":"main-content","children":[[["$","$L3","a Solutions Architect with over 10+ years of full-stack experience",{"children":[["$","article",null,{"className":"prose prose-neutral dark:prose-invert","dangerouslySetInnerHTML":{"__html":"$4"}}],["$","div",null,{"style":{"width":"100%","textAlign":"center","margin":"2rem 0"},"children":["$","hr",null,{"style":{"border":"none","borderTop":"1px solid #ddd","width":"80%","margin":"0 auto"}}]}]]}],["$","$L3","Education",{"children":[["$","article",null,{"className":"prose prose-neutral dark:prose-invert","dangerouslySetInnerHTML":{"__html":"<h2>🎓 Education</h2>\n<p>━━━━━━━━━━━━━━━━━━━</p>\n<p><strong>Ho Chi Minh City University of Technology</strong><br><em>Bachelor of Engineering (BE), Computer Engineering</em><br>📍 Ho Chi Minh City, Vietnam<br>📅 2006 – 2011</p>\n"}}],["$","div",null,{"style":{"width":"100%","textAlign":"center","margin":"2rem 0"},"children":["$","hr",null,{"style":{"border":"none","borderTop":"1px solid #ddd","width":"80%","margin":"0 auto"}}]}]]}],["$","$L3","Experience",{"children":[["$","article",null,{"className":"prose prose-neutral dark:prose-invert","dangerouslySetInnerHTML":{"__html":"$5"}}],"$L6"]}],"$L7","$L8","$L9","$La"],"$Lb"]}]],["$Lc","$Ld"],"$Le"]}],"loading":null,"isPartial":false}
+0:{"buildId":"OKI_j1ESX5rgXN7OpbF9t","rsc":["$","$1","c",{"children":[[["$","$L2",null,{}],["$","main",null,{"className":"main-content","children":[[["$","$L3","a Solutions Architect with over 10+ years of full-stack experience",{"children":[["$","article",null,{"className":"prose prose-neutral dark:prose-invert","dangerouslySetInnerHTML":{"__html":"$4"}}],["$","div",null,{"style":{"width":"100%","textAlign":"center","margin":"2rem 0"},"children":["$","hr",null,{"style":{"border":"none","borderTop":"1px solid #ddd","width":"80%","margin":"0 auto"}}]}]]}],["$","$L3","Education",{"children":[["$","article",null,{"className":"prose prose-neutral dark:prose-invert","dangerouslySetInnerHTML":{"__html":"<h2>🎓 Education</h2>\n<p>━━━━━━━━━━━━━━━━━━━</p>\n<p><strong>Ho Chi Minh City University of Technology</strong><br><em>Bachelor of Engineering (BE), Computer Engineering</em><br>📍 Ho Chi Minh City, Vietnam<br>📅 2006 – 2011</p>\n"}}],["$","div",null,{"style":{"width":"100%","textAlign":"center","margin":"2rem 0"},"children":["$","hr",null,{"style":{"border":"none","borderTop":"1px solid #ddd","width":"80%","margin":"0 auto"}}]}]]}],["$","$L3","Experience",{"children":[["$","article",null,{"className":"prose prose-neutral dark:prose-invert","dangerouslySetInnerHTML":{"__html":"$5"}}],"$L6"]}],"$L7","$L8","$L9","$La"],"$Lb"]}]],["$Lc","$Ld"],"$Le"]}],"loading":null,"isPartial":false}
 6:["$","div",null,{"style":{"width":"100%","textAlign":"center","margin":"2rem 0"},"children":["$","hr",null,{"style":{"border":"none","borderTop":"1px solid #ddd","width":"80%","margin":"0 auto"}}]}]
-f:T5f4,<h2>🛠️ Technical Skills</h2>
+f:T5a9,<h2>🛠️ Technical Skills</h2>
 <p>━━━━━━━━━━━━━━━━━━━</p>
 <h3>👨‍💻 Programming Languages</h3>
 <ul>
@@ -96,7 +96,7 @@ f:T5f4,<h2>🛠️ Technical Skills</h2>
 <li>JavaScript / TypeScript (React.js, Next.js, Node.js, NestJS)</li>
 <li>Swift / SwiftUI / Objective-C (iOS, macOS)</li>
 <li>PHP (WordPress, PHP Frameworks)</li>
-<li>Go (cơ bản)</li>
+<li>Go (Basic)</li>
 <li>SQL: SQLite, MySQL, MongoDB</li>
 </ul>
 <h3>📱 Mobile Development</h3>
@@ -133,7 +133,6 @@ f:T5f4,<h2>🛠️ Technical Skills</h2>
 <li>Git, GitHub, GitLab</li>
 <li>Command Prompt / Terminal Tools</li>
 <li>macOS Development</li>
-<li>ESL (English as a Second Language – Communication/Teaching)</li>
 <li>Agile/Scrum, Technical Mentoring</li>
 </ul>
 7:["$","$L3","Technical Skills",{"children":[["$","article",null,{"className":"prose prose-neutral dark:prose-invert","dangerouslySetInnerHTML":{"__html":"$f"}}],["$","div",null,{"style":{"width":"100%","textAlign":"center","margin":"2rem 0"},"children":["$","hr",null,{"style":{"border":"none","borderTop":"1px solid #ddd","width":"80%","margin":"0 auto"}}]}]]}]
