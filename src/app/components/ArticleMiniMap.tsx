@@ -13,7 +13,7 @@ export default function ArticleMiniMap({ content }: ArticleMiniMapProps) {
   return (
     <nav style={{ padding: '8px 0', fontSize: '14px' }}>
       <h3 style={{ fontSize: '1rem', fontWeight: '600', marginBottom: '12px', color: '#1a202c' }}>
-        Mục Lục Bài Viết
+        Table of Contents
       </h3>
       <ul style={{ listStyleType: 'none', padding: 0, margin: 0 }}>
         {headings.map((heading, index) => {

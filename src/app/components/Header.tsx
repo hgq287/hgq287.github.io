@@ -21,7 +21,9 @@ export default function Header() {
     >
       <div className="header__content">
         <h1 className="header__title">
+          <a href="/">
           <Image src="/favicon.ico" alt="Logo" className="logo-icon" width={32} height={32} />
+          </a>
           <span style={{marginLeft: 10}} className="wellcome-text">
             <span className="author-name">Hg Q.</span>
             <br />

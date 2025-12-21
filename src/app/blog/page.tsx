@@ -1,3 +1,4 @@
+import BlogHeader from '../components/BlogHeader';
 import ArticleMarkdown from '../components/ArticleMarkdown';
 import ArticleMiniMap from '../components/ArticleMiniMap';
 import BlogSidebar from '../components/BlogSidebar';
@@ -20,31 +21,37 @@ export default async function BlogHomePage() {
   }
   
   return (
-    <div className={styles.blogLayout}> 
-      <aside className={styles.sidebarWrapper}>
-        <BlogSidebar 
-          allPostsMetadata={allPostsMetadata} 
-          activeSlug={latestPostSlug} 
-        />
-      </aside>
+    <>
+      <BlogHeader 
+        title={latestPost.title} 
+        headline={latestPost.excerpt} 
+      />
+      <div className={styles.blogLayout}> 
+        <aside className={styles.sidebarWrapper}>
+          <BlogSidebar 
+            allPostsMetadata={allPostsMetadata} 
+            activeSlug={latestPostSlug} 
+          />
+        </aside>
 
-      <main className={styles.mainContent}>
-        <article>
-          <h1 className="text-4xl sm:text-5xl font-extrabold text-gray-900 mb-2">
-            {latestPost.title}
-          </h1>
-          <p className="text-sm text-gray-500 mb-10 border-b pb-4">
-            Đăng ngày: {new Date(latestPost.date).toLocaleDateString('vi-VN')} | Tags: {latestPost.tags.join(', ')}
-          </p>
-          
-          <ArticleMarkdown content={latestPost.content} />
-        </article>
-      </main>
+        <main className={styles.mainContent}>
+          <article>
+            <h1 className="text-4xl sm:text-5xl font-extrabold text-gray-900 mb-2">
+              {latestPost.title}
+            </h1>
+            <p className="text-sm text-gray-500 mb-10 border-b pb-4">
+              Published on {new Date(latestPost.date).toLocaleDateString('en-US')} | Tags: {latestPost.tags.join(', ')}
+            </p>
+            
+            <ArticleMarkdown content={latestPost.content} />
+          </article>
+        </main>
 
-      <aside className={styles.minimapWrapper}>
-        <ArticleMiniMap content={latestPost.content} />
-      </aside>
+        <aside className={styles.minimapWrapper}>
+          <ArticleMiniMap content={latestPost.content} />
+        </aside>
       
-    </div>
+      </div>
+    </>
   );
 }

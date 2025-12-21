@@ -1,5 +1,5 @@
 :root {
-  --sticky-top-offset: 15px; 
+  --sticky-top-offset: 74px; 
   --border-color: #e0e0e0; 
   --font-family-base: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
 }
@@ -53,4 +53,203 @@
   .mainContent {
     padding: 20px;
   }
+}
+
+.header {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background: rgba(255, 255, 255, 0.8);
+  backdrop-filter: blur(10px);
+  border-bottom: 1px solid #eaeaea;
+  height: 64px;
+  display: flex;
+  align-items: center;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 2fr 2fr;
+  width: 100%;
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 2rem;
+  align-items: center;
+}
+
+.leftSection {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  overflow: hidden;
+}
+
+.textInfo {
+  display: flex;
+  flex-direction: column;
+    display: flex;
+  width: 100%;
+  transition: all 0.3s ease;
+  min-width: 0;         
+  overflow: hidden;   
+}
+
+.textInfo.scrolled {
+  transform: translateY(-2px) scale(0.9);
+  opacity: 0.8;
+}
+
+.blogTitle {
+  max-width: 100%;      
+  min-width: 0;
+  font-size: 1rem;
+  font-weight: 500;
+  margin: 0;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.headline {
+  max-width: 100%;     
+  min-width: 0;
+  font-size: 0.75rem;
+  color: #666;
+  margin: 0;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.middleSection {
+  display: flex;
+  justify-content: center;
+}
+
+.searchWrapper {
+  position: relative;
+  width: 100%;
+  max-width: 300px;
+}
+
+.searchInput {
+  width: 100%;
+  padding: 8px 12px;
+  padding-right: 40px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  background: #f5f5f5;
+  outline: none;
+  transition: border 0.2s;
+}
+
+.searchInput:focus {
+  border-color: #0070f3;
+  background: #fff;
+}
+
+.searchShortcut {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 10px;
+  padding: 2px 4px;
+  background: #eee;
+  border-radius: 4px;
+  color: #999;
+}
+
+/* Hidden by default in desktop */
+.menuButton {
+  display: none;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+}
+
+/* Mobile Responsive */
+@media (max-width: 768px) {
+  .menuButton {
+    display: block;
+  }
+
+  .middleSection {
+    display: none; 
+  }
+
+  .headline {
+    display: none; 
+  }
+
+  .container {
+    grid-template-columns: auto 1fr auto;
+    padding: 0 1rem;
+  }
+}
+
+/* Drawer Styles */
+.drawer {
+  position: fixed;
+  inset: 0;
+  z-index: 2000;
+  visibility: hidden;
+  transition: visibility 0.3s;
+}
+
+.drawerOpen {
+  visibility: visible;
+}
+
+.drawerOverlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(4px);
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.drawerOpen .drawerOverlay {
+  opacity: 1;
+}
+
+.drawerContent {
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 280px;
+  background: white;
+  transform: translateX(-100%);
+  transition: transform 0.3s ease;
+  padding: 1.5rem;
+  box-shadow: 4px 0 15px rgba(0,0,0,0.1);
+}
+
+.drawerOpen .drawerContent {
+  transform: translateX(0);
+}
+
+.drawerHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.menuList {
+  list-style: none;
+  padding: 0;
+}
+
+.menuList li {
+  padding: 12px 0;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.menuList li.active a {
+  color: #0070f3;
+  font-weight: 600;
 }
