@@ -8,19 +8,18 @@
 b:I[20191,["/_next/static/chunks/129931008aaa511c.js","/_next/static/chunks/4150d164f44f149b.js"],"MetadataBoundary"]
 d:I[88496,["/_next/static/chunks/129931008aaa511c.js","/_next/static/chunks/4150d164f44f149b.js"],"default"]
 :HL["/_next/static/chunks/734bfe8d64235f82.css","style"]
-0:{"P":null,"b":"Pjxch7cSFZsP66n2r8IPu","c":["",""],"q":"","i":false,"f":[[["",{"children":["__PAGE__",{}]},"$undefined","$undefined",true],[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/734bfe8d64235f82.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/_next/static/chunks/10f45d08b09cdbe8.js","async":true,"nonce":"$undefined"}]],["$","html",null,{"lang":"en","suppressHydrationWarning":true,"children":["$","body",null,{"children":["$","$L2",null,{"attribute":"data-theme","defaultTheme":"light","children":["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]}]}]]}],{"children":[["$","$1","c",{"children":["$L5",[["$","script","script-0",{"src":"/_next/static/chunks/3aa79a0a5cada0f9.js","async":true,"nonce":"$undefined"}],["$","script","script-1",{"src":"/_next/static/chunks/11560d734cb37a36.js","async":true,"nonce":"$undefined"}]],["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]]}],{},null,false,false]},null,false,false],["$","$1","h",{"children":[null,["$","$L9",null,{"children":"$@a"}],["$","div",null,{"hidden":true,"children":["$","$Lb",null,{"children":["$","$7",null,{"name":"Next.Metadata","children":"$@c"}]}]}],null]}],false]],"m":"$undefined","G":["$d",[]],"S":true}
+0:{"P":null,"b":"gTRrZrdOfI4Cx2SU5xK8o","c":["",""],"q":"","i":false,"f":[[["",{"children":["__PAGE__",{}]},"$undefined","$undefined",true],[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/734bfe8d64235f82.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/_next/static/chunks/10f45d08b09cdbe8.js","async":true,"nonce":"$undefined"}]],["$","html",null,{"lang":"en","suppressHydrationWarning":true,"children":["$","body",null,{"children":["$","$L2",null,{"attribute":"data-theme","defaultTheme":"light","children":["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]}]}]]}],{"children":[["$","$1","c",{"children":["$L5",[["$","script","script-0",{"src":"/_next/static/chunks/3aa79a0a5cada0f9.js","async":true,"nonce":"$undefined"}],["$","script","script-1",{"src":"/_next/static/chunks/11560d734cb37a36.js","async":true,"nonce":"$undefined"}]],["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]]}],{},null,false,false]},null,false,false],["$","$1","h",{"children":[null,["$","$L9",null,{"children":"$@a"}],["$","div",null,{"hidden":true,"children":["$","$Lb",null,{"children":["$","$7",null,{"name":"Next.Metadata","children":"$@c"}]}]}],null]}],false]],"m":"$undefined","G":["$d",[]],"S":true}
 a:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
 c:[["$","title","0",{"children":"Hg Q. - Portfolio & Profiles"}],["$","meta","1",{"name":"description","content":"A Full-Stack Software Engineer and Solutions Architect"}]]
 8:null
 e:I[81716,["/_next/static/chunks/10f45d08b09cdbe8.js","/_next/static/chunks/3aa79a0a5cada0f9.js","/_next/static/chunks/11560d734cb37a36.js"],"default"]
 f:I[36922,["/_next/static/chunks/10f45d08b09cdbe8.js","/_next/static/chunks/3aa79a0a5cada0f9.js","/_next/static/chunks/11560d734cb37a36.js"],"default"]
-10:T72a,<h2>🎯 a Solutions Architect with over 10+ years of full-stack experience</h2>
+10:T5b4,<h2>Hi, I&#39;m a Solutions Architect &amp; Full-Stack Engineer</h2>
 <p>━━━━━━━━━━━━━━━━━━━</p>
-<p>I’m a Full-Stack Software Engineer and Solutions Architect with 10+ years of experience helping businesses and startups turn ideas into reliable, high-performance applications. I’ve built real-time chat systems, video calls, Kanban boards, financial tools, crypto trading bots, and mobile apps using <strong>Swift, Objective-C, Vue.js, Next.js, React Native, Flutter, Go, TypeScript, NestJS, and Python.</strong></p>
-<p>With a solid background in Agile methodologies and AWS cloud solutions, I bring a strong foundation in scalable system architecture, clean code principles, and cloud-ready deployments.</p>
-<p>Whether you need to develop from scratch, improve existing features, or scale your product, I focus on clean architecture, smooth user experience, and long-term maintainability. I’m easy to collaborate with, deliver on time, and always aim to bring real value to your project.</p>
-<p>I also maintain a daily running and meditation habit (tracked on Strava), which reflects the consistency, discipline, and long-term focus that I bring to my engineering work.</p>
-<p>Let’s build something great together!</p>
+<p>With over 10 years of experience, I help businesses and startups transform ideas into high-performance, scalable applications. My journey has covered everything from real-time communication systems and financial tools to crypto trading bots and native mobile apps.</p>
+<p>I believe that great software isn&#39;t just about code - it&#39;s about clean architecture, long-term maintainability, and a seamless user experience. Whether starting from scratch or scaling an existing product, I focus on delivering real value on time.</p>
+<p>Outside of engineering, I maintain a daily habit of running and meditation. These practices reflect the consistency and discipline I bring to my work every day.</p>
+<p><strong>Let&#39;s build something great together.</strong></p>
 <p>📧 Email: <a href="mailto:hgq287@gmail.com">hgq287@gmail.com</a><br>📱 Phone/Zalo: +84 989 935 331<br>💬 Let&#39;s talk anytime.</p>
 <hr style="border: none; border-top: 1px solid #e0e0e0; width: 50%; margin: 0;" />
 
@@ -31,145 +30,98 @@ f:I[36922,["/_next/static/chunks/10f45d08b09cdbe8.js","/_next/static/chunks/3aa7
 <li>✍️ <a href="https://medium.com/@hgq287">Blog</a></li>
 <li>🔗 <a href="https://www.linkedin.com/in/hgq287">LinkedIn</a></li>
 </ul>
-11:Tdb7,<h2>💼 Experience</h2>
+11:T7a3,<h2>Professional Experience</h2>
 <p>━━━━━━━━━━━━━━━━━━━</p>
-<h3>🧑‍🏫 Technical Mentor &amp; Solution Architect (Evening Role) – HaikoTek Ltd.</h3>
-<p><strong>May 2025 – Present · Remote</strong>  </p>
+<h3>Technical Mentor &amp; Solution Architect | HaikoTek.</h3>
+<p><em>May 2025 – Present (Remote)</em></p>
+<p>In this evening role, I guide junior developers through the complexities of full-stack development.</p>
 <ul>
-<li>Mentored junior developers in mobile and backend development (Flutter, React Native, Firebase, AWS).</li>
-<li>Guided app architecture, clean code practices, and scalable systems.</li>
-<li>Focused on sharing practical experience across full-stack development.</li>
+<li>Focus: Mobile and backend architecture (Flutter, React Native, AWS).</li>
+<li>Mentorship: Sharing practical experiences in clean code and scalable system design.</li>
 </ul>
-<p><strong>Skills</strong>: Python · TensorFlow · Flutter · React Native · Firebase · Google ML · AWS</p>
 <hr style="border: none; border-top: 1px solid #e0e0e0; width: 50%; margin: 0;" />
 
-<h3>🧩 Mobile Solutions Architect – Varin Team</h3>
-<p><strong>Jan 2024 – Apr 2025</strong><br>Built and maintained cross-platform mobile apps using <strong>Flutter</strong> and <strong>React Native</strong> for both iOS and Android.  </p>
+<h3>Mobile Solutions Architect | Varin Team</h3>
+<p><em>Jan 2024 – Apr 2025</em></p>
+<p>Built and maintained cross-platform mobile apps using <strong>Flutter</strong> and <strong>React Native</strong>.</p>
 <ul>
-<li>Delivered smooth user experiences and fast performance across devices.  </li>
-<li>Integrated REST APIs, handled local data persistence, and implemented real-time features.  </li>
-<li>Collaborated in a fast-paced, agile team focused on delivering consistent business value.  </li>
-<li>Emphasized clean code, modular design, and scalable architecture.</li>
+<li>Performance: Delivered smooth UX and optimized performance for both iOS and Android.</li>
+<li>Integration: Handled REST APIs, local data persistence, and real-time features.</li>
 </ul>
-<p><strong>Skills</strong>: Dart · Flutter · Node.js · React Native</p>
 <hr style="border: none; border-top: 1px solid #e0e0e0; width: 50%; margin: 0;" />
 
-<h3>🤖 Crypto Trading Bot Engineer (Freelance)</h3>
-<p><strong>Aug 2023 – Present · Remote</strong>  </p>
+<h3>Senior iOS/macOS Developer | Floware</h3>
+<p><em>Aug 2015 – Present</em></p>
+<p>I&#39;ve spent years building complex macOS and iOS applications from the ground up.</p>
 <ul>
-<li>Built trading bots using Python and AI to analyze exchange data.</li>
-<li>Applied ML for prediction and strategy optimization.</li>
-<li>Integrated with exchange APIs for automated trading.</li>
+<li>Key Features: Implemented IMAP/CalDAV protocols, real-time chat, video calls, and Kanban systems.</li>
+<li>Stack: Swift, Objective-C, and modern UI design patterns.</li>
 </ul>
-<p><strong>Skills</strong>: Node.js · NestJS · Flutter · React Native · Machine Learning · AWS · Firebase</p>
 <hr style="border: none; border-top: 1px solid #e0e0e0; width: 50%; margin: 0;" />
 
-<h3>🍎 Senior iOS/macOS Developer – Floware</h3>
-<p><strong>Aug 2015 – Present</strong>  </p>
+<h3>Previous Roles</h3>
 <ul>
-<li>Built macOS/iOS apps with IMAP, CalDAV, chat, video call, Kanban, etc.</li>
-<li>Designed modern UI using Swift and Objective-C.</li>
+<li><strong>Crypto Trading Bot Engineer (Freelance):</strong> Developed automated trading strategies using Python and Machine Learning.</li>
+<li><strong>Senior Full-stack Developer (Mecsu JSC):</strong> Managed company websites and internal tools using PHP and AWS.</li>
+<li><strong>Embedded Software Engineer (ADC):</strong> Developed firmware for barcode scanners and optimized retail hardware systems.</li>
 </ul>
-<p><strong>Skills</strong>: Xcode · Objective-C · Swift · C/C++ </p>
-<hr style="border: none; border-top: 1px solid #e0e0e0; width: 50%; margin: 0;" />
-
-<h3>🌐 WordPress &amp; Content Expert (Freelancer)</h3>
-<p><strong>Sep 2014 – Aug 2017</strong>  </p>
-<ul>
-<li>Created WordPress websites with custom PHP/MySQL integrations.</li>
-<li>Handled UI/UX, SEO optimization, and content creation.</li>
-</ul>
-<p><strong>Skills</strong>: WordPress · PHP · MySQL</p>
-<hr style="border: none; border-top: 1px solid #e0e0e0; width: 50%; margin: 0;" />
-
-<h3>🧩 Senior Full-stack Developer – Mecsu JSC</h3>
-<p><strong>Jun 2013 – May 2015 · Ho Chi Minh City</strong>  </p>
-<ul>
-<li>Developed and maintained company websites and internal tools.</li>
-<li>Integrated hosting solutions and scalable backend systems.</li>
-</ul>
-<p><strong>Skills</strong>: Web Hosting · AWS · PHP Frameworks</p>
-<hr style="border: none; border-top: 1px solid #e0e0e0; width: 50%; margin: 0;" />
-
-<h3>🔧 Embedded Software Engineer – ADC</h3>
-<p><strong>Jan 2011 – Jun 2013 · Vietnam</strong>  </p>
-<ul>
-<li>Developed firmware and drivers (RS232, RS485, MISO) for barcode scanners.</li>
-<li>Debugged and optimized embedded systems for retail hardware.</li>
-</ul>
-5:[["$","$Le",null,{}],["$","main",null,{"className":"main-content","children":[[["$","$Lf","a Solutions Architect with over 10+ years of full-stack experience",{"children":[["$","article",null,{"className":"prose prose-neutral dark:prose-invert","dangerouslySetInnerHTML":{"__html":"$10"}}],["$","div",null,{"style":{"width":"100%","textAlign":"center","margin":"2rem 0"},"children":["$","hr",null,{"style":{"border":"none","borderTop":"1px solid #ddd","width":"80%","margin":"0 auto"}}]}]]}],["$","$Lf","Education",{"children":[["$","article",null,{"className":"prose prose-neutral dark:prose-invert","dangerouslySetInnerHTML":{"__html":"<h2>🎓 Education</h2>\n<p>━━━━━━━━━━━━━━━━━━━</p>\n<p><strong>Ho Chi Minh City University of Technology</strong><br><em>Bachelor of Engineering (BE), Computer Engineering</em><br>📍 Ho Chi Minh City, Vietnam<br>📅 2006 – 2011</p>\n"}}],["$","div",null,{"style":{"width":"100%","textAlign":"center","margin":"2rem 0"},"children":["$","hr",null,{"style":{"border":"none","borderTop":"1px solid #ddd","width":"80%","margin":"0 auto"}}]}]]}],["$","$Lf","Experience",{"children":[["$","article",null,{"className":"prose prose-neutral dark:prose-invert","dangerouslySetInnerHTML":{"__html":"$11"}}],"$L12"]}],"$L13","$L14","$L15","$L16"],"$L17"]}]]
+5:[["$","$Le",null,{}],["$","main",null,{"className":"main-content","children":[[["$","$Lf","a Solutions Architect with over 10+ years of full-stack experience",{"children":[["$","article",null,{"className":"prose prose-neutral dark:prose-invert","dangerouslySetInnerHTML":{"__html":"$10"}}],["$","div",null,{"style":{"width":"100%","textAlign":"center","margin":"2rem 0"},"children":["$","hr",null,{"style":{"border":"none","borderTop":"1px solid #ddd","width":"80%","margin":"0 auto"}}]}]]}],["$","$Lf","Education",{"children":[["$","article",null,{"className":"prose prose-neutral dark:prose-invert","dangerouslySetInnerHTML":{"__html":"<h2>Education</h2>\n<p>━━━━━━━━━━━━━━━━━━━</p>\n<p><strong>Ho Chi Minh City University of Technology</strong><br><em>Bachelor of Engineering (BE), Computer Engineering</em><br>📍 Ho Chi Minh City, Vietnam<br>📅 2006 – 2011</p>\n<hr style=\"border: none; border-top: 1px solid #e0e0e0; width: 50%; margin: 0;\" />"}}],["$","div",null,{"style":{"width":"100%","textAlign":"center","margin":"2rem 0"},"children":["$","hr",null,{"style":{"border":"none","borderTop":"1px solid #ddd","width":"80%","margin":"0 auto"}}]}]]}],["$","$Lf","Experience",{"children":[["$","article",null,{"className":"prose prose-neutral dark:prose-invert","dangerouslySetInnerHTML":{"__html":"$11"}}],"$L12"]}],"$L13","$L14","$L15","$L16"],"$L17"]}]]
 12:["$","div",null,{"style":{"width":"100%","textAlign":"center","margin":"2rem 0"},"children":["$","hr",null,{"style":{"border":"none","borderTop":"1px solid #ddd","width":"80%","margin":"0 auto"}}]}]
-18:T5a9,<h2>🛠️ Technical Skills</h2>
+18:T98f,<h2>Technical Expertise</h2>
 <p>━━━━━━━━━━━━━━━━━━━</p>
-<h3>👨‍💻 Programming Languages</h3>
+<p>I believe in using the right tool for the job. My experience spans from building intuitive user interfaces to managing scalable backend systems and integrating machine learning.</p>
+<h3>Core Development</h3>
 <ul>
-<li>Python (incl. FastAPI, Scikit-Learn, TensorFlow, CoreML)</li>
-<li>JavaScript / TypeScript (React.js, Next.js, Node.js, NestJS)</li>
-<li>Swift / SwiftUI / Objective-C (iOS, macOS)</li>
-<li>PHP (WordPress, PHP Frameworks)</li>
-<li>Go (Basic)</li>
-<li>SQL: SQLite, MySQL, MongoDB</li>
+<li><strong>Web:</strong> I specialize in building performant apps using <strong>TypeScript</strong>, <strong>React</strong>, and <strong>Next.js</strong>. On the server side, I typically work with <strong>Node.js (NestJS)</strong> or <strong>FastAPI</strong>. </li>
+<li><strong>Mobile:</strong> I enjoy building native experiences with <strong>SwiftUI</strong> for iOS and macOS, but I’m also comfortable using <strong>React Native</strong> or <strong>Flutter</strong> when a cross-platform approach makes more sense. </li>
+<li><strong>Data &amp; CMS:</strong> I have deep experience with <strong>WordPress</strong> (custom themes and plugins) and managing various databases like <strong>MySQL</strong>, <strong>MongoDB</strong>, and <strong>SQLite</strong>.</li>
 </ul>
-<h3>📱 Mobile Development</h3>
+<h3>AI &amp; Machine Learning</h3>
+<p><em>I focus on making AI practical and deployable, not just theoretical.</em></p>
 <ul>
-<li>SwiftUI (macOS/iOS)</li>
-<li>React Native</li>
-<li>Flutter</li>
-<li>Xcode</li>
+<li><strong>Frameworks:</strong> I use <strong>Scikit-Learn</strong>, <strong>TensorFlow</strong>, and <strong>CoreML</strong> to build and integrate models directly into applications. </li>
+<li><strong>Solutions:</strong> I leverage <strong>Google VertexAI</strong> and <strong>AWS AI services</strong> to handle complex tasks like data pre-processing and risk management in ML pipelines.</li>
 </ul>
-<h3>🌐 Web Development</h3>
+<h3>Infrastructure &amp; Ecosystem</h3>
 <ul>
-<li>HTML5 / CSS3 / Tailwind CSS</li>
-<li>Vue.js, Next.js, React.js, NestJS</li>
-<li>WordPress (Theme &amp; Plugin Developer, Content Expert)</li>
-<li>API Development (RESTful APIs, Backend Ops)</li>
+<li><strong>Cloud &amp; DevOps:</strong> I manage environments on <strong>AWS</strong> and <strong>Firebase</strong>. To keep applications scalable and reliable, I use <strong>Kubernetes</strong>, <strong>Docker</strong>, and automated <strong>CI/CD</strong> pipelines. </li>
+<li><strong>My Workflow:</strong> Most of my work happens in a <strong>macOS</strong> environment. I rely heavily on <strong>Git</strong> for collaboration and feel right at home in the <strong>Terminal</strong>.</li>
 </ul>
-<h3>☁️ Cloud &amp; DevOps</h3>
-<ul>
-<li>AWS (EC2, Lambda, API Gateway, S3, DynamoDB)</li>
-<li>Firebase (Auth, Firestore, Hosting)</li>
-<li>Google Cloud (VertexAI, ML APIs)</li>
-<li>Web Hosting &amp; CDN</li>
-<li>Docker, CI/CD Pipelines</li>
-</ul>
-<h3>🤖 AI / ML / Data</h3>
-<ul>
-<li>Scikit-Learn, TensorFlow, CoreML</li>
-<li>Google ML, AWS AI Services</li>
-<li>Data pre-processing, model deployment</li>
-<li>Risk management in ML pipelines</li>
-</ul>
-<h3>💼 Tools &amp; Ecosystem</h3>
-<ul>
-<li>Git, GitHub, GitLab</li>
-<li>Command Prompt / Terminal Tools</li>
-<li>macOS Development</li>
-<li>Agile/Scrum, Technical Mentoring</li>
-</ul>
-13:["$","$Lf","Technical Skills",{"children":[["$","article",null,{"className":"prose prose-neutral dark:prose-invert","dangerouslySetInnerHTML":{"__html":"$18"}}],["$","div",null,{"style":{"width":"100%","textAlign":"center","margin":"2rem 0"},"children":["$","hr",null,{"style":{"border":"none","borderTop":"1px solid #ddd","width":"80%","margin":"0 auto"}}]}]]}]
-19:T77c,<h2>📂 Projects</h2>
-<p>━━━━━━━━━━━━━━━━━━━</p>
-<h3>🛡️ SnifLeaf – iOS/macOS HTTPS Proxy &amp; Network Inspector</h3>
-<p><strong>Apr 2025 – Present</strong> · Associated with @HaikoTek<br>🔗 GitHub: <a href="https://github.com/hgq287/SnifLeaf">github.com/hgq287/SnifLeaf</a><br>Built with: <code>Swift</code>, <code>SwiftUI</code>, <code>Combine</code>, <code>NetworkExtension</code></p>
-<p>An open-source macOS tool built for developers, testers, and QA engineers to inspect and analyze network traffic in real time. Whether you&#39;re debugging, verifying request flows, or analyzing API behavior — <strong>SnifLeaf</strong> gives you full visibility into your app&#39;s network activity.</p>
-<blockquote>
-<p>💡 A lightweight and native alternative to Charles Proxy, built from scratch using modern Apple frameworks.<br>🙌 <em>Open-source and actively maintained — <a href="https://github.com/hgq287/SnifLeaf/pulls">Contributions are welcome!</a></em></p>
-</blockquote>
 <hr style="border: none; border-top: 1px solid #e0e0e0; width: 50%; margin: 0;" />
 
-<h3>🧰 dttool – Python Toolkit &amp; Developer REST API</h3>
-<p><strong>Mar 2025 – Present</strong> · Associated with @Anonymous<br>🔗 GitHub: <a href="https://github.com/hgq287/dttool">github.com/hgq287/dttool</a><br>Built with: <code>Python</code>, <code>FastAPI</code>, <code>Pandas</code></p>
-<p>A versatile Python toolkit and RESTful API designed to:</p>
-<ul>
-<li>Convert between formats: JSON, CSV, Excel, Feather</li>
-<li>Track API call history</li>
-<li>Manage quick technical notes</li>
-<li>Handle RGB-to-HEX conversions, and more.</li>
-</ul>
 <blockquote>
-<p>⚙️ Built with scalability in mind — perfect for devs and data engineers.<br>🙌 <em>Open-source and extendable — <a href="https://github.com/hgq287/dttool/pulls">Contributions are welcome!</a></em></p>
+<p><strong>Beyond Coding:</strong> I value technical mentoring and Agile teamwork. For me, the goal isn&#39;t just to write code, but to build products that solve real problems.</p>
+</blockquote>
+13:["$","$Lf","Technical Skills",{"children":[["$","article",null,{"className":"prose prose-neutral dark:prose-invert","dangerouslySetInnerHTML":{"__html":"$18"}}],["$","div",null,{"style":{"width":"100%","textAlign":"center","margin":"2rem 0"},"children":["$","hr",null,{"style":{"border":"none","borderTop":"1px solid #ddd","width":"80%","margin":"0 auto"}}]}]]}]
+19:T88e,<h2>Featured Projects</h2>
+<p>━━━━━━━━━━━━━━━━━━━</p>
+<p>I believe in building tools that solve real development bottlenecks. Most of my projects are open-source and focused on improving workflow efficiency.</p>
+<h3>SnifLeaf – Native Network Inspector</h3>
+<p><em>Apr 2025 – Present | macOS &amp; iOS</em>
+<strong><a href="https://github.com/hgq287/SnifLeaf">View on GitHub</a></strong></p>
+<p>SnifLeaf is an open-source HTTPS proxy tool designed for developers and QA engineers who need to analyze network traffic in real-time. I built this from scratch using <strong>SwiftUI</strong> and <strong>NetworkExtension</strong> to provide a lightweight, native alternative to Charles Proxy.</p>
+<ul>
+<li><strong>The Problem:</strong> Many network debugging tools are heavy or have complex UIs that slow down the development cycle.</li>
+<li><strong>The Solution:</strong> A high-performance app that gives you full visibility into request flows and API behavior without the overhead.</li>
+<li><strong>Tech:</strong> Swift, SwiftUI, Combine, NetworkExtension.</li>
+</ul>
+<hr style="border: none; border-top: 1px solid #e0e0e0; width: 50%; margin: 0;" />
+
+<h3>dttool – Developer Utility Toolkit</h3>
+<p><em>Mar 2025 – Present | Python &amp; API</em>
+<strong><a href="https://github.com/hgq287/dttool">View on GitHub</a></strong></p>
+<p>A versatile Python toolkit and RESTful API built to handle the &quot;small but frequent&quot; tasks that data engineers face daily.</p>
+<ul>
+<li><strong>Core Features:</strong> Seamlessly converts between JSON, CSV, Excel, and Feather formats while tracking API call history. It also includes quick utilities for RGB-to-HEX conversion and technical note management.</li>
+<li><strong>Designed for:</strong> Scalability and ease of integration into existing data pipelines.</li>
+<li><strong>Tech:</strong> Python, FastAPI, Pandas.</li>
+</ul>
+<hr style="border: none; border-top: 1px solid #e0e0e0; width: 50%; margin: 0;" />
+
+<blockquote>
+<p><strong>Note:</strong> Both projects are open-source and I actively maintain them. If you find them useful, feel free to contribute or suggest new features.</p>
 </blockquote>
 14:["$","$Lf","projects",{"children":[["$","article",null,{"className":"prose prose-neutral dark:prose-invert","dangerouslySetInnerHTML":{"__html":"$19"}}],["$","div",null,{"style":{"width":"100%","textAlign":"center","margin":"2rem 0"},"children":["$","hr",null,{"style":{"border":"none","borderTop":"1px solid #ddd","width":"80%","margin":"0 auto"}}]}]]}]
-15:["$","$Lf","hobbies",{"children":[["$","article",null,{"className":"prose prose-neutral dark:prose-invert","dangerouslySetInnerHTML":{"__html":"<h2>🧘‍♂️ Beyond Code: My Hobbies</h2>\n<p>━━━━━━━━━━━━━━━━━━━</p>\n<p>While I spend much of my time crafting software and solving technical challenges, I also dedicate time daily to my personal well-being.</p>\n<ul>\n<li><p>🏃 <strong>Running</strong> helps me build discipline, mental clarity, and resilience — the same qualities I bring into my code.</p>\n</li>\n<li><p>🧘 <strong>Meditation</strong> sharpens my focus and brings mindfulness into my decision-making, whether it&#39;s architecture design or team communication.</p>\n</li>\n<li><p>🧎 <strong>Yoga</strong> keeps me grounded and adaptable - a reminder to stay flexible both physically and mentally.</p>\n</li>\n</ul>\n<hr style=\"border: none; border-top: 1px solid #e0e0e0; width: 50%; margin: 0;\" />\n\n<p>These practices aren’t just hobbies - they’re essential tools that enhance how I show up, collaborate, and lead in both personal and professional spheres.</p>\n"}}],["$","div",null,{"style":{"width":"100%","textAlign":"center","margin":"2rem 0"},"children":["$","hr",null,{"style":{"border":"none","borderTop":"1px solid #ddd","width":"80%","margin":"0 auto"}}]}]]}]
-16:["$","$Lf","Contact",{"children":[["$","article",null,{"className":"prose prose-neutral dark:prose-invert","dangerouslySetInnerHTML":{"__html":"<h2>📇 Contact</h2>\n<p>━━━━━━━━━━━━━━━━━━━</p>\n<p>📧 Email: <a href=\"mailto:hgq287@gmail.com\">hgq287@gmail.com</a><br>📱 Phone/Zalo: +84 989 935 331<br>💬 Let&#39;s talk anytime.</p>\n<hr style=\"border: none; border-top: 1px solid #e0e0e0; width: 50%; margin: 0;\" />\n\n<h3>Tech Stack</h3>\n<ul>\n<li>🌐 <a href=\"https://github.com/hgq287\">GitHub</a> - Repository of open-source and personal projects</li>\n<li>💬 <a href=\"https://stackoverflow.com/users/12345813/hgq287\">Stack Overflow</a> - Active participation in the developer community</li>\n<li>✍️ <a href=\"https://medium.com/@hgq287\">Blog</a> - Sharing insights, tutorials, and experiences in technology</li>\n</ul>\n"}}],["$","div",null,{"style":{"width":"100%","textAlign":"center","margin":"2rem 0"},"children":["$","hr",null,{"style":{"border":"none","borderTop":"1px solid #ddd","width":"80%","margin":"0 auto"}}]}]]}]
+15:["$","$Lf","hobbies",{"children":[["$","article",null,{"className":"prose prose-neutral dark:prose-invert","dangerouslySetInnerHTML":{"__html":"<h2>Beyond the Code</h2>\n<p>━━━━━━━━━━━━━━━━━━━</p>\n<p>I believe that a clear mind leads to better code. I dedicate time every day to stay physically and mentally fit.</p>\n<ul>\n<li><strong>Running:</strong> Builds the discipline and resilience I need to tackle complex engineering challenges.</li>\n<li><strong>Meditation:</strong> Sharpens my focus, helping me make better decisions in architecture and communication.</li>\n<li><strong>Yoga:</strong> Keeps me adaptable and grounded, both physically and mentally.</li>\n</ul>\n<hr style=\"border: none; border-top: 1px solid #e0e0e0; width: 50%; margin: 0;\" />\n\n<p>These practices are more than just hobbies—they are the tools that help me lead and collaborate effectively in a professional environment.</p>\n"}}],["$","div",null,{"style":{"width":"100%","textAlign":"center","margin":"2rem 0"},"children":["$","hr",null,{"style":{"border":"none","borderTop":"1px solid #ddd","width":"80%","margin":"0 auto"}}]}]]}]
+16:["$","$Lf","Contact",{"children":[["$","article",null,{"className":"prose prose-neutral dark:prose-invert","dangerouslySetInnerHTML":{"__html":"<h2>Get in Touch</h2>\n<p>━━━━━━━━━━━━━━━━━━━</p>\n<p>I&#39;m always open to discussing new projects, technical challenges, or mentorship opportunities. Feel free to reach out anytime.</p>\n<p>📧 Email: <a href=\"mailto:hgq287@gmail.com\">hgq287@gmail.com</a><br>📱 Phone/Zalo: +84 989 935 331<br>💬 Let&#39;s talk anytime.</p>\n<hr style=\"border: none; border-top: 1px solid #e0e0e0; width: 50%; margin: 0;\" />\n\n<h3>Find me online</h3>\n<ul>\n<li>🌐 <a href=\"https://github.com/hgq287\">GitHub</a> - Repository of open-source and personal projects</li>\n<li>💬 <a href=\"https://stackoverflow.com/users/12345813/hgq287\">Stack Overflow</a> - Active participation in the developer community</li>\n<li>✍️ <a href=\"https://medium.com/@hgq287\">Blog</a> - Sharing insights, tutorials, and experiences in technology</li>\n</ul>\n"}}],["$","div",null,{"style":{"width":"100%","textAlign":"center","margin":"2rem 0"},"children":["$","hr",null,{"style":{"border":"none","borderTop":"1px solid #ddd","width":"80%","margin":"0 auto"}}]}]]}]
 17:["$","p",null,{"style":{"fontSize":"0.9rem","color":"#555","fontWeight":300,"textAlign":"right","margin":"1rem 0"},"children":["© ",2025," ","Hg Q",". All rights reserved."]}]
