@@ -19,13 +19,13 @@
 <li>✍️ <a href="https://medium.com/@hgq287">Blog</a></li>
 <li>🔗 <a href="https://www.linkedin.com/in/hgq287">LinkedIn</a></li>
 </ul>
-5:T7a3,<h2>Professional Experience</h2>
+5:T9db,<h2>Professional Experience</h2>
 <p>━━━━━━━━━━━━━━━━━━━</p>
 <h3>Technical Mentor &amp; Solution Architect | HaikoTek.</h3>
 <p><em>May 2025 – Present (Remote)</em></p>
 <p>In this evening role, I guide junior developers through the complexities of full-stack development.</p>
 <ul>
-<li>Focus: Mobile and backend architecture (Flutter, React Native, AWS).</li>
+<li>Focus: Mobile and backend architecture (Flutter, React Native, AWS &amp; GCP).</li>
 <li>Mentorship: Sharing practical experiences in clean code and scalable system design.</li>
 </ul>
 <hr style="border: none; border-top: 1px solid #e0e0e0; width: 50%; margin: 0;" />
@@ -36,6 +36,16 @@
 <ul>
 <li>Performance: Delivered smooth UX and optimized performance for both iOS and Android.</li>
 <li>Integration: Handled REST APIs, local data persistence, and real-time features.</li>
+</ul>
+<hr style="border: none; border-top: 1px solid #e0e0e0; width: 50%; margin: 0;" />
+
+<h3>Algorithmic Trading Systems Engineer | Personal Solutions</h3>
+<p><em>Aug 2023 – Present</em></p>
+<p>I design and build automated crypto trading systems for strategy execution, risk management, and scalable deployment.</p>
+<ul>
+<li>Execution: Developed high-frequency execution engines using Python and FastAPI, integrating with global exchange APIs.</li>
+<li>Intelligence: Applied Machine Learning (Scikit-Learn/TensorFlow) for market trend prediction and strategy optimization.</li>
+<li>Risk Management: Implemented automated safety triggers and portfolio rebalancing to ensure system stability.</li>
 </ul>
 <hr style="border: none; border-top: 1px solid #e0e0e0; width: 50%; margin: 0;" />
 
@@ -50,11 +60,10 @@
 
 <h3>Previous Roles</h3>
 <ul>
-<li><strong>Crypto Trading Bot Engineer (Freelance):</strong> Developed automated trading strategies using Python and Machine Learning.</li>
 <li><strong>Senior Full-stack Developer (Mecsu JSC):</strong> Managed company websites and internal tools using PHP and AWS.</li>
 <li><strong>Embedded Software Engineer (ADC):</strong> Developed firmware for barcode scanners and optimized retail hardware systems.</li>
 </ul>
-0:{"buildId":"gTRrZrdOfI4Cx2SU5xK8o","rsc":["$","$1","c",{"children":[[["$","$L2",null,{}],["$","main",null,{"className":"main-content","children":[[["$","$L3","a Solutions Architect with over 10+ years of full-stack experience",{"children":[["$","article",null,{"className":"prose prose-neutral dark:prose-invert","dangerouslySetInnerHTML":{"__html":"$4"}}],["$","div",null,{"style":{"width":"100%","textAlign":"center","margin":"2rem 0"},"children":["$","hr",null,{"style":{"border":"none","borderTop":"1px solid #ddd","width":"80%","margin":"0 auto"}}]}]]}],["$","$L3","Education",{"children":[["$","article",null,{"className":"prose prose-neutral dark:prose-invert","dangerouslySetInnerHTML":{"__html":"<h2>Education</h2>\n<p>━━━━━━━━━━━━━━━━━━━</p>\n<p><strong>Ho Chi Minh City University of Technology</strong><br><em>Bachelor of Engineering (BE), Computer Engineering</em><br>📍 Ho Chi Minh City, Vietnam<br>📅 2006 – 2011</p>\n<hr style=\"border: none; border-top: 1px solid #e0e0e0; width: 50%; margin: 0;\" />"}}],["$","div",null,{"style":{"width":"100%","textAlign":"center","margin":"2rem 0"},"children":["$","hr",null,{"style":{"border":"none","borderTop":"1px solid #ddd","width":"80%","margin":"0 auto"}}]}]]}],["$","$L3","Experience",{"children":[["$","article",null,{"className":"prose prose-neutral dark:prose-invert","dangerouslySetInnerHTML":{"__html":"$5"}}],"$L6"]}],"$L7","$L8","$L9","$La"],"$Lb"]}]],["$Lc","$Ld"],"$Le"]}],"loading":null,"isPartial":false}
+0:{"buildId":"X5Z2M7jThr7fKueT2rVZS","rsc":["$","$1","c",{"children":[[["$","$L2",null,{}],["$","main",null,{"className":"main-content","children":[[["$","$L3","a Solutions Architect with over 10+ years of full-stack experience",{"children":[["$","article",null,{"className":"prose prose-neutral dark:prose-invert","dangerouslySetInnerHTML":{"__html":"$4"}}],["$","div",null,{"style":{"width":"100%","textAlign":"center","margin":"2rem 0"},"children":["$","hr",null,{"style":{"border":"none","borderTop":"1px solid #ddd","width":"80%","margin":"0 auto"}}]}]]}],["$","$L3","Education",{"children":[["$","article",null,{"className":"prose prose-neutral dark:prose-invert","dangerouslySetInnerHTML":{"__html":"<h2>Education</h2>\n<p>━━━━━━━━━━━━━━━━━━━</p>\n<p><strong>Ho Chi Minh City University of Technology</strong><br><em>Bachelor of Engineering (BE), Computer Engineering</em><br>📍 Ho Chi Minh City, Vietnam<br>📅 2006 – 2011</p>\n<hr style=\"border: none; border-top: 1px solid #e0e0e0; width: 50%; margin: 0;\" />"}}],["$","div",null,{"style":{"width":"100%","textAlign":"center","margin":"2rem 0"},"children":["$","hr",null,{"style":{"border":"none","borderTop":"1px solid #ddd","width":"80%","margin":"0 auto"}}]}]]}],["$","$L3","Experience",{"children":[["$","article",null,{"className":"prose prose-neutral dark:prose-invert","dangerouslySetInnerHTML":{"__html":"$5"}}],"$L6"]}],"$L7","$L8","$L9","$La"],"$Lb"]}]],["$Lc","$Ld"],"$Le"]}],"loading":null,"isPartial":false}
 6:["$","div",null,{"style":{"width":"100%","textAlign":"center","margin":"2rem 0"},"children":["$","hr",null,{"style":{"border":"none","borderTop":"1px solid #ddd","width":"80%","margin":"0 auto"}}]}]
 f:T98f,<h2>Technical Expertise</h2>
 <p>━━━━━━━━━━━━━━━━━━━</p>

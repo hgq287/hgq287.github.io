@@ -8,7 +8,7 @@
 b:I[20191,["/_next/static/chunks/129931008aaa511c.js","/_next/static/chunks/4150d164f44f149b.js"],"MetadataBoundary"]
 d:I[88496,["/_next/static/chunks/129931008aaa511c.js","/_next/static/chunks/4150d164f44f149b.js"],"default"]
 :HL["/_next/static/chunks/734bfe8d64235f82.css","style"]
-0:{"P":null,"b":"gTRrZrdOfI4Cx2SU5xK8o","c":["",""],"q":"","i":false,"f":[[["",{"children":["__PAGE__",{}]},"$undefined","$undefined",true],[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/734bfe8d64235f82.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/_next/static/chunks/10f45d08b09cdbe8.js","async":true,"nonce":"$undefined"}]],["$","html",null,{"lang":"en","suppressHydrationWarning":true,"children":["$","body",null,{"children":["$","$L2",null,{"attribute":"data-theme","defaultTheme":"light","children":["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]}]}]]}],{"children":[["$","$1","c",{"children":["$L5",[["$","script","script-0",{"src":"/_next/static/chunks/3aa79a0a5cada0f9.js","async":true,"nonce":"$undefined"}],["$","script","script-1",{"src":"/_next/static/chunks/11560d734cb37a36.js","async":true,"nonce":"$undefined"}]],["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]]}],{},null,false,false]},null,false,false],["$","$1","h",{"children":[null,["$","$L9",null,{"children":"$@a"}],["$","div",null,{"hidden":true,"children":["$","$Lb",null,{"children":["$","$7",null,{"name":"Next.Metadata","children":"$@c"}]}]}],null]}],false]],"m":"$undefined","G":["$d",[]],"S":true}
+0:{"P":null,"b":"X5Z2M7jThr7fKueT2rVZS","c":["",""],"q":"","i":false,"f":[[["",{"children":["__PAGE__",{}]},"$undefined","$undefined",true],[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/734bfe8d64235f82.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/_next/static/chunks/10f45d08b09cdbe8.js","async":true,"nonce":"$undefined"}]],["$","html",null,{"lang":"en","suppressHydrationWarning":true,"children":["$","body",null,{"children":["$","$L2",null,{"attribute":"data-theme","defaultTheme":"light","children":["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]}]}]]}],{"children":[["$","$1","c",{"children":["$L5",[["$","script","script-0",{"src":"/_next/static/chunks/3aa79a0a5cada0f9.js","async":true,"nonce":"$undefined"}],["$","script","script-1",{"src":"/_next/static/chunks/11560d734cb37a36.js","async":true,"nonce":"$undefined"}]],["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]]}],{},null,false,false]},null,false,false],["$","$1","h",{"children":[null,["$","$L9",null,{"children":"$@a"}],["$","div",null,{"hidden":true,"children":["$","$Lb",null,{"children":["$","$7",null,{"name":"Next.Metadata","children":"$@c"}]}]}],null]}],false]],"m":"$undefined","G":["$d",[]],"S":true}
 a:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
 c:[["$","title","0",{"children":"Hg Q. - Portfolio & Profiles"}],["$","meta","1",{"name":"description","content":"A Full-Stack Software Engineer and Solutions Architect"}]]
 8:null
@@ -30,13 +30,13 @@ f:I[36922,["/_next/static/chunks/10f45d08b09cdbe8.js","/_next/static/chunks/3aa7
 <li>✍️ <a href="https://medium.com/@hgq287">Blog</a></li>
 <li>🔗 <a href="https://www.linkedin.com/in/hgq287">LinkedIn</a></li>
 </ul>
-11:T7a3,<h2>Professional Experience</h2>
+11:T9db,<h2>Professional Experience</h2>
 <p>━━━━━━━━━━━━━━━━━━━</p>
 <h3>Technical Mentor &amp; Solution Architect | HaikoTek.</h3>
 <p><em>May 2025 – Present (Remote)</em></p>
 <p>In this evening role, I guide junior developers through the complexities of full-stack development.</p>
 <ul>
-<li>Focus: Mobile and backend architecture (Flutter, React Native, AWS).</li>
+<li>Focus: Mobile and backend architecture (Flutter, React Native, AWS &amp; GCP).</li>
 <li>Mentorship: Sharing practical experiences in clean code and scalable system design.</li>
 </ul>
 <hr style="border: none; border-top: 1px solid #e0e0e0; width: 50%; margin: 0;" />
@@ -47,6 +47,16 @@ f:I[36922,["/_next/static/chunks/10f45d08b09cdbe8.js","/_next/static/chunks/3aa7
 <ul>
 <li>Performance: Delivered smooth UX and optimized performance for both iOS and Android.</li>
 <li>Integration: Handled REST APIs, local data persistence, and real-time features.</li>
+</ul>
+<hr style="border: none; border-top: 1px solid #e0e0e0; width: 50%; margin: 0;" />
+
+<h3>Algorithmic Trading Systems Engineer | Personal Solutions</h3>
+<p><em>Aug 2023 – Present</em></p>
+<p>I design and build automated crypto trading systems for strategy execution, risk management, and scalable deployment.</p>
+<ul>
+<li>Execution: Developed high-frequency execution engines using Python and FastAPI, integrating with global exchange APIs.</li>
+<li>Intelligence: Applied Machine Learning (Scikit-Learn/TensorFlow) for market trend prediction and strategy optimization.</li>
+<li>Risk Management: Implemented automated safety triggers and portfolio rebalancing to ensure system stability.</li>
 </ul>
 <hr style="border: none; border-top: 1px solid #e0e0e0; width: 50%; margin: 0;" />
 
@@ -61,7 +71,6 @@ f:I[36922,["/_next/static/chunks/10f45d08b09cdbe8.js","/_next/static/chunks/3aa7
 
 <h3>Previous Roles</h3>
 <ul>
-<li><strong>Crypto Trading Bot Engineer (Freelance):</strong> Developed automated trading strategies using Python and Machine Learning.</li>
 <li><strong>Senior Full-stack Developer (Mecsu JSC):</strong> Managed company websites and internal tools using PHP and AWS.</li>
 <li><strong>Embedded Software Engineer (ADC):</strong> Developed firmware for barcode scanners and optimized retail hardware systems.</li>
 </ul>
