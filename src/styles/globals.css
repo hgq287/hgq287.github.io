@@ -5,19 +5,35 @@
   --color-accent: #ccc;
   --accent-fg-color: #526cfe;
   --tag-line: #555;
+  --font-mono: SFMono-Regular, Consolas, Liberation Mono, Menlo, monospace;
+  --font-sans: "Roboto", -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif;
 }
 
 [data-theme='light'] {
   --color-bg: #ffffff;
-  --color-text: #000000;
+  --color-text: #000000de;
   --color-divider: rgba(0, 0, 0, 0.1);
 }
 
 body {
   margin: 0;
+  font-size: 0.975rem;
   background-color: var(--color-bg);
   color: var(--color-text);
-  font-family: system-ui, sans-serif;
+  font-family: var(--font-sans);
+  line-height: 1.4;
+
+}
+
+code {
+  font-family: var(--font-mono);
+  background-color: #f1f5f9; 
+  color: #d63384;            
+  padding: 0.15rem 0.4rem;
+  border-radius: 4px;
+  font-size: 0.85em;
+  font-weight: 500;
+  word-break: break-word;
 }
 
 .header {
