@@ -8,8 +8,6 @@ tags:
   - Docs
 ---
 
-# Essential Resource: Software Design Patterns
-
 This post shares a highly recommended resource for learning about **Software Design Patterns**: [Refactoring.Guru: Design Patterns](https://refactoring.guru/design-patterns).
 
 ## What are Design Patterns?

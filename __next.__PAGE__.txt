@@ -1,8 +1,9 @@
 1:"$Sreact.fragment"
 2:I[81716,["/_next/static/chunks/10f45d08b09cdbe8.js","/_next/static/chunks/3aa79a0a5cada0f9.js","/_next/static/chunks/11560d734cb37a36.js"],"default"]
 3:I[36922,["/_next/static/chunks/10f45d08b09cdbe8.js","/_next/static/chunks/3aa79a0a5cada0f9.js","/_next/static/chunks/11560d734cb37a36.js"],"default"]
-11:I[20191,["/_next/static/chunks/129931008aaa511c.js","/_next/static/chunks/4150d164f44f149b.js"],"OutletBoundary"]
-12:"$Sreact.suspense"
+12:I[20191,["/_next/static/chunks/129931008aaa511c.js","/_next/static/chunks/4150d164f44f149b.js"],"OutletBoundary"]
+13:"$Sreact.suspense"
+:HL["/_next/static/chunks/1ab44382e2939faa.css","style"]
 4:T5b4,<h2>Hi, I&#39;m a Solutions Architect &amp; Full-Stack Engineer</h2>
 <p>━━━━━━━━━━━━━━━━━━━</p>
 <p>With over 10 years of experience, I help businesses and startups transform ideas into high-performance, scalable applications. My journey has covered everything from real-time communication systems and financial tools to crypto trading bots and native mobile apps.</p>
@@ -19,14 +20,14 @@
 <li>✍️ <a href="https://medium.com/@hgq287">Blog</a></li>
 <li>🔗 <a href="https://www.linkedin.com/in/hgq287">LinkedIn</a></li>
 </ul>
-5:T9db,<h2>Professional Experience</h2>
+5:Ta74,<h2>Professional Experience</h2>
 <p>━━━━━━━━━━━━━━━━━━━</p>
 <h3>Technical Mentor &amp; Solution Architect | HaikoTek.</h3>
 <p><em>May 2025 – Present (Remote)</em></p>
 <p>In this evening role, I guide junior developers through the complexities of full-stack development.</p>
 <ul>
-<li>Focus: Mobile and backend architecture (Flutter, React Native, AWS &amp; GCP).</li>
-<li>Mentorship: Sharing practical experiences in clean code and scalable system design.</li>
+<li><strong>Focus</strong>: Mobile and backend architecture (Flutter, React Native, AWS &amp; GCP).</li>
+<li><strong>Mentorship</strong>: Sharing practical experiences in clean code and scalable system design.</li>
 </ul>
 <hr style="border: none; border-top: 1px solid #e0e0e0; width: 50%; margin: 0;" />
 
@@ -34,8 +35,8 @@
 <p><em>Jan 2024 – Apr 2025</em></p>
 <p>Built and maintained cross-platform mobile apps using <strong>Flutter</strong> and <strong>React Native</strong>.</p>
 <ul>
-<li>Performance: Delivered smooth UX and optimized performance for both iOS and Android.</li>
-<li>Integration: Handled REST APIs, local data persistence, and real-time features.</li>
+<li><strong>Performance</strong>: Delivered smooth UX and optimized performance for both iOS and Android.</li>
+<li><strong>Integration</strong>: Handled REST APIs, local data persistence, and real-time features.</li>
 </ul>
 <hr style="border: none; border-top: 1px solid #e0e0e0; width: 50%; margin: 0;" />
 
@@ -43,9 +44,9 @@
 <p><em>Aug 2023 – Present</em></p>
 <p>I design and build automated crypto trading systems for strategy execution, risk management, and scalable deployment.</p>
 <ul>
-<li>Execution: Developed high-frequency execution engines using Python and FastAPI, integrating with global exchange APIs.</li>
-<li>Intelligence: Applied Machine Learning (Scikit-Learn/TensorFlow) for market trend prediction and strategy optimization.</li>
-<li>Risk Management: Implemented automated safety triggers and portfolio rebalancing to ensure system stability.</li>
+<li><strong>Execution</strong>: Developed high-frequency execution engines using Python and FastAPI, integrating with global exchange APIs.</li>
+<li><strong>Intelligence</strong>: Applied Machine Learning (Scikit-Learn/TensorFlow) for market trend prediction and strategy optimization.</li>
+<li><strong>Risk Management</strong>: Implemented automated safety triggers and portfolio rebalancing to ensure system stability.</li>
 </ul>
 <hr style="border: none; border-top: 1px solid #e0e0e0; width: 50%; margin: 0;" />
 
@@ -53,8 +54,8 @@
 <p><em>Aug 2015 – Present</em></p>
 <p>I&#39;ve spent years building complex macOS and iOS applications from the ground up.</p>
 <ul>
-<li>Key Features: Implemented IMAP/CalDAV protocols, real-time chat, video calls, and Kanban systems.</li>
-<li>Stack: Swift, Objective-C, and modern UI design patterns.</li>
+<li><strong>Key Features</strong>: Implemented IMAP/CalDAV protocols, real-time chat, video calls, and Kanban systems.</li>
+<li><strong>Stack</strong>: Swift, Objective-C, and modern UI design patterns.</li>
 </ul>
 <hr style="border: none; border-top: 1px solid #e0e0e0; width: 50%; margin: 0;" />
 
@@ -63,9 +64,9 @@
 <li><strong>Senior Full-stack Developer (Mecsu JSC):</strong> Managed company websites and internal tools using PHP and AWS.</li>
 <li><strong>Embedded Software Engineer (ADC):</strong> Developed firmware for barcode scanners and optimized retail hardware systems.</li>
 </ul>
-0:{"buildId":"I8jL3VIvu-CfJIiHbYYtK","rsc":["$","$1","c",{"children":[[["$","$L2",null,{}],["$","main",null,{"className":"main-content","children":[[["$","$L3","a Solutions Architect with over 10+ years of full-stack experience",{"children":[["$","article",null,{"className":"prose prose-neutral dark:prose-invert","dangerouslySetInnerHTML":{"__html":"$4"}}],["$","div",null,{"style":{"width":"100%","textAlign":"center","margin":"2rem 0"},"children":["$","hr",null,{"style":{"border":"none","borderTop":"1px solid #ddd","width":"80%","margin":"0 auto"}}]}]]}],["$","$L3","Education",{"children":[["$","article",null,{"className":"prose prose-neutral dark:prose-invert","dangerouslySetInnerHTML":{"__html":"<h2>Education</h2>\n<p>━━━━━━━━━━━━━━━━━━━</p>\n<p><strong>Ho Chi Minh City University of Technology</strong><br><em>Bachelor of Engineering (BE), Computer Engineering</em><br>📍 Ho Chi Minh City, Vietnam<br>📅 2006 – 2011</p>\n"}}],["$","div",null,{"style":{"width":"100%","textAlign":"center","margin":"2rem 0"},"children":["$","hr",null,{"style":{"border":"none","borderTop":"1px solid #ddd","width":"80%","margin":"0 auto"}}]}]]}],["$","$L3","Experience",{"children":[["$","article",null,{"className":"prose prose-neutral dark:prose-invert","dangerouslySetInnerHTML":{"__html":"$5"}}],"$L6"]}],"$L7","$L8","$L9","$La"],"$Lb"]}]],["$Lc","$Ld"],"$Le"]}],"loading":null,"isPartial":false}
+0:{"buildId":"jrHmjvP_L3MJR57Q3-s83","rsc":["$","$1","c",{"children":[[["$","$L2",null,{}],["$","main",null,{"className":"Portfolio-module__Sp4Oaa__portfolio","children":[[["$","$L3","a Solutions Architect with over 10+ years of full-stack experience",{"children":[["$","article",null,{"className":"prose prose-neutral dark:prose-invert","dangerouslySetInnerHTML":{"__html":"$4"}}],["$","div",null,{"style":{"width":"100%","textAlign":"center","margin":"2rem 0"},"children":["$","hr",null,{"style":{"border":"none","borderTop":"1px solid #ddd","width":"80%","margin":"0 auto"}}]}]]}],["$","$L3","Education",{"children":[["$","article",null,{"className":"prose prose-neutral dark:prose-invert","dangerouslySetInnerHTML":{"__html":"<h2>Education</h2>\n<p>━━━━━━━━━━━━━━━━━━━</p>\n<p><strong>Ho Chi Minh City University of Technology</strong><br><em>Bachelor of Engineering (BE), Computer Engineering</em><br>📍 Ho Chi Minh City, Vietnam<br>📅 2006 – 2011</p>\n"}}],["$","div",null,{"style":{"width":"100%","textAlign":"center","margin":"2rem 0"},"children":["$","hr",null,{"style":{"border":"none","borderTop":"1px solid #ddd","width":"80%","margin":"0 auto"}}]}]]}],["$","$L3","Experience",{"children":[["$","article",null,{"className":"prose prose-neutral dark:prose-invert","dangerouslySetInnerHTML":{"__html":"$5"}}],"$L6"]}],"$L7","$L8","$L9","$La"],"$Lb"]}]],["$Lc","$Ld","$Le"],"$Lf"]}],"loading":null,"isPartial":false}
 6:["$","div",null,{"style":{"width":"100%","textAlign":"center","margin":"2rem 0"},"children":["$","hr",null,{"style":{"border":"none","borderTop":"1px solid #ddd","width":"80%","margin":"0 auto"}}]}]
-f:T98f,<h2>Technical Expertise</h2>
+10:T98f,<h2>Technical Expertise</h2>
 <p>━━━━━━━━━━━━━━━━━━━</p>
 <p>I believe in using the right tool for the job. My experience spans from building intuitive user interfaces to managing scalable backend systems and integrating machine learning.</p>
 <h3>Core Development</h3>
@@ -90,8 +91,8 @@ f:T98f,<h2>Technical Expertise</h2>
 <blockquote>
 <p><strong>Beyond Coding:</strong> I value technical mentoring and Agile teamwork. For me, the goal isn&#39;t just to write code, but to build products that solve real problems.</p>
 </blockquote>
-7:["$","$L3","Technical Skills",{"children":[["$","article",null,{"className":"prose prose-neutral dark:prose-invert","dangerouslySetInnerHTML":{"__html":"$f"}}],["$","div",null,{"style":{"width":"100%","textAlign":"center","margin":"2rem 0"},"children":["$","hr",null,{"style":{"border":"none","borderTop":"1px solid #ddd","width":"80%","margin":"0 auto"}}]}]]}]
-10:T88e,<h2>Featured Projects</h2>
+7:["$","$L3","Technical Skills",{"children":[["$","article",null,{"className":"prose prose-neutral dark:prose-invert","dangerouslySetInnerHTML":{"__html":"$10"}}],["$","div",null,{"style":{"width":"100%","textAlign":"center","margin":"2rem 0"},"children":["$","hr",null,{"style":{"border":"none","borderTop":"1px solid #ddd","width":"80%","margin":"0 auto"}}]}]]}]
+11:T88e,<h2>Featured Projects</h2>
 <p>━━━━━━━━━━━━━━━━━━━</p>
 <p>I believe in building tools that solve real development bottlenecks. Most of my projects are open-source and focused on improving workflow efficiency.</p>
 <h3>SnifLeaf – Native Network Inspector</h3>
@@ -119,11 +120,12 @@ f:T98f,<h2>Technical Expertise</h2>
 <blockquote>
 <p><strong>Note:</strong> Both projects are open-source and I actively maintain them. If you find them useful, feel free to contribute or suggest new features.</p>
 </blockquote>
-8:["$","$L3","projects",{"children":[["$","article",null,{"className":"prose prose-neutral dark:prose-invert","dangerouslySetInnerHTML":{"__html":"$10"}}],["$","div",null,{"style":{"width":"100%","textAlign":"center","margin":"2rem 0"},"children":["$","hr",null,{"style":{"border":"none","borderTop":"1px solid #ddd","width":"80%","margin":"0 auto"}}]}]]}]
-9:["$","$L3","hobbies",{"children":[["$","article",null,{"className":"prose prose-neutral dark:prose-invert","dangerouslySetInnerHTML":{"__html":"<h2>Beyond the Code</h2>\n<p>━━━━━━━━━━━━━━━━━━━</p>\n<p>I believe that a clear mind leads to better code. I dedicate time every day to stay physically and mentally fit.</p>\n<ul>\n<li><strong>Running:</strong> Builds the discipline and resilience I need to tackle complex engineering challenges.</li>\n<li><strong>Meditation:</strong> Sharpens my focus, helping me make better decisions in architecture and communication.</li>\n<li><strong>Yoga:</strong> Keeps me adaptable and grounded, both physically and mentally.</li>\n</ul>\n<hr style=\"border: none; border-top: 1px solid #e0e0e0; width: 50%; margin: 0;\" />\n\n<p>These practices are more than just hobbies—they are the tools that help me lead and collaborate effectively in a professional environment.</p>\n"}}],["$","div",null,{"style":{"width":"100%","textAlign":"center","margin":"2rem 0"},"children":["$","hr",null,{"style":{"border":"none","borderTop":"1px solid #ddd","width":"80%","margin":"0 auto"}}]}]]}]
+8:["$","$L3","projects",{"children":[["$","article",null,{"className":"prose prose-neutral dark:prose-invert","dangerouslySetInnerHTML":{"__html":"$11"}}],["$","div",null,{"style":{"width":"100%","textAlign":"center","margin":"2rem 0"},"children":["$","hr",null,{"style":{"border":"none","borderTop":"1px solid #ddd","width":"80%","margin":"0 auto"}}]}]]}]
+9:["$","$L3","hobbies",{"children":[["$","article",null,{"className":"prose prose-neutral dark:prose-invert","dangerouslySetInnerHTML":{"__html":"<h2>Beyond the Code</h2>\n<p>━━━━━━━━━━━━━━━━━━━</p>\n<p>I believe that a clear mind leads to better code. I dedicate time every day to stay physically and mentally fit.</p>\n<ul>\n<li><strong>Running:</strong> Builds the discipline and resilience I need to tackle complex engineering challenges.</li>\n<li><strong>Meditation:</strong> Sharpens my focus, helping me make better decisions in architecture and communication.</li>\n<li><strong>Yoga:</strong> Keeps me adaptable and grounded, both physically and mentally.</li>\n</ul>\n<hr style=\"border: none; border-top: 1px solid #e0e0e0; width: 50%; margin: 0;\" />\n\n<p>These practices are more than just hobbies - they are the tools that help me lead and collaborate effectively in a professional environment.</p>\n"}}],["$","div",null,{"style":{"width":"100%","textAlign":"center","margin":"2rem 0"},"children":["$","hr",null,{"style":{"border":"none","borderTop":"1px solid #ddd","width":"80%","margin":"0 auto"}}]}]]}]
 a:["$","$L3","Contact",{"children":[["$","article",null,{"className":"prose prose-neutral dark:prose-invert","dangerouslySetInnerHTML":{"__html":"<h2>Get in Touch</h2>\n<p>━━━━━━━━━━━━━━━━━━━</p>\n<p>I&#39;m always open to discussing new projects, technical challenges, or mentorship opportunities. Feel free to reach out anytime.</p>\n<p>📧 Email: <a href=\"mailto:hgq287@gmail.com\">hgq287@gmail.com</a><br>📱 Phone/Zalo: +84 989 935 331<br>💬 Let&#39;s talk anytime.</p>\n<hr style=\"border: none; border-top: 1px solid #e0e0e0; width: 50%; margin: 0;\" />\n\n<h3>Find me online</h3>\n<ul>\n<li>🌐 <a href=\"https://github.com/hgq287\">GitHub</a> - Repository of open-source and personal projects</li>\n<li>💬 <a href=\"https://stackoverflow.com/users/12345813/hgq287\">Stack Overflow</a> - Active participation in the developer community</li>\n<li>✍️ <a href=\"https://medium.com/@hgq287\">Blog</a> - Sharing insights, tutorials, and experiences in technology</li>\n</ul>\n"}}],["$","div",null,{"style":{"width":"100%","textAlign":"center","margin":"2rem 0"},"children":["$","hr",null,{"style":{"border":"none","borderTop":"1px solid #ddd","width":"80%","margin":"0 auto"}}]}]]}]
 b:["$","p",null,{"style":{"fontSize":"0.9rem","color":"#555","fontWeight":300,"textAlign":"right","margin":"1rem 0"},"children":["© ",2026," ","Hg Q",". All rights reserved."]}]
-c:["$","script","script-0",{"src":"/_next/static/chunks/3aa79a0a5cada0f9.js","async":true}]
-d:["$","script","script-1",{"src":"/_next/static/chunks/11560d734cb37a36.js","async":true}]
-e:["$","$L11",null,{"children":["$","$12",null,{"name":"Next.MetadataOutlet","children":"$@13"}]}]
-13:null
+c:["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/1ab44382e2939faa.css","precedence":"next"}]
+d:["$","script","script-0",{"src":"/_next/static/chunks/3aa79a0a5cada0f9.js","async":true}]
+e:["$","script","script-1",{"src":"/_next/static/chunks/11560d734cb37a36.js","async":true}]
+f:["$","$L12",null,{"children":["$","$13",null,{"name":"Next.MetadataOutlet","children":"$@14"}]}]
+14:null
