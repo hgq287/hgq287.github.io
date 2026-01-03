@@ -3,6 +3,7 @@
   --color-text: #ffffff;
   --color-divider: rgba(255, 255, 255, 0.08);
   --color-accent: #ccc;
+  --typeset-a-color: #4051b5;
   --accent-fg-color: #526cfe;
   --tag-line: #555;
   --font-mono: SFMono-Regular, Consolas, Liberation Mono, Menlo, monospace;
@@ -17,11 +18,12 @@
 
 body {
   margin: 0;
-  font-size: 0.975rem;
+  font-size: 1.072rem;
   background-color: var(--color-bg);
   color: var(--color-text);
   font-family: var(--font-sans);
   line-height: 1.4;
+  font-weight: 400;
 
 }
 
@@ -29,7 +31,7 @@ code {
   font-family: var(--font-mono);
   background-color: #f1f5f9; 
   color: #d63384;            
-  padding: 0.15rem 0.4rem;
+  padding: 0.15rem 0.25rem;
   border-radius: 4px;
   font-size: 0.85em;
   font-weight: 500;

@@ -19,7 +19,7 @@ const linkBaseStyle = {
 export default function BlogSidebar({ allPostsMetadata, activeSlug }: BlogSidebarProps) {
   return (
     <div style={{ fontFamily: 'inherit' }}>
-      <h3 style={{ fontSize: '1.25rem', fontWeight: 'bold', marginBottom: '16px', color: '#1a202c' }}>
+      <h3 style={{ fontSize: '1.2rem', margin: '1.5em 0 0.5em', fontWeight: 400 }}>
         All Posts
       </h3>
       <nav>
@@ -28,9 +28,9 @@ export default function BlogSidebar({ allPostsMetadata, activeSlug }: BlogSideba
             const isActive = post.slug === activeSlug;
             const linkStyle = {
                 ...linkBaseStyle,
-                backgroundColor: isActive ? '#3b82f6' : 'transparent', 
-                color: isActive ? '#fff' : '#4a5568', 
-                fontWeight: isActive ? '600' : '400',
+                backgroundColor: 'transparent', 
+                color: isActive ? '#4051b5' : '#000000de', 
+                fontWeight: isActive ? '550' : '400',
             };
         
             return (
@@ -39,10 +39,10 @@ export default function BlogSidebar({ allPostsMetadata, activeSlug }: BlogSideba
                   href={`/blog/${post.slug}`} 
                   style={linkStyle}
                   onMouseOver={(e) => {
-                    if (!isActive) e.currentTarget.style.backgroundColor = '#f0f4f8'; 
+                    e.currentTarget.style.color = '#526cfe'; 
                   }}
                   onMouseOut={(e) => {
-                    if (!isActive) e.currentTarget.style.backgroundColor = 'transparent';
+                    e.currentTarget.style.color = (!isActive) ? '#000000de' : '#4051b5';
                   }}
                 >
                   <div style={{ lineHeight: 1.4, fontWeight: 'inherit' }}>{post.title}</div>

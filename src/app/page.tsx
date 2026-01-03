@@ -5,6 +5,8 @@ import { marked } from 'marked';
 import fs from 'fs/promises';
 import path from 'path';
 
+import portfolioStyles from '../styles/Portfolio.module.css';
+
 export default async function Home() {
   const dataDir = path.join(process.cwd(), 'public/content');
 
@@ -32,7 +34,7 @@ export default async function Home() {
   return (
     <>
       <Header />
-      <main className="main-content">
+      <main className={portfolioStyles.portfolio}>
         {sections.map(({ title, contentHtml }) => (
           <MarkdownSection key={title} title={title} contentHtml={contentHtml} />
         ))}

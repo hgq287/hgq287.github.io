@@ -3,11 +3,14 @@ import { Metadata } from 'next';
 import Link from 'next/link';
 
 import { PostRepository } from '../../../data/post.repository';
+
+
+import styles from '../../../styles/Blog.module.css';
+
 import ArticleMarkdown from '../../components/ArticleMarkdown';
 import ArticleMiniMap from '../../components/ArticleMiniMap';
 import BlogSidebar from '../../components/BlogSidebar';
-
-import styles from '../../../styles/blog.module.css';
+import PostMeta from '../../components/PostMeta';
 
 interface PostPageProps {
   params: { slug: string };
@@ -70,14 +73,15 @@ export default async function PostPage({ params }: PostPageProps) {
           />
         </aside>
 
-        <main className={styles.mainContent}>
+        <main className={styles.article}>
           <article>
-            <h1 className="text-4xl sm:text-5xl font-extrabold text-gray-900 mb-2">
+            <h1>
               {currentPost.title}
             </h1>
-            <p className="text-sm text-gray-500 mb-10 border-b pb-4">
+            <PostMeta date={currentPost.date} tags={currentPost.tags} />
+            {/* <p className="text-sm text-gray-500 mb-10 border-b pb-4">
               {new Date(currentPost.date).toLocaleDateString('vi-VN')} | Tags: {currentPost.tags.join(', ')}
-            </p>
+            </p> */}
             
             <ArticleMarkdown content={currentPost.content} />
           </article>

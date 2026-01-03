@@ -1,0 +1,39 @@
+.metaContainer {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 2rem;
+  color: #666;
+  font-size: 0.9rem;
+}
+
+.date {
+  font-weight: 500;
+}
+
+.divider {
+  color: #eee;
+}
+
+.tagsList {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.tagBadge {
+  background-color: #f0f4f8; 
+  color: #526cfe; 
+  padding: 4px 10px;
+  border-radius: 100px; 
+  text-decoration: none;
+  font-size: 0.8rem;
+  font-weight: 600;
+  transition: all 0.2s ease;
+}
+
+.tagBadge:hover {
+  background-color: #526cfe;
+  color: white;
+  transform: translateY(-1px);
+}

@@ -1,10 +1,12 @@
+import { PostRepository } from '../../data/post.repository'; 
+
+import styles from '../../styles/Blog.module.css'; 
+
 import BlogHeader from '../components/BlogHeader';
 import ArticleMarkdown from '../components/ArticleMarkdown';
 import ArticleMiniMap from '../components/ArticleMiniMap';
 import BlogSidebar from '../components/BlogSidebar';
-import { PostRepository } from '../../data/post.repository'; 
-
-import styles from '../../styles/blog.module.css'; 
+import PostMeta from '../components/PostMeta';
 
 export default async function BlogHomePage() {
   const allPostsMetadata = await PostRepository.getAllPostsMetadata();
@@ -34,15 +36,12 @@ export default async function BlogHomePage() {
           />
         </aside>
 
-        <main className={styles.mainContent}>
+        <main className={styles.article}>
           <article>
-            <h1 className="text-4xl sm:text-5xl font-extrabold text-gray-900 mb-2">
+            <h1>
               {latestPost.title}
             </h1>
-            <p className="text-sm text-gray-500 mb-10 border-b pb-4">
-              Published on {new Date(latestPost.date).toLocaleDateString('en-US')} | Tags: {latestPost.tags.join(', ')}
-            </p>
-            
+            <PostMeta date={latestPost.date} tags={latestPost.tags} />
             <ArticleMarkdown content={latestPost.content} />
           </article>
         </main>

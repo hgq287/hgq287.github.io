@@ -1,6 +1,6 @@
 "use client";
 import { useEffect, useState } from 'react';
-import styles from '../../styles/blog.module.css'; 
+import styles from '../../styles/Blog.module.css'; 
 
 export default function BlogHeader({ title, headline }: { title: string, headline: string }) {
   const [isScrolled, setIsScrolled] = useState(false);

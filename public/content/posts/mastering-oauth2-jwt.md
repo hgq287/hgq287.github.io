@@ -21,10 +21,10 @@ Our goal is simple: make the system fast by making the access key self-checking.
 
 | Component | Technology | Main Job | Key Feature |
 | :--- | :--- | :--- | :--- |
-| **Access Token** | **JWT (RS256)** | The key to accessing our APIs. | **Stateless** (No DB check needed for verification). |
-| **Refresh Token** | Opaque String | The key to get a new Access Token. | **Revocable** (Can be canceled instantly in the DB). |
+| **Access Token** | `JWT (RS256)` | The key to accessing our APIs. | **Stateless** (No DB check needed for verification). |
+| **Refresh Token** | `Opaque String` | The key to get a new Access Token. | **Revocable** (Can be canceled instantly in the DB). |
 | **Server Core** | `express-oauth-server` | Manages all the login and permission rules. | Follows industry standards. |
-| **Database** | PostgreSQL/Prisma | Stores users and the long-term Refresh Tokens. | Data integrity. |
+| **Database** | `PostgreSQL/Prisma` | Stores users and the long-term Refresh Tokens. | Data integrity. |
 
 ## 2. Token Strategy: Why Two Keys?
 

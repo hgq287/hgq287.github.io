@@ -12,7 +12,7 @@ export default function ArticleMiniMap({ content }: ArticleMiniMapProps) {
 
   return (
     <nav style={{ padding: '8px 0', fontSize: '14px' }}>
-      <h3 style={{ fontSize: '1rem', fontWeight: '600', marginBottom: '12px', color: '#1a202c' }}>
+      <h3 style={{ fontSize: '1.2rem', margin: '1.5em 0 0.5em', fontWeight: 400 }}>
         Table of Contents
       </h3>
       <ul style={{ listStyleType: 'none', padding: 0, margin: 0 }}>
@@ -38,7 +38,7 @@ export default function ArticleMiniMap({ content }: ArticleMiniMapProps) {
                   lineHeight: '1.4',
                   fontWeight: isH3 || isH4 ? '400' : '500', 
                 }}
-                onMouseOver={(e) => e.currentTarget.style.color = '#3b82f6'} 
+                onMouseOver={(e) => e.currentTarget.style.color = '#526cfe'} 
                 onMouseOut={(e) => e.currentTarget.style.color = isH3 || isH4 ? '#6b7280' : '#4a5568'}
               >
                 {heading.text}
