@@ -4,7 +4,7 @@
 b:I[20191,["/_next/static/chunks/129931008aaa511c.js","/_next/static/chunks/4150d164f44f149b.js"],"OutletBoundary"]
 c:"$Sreact.suspense"
 :HL["/_next/static/chunks/5a2e8df3265d67e4.css","style"]
-4:T19a5,<h2><strong>I build and architect high-performance systems.</strong></h2>
+4:T19ab,<h2><strong>I build and architect high-performance systems.</strong></h2>
 <p><em>Focused on hands-on leadership and ownership-driven engineering.</em></p>
 <p>With over 10 years in the industry, I specialize in owning complex systems from the first line of architecture to final production delivery. I believe that the best technical decisions are made by staying close to the code, ensuring that every architectural choice is practical, scalable, and stable under pressure. My expertise spans native macOS/iOS development, cross-platform mobile strategies, and resilient backend infrastructures.</p>
 <hr style="border: none; border-top: 1px solid #f1f3f5; width: 50%; margin: 0;" />
@@ -43,7 +43,7 @@ c:"$Sreact.suspense"
 <h4><strong>Senior Engineering</strong> | macOS Productivity Suite</h4>
 <p><em>2015 – Present (Full-time)</em></p>
 <ul>
-<li><strong>Long-term Ownership:</strong> Owned the core architecture of professional macOS tools used daily by enterprise users worldwide for 8 years.</li>
+<li><strong>Long-term Ownership:</strong> Owned the core architecture of professional macOS tools used daily by enterprise users worldwide for over a decade.</li>
 <li><strong>Legacy Migration:</strong> Managed a high-risk migration from Objective-C to Swift/Combine. This effort cut crash rates by 40% and drastically increased team velocity.</li>
 <li><strong>Deep Tech:</strong> Engineered the calling and screen-sharing infrastructure, integrating <strong>AWS Chime</strong> to handle high-quality voice and video calls within long-running desktop processes.</li>
 </ul>
@@ -80,7 +80,7 @@ c:"$Sreact.suspense"
 <li><strong>Phone:</strong> +84 989 935 331</li>
 <li><strong>Availability:</strong> Global Remote (US / EU)</li>
 </ul>
-0:{"buildId":"0nxdehzg2fPKXstUAUz86","rsc":["$","$1","c",{"children":[[["$","$L2",null,{}],["$","main",null,{"className":"Portfolio-module__Sp4Oaa__portfolio","children":[[["$","$L3","a Solutions Architect with over 10+ years of full-stack experience",{"children":[["$","article",null,{"className":"prose prose-neutral dark:prose-invert","dangerouslySetInnerHTML":{"__html":"$4"}}],"$L5"]}]],"$L6"]}]],["$L7","$L8","$L9"],"$La"]}],"loading":null,"isPartial":false}
+0:{"buildId":"5P6kYjHMIinSz45cFImZZ","rsc":["$","$1","c",{"children":[[["$","$L2",null,{}],["$","main",null,{"className":"Portfolio-module__Sp4Oaa__portfolio","children":[[["$","$L3","a Solutions Architect with over 10+ years of full-stack experience",{"children":[["$","article",null,{"className":"prose prose-neutral dark:prose-invert","dangerouslySetInnerHTML":{"__html":"$4"}}],"$L5"]}]],"$L6"]}]],["$L7","$L8","$L9"],"$La"]}],"loading":null,"isPartial":false}
 5:["$","div",null,{"style":{"width":"100%","textAlign":"center","margin":"2rem 0"},"children":["$","hr",null,{"style":{"border":"none","borderTop":"1px solid #ddd","width":"80%","margin":"0 auto"}}]}]
 6:["$","p",null,{"style":{"fontSize":"0.9rem","color":"#555","fontWeight":300,"textAlign":"right","margin":"1rem 0"},"children":["© ",2026," ","Hg Q",". All rights reserved."]}]
 7:["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/5a2e8df3265d67e4.css","precedence":"next"}]
