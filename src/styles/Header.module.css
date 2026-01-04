@@ -1,0 +1,125 @@
+
+/* Socials & Separator */
+.socialGroup {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.socialIcon {
+  color: var(--color-text-secondary);
+  transition: color 0.2s, transform 0.2s;
+  display: flex;
+}
+
+.socialIcon:hover {
+  color: var(--icon-hover);
+  transform: translateY(-1px);
+}
+
+/* Search Bar */
+
+.searchButton {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 6px 12px;
+  background-color: var(--btn-bg);
+  border: 1px solid var(--btn-border);
+  border-radius: 8px;
+  color: var(--text-primary);
+  font-size: 14px;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+/* Theme Toggle Button */
+
+.themeWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-left: 4px; 
+}
+
+.themeButton {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 6px 12px;
+  border-radius: 8px;
+  border: 1px solid var(--btn-border);
+  background: var(--btn-bg);
+  min-width: 80px; 
+  height: 34px;    
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.kbdShortcut {
+  background-color: var(--kbd-bg);
+  border: 1px solid var(--btn-border);
+  padding: 1px 4px;
+  border-radius: 4px;
+  font-size: 11px;
+  color: var(--text-secondary);
+}
+
+/* Placeholder Specifics */
+.placeholder {
+  opacity: 0.5;
+  cursor: default;
+  pointer-events: none;
+}
+
+.iconSkeleton {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: var(--text-secondary);
+  opacity: 0.2;
+  animation: pulse 1.5s infinite ease-in-out;
+}
+
+@keyframes pulse {
+  0% { opacity: 0.2; }
+  50% { opacity: 0.4; }
+  100% { opacity: 0.2; }
+}
+
+/* Modal Background */
+.modalOverlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  padding-top: 100px;
+  z-index: 1000;
+}
+
+.modalContent {
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  width: 90%;
+  max-width: 500px;
+  height: max-content;
+}
+
+.modalContent input {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  font-size: 18px;
+  outline: none;
+}
+
+/* Theme Button Active State */
+.themeButton:active {
+  transform: scale(0.95);
+  background: #f0f0f0;
+}

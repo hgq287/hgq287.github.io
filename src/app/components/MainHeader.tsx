@@ -3,10 +3,12 @@
 import { useEffect, useState } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
-import ThemeToggle from './ThemeToggle';
-import GithubIcon from './icons/GithubIcon';
+import { ThemeToggle } from './ThemeToggle';
 
-export default function Header() {
+import { SearchBar } from './SearchBar';
+import { SocialLinks } from './SocialLinks';
+
+export default function MainHeader() {
   const [scrolled, setScrolled] = useState(false);
 
   useEffect(() => {
@@ -20,37 +22,30 @@ export default function Header() {
       className={`header ${scrolled ? 'header--scrolled' : ''}`}
     >
       <div className="header__content">
-        <h1 className="header__title">
+        <h1 className="header__title" style={{ display: 'flex', alignItems: 'center' }}>
           <a href="/">
-          <Image src="/favicon.ico" alt="Logo" className="logo-icon" width={32} height={32} />
+            <Image src="/favicon.ico" alt="Logo" className="logo-icon" width={32} height={32} />
           </a>
-          <span style={{marginLeft: 10}} className="wellcome-text">
-            <span className="author-name">Hg Q.</span>
-            <br />
-            <span style={{marginLeft: 10}} className="tagline">
+          <div style={{ display: 'flex', flexDirection: 'column', marginLeft: 10 }}>
+            <span className="author-name">
+              Hg. Q
+            </span>
+            <span className="tagline">
               Built, not just listed
             </span>
-             
-          </span>
+          </div>
         </h1>
 
         <nav className="nav">
           <Link href="/blog" className="nav__link">Blog</Link>
-          <Link href="/" className="nav__link">Apps</Link>
           <Link href="/" className="nav__link">Wiki</Link>
         </nav>
         <div className="header__actions">
+          <SearchBar />
+          <div className="separator" />
+          <SocialLinks />
+          <div className="separator" />
           <ThemeToggle />
-          <a
-            href="https://github.com/hgq287/hgq287.github.io"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="github-link"
-            aria-label="GitHub"
-          >
-            <GithubIcon size={24} color="currentColor" />
-          </a>
-          
         </div>
       </div>
     </header>

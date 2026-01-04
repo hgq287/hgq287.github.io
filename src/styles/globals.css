@@ -1,24 +1,31 @@
 :root {
   --color-bg: #121212;
   --color-text: #ffffff;
+  --btn-bg: #111111; 
+  --btn-border: #27272a;
+  --color-text-secondary: #a1a1aa;
   --color-divider: rgba(255, 255, 255, 0.08);
   --color-accent: #ccc;
   --typeset-a-color: #4051b5;
   --accent-fg-color: #526cfe;
-  --tag-line: #555;
+  --tag-line: #a1a1aa;
   --font-mono: SFMono-Regular, Consolas, Liberation Mono, Menlo, monospace;
   --font-sans: "Roboto", -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif;
 }
 
 [data-theme='light'] {
+  --tag-line: #777;
   --color-bg: #ffffff;
   --color-text: #000000de;
+  --color-text-secondary: #525252;
   --color-divider: rgba(0, 0, 0, 0.1);
+  --btn-bg: transparent;
+  --btn-border: #e5e7eb;
 }
 
 body {
   margin: 0;
-  font-size: 1.072rem;
+  font-size: 1.032rem;
   background-color: var(--color-bg);
   color: var(--color-text);
   font-family: var(--font-sans);
@@ -76,7 +83,7 @@ code {
 
 .tagline {
   font-weight: 300;
-  font-size: 13px;
+  font-size: 12px;
   font-family: 'Segoe UI', 'Helvetica Neue', sans-serif;
   letter-spacing: 0.5px;
   color: var(--tag-line);
@@ -85,9 +92,9 @@ code {
 .author-name {
   font-family: 'Georgia', serif;
   font-style: italic;
-  font-size: 22px;
+  font-size: 18px;
   line-height: 1.2;
-  font-weight: 300;
+  font-weight: 350;
   color: var(--color-accent);
 }
 
@@ -143,4 +150,11 @@ code {
   max-width: 1400px;
   margin: 0 auto;
   padding: 0 2rem;
+}
+
+/* The Vertical Line */
+.separator {
+  width: 1px;
+  height: 20px; 
+  background-color: var(--color-divider, #eaeaea);
 }

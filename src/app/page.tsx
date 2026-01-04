@@ -1,4 +1,4 @@
-import Header from './components/Header';
+import MainHeader from './components/MainHeader';
 import MarkdownSection from './components/MarkdownSection';
 import Copyright from './components/Copyright';
 import { marked } from 'marked';
@@ -33,7 +33,7 @@ export default async function Home() {
 
   return (
     <>
-      <Header />
+      <MainHeader />
       <main className={portfolioStyles.portfolio}>
         {sections.map(({ title, contentHtml }) => (
           <MarkdownSection key={title} title={title} contentHtml={contentHtml} />
