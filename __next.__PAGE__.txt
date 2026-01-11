@@ -4,17 +4,17 @@
 b:I[20191,["/_next/static/chunks/129931008aaa511c.js","/_next/static/chunks/4150d164f44f149b.js"],"OutletBoundary"]
 c:"$Sreact.suspense"
 :HL["/_next/static/chunks/5a2e8df3265d67e4.css","style"]
-4:T19ab,<h2><strong>I build and architect high-performance systems.</strong></h2>
-<p><em>Focused on hands-on leadership and ownership-driven engineering.</em></p>
-<p>With over 10 years in the industry, I specialize in owning complex systems from the first line of architecture to final production delivery. I believe that the best technical decisions are made by staying close to the code, ensuring that every architectural choice is practical, scalable, and stable under pressure. My expertise spans native macOS/iOS development, cross-platform mobile strategies, and resilient backend infrastructures.</p>
+4:T1b3f,<h2><strong>Senior Solutions Architect | Hands-on Engineering Leader</strong></h2>
+<p><em>I don&#39;t just draw diagrams; I build systems that work.</em></p>
+<p>With 15+ years of experience, I specialize in owning complex systems from the first line of code to production. I believe the best architects are the ones who still get their hands dirty with code. My expertise covers Native macOS/iOS, Mobile Cross-platform, full-stack web ecosystem, Cloud Infrastructure, and recently, AI-assisted development workflows. My focus is always on resilience, performance, and team velocity.</p>
 <hr style="border: none; border-top: 1px solid #f1f3f5; width: 50%; margin: 0;" />
 
 <h3><strong>Core Expertise</strong></h3>
 <ul>
-<li><strong>End-to-End Ownership:</strong> I take responsibility for the balance between rapid delivery and long-term system maintainability.</li>
-<li><strong>Execution &amp; Delivery:</strong> I lead technical roadmaps by clearing blockers and ensuring teams ship high-quality software in remote environments.</li>
-<li><strong>The Tech Stack:</strong> Deep experience in <strong>Native Swift (macOS/iOS)</strong>, <strong>Flutter/React Native</strong>, and <strong>Node.js/Python</strong> backends. I prefer building systems that are simple to manage but hard to break.</li>
-<li><strong>Technical Mentorship:</strong> I align teams through technical credibility and hands-on guidance, focusing on clean standards and proactive design reviews.</li>
+<li><strong>Desktop/Mobile (Expert):</strong> Native Swift (macOS/iOS Expert - 9 years), SwiftUI, Flutter, React Native (Native Bridge development).</li>
+<li><strong>Web/Fullstack:</strong> Next.js, React, Vue.js, Node.js (TypeScript), Python.</li>
+<li><strong>Data &amp; AI:</strong> Sqlite/Realm/PostgreSQL (Expert), MongoDB/Mongoose, Redis. Early adopter of AI-driven workflows (LLM agents for testing &amp; refactoring).</li>
+<li><strong>Infrastructure:</strong> AWS Professional (S3, EC2), GCP, Firebase, CI/CD Automation.</li>
 </ul>
 <hr style="border: none; border-top: 1px solid #e0e0e0; width: 50%; margin: 0;" />
 
@@ -24,15 +24,16 @@ c:"$Sreact.suspense"
 <li><strong>Stack Overflow:</strong> <a href="https://stackoverflow.com/users/12345813/hgq287">stackoverflow.com/users/12345813/hgq287</a> - <em>Active participation in the developer community.</em></li>
 <li><strong>Medium:</strong> <a href="https://medium.com/@hgq287">medium.com/@hgq287</a> - <em>Sharing deep-dives on System Design &amp; Engineering Leadership.</em></li>
 </ul>
-<hr style="border: none; border-top: 1px solid #f1f3f5; width: 50%; margin: 0;" />
+<hr style="border: none; border-top: 1px solid #e0e0e0; width: 50%; margin: 0;" />
 
-<h3><strong>Selected Experience</strong></h3>
-<h4><strong>Technical Leadership &amp; Consulting</strong> | HaikoTek</h4>
+<h3><strong>Work Experience</strong></h3>
+<h4>**Hands-on Architect | Mobile, Machine Learning &amp; Backend</h4>
 <p><em>May 2025 – Present (Part-time / After-hours)</em></p>
 <ul>
-<li><strong>Roadmap:</strong> Directed the technical roadmap for a remote team, ensuring seamless alignment between mobile apps and backend services as the product evolved.</li>
-<li><strong>Infrastructure:</strong> Designed and deployed a lean, AWS/GCP-based mobile backend from scratch, maintaining 99.9% uptime.</li>
-<li><strong>Efficiency:</strong> Reduced development rework by ~25% through proactive design reviews and spotting architectural bottlenecks early.</li>
+<li><strong>Roadmap:</strong> Led a team of 3 to build and launch a mobile app and its backend system.</li>
+<li><strong>Infrastructure:</strong> Designed and deployed a lean, GCP-based mobile backend from scratch, maintaining 99% uptime.</li>
+<li><strong>Efficiency:</strong> Reduced development rework by ~ 25% through proactive design reviews and spotting architectural bottlenecks early.</li>
+<li><strong>AI Integration:</strong> Introduced AI-assisted code reviews, reducing manual rework by 25% and helping the team ship features faster.</li>
 </ul>
 <h4><strong>Systems Architecture</strong> | Mobile Ecosystems | Varin Team</h4>
 <p><em>Jan 2024 – Apr 2025 (Part-time / Execution Focus)</em></p>
@@ -43,29 +44,39 @@ c:"$Sreact.suspense"
 <h4><strong>Senior Engineering</strong> | macOS Productivity Suite</h4>
 <p><em>2015 – Present (Full-time)</em></p>
 <ul>
-<li><strong>Long-term Ownership:</strong> Owned the core architecture of professional macOS tools used daily by enterprise users worldwide for over a decade.</li>
-<li><strong>Legacy Migration:</strong> Managed a high-risk migration from Objective-C to Swift/Combine. This effort cut crash rates by 40% and drastically increased team velocity.</li>
-<li><strong>Deep Tech:</strong> Engineered the calling and screen-sharing infrastructure, integrating <strong>AWS Chime</strong> to handle high-quality voice and video calls within long-running desktop processes.</li>
-</ul>
-<h4><strong>Early Career &amp; Foundation</strong></h4>
-<ul>
-<li><strong>Business Venture | F&amp;B Entrepreneur (2013 - 2014):</strong> Stepped away from tech to launch and manage a local restaurant. While the venture was a tough lesson in failure, it provided invaluable insights into business operations, crisis management, and the true meaning of &quot;ownership.&quot;</li>
-<li><strong>PHP Developer | Mecsu JSC:</strong> Managed company websites and internal tools using PHP and Wordpress.</li>
-<li><strong>Embedded Software Engineer | Datalogic:</strong> Developed firmware for barcode scanners and optimized retail hardware systems.</li>
-<li><strong>Internship | Renesas Design Vietnam:</strong> Research and development during thesis, focused on hardware/software co-design.</li>
+<li><strong>Long-term Ownership:</strong> Owned the core architecture of professional macOS apps for over a decade.</li>
+<li><strong>Legacy Modernization:</strong> Led the strategic migration from Objective-C to <strong>Swift/SwiftUI</strong>.</li>
+<li><strong>Results:</strong> 35% reduction in crash rates and slashed the time-to-market for new features by half.</li>
+<li><strong>Scale:</strong> Integrated AWS Chime for high-concurrency real-time communication within the native desktop app.</li>
 </ul>
 <h4><strong>Independent Work</strong> | System Design &amp; Open Source</h4>
 <ul>
 <li><strong>SnifLeaf (Owner):</strong> Designed and built a native macOS network inspector using SwiftUI and NetworkExtension to solve the bloat of traditional debugging tools.</li>
 <li><strong>Trading Systems:</strong> Developed automated execution engines, owning the full pipeline from market data ingestion to real-time risk management.</li>
 </ul>
-<hr style="border: none; border-top: 1px solid #f1f3f5; width: 50%; margin: 0;" />
-
-<h3><strong>Education</strong></h3>
+<h4><strong>Early Career &amp; Foundation</strong></h4>
 <ul>
-<li><strong>Ho Chi Minh City University of Technology</strong> | Bachelor of Engineering (B.E.), Computer Engineering (2006 – 2011)</li>
+<li><strong>Business Venture | F&amp;B Entrepreneur (2013 - 2014):</strong> Learned the &quot;Real-world Ownership&quot;. Managed P&amp;L, staff of 10+, and crisis handling. This experience taught me to build software that actually solves human/business problems.</li>
+<li><strong>PHP Developer | Mecsu JSC:</strong> Managed company websites and internal tools using PHP and Wordpress.</li>
+<li><strong>Embedded Software Engineer | Datalogic:</strong> Developed firmware for barcode scanners and optimized retail hardware systems.</li>
+<li><strong>Internship | Renesas Design Vietnam:</strong> Research and development during thesis, focused on hardware/software co-design.</li>
 </ul>
-<hr style="border: none; border-top: 1px solid #f1f3f5; width: 50%; margin: 0;" />
+<hr style="border: none; border-top: 1px solid #e0e0e0; width: 50%; margin: 0;" />
+
+<h3><strong>Academic Foundation</strong></h3>
+<ul>
+<li><strong>B.E. in Computer Engineering</strong> | Ho Chi Minh City University of Technology (BK HCM).</li>
+<li><strong>Philosophy:</strong> Focus on Fundamentals (OS, Compilers, Data Structures) over Hype.</li>
+</ul>
+<hr style="border: none; border-top: 1px solid #e0e0e0; width: 50%; margin: 0;" />
+
+<h3><strong>Leadership Philosophy</strong></h3>
+<ul>
+<li><strong>Lead by Doing:</strong> I write the core code and review the rest. I never assign a task I can&#39;t do myself.</li>
+<li><strong>Pragmatic AI:</strong> Use AI to eliminate &quot;busy work&quot; (documentation, boilerplate, unit tests), so the team can focus on architecture.</li>
+<li><strong>Extreme Accountability:</strong> I take full responsibility for the systems I build, from the first line of code to 3 AM production stability.</li>
+</ul>
+<hr style="border: none; border-top: 1px solid #e0e0e0; width: 50%; margin: 0;" />
 
 <h3><strong>The Discipline</strong></h3>
 <p>I apply the same discipline to my work as I do to my life. <strong>Daily running and meditation</strong> aren&#39;t just hobbies - they are how I maintain the focus and mental endurance needed to lead teams through stressful technical decisions.</p>
@@ -80,7 +91,7 @@ c:"$Sreact.suspense"
 <li><strong>Phone:</strong> +84 989 935 331</li>
 <li><strong>Availability:</strong> Global Remote (US / EU)</li>
 </ul>
-0:{"buildId":"5P6kYjHMIinSz45cFImZZ","rsc":["$","$1","c",{"children":[[["$","$L2",null,{}],["$","main",null,{"className":"Portfolio-module__Sp4Oaa__portfolio","children":[[["$","$L3","a Solutions Architect with over 10+ years of full-stack experience",{"children":[["$","article",null,{"className":"prose prose-neutral dark:prose-invert","dangerouslySetInnerHTML":{"__html":"$4"}}],"$L5"]}]],"$L6"]}]],["$L7","$L8","$L9"],"$La"]}],"loading":null,"isPartial":false}
+0:{"buildId":"8NmTvY-5i04KDHR3hsoh7","rsc":["$","$1","c",{"children":[[["$","$L2",null,{}],["$","main",null,{"className":"Portfolio-module__Sp4Oaa__portfolio","children":[[["$","$L3","a Solutions Architect with over 10+ years of full-stack experience",{"children":[["$","article",null,{"className":"prose prose-neutral dark:prose-invert","dangerouslySetInnerHTML":{"__html":"$4"}}],"$L5"]}]],"$L6"]}]],["$L7","$L8","$L9"],"$La"]}],"loading":null,"isPartial":false}
 5:["$","div",null,{"style":{"width":"100%","textAlign":"center","margin":"2rem 0"},"children":["$","hr",null,{"style":{"border":"none","borderTop":"1px solid #ddd","width":"80%","margin":"0 auto"}}]}]
 6:["$","p",null,{"style":{"fontSize":"0.9rem","color":"#555","fontWeight":300,"textAlign":"right","margin":"1rem 0"},"children":["© ",2026," ","Hg Q",". All rights reserved."]}]
 7:["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/5a2e8df3265d67e4.css","precedence":"next"}]
