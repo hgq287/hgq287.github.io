@@ -4,7 +4,7 @@
 b:I[20191,["/_next/static/chunks/129931008aaa511c.js","/_next/static/chunks/4150d164f44f149b.js"],"OutletBoundary"]
 c:"$Sreact.suspense"
 :HL["/_next/static/chunks/5a2e8df3265d67e4.css","style"]
-4:T1b3f,<h2><strong>Senior Solutions Architect | Hands-on Engineering Leader</strong></h2>
+4:T1b4e,<h2><strong>Senior Solutions Architect | Hands-on Engineering Leader</strong></h2>
 <p><em>I don&#39;t just draw diagrams; I build systems that work.</em></p>
 <p>With 15+ years of experience, I specialize in owning complex systems from the first line of code to production. I believe the best architects are the ones who still get their hands dirty with code. My expertise covers Native macOS/iOS, Mobile Cross-platform, full-stack web ecosystem, Cloud Infrastructure, and recently, AI-assisted development workflows. My focus is always on resilience, performance, and team velocity.</p>
 <hr style="border: none; border-top: 1px solid #f1f3f5; width: 50%; margin: 0;" />
@@ -27,7 +27,7 @@ c:"$Sreact.suspense"
 <hr style="border: none; border-top: 1px solid #e0e0e0; width: 50%; margin: 0;" />
 
 <h3><strong>Work Experience</strong></h3>
-<h4>**Hands-on Architect | Mobile, Machine Learning &amp; Backend</h4>
+<h4><strong>Hands-on Architect</strong> | Mobile, Machine Learning &amp; Backend</h4>
 <p><em>May 2025 – Present (Part-time / After-hours)</em></p>
 <ul>
 <li><strong>Roadmap:</strong> Led a team of 3 to build and launch a mobile app and its backend system.</li>
@@ -91,7 +91,7 @@ c:"$Sreact.suspense"
 <li><strong>Phone:</strong> +84 989 935 331</li>
 <li><strong>Availability:</strong> Global Remote (US / EU)</li>
 </ul>
-0:{"buildId":"8NmTvY-5i04KDHR3hsoh7","rsc":["$","$1","c",{"children":[[["$","$L2",null,{}],["$","main",null,{"className":"Portfolio-module__Sp4Oaa__portfolio","children":[[["$","$L3","a Solutions Architect with over 10+ years of full-stack experience",{"children":[["$","article",null,{"className":"prose prose-neutral dark:prose-invert","dangerouslySetInnerHTML":{"__html":"$4"}}],"$L5"]}]],"$L6"]}]],["$L7","$L8","$L9"],"$La"]}],"loading":null,"isPartial":false}
+0:{"buildId":"NeX5WhbTqljC9w74DaGR9","rsc":["$","$1","c",{"children":[[["$","$L2",null,{}],["$","main",null,{"className":"Portfolio-module__Sp4Oaa__portfolio","children":[[["$","$L3","a Solutions Architect with over 10+ years of full-stack experience",{"children":[["$","article",null,{"className":"prose prose-neutral dark:prose-invert","dangerouslySetInnerHTML":{"__html":"$4"}}],"$L5"]}]],"$L6"]}]],["$L7","$L8","$L9"],"$La"]}],"loading":null,"isPartial":false}
 5:["$","div",null,{"style":{"width":"100%","textAlign":"center","margin":"2rem 0"},"children":["$","hr",null,{"style":{"border":"none","borderTop":"1px solid #ddd","width":"80%","margin":"0 auto"}}]}]
 6:["$","p",null,{"style":{"fontSize":"0.9rem","color":"#555","fontWeight":300,"textAlign":"right","margin":"1rem 0"},"children":["© ",2026," ","Hg Q",". All rights reserved."]}]
 7:["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/5a2e8df3265d67e4.css","precedence":"next"}]
