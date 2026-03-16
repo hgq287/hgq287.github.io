@@ -1,7 +1,7 @@
 import React, { JSX } from 'react';
 import ReactMarkdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
-import { createSlug } from '../../utils/markdown.util';
+import slugify from 'slugify';
 
 interface ArticleMarkdownProps {
   content: string;
@@ -9,7 +9,7 @@ interface ArticleMarkdownProps {
 
 const CustomHeading = ({ level, children }: { level: number; children: React.ReactNode }) => {
   const text = React.Children.toArray(children).join('');
-  const id = createSlug(text); 
+  const id = slugify(text, { lower: true, strict: true, locale: 'vi' });
   const Tag = `h${level}` as keyof JSX.IntrinsicElements;
   
   return <Tag id={id} className="pt-20 -mt-20">{children}</Tag>;
@@ -17,7 +17,7 @@ const CustomHeading = ({ level, children }: { level: number; children: React.Rea
 
 export default function ArticleMarkdown({ content }: ArticleMarkdownProps) {
   return (
-    <div className="prose max-w-none">
+    <div className="prose prose-neutral dark:prose-invert max-w-none prose-headings:font-serif prose-headings:font-semibold prose-headings:tracking-tight prose-h2:text-2xl prose-h3:text-xl prose-p:leading-relaxed prose-strong:font-semibold prose-li:mb-1.5 prose-a:text-accent-fg prose-a:no-underline hover:prose-a:underline prose-text-foreground">
       <ReactMarkdown 
         remarkPlugins={[remarkGfm]}
         components={{

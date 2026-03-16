@@ -1,22 +1,27 @@
-"use client";
-import styles from '../../styles/PostMeta.module.css';
+'use client';
 
-export default function PostMeta({ date, tags }: { date: string, tags: string[] }) {
+export default function PostMeta({ date, tags }: { date: string; tags: string[] }) {
   return (
-    <div className={styles.metaContainer}>
-      <time className={styles.date}>
-        📅 {new Date(date).toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' })}
+    <div className="flex items-center gap-3 mb-8 text-text-secondary text-sm flex-wrap">
+      <time dateTime={date} className="font-medium">
+        {new Date(date).toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' })}
       </time>
-      
-      <div className={styles.divider}>|</div>
-      
-      <div className={styles.tagsList}>
-        {tags.map(tag => (
-          <a key={tag} href={`/blog?tag=${tag}`} className={styles.tagBadge}>
-            #{tag}
-          </a>
-        ))}
-      </div>
+      {tags.length > 0 && (
+        <>
+          <span className="text-divider" aria-hidden>|</span>
+          <div className="flex gap-2 flex-wrap">
+            {tags.map((tag) => (
+              <a
+                key={tag}
+                href={`/blog?tag=${tag}`}
+                className="post-meta-tag bg-accent-fg/10 text-accent-fg px-2.5 py-1 rounded-button no-underline text-xs font-medium transition-colors hover:bg-accent-fg hover:text-white"
+              >
+                #{tag}
+              </a>
+            ))}
+          </div>
+        </>
+      )}
     </div>
   );
 }

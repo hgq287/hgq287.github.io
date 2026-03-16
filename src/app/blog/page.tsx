@@ -1,56 +1,68 @@
 import { PostRepository } from '../../data/post.repository'; 
 
-import styles from '../../styles/Blog.module.css'; 
-
 import BlogHeader from '../components/BlogHeader';
 import ArticleMarkdown from '../components/ArticleMarkdown';
 import ArticleMiniMap from '../components/ArticleMiniMap';
 import BlogSidebar from '../components/BlogSidebar';
 import PostMeta from '../components/PostMeta';
+import SiteFooter from '../components/SiteFooter';
 
 export default async function BlogHomePage() {
   const allPostsMetadata = await PostRepository.getAllPostsMetadata();
   
   if (allPostsMetadata.length === 0) {
-    return <div className="p-10 text-center text-xl text-gray-500">Not found any posts to display.</div>;
+    return (
+      <div className="blog-page">
+        <BlogHeader title="Blog" headline="No posts yet" />
+        <div className="blog-layout">
+          <main className="blog-main">
+            <p className="blog-prose" style={{ marginTop: '2rem' }}>No posts to display.</p>
+          </main>
+        </div>
+        <SiteFooter />
+      </div>
+    );
   }
 
   const latestPostSlug = allPostsMetadata[0].slug;
   const latestPost = await PostRepository.getPostBySlug(latestPostSlug);
 
   if (!latestPost) {
-      return <div className="p-10 text-center text-xl text-red-500">Latest post content not found.</div>;
+    return (
+      <div className="blog-page">
+        <BlogHeader title="Blog" headline="Error" />
+        <div className="blog-layout">
+          <main className="blog-main">
+            <p className="blog-prose" style={{ marginTop: '2rem', color: '#b91c1c' }}>Latest post content not found.</p>
+          </main>
+        </div>
+        <SiteFooter />
+      </div>
+    );
   }
   
   return (
-    <>
-      <BlogHeader 
-        title={latestPost.title} 
-        headline={latestPost.excerpt} 
-      />
-      <div className={styles.blogLayout}> 
-        <aside className={styles.sidebarWrapper}>
-          <BlogSidebar 
-            allPostsMetadata={allPostsMetadata} 
-            activeSlug={latestPostSlug} 
-          />
-        </aside>
-
-        <main className={styles.article}>
+    <div className="blog-page">
+      <BlogHeader title={latestPost.title} headline={latestPost.excerpt} />
+      <div className="blog-layout">
+        <BlogSidebar
+          allPostsMetadata={allPostsMetadata}
+          activeSlug={latestPostSlug}
+        />
+        <main className="blog-main">
           <article>
-            <h1>
-              {latestPost.title}
-            </h1>
-            <PostMeta date={latestPost.date} tags={latestPost.tags} />
-            <ArticleMarkdown content={latestPost.content} />
+            <h1 className="blog-article-title">{latestPost.title}</h1>
+            <div className="blog-article-meta">
+              <PostMeta date={latestPost.date} tags={latestPost.tags} />
+            </div>
+            <div className="blog-prose">
+              <ArticleMarkdown content={latestPost.content} />
+            </div>
           </article>
         </main>
-
-        <aside className={styles.minimapWrapper}>
-          <ArticleMiniMap content={latestPost.content} />
-        </aside>
-      
+        <ArticleMiniMap content={latestPost.content} />
       </div>
-    </>
+      <SiteFooter />
+    </div>
   );
 }

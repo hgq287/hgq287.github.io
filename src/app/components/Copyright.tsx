@@ -1,16 +1,10 @@
-function Copyright({ year = new Date().getFullYear(), company = "Hg Q" }) {
+function Copyright({ year = new Date().getFullYear(), name = 'Hg Q' }) {
   return (
-    <p
-      style={{
-        fontSize: '0.9rem',
-        color: '#555',          
-        fontWeight: 300,        
-        textAlign: 'right',
-        margin: '1rem 0'
-      }}
-    >
-      &copy; {year} {company}. All rights reserved.
-    </p>
+    <footer className="mt-16 pt-8 border-t border-divider">
+      <p className="text-sm text-text-secondary">
+        &copy; {year} {name}. All rights reserved.
+      </p>
+    </footer>
   );
 }
 

@@ -4,13 +4,11 @@ import Link from 'next/link';
 
 import { PostRepository } from '../../../data/post.repository';
 
-
-import styles from '../../../styles/Blog.module.css';
-
 import ArticleMarkdown from '../../components/ArticleMarkdown';
 import ArticleMiniMap from '../../components/ArticleMiniMap';
 import BlogSidebar from '../../components/BlogSidebar';
 import PostMeta from '../../components/PostMeta';
+import SiteFooter from '../../components/SiteFooter';
 
 interface PostPageProps {
   params: { slug: string };
@@ -44,55 +42,46 @@ export default async function PostPage({ params }: PostPageProps) {
 
   if (!currentPost) {
     return (
-      <>
-        <div className="flex flex-col items-center justify-center min-h-[50vh] p-10 bg-gray-50">
-          <h1 className="text-4xl font-extrabold text-red-600 mb-4">404</h1>
-          <p className="text-xl text-gray-700 mb-6">Page not found.</p>
-          <Link href="/blog" className="text-blue-600 hover:text-blue-800 font-medium transition-colors underline">
-            &larr; Back to Blog
-          </Link>
+      <div className="blog-page">
+        <BlogHeader title="Blog" headline="Post not found" />
+        <div className="blog-layout">
+          <main className="blog-main">
+            <h1 className="blog-article-title">404</h1>
+            <p className="blog-prose" style={{ marginTop: '1rem' }}>Page not found.</p>
+            <Link href="/blog" className="blog-prose" style={{ marginTop: '1rem', display: 'inline-block' }}>
+              &larr; Back to Blog
+            </Link>
+          </main>
         </div>
-      </>
-
+        <SiteFooter />
+      </div>
     );
   }
 
   const allPostsMetadata = await PostRepository.getAllPostsMetadata();
 
   return (
-    <>
-      <BlogHeader 
-        title={currentPost.title} 
-        headline={currentPost.excerpt} 
-      />
-      <div className={styles.blogLayout}>
-        <aside className={styles.sidebarWrapper}>
-          <BlogSidebar 
-            allPostsMetadata={allPostsMetadata} 
-            activeSlug={currentPost.slug} 
-          />
-        </aside>
-
-        <main className={styles.article}>
+    <div className="blog-page">
+      <BlogHeader title={currentPost.title} headline={currentPost.excerpt} />
+      <div className="blog-layout">
+        <BlogSidebar
+          allPostsMetadata={allPostsMetadata}
+          activeSlug={currentPost.slug}
+        />
+        <main className="blog-main">
           <article>
-            <h1>
-              {currentPost.title}
-            </h1>
-            <PostMeta date={currentPost.date} tags={currentPost.tags} />
-            {/* <p className="text-sm text-gray-500 mb-10 border-b pb-4">
-              {new Date(currentPost.date).toLocaleDateString('vi-VN')} | Tags: {currentPost.tags.join(', ')}
-            </p> */}
-            
-            <ArticleMarkdown content={currentPost.content} />
+            <h1 className="blog-article-title">{currentPost.title}</h1>
+            <div className="blog-article-meta">
+              <PostMeta date={currentPost.date} tags={currentPost.tags} />
+            </div>
+            <div className="blog-prose">
+              <ArticleMarkdown content={currentPost.content} />
+            </div>
           </article>
         </main>
-
-        <aside className={styles.minimapWrapper}>
-          <ArticleMiniMap content={currentPost.content} />
-        </aside>
-      
+        <ArticleMiniMap content={currentPost.content} />
       </div>
-    </>
-
+      <SiteFooter />
+    </div>
   );
 }
