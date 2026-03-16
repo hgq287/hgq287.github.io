@@ -30,7 +30,7 @@ export const PostRepository = {
       return postsMetadata;
 
     } catch (error) {
-        console.error("Lỗi khi đọc file bài viết:", error);
+        console.error("Error reading post file:", error);
         return []; 
     }
   },

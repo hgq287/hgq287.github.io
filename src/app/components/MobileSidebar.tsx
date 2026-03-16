@@ -12,7 +12,7 @@ interface MobileSidebarProps {
 }
 
 /**
- * Sidebar overlay: nổi trên page, backdrop mờ, animation slide, height fit nội dung, nút Close menu.
+ * Sidebar overlay: positioned on top of the page, blurred backdrop, slide animation, height fits content, Close menu button.
  */
 export function MobileSidebar({ isOpen, onClose, children }: MobileSidebarProps) {
   const [isExiting, setIsExiting] = useState(false);
@@ -71,7 +71,7 @@ export function MobileSidebar({ isOpen, onClose, children }: MobileSidebarProps)
         pointerEvents: 'auto',
       }}
     >
-      {/* Backdrop với fade */}
+      {/* Backdrop with fade */}
       <div
         data-testid="mobile-menu-backdrop"
         aria-hidden
@@ -87,7 +87,7 @@ export function MobileSidebar({ isOpen, onClose, children }: MobileSidebarProps)
           transition: `opacity ${ANIMATION_MS}ms ease-out`,
         }}
       />
-      {/* Sidebar: độ cao = màn hình (100vh), toggle close bên trái, nội dung menu bên dưới */}
+      {/* Sidebar: height = screen (100vh), toggle close on the left, menu content below */}
       <aside
         style={{
           position: 'absolute',
@@ -106,7 +106,7 @@ export function MobileSidebar({ isOpen, onClose, children }: MobileSidebarProps)
           transition: `transform ${ANIMATION_MS}ms ease-out`,
         }}
       >
-        {/* Toggle close - icon X, wrapper bo góc, màu trùng màu chữ */}
+        {/* Toggle close - X icon, rounded wrapper, color matches text */}
         <div
           style={{
             display: 'flex',
@@ -139,7 +139,7 @@ export function MobileSidebar({ isOpen, onClose, children }: MobileSidebarProps)
             </svg>
           </button>
         </div>
-        {/* Line ngăn cách: toggle close vs nội dung menu */}
+        {/* Divider line: separates toggle close and menu content */}
         <div
           role="presentation"
           style={{
@@ -149,7 +149,7 @@ export function MobileSidebar({ isOpen, onClose, children }: MobileSidebarProps)
             margin: '0 -0.25rem',
           }}
         />
-        {/* Nội dung menu nằm dưới */}
+        {/* Menu content positioned below */}
         <div style={{ flex: 1, overflowY: 'auto', minHeight: 0 }}>
           {children}
         </div>

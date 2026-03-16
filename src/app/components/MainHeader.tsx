@@ -113,7 +113,7 @@ export default function MainHeader({ minimal = false }: { minimal?: boolean }) {
         </div>
       </header>
 
-      {/* Sidebar overlay: dùng chung với blog (MobileNavMenu) */}
+      
       <MobileSidebar isOpen={menuOpen} onClose={() => setMenuOpen(false)}>
         <MobileNavMenu
           onLinkClick={() => setMenuOpen(false)}

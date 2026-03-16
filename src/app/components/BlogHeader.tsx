@@ -26,7 +26,7 @@ export default function BlogHeader({ title, headline }: { title: string; headlin
 
   return (
     <>
-      {/* Đồng nhất với header home: cùng bar, container, nav trái, hamburger style */}
+      {/* Consistent with home header: same bar, container, left nav, hamburger style */}
       <header className="blog-header-bar header-home bg-white h-16 sticky top-0 z-[999] flex items-center border-none">
         <div className="blog-header-inner header-home-inner w-full mx-auto flex items-center h-full justify-start">
           <nav className="hidden md:flex items-center shrink-0 gap-6" aria-label="Main">
@@ -88,7 +88,7 @@ export default function BlogHeader({ title, headline }: { title: string; headlin
         </div>
       </header>
 
-      {/* Sidebar overlay: dùng chung với home (MobileNavMenu), ẩn chữ \"Menu\" cho đồng nhất */}
+      {/* Sidebar overlay: shared with home (MobileNavMenu), hide "Menu" text for consistency */}
       <MobileSidebar isOpen={menuOpen} onClose={() => setMenuOpen(false)}>
         <MobileNavMenu
           onLinkClick={() => setMenuOpen(false)}

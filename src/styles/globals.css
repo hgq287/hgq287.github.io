@@ -80,7 +80,7 @@ body:has(.home-page) {
   background-color: #ffffff !important;
 }
 
-/* Header on homepage: same container, nav at left (góc trái) */
+/* Header on homepage: same container, nav at left */
 body:has(.home-page) header.header-home {
   background-color: #ffffff;
   height: 4rem;
@@ -109,7 +109,7 @@ body:has(.home-page) header.header-home .header-home-inner {
   }
 }
 
-/* Khi show hamburger (mobile): ẩn menu header; desktop 768px+: hiện menu, ẩn hamburger */
+/* When showing hamburger (mobile): hide header menu; desktop 768px+: show menu, hide hamburger */
 body:has(.home-page) header.header-home nav {
   display: none !important;
   align-items: center;
@@ -226,7 +226,7 @@ body:has(.home-page) header.header-home .header-home-menu-btn {
   padding-bottom: 2.5rem;
 }
 
-/* Blog footer: canh lề ngang giống blog-layout */
+/* Blog footer: horizontally aligned like blog layout */
 .blog-page footer {
   max-width: 72rem;
   margin-left: auto;
@@ -309,7 +309,7 @@ body:has(.blog-page) {
   min-height: calc(100vh - 4rem);
 }
 
-/* Blog header đồng nhất với home: cùng bar, container trái, 768px breakpoint */
+/* Blog header consistent with home: same bar, left container, 768px breakpoint */
 .blog-page .blog-header-bar {
   background-color: #ffffff;
   height: 4rem;

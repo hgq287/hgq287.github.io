@@ -4,11 +4,11 @@ import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import { ThemeToggle } from './ThemeToggle';
 
-/** Dùng chung cho overlay menu và desktop nav (MainHeader, BlogHeader). */
+/** Shared for overlay menu and desktop nav (MainHeader, BlogHeader). */
 export const NAV_ITEMS = [
-  { href: '/', label: 'home' },
-  { href: '/blog', label: 'blog' },
-  { href: 'https://github.com/hgq287/hgq287.github.io#readme', label: 'deploy', external: true },
+  { href: '/', label: 'Home' },
+  { href: '/blog', label: 'Blog' },
+  { href: 'https://github.com/hgq287/hgq287.github.io#readme', label: 'Deploy', external: true },
 ];
 
 export interface MobileNavMenuProps {
@@ -18,7 +18,7 @@ export interface MobileNavMenuProps {
 }
 
 /**
- * Nội dung menu overlay (hamburger): dùng chung cho home và blog.
+ * Content of the overlay menu (hamburger): shared for home and blog.
  */
 export function MobileNavMenu({ onLinkClick, showTitle = true, showThemeToggle = false }: MobileNavMenuProps) {
   const pathname = usePathname();
