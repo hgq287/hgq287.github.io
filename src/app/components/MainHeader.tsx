@@ -10,7 +10,13 @@ import { MobileNavMenu, NAV_ITEMS } from './MobileNavMenu';
 
 const navItems = NAV_ITEMS;
 
-export default function MainHeader({ minimal = false }: { minimal?: boolean }) {
+export default function MainHeader({
+  minimal = false,
+  showHamburger = false,
+}: {
+  minimal?: boolean;
+  showHamburger?: boolean;
+}) {
   const pathname = usePathname();
   const [scrolled, setScrolled] = useState(false);
   const [menuOpen, setMenuOpen] = useState(false);
@@ -46,8 +52,16 @@ export default function MainHeader({ minimal = false }: { minimal?: boolean }) {
 
   return (
     <>
-      <header className={`sticky top-0 z-[999] flex items-center ${minimal ? 'header-home bg-white h-16' : 'bg-background/80 backdrop-blur-md border-b border-divider h-14'}`}>
-        <div className={minimal ? 'header-home-inner w-full mx-auto flex items-center h-full justify-start' : 'w-full mx-auto flex items-center h-full max-w-container px-5 sm:px-8 justify-between'}>
+      <header
+        className={`sticky top-0 z-[999] flex items-center ${minimal ? 'header-home bg-white h-16' : 'bg-background/80 backdrop-blur-md border-b border-divider h-14'} ${!showHamburger ? 'header-no-hamburger' : ''}`}
+      >
+        <div
+          className={
+            minimal
+              ? 'header-home-inner w-full mx-auto flex items-center h-full justify-start'
+              : 'w-full mx-auto flex items-center h-full max-w-container px-5 sm:px-8 justify-between'
+          }
+        >
           {minimal ? null : (
             <h1 className="flex items-center gap-3 min-w-0">
               <a href="/" className="flex items-center gap-3 shrink-0">
@@ -64,7 +78,10 @@ export default function MainHeader({ minimal = false }: { minimal?: boolean }) {
             </h1>
           )}
 
-          <nav className={`hidden md:flex items-center shrink-0 ${minimal ? 'gap-6 text-[#333]' : 'gap-8'}`} aria-label="Main">
+          <nav
+            className={`items-center shrink-0 ${minimal ? 'gap-6 text-[#333]' : 'gap-8'} ${showHamburger ? 'hidden md:flex' : 'flex'}`}
+            aria-label="Main"
+          >
             {navItems.map(({ href, label, external }) => {
               const isActive = href === '/' ? pathname === '/' : pathname.startsWith(href);
               const cls = minimal
@@ -85,42 +102,45 @@ export default function MainHeader({ minimal = false }: { minimal?: boolean }) {
 
           <div className={`flex items-center gap-2 sm:gap-3 ${minimal ? 'header-home-menu-wrap' : ''}`}>
             {!minimal && <ThemeToggle />}
-          <button
-            type="button"
-            data-testid="hamburger-button"
-            className={`inline-flex items-center justify-center md:hidden ${minimal ? 'header-home-menu-btn' : ''}`}
-            style={{
-              width: 36,
-              height: 36,
-              padding: 0,
-              background: 'transparent',
-              border: '1px solid #ccc',
-              borderRadius: 8,
-              cursor: 'pointer',
-              color: '#333',
-            }}
-            onClick={() => setMenuOpen((prev) => !prev)}
-            aria-label={menuOpen ? 'Close menu' : 'Open menu'}
-            aria-expanded={menuOpen}
-          >
-            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-              <line x1="3" y1="12" x2="21" y2="12" />
-              <line x1="3" y1="6" x2="21" y2="6" />
-              <line x1="3" y1="18" x2="21" y2="18" />
-            </svg>
-          </button>
+            {showHamburger && (
+              <button
+                type="button"
+                data-testid="hamburger-button"
+                className={`inline-flex items-center justify-center md:hidden ${minimal ? 'header-home-menu-btn' : ''}`}
+                style={{
+                  width: 36,
+                  height: 36,
+                  padding: 0,
+                  background: 'transparent',
+                  border: '1px solid #ccc',
+                  borderRadius: 8,
+                  cursor: 'pointer',
+                  color: '#333',
+                }}
+                onClick={() => setMenuOpen((prev) => !prev)}
+                aria-label={menuOpen ? 'Close menu' : 'Open menu'}
+                aria-expanded={menuOpen}
+              >
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                  <line x1="3" y1="12" x2="21" y2="12" />
+                  <line x1="3" y1="6" x2="21" y2="6" />
+                  <line x1="3" y1="18" x2="21" y2="18" />
+                </svg>
+              </button>
+            )}
           </div>
         </div>
       </header>
 
-      
-      <MobileSidebar isOpen={menuOpen} onClose={() => setMenuOpen(false)}>
-        <MobileNavMenu
-          onLinkClick={() => setMenuOpen(false)}
-          showTitle={!minimal}
-          showThemeToggle={!minimal}
-        />
-      </MobileSidebar>
+      {showHamburger && (
+        <MobileSidebar isOpen={menuOpen} onClose={() => setMenuOpen(false)}>
+          <MobileNavMenu
+            onLinkClick={() => setMenuOpen(false)}
+            showTitle={!minimal}
+            showThemeToggle={!minimal}
+          />
+        </MobileSidebar>
+      )}
     </>
   );
 }

@@ -8,7 +8,7 @@ import { ThemeToggle } from './ThemeToggle';
 export const NAV_ITEMS = [
   { href: '/', label: 'Home' },
   { href: '/blog', label: 'Blog' },
-  { href: 'https://github.com/hgq287/hgq287.github.io#readme', label: 'Deploy', external: true },
+  { href: 'https://github.com/hgq287/hgq287.github.io#readme', label: 'Systems', external: true },
 ];
 
 export interface MobileNavMenuProps {

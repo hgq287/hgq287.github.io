@@ -4,8 +4,8 @@ export default function SiteFooter() {
   return (
     <footer>
       <div className="home-links">
-        <a href="/feed.xml" target="_blank" rel="noopener noreferrer">
-          ↗ rss
+        <a href="https://stackoverflow.com/users/12345813/hgq287" target="_blank" rel="noopener noreferrer">
+          ↗ stackoverflow
         </a>
         <span className="home-links-sep">/</span>
         <a href="https://github.com/hgq287" target="_blank" rel="noopener noreferrer">

@@ -80,8 +80,11 @@ body:has(.home-page) {
   background-color: #ffffff !important;
 }
 
-/* Header on homepage: same container, nav at left */
+/* Header on homepage: sticky when scroll, same container, nav at left */
 body:has(.home-page) header.header-home {
+  position: sticky;
+  top: 0;
+  z-index: 999;
   background-color: #ffffff;
   height: 4rem;
   display: flex;
@@ -109,17 +112,31 @@ body:has(.home-page) header.header-home .header-home-inner {
   }
 }
 
-/* When showing hamburger (mobile): hide header menu; desktop 768px+: show menu, hide hamburger */
-body:has(.home-page) header.header-home nav {
+/* Hamburger mode: hide nav on mobile, show hamburger; no-hamburger mode: nav always visible, centered */
+body:has(.home-page) header.header-home:not(.header-no-hamburger) nav {
   display: none !important;
   align-items: center;
   gap: 1.5rem;
 }
 
 @media (min-width: 768px) {
-  body:has(.home-page) header.header-home nav {
+  body:has(.home-page) header.header-home:not(.header-no-hamburger) nav {
     display: flex !important;
   }
+}
+
+body:has(.home-page) header.header-home.header-no-hamburger .header-home-inner {
+  justify-content: center;
+}
+
+body:has(.home-page) header.header-home nav {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+body:has(.home-page) header.header-home.header-no-hamburger .header-home-menu-wrap {
+  display: none !important;
 }
 
 body:has(.home-page) header.header-home nav a,
@@ -135,7 +152,7 @@ body:has(.home-page) header.header-home nav a:hover {
   text-decoration: underline;
 }
 
-body:has(.home-page) header.header-home .header-home-menu-btn {
+body:has(.home-page) header.header-home:not(.header-no-hamburger) .header-home-menu-btn {
   display: inline-flex !important;
   align-items: center;
   justify-content: center;
@@ -147,7 +164,7 @@ body:has(.home-page) header.header-home .header-home-menu-btn {
 }
 
 @media (min-width: 768px) {
-  body:has(.home-page) header.header-home .header-home-menu-btn {
+  body:has(.home-page) header.header-home:not(.header-no-hamburger) .header-home-menu-btn {
     display: none !important;
   }
 }
@@ -309,8 +326,11 @@ body:has(.blog-page) {
   min-height: calc(100vh - 4rem);
 }
 
-/* Blog header consistent with home: same bar, left container, 768px breakpoint */
+/* Blog header: sticky when scroll, same bar, left container */
 .blog-page .blog-header-bar {
+  position: sticky;
+  top: 0;
+  z-index: 999;
   background-color: #ffffff;
   height: 4rem;
   display: flex;
@@ -338,16 +358,30 @@ body:has(.blog-page) {
   }
 }
 
-body:has(.blog-page) .blog-header-bar nav {
+body:has(.blog-page) .blog-header-bar:not(.header-no-hamburger) nav {
   display: none !important;
   align-items: center;
   gap: 1.5rem;
 }
 
 @media (min-width: 768px) {
-  body:has(.blog-page) .blog-header-bar nav {
+  body:has(.blog-page) .blog-header-bar:not(.header-no-hamburger) nav {
     display: flex !important;
   }
+}
+
+.blog-page .blog-header-bar.header-no-hamburger .blog-header-inner {
+  justify-content: center;
+}
+
+.blog-page .blog-header-bar.header-no-hamburger .header-home-menu-wrap {
+  display: none !important;
+}
+
+.blog-page .blog-header-bar nav {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
 }
 
 .blog-page .blog-header-bar nav a,
@@ -363,7 +397,7 @@ body:has(.blog-page) .blog-header-bar nav {
   text-decoration: underline;
 }
 
-body:has(.blog-page) .blog-header-bar .header-home-menu-btn {
+body:has(.blog-page) .blog-header-bar:not(.header-no-hamburger) .header-home-menu-btn {
   display: inline-flex !important;
   align-items: center;
   justify-content: center;
@@ -371,7 +405,7 @@ body:has(.blog-page) .blog-header-bar .header-home-menu-btn {
 }
 
 @media (min-width: 768px) {
-  body:has(.blog-page) .blog-header-bar .header-home-menu-btn {
+  body:has(.blog-page) .blog-header-bar:not(.header-no-hamburger) .header-home-menu-btn {
     display: none !important;
   }
 }

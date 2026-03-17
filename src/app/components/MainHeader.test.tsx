@@ -21,15 +21,15 @@ jest.mock('./ThemeToggle', () => ({
 
 describe('MainHeader', () => {
   describe('hamburger and mobile menu', () => {
-    it('shows hamburger button when minimal', () => {
-      render(<MainHeader minimal />);
+    it('shows hamburger button when minimal and showHamburger', () => {
+      render(<MainHeader minimal showHamburger />);
       const button = screen.getByTestId('hamburger-button');
       expect(button).toBeInTheDocument();
       expect(button).toHaveAttribute('aria-label', 'Open menu');
     });
 
     it('opens mobile menu when hamburger is clicked', () => {
-      render(<MainHeader minimal />);
+      render(<MainHeader minimal showHamburger />);
       const button = screen.getByTestId('hamburger-button');
       expect(screen.queryByTestId('mobile-menu-drawer')).not.toBeInTheDocument();
 
@@ -40,17 +40,17 @@ describe('MainHeader', () => {
     });
 
     it('shows nav links inside mobile menu when open', () => {
-      render(<MainHeader minimal />);
+      render(<MainHeader minimal showHamburger />);
       fireEvent.click(screen.getByTestId('hamburger-button'));
       const drawer = screen.getByTestId('mobile-menu-drawer');
 
-      expect(drawer.querySelector('a[href="/"]')).toHaveTextContent('home');
-      expect(drawer.querySelector('a[href="/blog"]')).toHaveTextContent('blog');
-      expect(drawer.querySelector('a[href="https://github.com/hgq287/hgq287.github.io#readme"]')).toHaveTextContent('deploy');
+      expect(drawer.querySelector('a[href="/"]')).toHaveTextContent('Home');
+      expect(drawer.querySelector('a[href="/blog"]')).toHaveTextContent('Blog');
+      expect(drawer.querySelector('a[href="https://github.com/hgq287/hgq287.github.io#readme"]')).toHaveTextContent('Systems');
     });
 
     it('closes mobile menu when backdrop is clicked', async () => {
-      render(<MainHeader minimal />);
+      render(<MainHeader minimal showHamburger />);
       fireEvent.click(screen.getByTestId('hamburger-button'));
       expect(screen.getByTestId('mobile-menu-drawer')).toBeInTheDocument();
 
@@ -65,7 +65,7 @@ describe('MainHeader', () => {
     });
 
     it('closes mobile menu when Close menu button is clicked', async () => {
-      render(<MainHeader minimal />);
+      render(<MainHeader minimal showHamburger />);
       fireEvent.click(screen.getByTestId('hamburger-button'));
       expect(screen.getByTestId('mobile-menu-drawer')).toBeInTheDocument();
 
@@ -80,7 +80,7 @@ describe('MainHeader', () => {
     });
 
     it('toggles menu when hamburger is clicked twice', async () => {
-      render(<MainHeader minimal />);
+      render(<MainHeader minimal showHamburger />);
       const button = screen.getByTestId('hamburger-button');
 
       fireEvent.click(button);
