@@ -2,4 +2,6 @@
 title: My Portfolio
 ---
 
-Systems Architect and multi-platform engineer with 15+ years of software excellence, specializing in the Apple ecosystem (Swift, Objective-C, C++) and unified system design. Expert in high-performance iOS/macOS applications, core engine architecture, and full-stack orchestration with Kotlin Multiplatform (KMP) and NestJS/NextJS. Proven track record in architectural leadership, cross-platform logic sharing, and delivering scalable, compliance-grade solutions.
+Systems Architect and multi-platform engineer with 15+ years of experience. I specialize in the Apple ecosystem (Swift, Objective-C, C++), shared core engines, and cross-platform logic with Kotlin Multiplatform (KMP). Backend: NestJS, gRPC, Kafka, AWS/GCP.
+
+I focus on modular architecture, security, CI/CD (Fastlane, GitHub Actions), and clean code. I also lead through architectural reviews, roadmaps, and mentoring. My approach: prioritize fundamentals-OS internals, memory, and data structures for systems that stay maintainable and scalable.

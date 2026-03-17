@@ -7,9 +7,7 @@ export default function PostMeta({ date, tags }: { date: string; tags: string[] 
         {new Date(date).toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' })}
       </time>
       {tags.length > 0 && (
-        <>
-          <span className="text-divider" aria-hidden>|</span>
-          <div className="flex gap-2 flex-wrap">
+        <div className="post-meta-tags flex flex-wrap items-center">
             {tags.map((tag) => (
               <a
                 key={tag}
@@ -19,8 +17,7 @@ export default function PostMeta({ date, tags }: { date: string; tags: string[] 
                 #{tag}
               </a>
             ))}
-          </div>
-        </>
+        </div>
       )}
     </div>
   );

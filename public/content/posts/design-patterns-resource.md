@@ -2,29 +2,40 @@
 slug: "design-patterns-resource"
 title: "Essential Resource: Software Design Patterns"
 date: "2025-12-12"
-excerpt: "This post shares a highly recommended resource for learning about Software Design Patterns"
+excerpt: "A recommended resource for learning software design patterns, with a short guide to what they are and when they help."
 tags:
   - design-patterns
   - Docs
 ---
 
-This post shares a highly recommended resource for learning about **Software Design Patterns**: [Refactoring.Guru: Design Patterns](https://refactoring.guru/design-patterns).
+A resource I often recommend for learning **software design patterns** is [Refactoring.Guru: Design Patterns](https://refactoring.guru/design-patterns). This post sums up what the site offers and why it’s useful.
 
-## What are Design Patterns?
+## What are design patterns?
 
-Design patterns are documented, reusable solutions to common problems encountered in software design. They act as `blueprints` that you can customize and apply to solve a particular design challenge in your code, helping you write more maintainable, flexible, and robust software.
+Design patterns are **reusable solutions to common problems** in software design. They are not ready-made code you copy-paste; they are **templates or blueprints** you adapt to your context. Using them helps you write code that is easier to maintain, extend, and discuss with others.
 
-## Key Information You Will Find
+Patterns come from real-world use. The “Gang of Four” (GoF) book documented 23 classic patterns; many resources, including Refactoring.Guru, build on that and explain them in a clear, example-driven way.
 
-The resource provides a comprehensive catalog of 22 classic design patterns, categorized by their intent:
+## What you’ll find on Refactoring.Guru
 
-1.  **Creational Patterns:** Focus on object creation mechanisms. (e.g., Factory Method, Singleton, Builder)
-2.  **Structural Patterns:** Deal with object composition and class structure. (e.g., Adapter, Decorator, Facade, Composite)
-3.  **Behavioral Patterns:** Concerned with the communication between objects and the assignment of responsibilities. (e.g., Observer, Strategy, Command, Chain of Responsibility)
+The site covers **22 classic design patterns**, grouped by intent:
 
-## Why Learn Patterns?
+1. **Creational patterns** — How objects are created and who creates them. Examples: Factory Method, Abstract Factory, Singleton, Builder, Prototype.
+2. **Structural patterns** — How classes and objects are composed to form larger structures. Examples: Adapter, Bridge, Composite, Decorator, Facade, Flyweight, Proxy.
+3. **Behavioral patterns** — How objects interact and how responsibilities are assigned. Examples: Chain of Responsibility, Command, Iterator, Mediator, Memento, Observer, State, Strategy, Template Method, Visitor.
 
-Learning these patterns provides a "toolkit" of solutions and defines a common language that helps development teams communicate design concepts more efficiently.
+For each pattern you typically get: intent, structure (e.g. UML), example code, pros and cons, and when to use it. The explanations are in plain language and avoid unnecessary jargon.
 
----
-**Link:** [https://refactoring.guru/design-patterns](https://refactoring.guru/design-patterns)
+## When are patterns useful?
+
+- **Recurring problems:** When you keep solving the same kind of design problem (e.g. “I need to add new behavior without changing existing code”), a pattern might fit.
+- **Communication:** Patterns give you a **shared vocabulary** (e.g. “we’ll use a Strategy here”) so the team can reason about design quickly.
+- **Guidance:** They suggest a structure and trade-offs instead of inventing everything from scratch.
+
+Patterns are not mandatory. Use them when they clearly improve clarity or flexibility; avoid forcing them where a simple solution is enough.
+
+## Why this resource?
+
+Refactoring.Guru presents patterns in a **consistent format** with diagrams and code in several languages. It’s good for learning the idea first, then applying it in your stack (e.g. TypeScript, Swift, or Kotlin). The site also covers refactoring and SOLID, which pair well with design patterns.
+
+**Link:** [Refactoring.Guru – Design Patterns](https://refactoring.guru/design-patterns)

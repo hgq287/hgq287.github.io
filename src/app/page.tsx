@@ -20,9 +20,14 @@ export default async function Home() {
             {intro?.title ?? 'My Portfolio'}
           </h1>
           {intro?.intro && (
-            <p className="home-intro">
-              {intro.intro}
-            </p>
+            <div className="home-intro">
+              {intro.intro
+                .split(/\n\n+/)
+                .filter((s) => s.trim())
+                .map((paragraph, i) => (
+                  <p key={i}>{paragraph.trim()}</p>
+                ))}
+            </div>
           )}
 
           <ul className="home-posts">

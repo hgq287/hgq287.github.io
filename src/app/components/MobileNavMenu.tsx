@@ -5,10 +5,11 @@ import { usePathname } from 'next/navigation';
 import { ThemeToggle } from './ThemeToggle';
 
 /** Shared for overlay menu and desktop nav (MainHeader, BlogHeader). */
-export const NAV_ITEMS = [
+export type NavItem = { href: string; label: string; external?: boolean };
+export const NAV_ITEMS: NavItem[] = [
   { href: '/', label: 'Home' },
   { href: '/blog', label: 'Blog' },
-  { href: 'https://github.com/hgq287/hgq287.github.io#readme', label: 'Systems', external: true },
+  { href: '/systems', label: 'Systems' },
 ];
 
 export interface MobileNavMenuProps {
