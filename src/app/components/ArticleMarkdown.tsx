@@ -19,7 +19,8 @@ const CustomHeading = ({ level, children }: { level: number; children: React.Rea
 function getCodeContent(children: React.ReactNode): string {
   const first = React.Children.toArray(children)[0];
   if (first && typeof first === 'object' && 'props' in first) {
-    const c = (first as React.ReactElement).props?.children;
+    const props = (first as React.ReactElement<{ children?: React.ReactNode }>).props;
+    const c = props?.children;
     return typeof c === 'string' ? c : '';
   }
   return '';
