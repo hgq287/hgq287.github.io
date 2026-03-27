@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="780" viewBox="0 0 1400 780" role="img" aria-label="Virtual Machine vs Docker Container architecture">
+  <defs>
+    <style>
+      .bg { fill: #f5f7fb; }
+      .title { font: 700 42px "SFMono-Regular", Menlo, Consolas, monospace; fill: #2f3542; }
+      .box { fill: #eef1f7; stroke: #9aa5b1; stroke-width: 2; rx: 10; }
+      .txt { font: 500 36px "SFMono-Regular", Menlo, Consolas, monospace; fill: #313841; }
+      .note { font: 500 32px "SFMono-Regular", Menlo, Consolas, monospace; fill: #424b57; }
+    </style>
+  </defs>
+
+  <rect class="bg" x="0" y="0" width="1400" height="780" rx="16" />
+
+  <text class="title" x="170" y="78">[ VIRTUAL MACHINE ]</text>
+  <text class="title" x="835" y="78">[ DOCKER CONTAINER ]</text>
+
+  <!-- Left column -->
+  <rect class="box" x="40" y="120" width="560" height="90" />
+  <text class="txt" x="170" y="177">App / Business</text>
+
+  <rect class="box" x="40" y="225" width="560" height="90" />
+  <text class="txt" x="100" y="282">Bins / Libs (Guest OS)</text>
+
+  <rect class="box" x="40" y="330" width="560" height="90" />
+  <text class="txt" x="120" y="387">Guest OS Kernel</text>
+
+  <rect class="box" x="40" y="435" width="560" height="90" />
+  <text class="txt" x="195" y="492">Hypervisor</text>
+
+  <rect class="box" x="40" y="540" width="560" height="90" />
+  <text class="txt" x="135" y="597">Infrastructure</text>
+
+  <!-- Right column -->
+  <rect class="box" x="800" y="120" width="560" height="90" />
+  <text class="txt" x="930" y="177">App / Business</text>
+
+  <rect class="box" x="800" y="225" width="560" height="90" />
+  <text class="txt" x="880" y="282">Bins / Libs (Isolated)</text>
+
+  <rect class="box" x="800" y="330" width="560" height="90" />
+  <text class="txt" x="930" y="387">Docker Engine</text>
+
+  <rect class="box" x="800" y="435" width="560" height="90" />
+  <text class="txt" x="900" y="492">Host OS Kernel</text>
+
+  <rect class="box" x="800" y="540" width="560" height="90" />
+  <text class="txt" x="895" y="597">Infrastructure</text>
+
+  <text class="note" x="40" y="700">(Resource-heavy: full Guest OS)</text>
+  <text class="note" x="800" y="700">(Shared kernel - lightweight)</text>
+</svg>
