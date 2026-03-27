@@ -9,7 +9,7 @@ import PostMeta from '../../components/PostMeta';
 import SiteFooter from '../../components/SiteFooter';
 
 interface PageProps {
-  params: { slug: string };
+  params: Promise<{ slug: string }>;
 }
 
 export async function generateStaticParams() {
@@ -18,12 +18,34 @@ export async function generateStaticParams() {
 }
 
 export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
-  const post = await SystemsRepository.getPostBySlug(params.slug);
+  const { slug } = await params;
+  const post = await SystemsRepository.getPostBySlug(slug);
   if (!post) return { title: "Article not found | Hg's Portfolio" };
+
+  const path = `/systems/${post.slug}`;
+  const publishedTime = new Date(post.date).toISOString();
+
   return {
-    title: `${post.title} | Hg's Portfolio`,
+    title: post.title,
     description: post.excerpt,
-    keywords: post.tags.join(', '),
+    keywords: post.tags,
+    alternates: {
+      canonical: path,
+    },
+    openGraph: {
+      type: 'article',
+      url: path,
+      siteName: "Hg's Portfolio",
+      title: post.title,
+      description: post.excerpt,
+      publishedTime,
+      tags: post.tags,
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title: post.title,
+      description: post.excerpt,
+    },
   };
 }
 

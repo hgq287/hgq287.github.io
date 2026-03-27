@@ -642,6 +642,13 @@ body:has(.blog-page) .blog-header-bar:not(.header-no-hamburger) .header-home-men
   font-size: 0.9em;
 }
 
+.blog-page .blog-prose img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
 /* Block code: box with copy button top-right */
 .blog-page .blog-prose .code-block-wrap {
   position: relative;

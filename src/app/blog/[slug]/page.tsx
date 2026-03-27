@@ -11,7 +11,7 @@ import PostMeta from '../../components/PostMeta';
 import SiteFooter from '../../components/SiteFooter';
 
 interface PostPageProps {
-  params: { slug: string };
+  params: Promise<{ slug: string }>;
 }
 
 export async function generateStaticParams() {
@@ -22,22 +22,42 @@ export async function generateStaticParams() {
 }
 
 export async function generateMetadata({ params }: PostPageProps): Promise<Metadata> {
-  const post = await PostRepository.getPostBySlug(params.slug);
+  const { slug } = await params;
+  const post = await PostRepository.getPostBySlug(slug);
 
   if (!post) {
     return { title: "Post not found | Hg's Portfolio" };
   }
 
+  const path = `/blog/${post.slug}`;
+  const publishedTime = new Date(post.date).toISOString();
+
   return {
-    title: `${post.title} | Hg's Portfolio`, 
-    description: post.excerpt, 
-    keywords: post.tags.join(', '),
+    title: post.title,
+    description: post.excerpt,
+    keywords: post.tags,
+    alternates: {
+      canonical: path,
+    },
+    openGraph: {
+      type: 'article',
+      url: path,
+      siteName: "Hg's Portfolio",
+      title: post.title,
+      description: post.excerpt,
+      publishedTime,
+      tags: post.tags,
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title: post.title,
+      description: post.excerpt,
+    },
   };
 }
 
 export default async function PostPage({ params }: PostPageProps) {
-  const safeParams = await params;
-  const { slug } = safeParams;
+  const { slug } = await params;
   const currentPost = await PostRepository.getPostBySlug(slug);
 
   if (!currentPost) {
