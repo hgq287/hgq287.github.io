@@ -1,0 +1,191 @@
+1:"$Sreact.fragment"
+2:I[35972,["/_next/static/chunks/10f45d08b09cdbe8.js"],"ThemeProvider"]
+3:I[39447,["/_next/static/chunks/129931008aaa511c.js","/_next/static/chunks/4150d164f44f149b.js"],"default"]
+4:I[893,["/_next/static/chunks/129931008aaa511c.js","/_next/static/chunks/4150d164f44f149b.js"],"default"]
+6:I[20191,["/_next/static/chunks/129931008aaa511c.js","/_next/static/chunks/4150d164f44f149b.js"],"OutletBoundary"]
+7:"$Sreact.suspense"
+9:I[20191,["/_next/static/chunks/129931008aaa511c.js","/_next/static/chunks/4150d164f44f149b.js"],"ViewportBoundary"]
+b:I[20191,["/_next/static/chunks/129931008aaa511c.js","/_next/static/chunks/4150d164f44f149b.js"],"MetadataBoundary"]
+d:I[88496,["/_next/static/chunks/129931008aaa511c.js","/_next/static/chunks/4150d164f44f149b.js"],"default"]
+:HL["/_next/static/chunks/e6feeec15da1bfda.css","style"]
+:HL["/_next/static/media/47df9ba1c7236d3b-s.p.7bbb93ea.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/media/68d403cf9f2c68c5-s.p.f9f15f61.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+0:{"P":null,"b":"k_MHq8KM0gabhzE0P0Qp9","c":["","systems","edge-ai-quantization-zero-copy-data-plane"],"q":"","i":false,"f":[[["",{"children":["systems",{"children":[["slug","edge-ai-quantization-zero-copy-data-plane","d"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/e6feeec15da1bfda.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/_next/static/chunks/10f45d08b09cdbe8.js","async":true,"nonce":"$undefined"}]],["$","html",null,{"lang":"en","suppressHydrationWarning":true,"className":"source_sans_3_ef15b96b-module__iXAkeG__variable source_serif_4_ee15e1dc-module__HXKgIG__variable","children":["$","body",null,{"className":"font-sans antialiased","children":["$","$L2",null,{"attribute":"data-theme","children":["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]}]}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":["$L5",[["$","script","script-0",{"src":"/_next/static/chunks/eb5d4a461eae1602.js","async":true,"nonce":"$undefined"}]],["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]]}],{},null,false,false]},null,false,false]},null,false,false]},null,false,false],["$","$1","h",{"children":[null,["$","$L9",null,{"children":"$@a"}],["$","div",null,{"hidden":true,"children":["$","$Lb",null,{"children":["$","$7",null,{"name":"Next.Metadata","children":"$@c"}]}]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],false]],"m":"$undefined","G":["$d",[]],"S":true}
+e:I[44338,["/_next/static/chunks/10f45d08b09cdbe8.js","/_next/static/chunks/eb5d4a461eae1602.js"],"default"]
+f:I[16737,["/_next/static/chunks/10f45d08b09cdbe8.js","/_next/static/chunks/eb5d4a461eae1602.js"],"default"]
+10:I[12036,["/_next/static/chunks/10f45d08b09cdbe8.js","/_next/static/chunks/eb5d4a461eae1602.js"],"default"]
+5:["$","div",null,{"className":"blog-page","children":[["$","$Le",null,{"title":"Quantized Models and Zero-Copy Data Planes: Contracts from Calibration to HAL","headline":"How INT8/FP16 artifacts, runtime backends, buffer ownership, and sync points fit together on edge SoCs. Includes a capability-style HAL sketch and a realistic warning: zero-copy is not zero-synchronization."}],["$","div",null,{"className":"blog-layout","children":[["$","$Lf",null,{"allPostsMetadata":[{"slug":"edge-ai-quantization-zero-copy-data-plane","title":"Quantized Models and Zero-Copy Data Planes: Contracts from Calibration to HAL","date":"2026-04-18T00:00:00.000Z","excerpt":"How INT8/FP16 artifacts, runtime backends, buffer ownership, and sync points fit together on edge SoCs. Includes a capability-style HAL sketch and a realistic warning: zero-copy is not zero-synchronization.","tags":["EdgeAI","Quantization","Inference","Memory","SystemsArchitecture"],"featured":true},{"slug":"edge-ai-pipeline-dag-runtime-bottlenecks","title":"Edge Video AI Pipelines: DAG Runtimes, Queues, and System Bottlenecks","date":"2026-03-24T00:00:00.000Z","excerpt":"A concrete mental model for graph-based edge inference: stages, queues, executors, backpressure, and why DRAM bandwidth and thermal headroom often beat raw NPU FLOPs on the critical path.","tags":["EdgeAI","SystemsArchitecture","VideoAnalytics","RealTime","C++"],"featured":true},{"slug":"docker-blueprint-architecture-command-lab","title":"Docker Blueprint: Architecture & Command Lab","date":"2026-03-10T00:00:00.000Z","excerpt":"A practical guide to Docker architecture, core commands, networking, and Compose—with a VM vs container diagram and an architect's checklist.","tags":["Docker","DevOps","Architecture"],"featured":false},{"slug":"ops-blueprint-universal-deployment-playbook","title":"Ops Blueprint: Universal Deployment Playbook","date":"2025-12-16T00:00:00.000Z","excerpt":"A friendly ops blueprint for repeatable builds, production-like runtime, safe releases, rollbacks, secrets, Docker Compose, and incident response.","tags":["DevOps","Deployment","Docker","Security","IncidentResponse"],"featured":false}],"activeSlug":"edge-ai-quantization-zero-copy-data-plane","basePath":"/systems","sidebarTitle":"All Articles"}],["$","main",null,{"className":"blog-main","children":["$","article",null,{"children":[["$","h1",null,{"className":"blog-article-title","children":"Quantized Models and Zero-Copy Data Planes: Contracts from Calibration to HAL"}],["$","div",null,{"className":"blog-article-meta","children":["$","$L10",null,{"date":"2026-04-18T00:00:00.000Z","tags":"$5:props:children:1:props:children:0:props:allPostsMetadata:0:tags"}]}],["$","div",null,{"className":"blog-prose","children":["$","div",null,{"className":"prose prose-neutral dark:prose-invert max-w-none prose-headings:font-serif prose-headings:font-semibold prose-headings:tracking-tight prose-h2:text-2xl prose-h3:text-xl prose-p:leading-relaxed prose-strong:font-semibold prose-li:mb-1.5 prose-a:text-accent-fg prose-a:no-underline hover:prose-a:underline prose-text-foreground","children":[["$","p","p-0",{"children":["Companion to ",["$","a","a-0",{"href":"/systems/edge-ai-pipeline-dag-runtime-bottlenecks","children":"Edge Video AI Pipelines: DAG Runtimes, Queues, and System Bottlenecks"}],": that one covers ",["$","strong","strong-0",{"children":"throughput and scheduling"}],"; this one covers ",["$","strong","strong-1",{"children":"model artifacts"}],", ",["$","strong","strong-2",{"children":"memory contracts"}],", and ",["$","strong","strong-3",{"children":"portability"}]," across SoCs. It stays ",["$","strong","strong-4",{"children":"runtime-agnostic"}],": plug in TensorRT, SNPE, QNN, OpenVINO, or whatever your board ships with."]}],"\n",["$","p","p-1",{"children":[["$","strong","strong-0",{"children":"Goal:"}]," keep export, calibration, and buffer ownership as explicit as CI and deployment steps in the other blueprints here."]}],"\n","$L11","\n","$L12","\n","$L13","\n","$L14","\n","$L15","\n","$L16","\n","$L17","\n","$L18","\n","$L19","\n","$L1a","\n","$L1b","\n","$L1c","\n","$L1d","\n","$L1e","\n","$L1f","\n","$L20","\n","$L21","\n","$L22","\n","$L23","\n","$L24","\n","$L25","\n","$L26","\n","$L27","\n","$L28","\n","$L29","\n","$L2a","\n","$L2b","\n","$L2c","\n","$L2d","\n","$L2e"]}]}]]}]}],"$L2f"]}],"$L30"]}]
+31:I[371,["/_next/static/chunks/10f45d08b09cdbe8.js","/_next/static/chunks/eb5d4a461eae1602.js"],"CodeBlockWithCopy"]
+32:I[35916,["/_next/static/chunks/10f45d08b09cdbe8.js","/_next/static/chunks/eb5d4a461eae1602.js"],"default"]
+11:["$","h2","h2-0",{"id":"table-of-contents","className":"pt-20 -mt-20","children":"Table of contents"}]
+12:["$","ol","ol-0",{"children":["\n",["$","li","li-0",{"children":["$","a","a-0",{"href":"#1-three-layers-of-responsibility","children":"Three layers of responsibility"}]}],"\n",["$","li","li-1",{"children":["$","a","a-0",{"href":"#2-ptq-versus-qat-in-one-practical-table","children":"PTQ versus QAT in one practical table"}]}],"\n",["$","li","li-2",{"children":["$","a","a-0",{"href":"#3-what-native-support-means-in-an-engine","children":"What native support means in an engine"}]}],"\n",["$","li","li-3",{"children":["$","a","a-0",{"href":"#4-zero-copy-versus-synchronization","children":"Zero-copy versus synchronization"}]}],"\n",["$","li","li-4",{"children":["$","a","a-0",{"href":"#5-sample-explicit-buffer-ownership","children":"Sample: explicit buffer ownership"}]}],"\n",["$","li","li-5",{"children":["$","a","a-0",{"href":"#6-hal-sketch-capability-flags","children":"HAL sketch: capability flags"}]}],"\n",["$","li","li-6",{"children":["$","a","a-0",{"href":"#7-checklist","children":"Checklist"}]}],"\n"]}]
+13:["$","h2","h2-1",{"id":"1-three-layers-of-responsibility","className":"pt-20 -mt-20","children":"1. Three layers of responsibility"}]
+14:["$","$L31","pre-0",{"code":"flowchart LR\n  subgraph train [TrainingSide]\n    PT[ModelTrain]\n  end\n  subgraph convert [Conversion]\n    EXP[ExportONNXOrSimilar]\n    CAL[CalibOrQATArtifacts]\n  end\n  subgraph run [Runtime]\n    BE[TensorRT_SNPE_QNN_OpenVINO]\n    ENG[YourPipelineEngine]\n  end\n  PT --> EXP --> CAL --> BE\n  BE --> ENG\n","children":["$","code","code-0",{"className":"language-mermaid","children":"flowchart LR\n  subgraph train [TrainingSide]\n    PT[ModelTrain]\n  end\n  subgraph convert [Conversion]\n    EXP[ExportONNXOrSimilar]\n    CAL[CalibOrQATArtifacts]\n  end\n  subgraph run [Runtime]\n    BE[TensorRT_SNPE_QNN_OpenVINO]\n    ENG[YourPipelineEngine]\n  end\n  PT --> EXP --> CAL --> BE\n  BE --> ENG\n"}]}]
+15:["$","ul","ul-0",{"children":["\n",["$","li","li-0",{"children":[["$","strong","strong-0",{"children":"Training side:"}]," accuracy, regularization, sometimes QAT graphs."]}],"\n",["$","li","li-1",{"children":[["$","strong","strong-0",{"children":"Conversion:"}]," operator support, fusion rules, calibration tensors, optional sparsity."]}],"\n",["$","li","li-2",{"children":[["$","strong","strong-0",{"children":"Runtime + engine:"}]," tensor layouts, batching rules, device placement, buffer lifetimes, ",["$","strong","strong-1",{"children":"fallback"}]," when an op is missing."]}],"\n"]}]
+16:["$","p","p-2",{"children":["The important part is the ",["$","strong","strong-0",{"children":"contracts"}]," between these layers, not only the export file format."]}]
+17:["$","h2","h2-2",{"id":"2-ptq-versus-qat-in-one-practical-table","className":"pt-20 -mt-20","children":"2. PTQ versus QAT in one practical table"}]
+18:["$","table","table-0",{"children":[["$","thead","thead-0",{"children":["$","tr","tr-0",{"children":[["$","th","th-0",{"children":"Topic"}],["$","th","th-1",{"children":"PTQ"}],["$","th","th-2",{"children":"QAT"}]]}]}],["$","tbody","tbody-0",{"children":[["$","tr","tr-0",{"children":[["$","td","td-0",{"children":"Engineering cost"}],["$","td","td-1",{"children":"Lower"}],["$","td","td-2",{"children":"Higher"}]]}],["$","tr","tr-1",{"children":[["$","td","td-0",{"children":"Accuracy under domain shift"}],["$","td","td-1",{"children":"More fragile"}],["$","td","td-2",{"children":"Usually better"}]]}],["$","tr","tr-2",{"children":[["$","td","td-0",{"children":"Good fit"}],["$","td","td-1",{"children":"Stable inputs, rapid iteration"}],["$","td","td-2",{"children":"Safety-critical or wide scene variance"}]]}]]}]]}]
+19:["$","p","p-3",{"children":["Neither PTQ nor QAT replaces ",["$","strong","strong-0",{"children":"measurement"}]," on device. On the edge, ",["$","strong","strong-1",{"children":"latency"}],", ",["$","strong","strong-2",{"children":"memory"}],", and ",["$","strong","strong-3",{"children":"worst-case"}]," behavior decide whether a graph ships."]}]
+1a:["$","h2","h2-3",{"id":"3-what-native-support-means-in-an-engine","className":"pt-20 -mt-20","children":"3. What native support means in an engine"}]
+1b:["$","p","p-4",{"children":["“Native support” should mean more than ",["$","strong","strong-0",{"children":"loading a file"}],". A useful pipeline engine tracks:"]}]
+1c:["$","ul","ul-1",{"children":["\n",["$","li","li-0",{"children":[["$","strong","strong-0",{"children":"Expected tensor layouts"}]," per backend (NCHW vs NHWC, packed formats)."]}],"\n",["$","li","li-1",{"children":[["$","strong","strong-0",{"children":"Quantization parameters"}]," per tensor where applicable (scales, zero points)."]}],"\n",["$","li","li-2",{"children":[["$","strong","strong-0",{"children":"Batching policy"}]," (fixed batch, dynamic shapes, padding rules)."]}],"\n",["$","li","li-3",{"children":[["$","strong","strong-0",{"children":"Degradation paths"}]," when an op is unsupported (partition graph, CPU fallback, or refuse to run)."]}],"\n"]}]
+1d:["$","p","p-5",{"children":["That avoids a graph that looks fine on desktop but ",["$","strong","strong-0",{"children":"cannot be scheduled"}]," reliably on device."]}]
+1e:["$","h2","h2-4",{"id":"4-zero-copy-versus-synchronization","className":"pt-20 -mt-20","children":"4. Zero-copy versus synchronization"}]
+1f:["$","p","p-6",{"children":["Zero-copy (shared pools, ",["$","strong","strong-0",{"children":"DMA"}],"-friendly buffers, importer APIs) cuts ",["$","strong","strong-1",{"children":"memcpy"}]," overhead. It does ",["$","strong","strong-2",{"children":"not"}]," remove:"]}]
+20:["$","ul","ul-2",{"children":["\n",["$","li","li-0",{"children":[["$","strong","strong-0",{"children":"Cache coherency"}]," work when CPU and accelerator share memory maps."]}],"\n",["$","li","li-1",{"children":[["$","strong","strong-0",{"children":"Fences / events"}]," between producers and consumers."]}],"\n",["$","li","li-2",{"children":[["$","strong","strong-0",{"children":"Lifetime rules"}],": who is allowed to overwrite a buffer while another stage still reads it."]}],"\n"]}]
+21:["$","$L31","pre-1",{"code":"sequenceDiagram\n  participant DMA\n  participant Dec as Decoder\n  participant Pool as BufferPool\n  participant NPU\n  DMA->>Dec: compressed_frame\n  Dec->>Pool: return_or_recycle\n  Pool->>NPU: tensor_view\n  Note over Pool,NPU: sync_point_required\n","children":["$","code","code-0",{"className":"language-mermaid","children":"sequenceDiagram\n  participant DMA\n  participant Dec as Decoder\n  participant Pool as BufferPool\n  participant NPU\n  DMA->>Dec: compressed_frame\n  Dec->>Pool: return_or_recycle\n  Pool->>NPU: tensor_view\n  Note over Pool,NPU: sync_point_required\n"}]}]
+22:["$","h2","h2-5",{"id":"5-sample-explicit-buffer-ownership","className":"pt-20 -mt-20","children":"5. Sample: explicit buffer ownership"}]
+23:["$","p","p-7",{"children":"Illustrative pseudo-C++:"}]
+24:["$","$L31","pre-2",{"code":"enum class Owner { Decoder, Preprocess, NPU, CPU };\n\nstruct FrameBuffer {\n  void*  y;\n  void*  uv;\n  size_t stride_y;\n  Owner  owner;\n};\n\nbool handoff(FrameBuffer& fb, Owner from, Owner to) {\n  if (fb.owner != from) return false;\n  fb.owner = to;\n  // insert SoC-specific cache ops / fences here\n  return true;\n}\n","children":["$","code","code-0",{"className":"language-cpp","children":"enum class Owner { Decoder, Preprocess, NPU, CPU };\n\nstruct FrameBuffer {\n  void*  y;\n  void*  uv;\n  size_t stride_y;\n  Owner  owner;\n};\n\nbool handoff(FrameBuffer& fb, Owner from, Owner to) {\n  if (fb.owner != from) return false;\n  fb.owner = to;\n  // insert SoC-specific cache ops / fences here\n  return true;\n}\n"}]}]
+25:["$","p","p-8",{"children":["The point is not the enum itself. It is ",["$","strong","strong-0",{"children":"making illegal ownership states hard to commit"}]," in review and in runtime asserts."]}]
+26:["$","h2","h2-6",{"id":"6-hal-sketch-capability-flags","className":"pt-20 -mt-20","children":"6. HAL sketch: capability flags"}]
+27:["$","p","p-9",{"children":["Instead of ",["$","code","code-0",{"children":"#ifdef"}]," for every SoC inside business logic, expose ",["$","strong","strong-0",{"children":"capabilities"}]," the graph compiler or runtime can query:"]}]
+28:["$","table","table-1",{"children":[["$","thead","thead-0",{"children":["$","tr","tr-0",{"children":[["$","th","th-0",{"children":"Flag"}],["$","th","th-1",{"children":"Meaning for the engine"}]]}]}],["$","tbody","tbody-0",{"children":[["$","tr","tr-0",{"children":[["$","td","td-0",{"children":["$","code","code-0",{"children":"kResizeOnFastIP"}]}],["$","td","td-1",{"children":"Prefer fixed-function or DSP resize to save CPU/GPU"}]]}],["$","tr","tr-1",{"children":[["$","td","td-0",{"children":["$","code","code-0",{"children":"kInt8PreferredPath"}]}],["$","td","td-1",{"children":"Prefer INT8-capable accelerator for conv-heavy graphs"}]]}],["$","tr","tr-2",{"children":[["$","td","td-0",{"children":["$","code","code-0",{"children":"kDmabufImporter"}]}],["$","td","td-1",{"children":"Import camera or decoder buffers without extra copies"}]]}]]}]]}]
+29:["$","$L31","pre-3",{"code":"struct DeviceCaps {\n  bool resize_on_fast_ip;\n  bool int8_preferred_path;\n  bool dmabuf_importer;\n};\n\nDeviceCaps probe(const char* platform_id);\n","children":["$","code","code-0",{"className":"language-cpp","children":"struct DeviceCaps {\n  bool resize_on_fast_ip;\n  bool int8_preferred_path;\n  bool dmabuf_importer;\n};\n\nDeviceCaps probe(const char* platform_id);\n"}]}]
+2a:["$","p","p-10",{"children":["Graph lowering reads ",["$","strong","strong-0",{"children":"caps"}]," and chooses backends. Product code stays stable; new SoCs add ",["$","strong","strong-1",{"children":"probe"}]," data only at the boundary."]}]
+2b:["$","h2","h2-7",{"id":"7-checklist","className":"pt-20 -mt-20","children":"7. Checklist"}]
+2c:["$","ol","ol-1",{"children":["\n",["$","li","li-0",{"children":["Calibration and QAT artifacts are versioned with the ",["$","strong","strong-0",{"children":"exact"}]," export pipeline used in CI."]}],"\n",["$","li","li-1",{"children":["Each buffer transition has a named ",["$","strong","strong-0",{"children":"owner"}]," and a ",["$","strong","strong-1",{"children":"sync rule"}],"."]}],"\n",["$","li","li-2",{"children":["Fallback paths are ",["$","strong","strong-0",{"children":"tested"}],", not only listed in documentation."]}],"\n",["$","li","li-3",{"children":["HAL exposes ",["$","strong","strong-0",{"children":"capabilities"}],", not raw vendor headers, at the boundary under your control."]}],"\n"]}]
+2d:["$","hr","hr-0",{}]
+2e:["$","p","p-11",{"children":"Illustrative architecture note. Backend names are examples; validate against your vendor SDKs and safety requirements, same as other playbooks on this site."}]
+33:T1431,
+Companion to [Edge Video AI Pipelines: DAG Runtimes, Queues, and System Bottlenecks](/systems/edge-ai-pipeline-dag-runtime-bottlenecks): that one covers **throughput and scheduling**; this one covers **model artifacts**, **memory contracts**, and **portability** across SoCs. It stays **runtime-agnostic**: plug in TensorRT, SNPE, QNN, OpenVINO, or whatever your board ships with.
+
+**Goal:** keep export, calibration, and buffer ownership as explicit as CI and deployment steps in the other blueprints here.
+
+## Table of contents
+
+1. [Three layers of responsibility](#1-three-layers-of-responsibility)
+2. [PTQ versus QAT in one practical table](#2-ptq-versus-qat-in-one-practical-table)
+3. [What native support means in an engine](#3-what-native-support-means-in-an-engine)
+4. [Zero-copy versus synchronization](#4-zero-copy-versus-synchronization)
+5. [Sample: explicit buffer ownership](#5-sample-explicit-buffer-ownership)
+6. [HAL sketch: capability flags](#6-hal-sketch-capability-flags)
+7. [Checklist](#7-checklist)
+
+## 1. Three layers of responsibility
+
+```mermaid
+flowchart LR
+  subgraph train [TrainingSide]
+    PT[ModelTrain]
+  end
+  subgraph convert [Conversion]
+    EXP[ExportONNXOrSimilar]
+    CAL[CalibOrQATArtifacts]
+  end
+  subgraph run [Runtime]
+    BE[TensorRT_SNPE_QNN_OpenVINO]
+    ENG[YourPipelineEngine]
+  end
+  PT --> EXP --> CAL --> BE
+  BE --> ENG
+```
+
+- **Training side:** accuracy, regularization, sometimes QAT graphs.
+- **Conversion:** operator support, fusion rules, calibration tensors, optional sparsity.
+- **Runtime + engine:** tensor layouts, batching rules, device placement, buffer lifetimes, **fallback** when an op is missing.
+
+The important part is the **contracts** between these layers, not only the export file format.
+
+## 2. PTQ versus QAT in one practical table
+
+| Topic | PTQ | QAT |
+|-------|-----|-----|
+| Engineering cost | Lower | Higher |
+| Accuracy under domain shift | More fragile | Usually better |
+| Good fit | Stable inputs, rapid iteration | Safety-critical or wide scene variance |
+
+Neither PTQ nor QAT replaces **measurement** on device. On the edge, **latency**, **memory**, and **worst-case** behavior decide whether a graph ships.
+
+## 3. What native support means in an engine
+
+“Native support” should mean more than **loading a file**. A useful pipeline engine tracks:
+
+- **Expected tensor layouts** per backend (NCHW vs NHWC, packed formats).
+- **Quantization parameters** per tensor where applicable (scales, zero points).
+- **Batching policy** (fixed batch, dynamic shapes, padding rules).
+- **Degradation paths** when an op is unsupported (partition graph, CPU fallback, or refuse to run).
+
+That avoids a graph that looks fine on desktop but **cannot be scheduled** reliably on device.
+
+## 4. Zero-copy versus synchronization
+
+Zero-copy (shared pools, **DMA**-friendly buffers, importer APIs) cuts **memcpy** overhead. It does **not** remove:
+
+- **Cache coherency** work when CPU and accelerator share memory maps.
+- **Fences / events** between producers and consumers.
+- **Lifetime rules**: who is allowed to overwrite a buffer while another stage still reads it.
+
+```mermaid
+sequenceDiagram
+  participant DMA
+  participant Dec as Decoder
+  participant Pool as BufferPool
+  participant NPU
+  DMA->>Dec: compressed_frame
+  Dec->>Pool: return_or_recycle
+  Pool->>NPU: tensor_view
+  Note over Pool,NPU: sync_point_required
+```
+
+## 5. Sample: explicit buffer ownership
+
+Illustrative pseudo-C++:
+
+```cpp
+enum class Owner { Decoder, Preprocess, NPU, CPU };
+
+struct FrameBuffer {
+  void*  y;
+  void*  uv;
+  size_t stride_y;
+  Owner  owner;
+};
+
+bool handoff(FrameBuffer& fb, Owner from, Owner to) {
+  if (fb.owner != from) return false;
+  fb.owner = to;
+  // insert SoC-specific cache ops / fences here
+  return true;
+}
+```
+
+The point is not the enum itself. It is **making illegal ownership states hard to commit** in review and in runtime asserts.
+
+## 6. HAL sketch: capability flags
+
+Instead of `#ifdef` for every SoC inside business logic, expose **capabilities** the graph compiler or runtime can query:
+
+| Flag | Meaning for the engine |
+|------|-------------------------|
+| `kResizeOnFastIP` | Prefer fixed-function or DSP resize to save CPU/GPU |
+| `kInt8PreferredPath` | Prefer INT8-capable accelerator for conv-heavy graphs |
+| `kDmabufImporter` | Import camera or decoder buffers without extra copies |
+
+```cpp
+struct DeviceCaps {
+  bool resize_on_fast_ip;
+  bool int8_preferred_path;
+  bool dmabuf_importer;
+};
+
+DeviceCaps probe(const char* platform_id);
+```
+
+Graph lowering reads **caps** and chooses backends. Product code stays stable; new SoCs add **probe** data only at the boundary.
+
+## 7. Checklist
+
+1. Calibration and QAT artifacts are versioned with the **exact** export pipeline used in CI.
+2. Each buffer transition has a named **owner** and a **sync rule**.
+3. Fallback paths are **tested**, not only listed in documentation.
+4. HAL exposes **capabilities**, not raw vendor headers, at the boundary under your control.
+
+---
+
+Illustrative architecture note. Backend names are examples; validate against your vendor SDKs and safety requirements, same as other playbooks on this site.
+2f:["$","$L32",null,{"content":"$33"}]
+30:["$","footer",null,{"children":[["$","div",null,{"className":"home-links","children":[["$","a",null,{"href":"https://stackoverflow.com/users/12345813/hgq287","target":"_blank","rel":"noopener noreferrer","children":"↗ stackoverflow"}],["$","span",null,{"className":"home-links-sep","children":"/"}],["$","a",null,{"href":"https://github.com/hgq287","target":"_blank","rel":"noopener noreferrer","children":"↗ github"}],["$","span",null,{"className":"home-links-sep","children":"/"}],["$","a",null,{"href":"https://github.com/hgq287/hgq287.github.io","target":"_blank","rel":"noopener noreferrer","children":"↗ view source"}]]}],["$","div",null,{"className":"home-footer-second-row","children":[["$","span",null,{"className":"home-footer-copy","children":["© ",2026," MIT Licensed"]}],["$","span",null,{"className":"home-footer-sep","children":"/"}],["$","a",null,{"href":"/Resume.pdf","download":"Resume.pdf","className":"home-resume-link","children":"Resume"}]]}]]}]
+a:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+c:[["$","title","0",{"children":"Quantized Models and Zero-Copy Data Planes: Contracts from Calibration to HAL | Hg's Portfolio"}],["$","meta","1",{"name":"description","content":"How INT8/FP16 artifacts, runtime backends, buffer ownership, and sync points fit together on edge SoCs. Includes a capability-style HAL sketch and a realistic warning: zero-copy is not zero-synchronization."}],["$","meta","2",{"name":"keywords","content":"EdgeAI,Quantization,Inference,Memory,SystemsArchitecture"}],["$","link","3",{"rel":"canonical","href":"https://hgq287.github.io/systems/edge-ai-quantization-zero-copy-data-plane"}],["$","meta","4",{"property":"og:title","content":"Quantized Models and Zero-Copy Data Planes: Contracts from Calibration to HAL"}],["$","meta","5",{"property":"og:description","content":"How INT8/FP16 artifacts, runtime backends, buffer ownership, and sync points fit together on edge SoCs. Includes a capability-style HAL sketch and a realistic warning: zero-copy is not zero-synchronization."}],["$","meta","6",{"property":"og:url","content":"https://hgq287.github.io/systems/edge-ai-quantization-zero-copy-data-plane"}],["$","meta","7",{"property":"og:site_name","content":"Hg's Portfolio"}],["$","meta","8",{"property":"og:type","content":"article"}],["$","meta","9",{"property":"article:published_time","content":"2026-04-18T00:00:00.000Z"}],["$","meta","10",{"property":"article:tag","content":"EdgeAI"}],["$","meta","11",{"property":"article:tag","content":"Quantization"}],["$","meta","12",{"property":"article:tag","content":"Inference"}],["$","meta","13",{"property":"article:tag","content":"Memory"}],["$","meta","14",{"property":"article:tag","content":"SystemsArchitecture"}],["$","meta","15",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","16",{"name":"twitter:title","content":"Quantized Models and Zero-Copy Data Planes: Contracts from Calibration to HAL"}],["$","meta","17",{"name":"twitter:description","content":"How INT8/FP16 artifacts, runtime backends, buffer ownership, and sync points fit together on edge SoCs. Includes a capability-style HAL sketch and a realistic warning: zero-copy is not zero-synchronization."}]]
+8:null

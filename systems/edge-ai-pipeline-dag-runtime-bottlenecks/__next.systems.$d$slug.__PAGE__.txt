@@ -1,0 +1,207 @@
+1:"$Sreact.fragment"
+2:I[44338,["/_next/static/chunks/10f45d08b09cdbe8.js","/_next/static/chunks/eb5d4a461eae1602.js"],"default"]
+3:I[16737,["/_next/static/chunks/10f45d08b09cdbe8.js","/_next/static/chunks/eb5d4a461eae1602.js"],"default"]
+4:I[12036,["/_next/static/chunks/10f45d08b09cdbe8.js","/_next/static/chunks/eb5d4a461eae1602.js"],"default"]
+2b:I[371,["/_next/static/chunks/10f45d08b09cdbe8.js","/_next/static/chunks/eb5d4a461eae1602.js"],"CodeBlockWithCopy"]
+2c:I[35916,["/_next/static/chunks/10f45d08b09cdbe8.js","/_next/static/chunks/eb5d4a461eae1602.js"],"default"]
+2e:I[20191,["/_next/static/chunks/129931008aaa511c.js","/_next/static/chunks/4150d164f44f149b.js"],"OutletBoundary"]
+2f:"$Sreact.suspense"
+0:{"buildId":"k_MHq8KM0gabhzE0P0Qp9","rsc":["$","$1","c",{"children":[["$","div",null,{"className":"blog-page","children":[["$","$L2",null,{"title":"Edge Video AI Pipelines: DAG Runtimes, Queues, and System Bottlenecks","headline":"A concrete mental model for graph-based edge inference: stages, queues, executors, backpressure, and why DRAM bandwidth and thermal headroom often beat raw NPU FLOPs on the critical path."}],["$","div",null,{"className":"blog-layout","children":[["$","$L3",null,{"allPostsMetadata":[{"slug":"edge-ai-quantization-zero-copy-data-plane","title":"Quantized Models and Zero-Copy Data Planes: Contracts from Calibration to HAL","date":"2026-04-18T00:00:00.000Z","excerpt":"How INT8/FP16 artifacts, runtime backends, buffer ownership, and sync points fit together on edge SoCs. Includes a capability-style HAL sketch and a realistic warning: zero-copy is not zero-synchronization.","tags":["EdgeAI","Quantization","Inference","Memory","SystemsArchitecture"],"featured":true},{"slug":"edge-ai-pipeline-dag-runtime-bottlenecks","title":"Edge Video AI Pipelines: DAG Runtimes, Queues, and System Bottlenecks","date":"2026-03-24T00:00:00.000Z","excerpt":"A concrete mental model for graph-based edge inference: stages, queues, executors, backpressure, and why DRAM bandwidth and thermal headroom often beat raw NPU FLOPs on the critical path.","tags":["EdgeAI","SystemsArchitecture","VideoAnalytics","RealTime","C++"],"featured":true},{"slug":"docker-blueprint-architecture-command-lab","title":"Docker Blueprint: Architecture & Command Lab","date":"2026-03-10T00:00:00.000Z","excerpt":"A practical guide to Docker architecture, core commands, networking, and Compose—with a VM vs container diagram and an architect's checklist.","tags":["Docker","DevOps","Architecture"],"featured":false},{"slug":"ops-blueprint-universal-deployment-playbook","title":"Ops Blueprint: Universal Deployment Playbook","date":"2025-12-16T00:00:00.000Z","excerpt":"A friendly ops blueprint for repeatable builds, production-like runtime, safe releases, rollbacks, secrets, Docker Compose, and incident response.","tags":["DevOps","Deployment","Docker","Security","IncidentResponse"],"featured":false}],"activeSlug":"edge-ai-pipeline-dag-runtime-bottlenecks","basePath":"/systems","sidebarTitle":"All Articles"}],["$","main",null,{"className":"blog-main","children":["$","article",null,{"children":[["$","h1",null,{"className":"blog-article-title","children":"Edge Video AI Pipelines: DAG Runtimes, Queues, and System Bottlenecks"}],["$","div",null,{"className":"blog-article-meta","children":["$","$L4",null,{"date":"2026-03-24T00:00:00.000Z","tags":["EdgeAI","SystemsArchitecture","VideoAnalytics","RealTime","C++"]}]}],["$","div",null,{"className":"blog-prose","children":["$","div",null,{"className":"prose prose-neutral dark:prose-invert max-w-none prose-headings:font-serif prose-headings:font-semibold prose-headings:tracking-tight prose-h2:text-2xl prose-h3:text-xl prose-p:leading-relaxed prose-strong:font-semibold prose-li:mb-1.5 prose-a:text-accent-fg prose-a:no-underline hover:prose-a:underline prose-text-foreground","children":[["$","p","p-0",{"children":["This note is a practical systems sketch for shipping ",["$","strong","strong-0",{"children":"stable"}]," video analytics on embedded SoCs. It stays ",["$","strong","strong-1",{"children":"SDK-agnostic"}],": swap decoder, NPU runtime, and queue policies to fit your platform. Topics: DAG topology, buffer contracts, scheduling, and the limits (DRAM, thermal, fabric) that show up under real load, not only on slides."]}],"\n",["$","p","p-1",{"children":[["$","strong","strong-0",{"children":"Goal:"}]," reason about ",["$","strong","strong-1",{"children":"p95/p99 latency"}],", drops, and jitter with the same discipline as OS scheduling and memory: name the bottleneck, then optimize the critical path."]}],"\n","$L5","\n","$L6","\n","$L7","\n","$L8","\n","$L9","\n","$La","\n","$Lb","\n","$Lc","\n","$Ld","\n","$Le","\n","$Lf","\n","$L10","\n","$L11","\n","$L12","\n","$L13","\n","$L14","\n","$L15","\n","$L16","\n","$L17","\n","$L18","\n","$L19","\n","$L1a","\n","$L1b","\n","$L1c","\n","$L1d","\n","$L1e","\n","$L1f","\n","$L20","\n","$L21","\n","$L22","\n","$L23","\n","$L24","\n","$L25","\n","$L26"]}]}]]}]}],"$L27"]}],"$L28"]}],["$L29"],"$L2a"]}],"loading":null,"isPartial":false}
+5:["$","h2","h2-0",{"id":"table-of-contents","className":"pt-20 -mt-20","children":"Table of contents"}]
+6:["$","ol","ol-0",{"children":["\n",["$","li","li-0",{"children":["$","a","a-0",{"href":"#1-scenario","children":"Scenario"}]}],"\n",["$","li","li-1",{"children":["$","a","a-0",{"href":"#2-dag-plus-queues-not-dag-alone","children":"DAG plus queues, not DAG alone"}]}],"\n",["$","li","li-2",{"children":["$","a","a-0",{"href":"#3-map-stages-to-executors","children":"Map stages to executors"}]}],"\n",["$","li","li-3",{"children":["$","a","a-0",{"href":"#4-sample-shape-stages-and-a-minimal-scheduler-loop","children":"Sample shape: stages and a minimal scheduler loop"}]}],"\n",["$","li","li-4",{"children":["$","a","a-0",{"href":"#5-bottlenecks-beyond-flops","children":"Bottlenecks beyond FLOPs"}]}],"\n",["$","li","li-5",{"children":["$","a","a-0",{"href":"#6-profiling-the-critical-path","children":"Profiling the critical path"}]}],"\n",["$","li","li-6",{"children":["$","a","a-0",{"href":"#7-checklist","children":"Checklist"}]}],"\n"]}]
+7:["$","h2","h2-1",{"id":"1-scenario","className":"pt-20 -mt-20","children":"1. Scenario"}]
+8:["$","p","p-2",{"children":"Assume:"}]
+9:["$","ul","ul-0",{"children":["\n",["$","li","li-0",{"children":["One inbound stream: ",["$","strong","strong-0",{"children":"1080p30"}]," (could scale to N streams later)."]}],"\n",["$","li","li-1",{"children":["Decode from compressed video (vendor decoder on ",["$","strong","strong-0",{"children":"DSP/VDEC"}]," or CPU fallback)."]}],"\n",["$","li","li-2",{"children":"Preprocess: resize, mean/variance, layout conversion."}],"\n",["$","li","li-3",{"children":["Detector: ",["$","strong","strong-0",{"children":"INT8"}]," network on ",["$","strong","strong-1",{"children":"NPU"}]," (or GPU where that is the only option)."]}],"\n",["$","li","li-4",{"children":["Tracker and business logic: mostly ",["$","strong","strong-0",{"children":"CPU"}],"."]}],"\n",["$","li","li-5",{"children":"Output: overlay, encode, or metadata only."}],"\n"]}]
+a:["$","p","p-3",{"children":["In production, the painful failure mode is usually not “model accuracy on a slide.” It is ",["$","strong","strong-0",{"children":"p95/p99 latency"}],", ",["$","strong","strong-1",{"children":"frame drops"}],", and ",["$","strong","strong-2",{"children":"jitter"}]," when the SoC gets hot or DRAM gets busy."]}]
+b:["$","h2","h2-2",{"id":"2-dag-plus-queues-not-dag-alone","className":"pt-20 -mt-20","children":"2. DAG plus queues, not DAG alone"}]
+c:["$","p","p-4",{"children":["A DAG drawn on a whiteboard is ",["$","strong","strong-0",{"children":"topology"}],". A shipped engine needs ",["$","strong","strong-1",{"children":"edges with semantics"}],":"]}]
+d:["$","ul","ul-1",{"children":["\n",["$","li","li-0",{"children":[["$","strong","strong-0",{"children":"Buffer ownership"}]," (who allocates, who releases, who may alias)."]}],"\n",["$","li","li-1",{"children":[["$","strong","strong-0",{"children":"Backpressure"}]," (what happens when the next stage is slower)."]}],"\n",["$","li","li-2",{"children":[["$","strong","strong-0",{"children":"Failure policy"}]," (drop oldest, block, degrade resolution, skip inference every K frames)."]}],"\n"]}]
+e:["$","p","p-5",{"children":["The mental picture to implement is ",["$","strong","strong-0",{"children":"DAG nodes plus bounded queues"}]," between them, not only “node A calls node B.”"]}]
+f:["$","$L2b","pre-0",{"code":"flowchart LR\n  subgraph ingest [Ingest]\n    Cam[CameraOrFile]\n    Dec[Decoder]\n  end\n  subgraph vision [Vision]\n    Pre[Preprocess]\n    Det[DetectorNPU]\n    Trk[TrackerCPU]\n  end\n  subgraph out [Output]\n    Post[OverlayOrEncode]\n  end\n  Cam --> Dec\n  Dec -->|Q1| Pre\n  Pre -->|Q2| Det\n  Det -->|Q3| Trk\n  Trk -->|Q4| Post\n","children":["$","code","code-0",{"className":"language-mermaid","children":"flowchart LR\n  subgraph ingest [Ingest]\n    Cam[CameraOrFile]\n    Dec[Decoder]\n  end\n  subgraph vision [Vision]\n    Pre[Preprocess]\n    Det[DetectorNPU]\n    Trk[TrackerCPU]\n  end\n  subgraph out [Output]\n    Post[OverlayOrEncode]\n  end\n  Cam --> Dec\n  Dec -->|Q1| Pre\n  Pre -->|Q2| Det\n  Det -->|Q3| Trk\n  Trk -->|Q4| Post\n"}]}]
+10:["$","p","p-6",{"children":[["$","strong","strong-0",{"children":"Q1..Q4"}]," are not decorative. They are where you implement ",["$","strong","strong-1",{"children":"max depth"}],", ",["$","strong","strong-2",{"children":"drop policy"}],", and ",["$","strong","strong-3",{"children":"metrics"}]," (wait time, utilization)."]}]
+11:["$","h2","h2-3",{"id":"3-map-stages-to-executors","className":"pt-20 -mt-20","children":"3. Map stages to executors"}]
+12:["$","p","p-7",{"children":["Below is a ",["$","strong","strong-0",{"children":"pattern table"}],", not a universal law. Names change per vendor (DSP, VPU, NPU, GPU)."]}]
+13:["$","table","table-0",{"children":[["$","thead","thead-0",{"children":["$","tr","tr-0",{"children":[["$","th","th-0",{"children":"Stage"}],["$","th","th-1",{"children":"Typical executor"}],["$","th","th-2",{"children":"Why"}],["$","th","th-3",{"children":"Risk if misplaced"}]]}]}],["$","tbody","tbody-0",{"children":[["$","tr","tr-0",{"children":[["$","td","td-0",{"children":"Decode"}],["$","td","td-1",{"children":"Hardware decoder or DSP"}],["$","td","td-2",{"children":"Bitstream work should not starve the rest"}],["$","td","td-3",{"children":"CPU pegged, everything else drifts"}]]}],["$","tr","tr-1",{"children":[["$","td","td-0",{"children":"Preprocess"}],["$","td","td-1",{"children":"GPU shader, NEON, or vendor image DSP"}],["$","td","td-2",{"children":"High pixel volume"}],["$","td","td-3",{"children":"Extra copies through DRAM"}]]}],["$","tr","tr-2",{"children":[["$","td","td-0",{"children":"Detector"}],["$","td","td-1",{"children":"NPU or GPU"}],["$","td","td-2",{"children":"Convolution-heavy"}],["$","td","td-3",{"children":"Deep queues hide latency until they explode"}]]}],["$","tr","tr-3",{"children":[["$","td","td-0",{"children":"Tracker"}],["$","td","td-1",{"children":"CPU"}],["$","td","td-2",{"children":"Small tensors, branching logic"}],["$","td","td-3",{"children":"Lock contention if shared with unrelated work"}]]}]]}]]}]
+14:["$","p","p-8",{"children":["Scheduling here is not only “a thread pool.” It is ",["$","strong","strong-0",{"children":"mapping nodes to executors"}]," plus ",["$","strong","strong-1",{"children":"policies"}]," (priority, affinity, batching rules)."]}]
+15:["$","h2","h2-4",{"id":"4-sample-shape-stages-and-a-minimal-scheduler-loop","className":"pt-20 -mt-20","children":"4. Sample shape: stages and a minimal scheduler loop"}]
+16:["$","p","p-9",{"children":["The following is ",["$","strong","strong-0",{"children":"illustrative pseudo-C++"}]," to show separation of concerns: ",["$","strong","strong-1",{"children":"handles"}],", ",["$","strong","strong-2",{"children":"queues"}],", ",["$","strong","strong-3",{"children":"stage functions"}],", and ",["$","strong","strong-4",{"children":"policy hooks"}],". It is not a drop-in library, same as command snippets in other blueprints here."]}]
+17:["$","$L2b","pre-1",{"code":"// Opaque buffer id: pool index, dmabuf handle, or vendor token.\nstruct BufferHandle { uint32_t id; };\n\ntemplate <typename T>\nstruct BoundedQueue {\n  bool try_push(const T&);   // returns false when full (backpressure)\n  bool try_pop(T& out);\n  size_t depth() const;\n};\n\nstruct StageCtx {\n  BoundedQueue<BufferHandle>* in_q;\n  BoundedQueue<BufferHandle>* out_q;\n};\n\nvoid run_preprocess(StageCtx& ctx) {\n  BufferHandle in, out;\n  while (ctx.in_q->try_pop(in)) {\n    // map in, produce out, or recycle on failure\n    if (!allocate_output(out)) {\n      release(in);\n      continue;\n    }\n    preprocess(in, out);\n    while (!ctx.out_q->try_push(out)) {\n      // policy: spin, sleep, or drop according to product rules\n    }\n    release(in);\n  }\n}\n","children":["$","code","code-0",{"className":"language-cpp","children":"// Opaque buffer id: pool index, dmabuf handle, or vendor token.\nstruct BufferHandle { uint32_t id; };\n\ntemplate <typename T>\nstruct BoundedQueue {\n  bool try_push(const T&);   // returns false when full (backpressure)\n  bool try_pop(T& out);\n  size_t depth() const;\n};\n\nstruct StageCtx {\n  BoundedQueue<BufferHandle>* in_q;\n  BoundedQueue<BufferHandle>* out_q;\n};\n\nvoid run_preprocess(StageCtx& ctx) {\n  BufferHandle in, out;\n  while (ctx.in_q->try_pop(in)) {\n    // map in, produce out, or recycle on failure\n    if (!allocate_output(out)) {\n      release(in);\n      continue;\n    }\n    preprocess(in, out);\n    while (!ctx.out_q->try_push(out)) {\n      // policy: spin, sleep, or drop according to product rules\n    }\n    release(in);\n  }\n}\n"}]}]
+18:["$","p","p-10",{"children":["$","strong","strong-0",{"children":"Review focus for this shape"}]}]
+19:["$","ul","ul-2",{"children":["\n",["$","li","li-0",{"children":["Clear ",["$","strong","strong-0",{"children":"ownership"}]," transitions (",["$","code","code-0",{"children":"release"}],", ",["$","code","code-1",{"children":"allocate_output"}],")."]}],"\n",["$","li","li-1",{"children":["A place to attach ",["$","strong","strong-0",{"children":"metrics"}]," (",["$","code","code-0",{"children":"depth()"}],", wait in ",["$","code","code-1",{"children":"try_push"}],")."]}],"\n",["$","li","li-2",{"children":"No hidden copies in the “happy path” comments (real code still needs explicit sync)."}],"\n"]}]
+1a:["$","h2","h2-5",{"id":"5-bottlenecks-beyond-flops","className":"pt-20 -mt-20","children":"5. Bottlenecks beyond FLOPs"}]
+1b:["$","$L2b","pre-2",{"code":"flowchart TB\n  subgraph soc [SoCSharedBudget]\n    DRAM[DRAM_bandwidth]\n    BUS[IO_and_system_fabric]\n    THM[Thermal_headroom]\n  end\n  Dec[Decoder_path]\n  NPU[Inference_path]\n  Dec --> DRAM\n  NPU --> DRAM\n  Dec --> THM\n  NPU --> THM\n","children":["$","code","code-0",{"className":"language-mermaid","children":"flowchart TB\n  subgraph soc [SoCSharedBudget]\n    DRAM[DRAM_bandwidth]\n    BUS[IO_and_system_fabric]\n    THM[Thermal_headroom]\n  end\n  Dec[Decoder_path]\n  NPU[Inference_path]\n  Dec --> DRAM\n  NPU --> DRAM\n  Dec --> THM\n  NPU --> THM\n"}]}]
+1c:["$","p","p-11",{"children":[["$","strong","strong-0",{"children":"DRAM bandwidth:"}]," Large feature maps, suboptimal strides, or extra color converts can saturate memory before the NPU runs out of ops."]}]
+1d:["$","p","p-12",{"children":[["$","strong","strong-0",{"children":"Thermal:"}]," Sustained load reduces clocks. Jitter rises. A pipeline that looked fine for five minutes fails after twenty."]}]
+1e:["$","p","p-13",{"children":[["$","strong","strong-0",{"children":"PCIe / fabric:"}]," Matters when accelerators or cameras are off-chip. Even on-chip, ",["$","strong","strong-1",{"children":"contention"}]," on shared buses still appears in integrated designs under stress."]}]
+1f:["$","h2","h2-6",{"id":"6-profiling-the-critical-path","className":"pt-20 -mt-20","children":"6. Profiling the critical path"}]
+20:["$","p","p-14",{"children":["Use vendor tools where available (GPU/NPU timelines), plus system-wide views (",["$","strong","strong-0",{"children":"perf"}],", ",["$","strong","strong-1",{"children":"eBPF"}],", ",["$","strong","strong-2",{"children":"Nsight Systems"}],", or equivalents). Then:"]}]
+21:["$","ol","ol-1",{"children":["\n",["$","li","li-0",{"children":["Identify the ",["$","strong","strong-0",{"children":"longest dependent chain"}]," per frame (critical path)."]}],"\n",["$","li","li-1",{"children":["Decide whether the next optimization belongs there or in ",["$","strong","strong-0",{"children":"queue policy"}]," and ",["$","strong","strong-1",{"children":"memory traffic"}],"."]}],"\n"]}]
+22:["$","p","p-15",{"children":"Optimizing a kernel that is not on the critical path is a common way to waste weeks."}]
+23:["$","h2","h2-7",{"id":"7-checklist","className":"pt-20 -mt-20","children":"7. Checklist"}]
+24:["$","ol","ol-2",{"children":["\n",["$","li","li-0",{"children":["Every edge between stages has ",["$","strong","strong-0",{"children":"max queue depth"}]," and ",["$","strong","strong-1",{"children":"policy"}]," under pressure."]}],"\n",["$","li","li-1",{"children":["You can name the ",["$","strong","strong-0",{"children":"one"}]," system bottleneck for your workload (DRAM, thermal, PCIe/fabric, or a specific stage)."]}],"\n",["$","li","li-2",{"children":["Latency numbers are reported with ",["$","strong","strong-0",{"children":"percentiles"}],", not only averages."]}],"\n",["$","li","li-3",{"children":["The team agrees what ",["$","strong","strong-0",{"children":"degradation"}]," means before it is needed in the field."]}],"\n"]}]
+25:["$","hr","hr-0",{}]
+26:["$","p","p-16",{"children":"Illustrative architecture note. Tune numbers and policies to your SoC, OS, and product SLA, same as other playbooks on this site."}]
+2d:T1858,
+This note is a practical systems sketch for shipping **stable** video analytics on embedded SoCs. It stays **SDK-agnostic**: swap decoder, NPU runtime, and queue policies to fit your platform. Topics: DAG topology, buffer contracts, scheduling, and the limits (DRAM, thermal, fabric) that show up under real load, not only on slides.
+
+**Goal:** reason about **p95/p99 latency**, drops, and jitter with the same discipline as OS scheduling and memory: name the bottleneck, then optimize the critical path.
+
+## Table of contents
+
+1. [Scenario](#1-scenario)
+2. [DAG plus queues, not DAG alone](#2-dag-plus-queues-not-dag-alone)
+3. [Map stages to executors](#3-map-stages-to-executors)
+4. [Sample shape: stages and a minimal scheduler loop](#4-sample-shape-stages-and-a-minimal-scheduler-loop)
+5. [Bottlenecks beyond FLOPs](#5-bottlenecks-beyond-flops)
+6. [Profiling the critical path](#6-profiling-the-critical-path)
+7. [Checklist](#7-checklist)
+
+## 1. Scenario
+
+Assume:
+
+- One inbound stream: **1080p30** (could scale to N streams later).
+- Decode from compressed video (vendor decoder on **DSP/VDEC** or CPU fallback).
+- Preprocess: resize, mean/variance, layout conversion.
+- Detector: **INT8** network on **NPU** (or GPU where that is the only option).
+- Tracker and business logic: mostly **CPU**.
+- Output: overlay, encode, or metadata only.
+
+In production, the painful failure mode is usually not “model accuracy on a slide.” It is **p95/p99 latency**, **frame drops**, and **jitter** when the SoC gets hot or DRAM gets busy.
+
+## 2. DAG plus queues, not DAG alone
+
+A DAG drawn on a whiteboard is **topology**. A shipped engine needs **edges with semantics**:
+
+- **Buffer ownership** (who allocates, who releases, who may alias).
+- **Backpressure** (what happens when the next stage is slower).
+- **Failure policy** (drop oldest, block, degrade resolution, skip inference every K frames).
+
+The mental picture to implement is **DAG nodes plus bounded queues** between them, not only “node A calls node B.”
+
+```mermaid
+flowchart LR
+  subgraph ingest [Ingest]
+    Cam[CameraOrFile]
+    Dec[Decoder]
+  end
+  subgraph vision [Vision]
+    Pre[Preprocess]
+    Det[DetectorNPU]
+    Trk[TrackerCPU]
+  end
+  subgraph out [Output]
+    Post[OverlayOrEncode]
+  end
+  Cam --> Dec
+  Dec -->|Q1| Pre
+  Pre -->|Q2| Det
+  Det -->|Q3| Trk
+  Trk -->|Q4| Post
+```
+
+**Q1..Q4** are not decorative. They are where you implement **max depth**, **drop policy**, and **metrics** (wait time, utilization).
+
+## 3. Map stages to executors
+
+Below is a **pattern table**, not a universal law. Names change per vendor (DSP, VPU, NPU, GPU).
+
+| Stage | Typical executor | Why | Risk if misplaced |
+|-------|------------------|-----|---------------------|
+| Decode | Hardware decoder or DSP | Bitstream work should not starve the rest | CPU pegged, everything else drifts |
+| Preprocess | GPU shader, NEON, or vendor image DSP | High pixel volume | Extra copies through DRAM |
+| Detector | NPU or GPU | Convolution-heavy | Deep queues hide latency until they explode |
+| Tracker | CPU | Small tensors, branching logic | Lock contention if shared with unrelated work |
+
+Scheduling here is not only “a thread pool.” It is **mapping nodes to executors** plus **policies** (priority, affinity, batching rules).
+
+## 4. Sample shape: stages and a minimal scheduler loop
+
+The following is **illustrative pseudo-C++** to show separation of concerns: **handles**, **queues**, **stage functions**, and **policy hooks**. It is not a drop-in library, same as command snippets in other blueprints here.
+
+```cpp
+// Opaque buffer id: pool index, dmabuf handle, or vendor token.
+struct BufferHandle { uint32_t id; };
+
+template <typename T>
+struct BoundedQueue {
+  bool try_push(const T&);   // returns false when full (backpressure)
+  bool try_pop(T& out);
+  size_t depth() const;
+};
+
+struct StageCtx {
+  BoundedQueue<BufferHandle>* in_q;
+  BoundedQueue<BufferHandle>* out_q;
+};
+
+void run_preprocess(StageCtx& ctx) {
+  BufferHandle in, out;
+  while (ctx.in_q->try_pop(in)) {
+    // map in, produce out, or recycle on failure
+    if (!allocate_output(out)) {
+      release(in);
+      continue;
+    }
+    preprocess(in, out);
+    while (!ctx.out_q->try_push(out)) {
+      // policy: spin, sleep, or drop according to product rules
+    }
+    release(in);
+  }
+}
+```
+
+**Review focus for this shape**
+
+- Clear **ownership** transitions (`release`, `allocate_output`).
+- A place to attach **metrics** (`depth()`, wait in `try_push`).
+- No hidden copies in the “happy path” comments (real code still needs explicit sync).
+
+## 5. Bottlenecks beyond FLOPs
+
+```mermaid
+flowchart TB
+  subgraph soc [SoCSharedBudget]
+    DRAM[DRAM_bandwidth]
+    BUS[IO_and_system_fabric]
+    THM[Thermal_headroom]
+  end
+  Dec[Decoder_path]
+  NPU[Inference_path]
+  Dec --> DRAM
+  NPU --> DRAM
+  Dec --> THM
+  NPU --> THM
+```
+
+**DRAM bandwidth:** Large feature maps, suboptimal strides, or extra color converts can saturate memory before the NPU runs out of ops.
+
+**Thermal:** Sustained load reduces clocks. Jitter rises. A pipeline that looked fine for five minutes fails after twenty.
+
+**PCIe / fabric:** Matters when accelerators or cameras are off-chip. Even on-chip, **contention** on shared buses still appears in integrated designs under stress.
+
+## 6. Profiling the critical path
+
+Use vendor tools where available (GPU/NPU timelines), plus system-wide views (**perf**, **eBPF**, **Nsight Systems**, or equivalents). Then:
+
+1. Identify the **longest dependent chain** per frame (critical path).
+2. Decide whether the next optimization belongs there or in **queue policy** and **memory traffic**.
+
+Optimizing a kernel that is not on the critical path is a common way to waste weeks.
+
+## 7. Checklist
+
+1. Every edge between stages has **max queue depth** and **policy** under pressure.
+2. You can name the **one** system bottleneck for your workload (DRAM, thermal, PCIe/fabric, or a specific stage).
+3. Latency numbers are reported with **percentiles**, not only averages.
+4. The team agrees what **degradation** means before it is needed in the field.
+
+---
+
+Illustrative architecture note. Tune numbers and policies to your SoC, OS, and product SLA, same as other playbooks on this site.
+27:["$","$L2c",null,{"content":"$2d"}]
+28:["$","footer",null,{"children":[["$","div",null,{"className":"home-links","children":[["$","a",null,{"href":"https://stackoverflow.com/users/12345813/hgq287","target":"_blank","rel":"noopener noreferrer","children":"↗ stackoverflow"}],["$","span",null,{"className":"home-links-sep","children":"/"}],["$","a",null,{"href":"https://github.com/hgq287","target":"_blank","rel":"noopener noreferrer","children":"↗ github"}],["$","span",null,{"className":"home-links-sep","children":"/"}],["$","a",null,{"href":"https://github.com/hgq287/hgq287.github.io","target":"_blank","rel":"noopener noreferrer","children":"↗ view source"}]]}],["$","div",null,{"className":"home-footer-second-row","children":[["$","span",null,{"className":"home-footer-copy","children":["© ",2026," MIT Licensed"]}],["$","span",null,{"className":"home-footer-sep","children":"/"}],["$","a",null,{"href":"/Resume.pdf","download":"Resume.pdf","className":"home-resume-link","children":"Resume"}]]}]]}]
+29:["$","script","script-0",{"src":"/_next/static/chunks/eb5d4a461eae1602.js","async":true}]
+2a:["$","$L2e",null,{"children":["$","$2f",null,{"name":"Next.MetadataOutlet","children":"$@30"}]}]
+30:null
