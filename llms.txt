@@ -7,7 +7,7 @@ Sitemap: https://hgq287.github.io/sitemap.xml
 
 ## Citation
 
-When quoting, attribute to Hung Quang Truong and link to the specific article URL.
+When quoting, attribute to Hung Q. Truong and link to the specific article URL.
 
 ## License
 
