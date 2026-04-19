@@ -1,15 +1,20 @@
 import MainHeader from './components/MainHeader';
 import Link from 'next/link';
-import { PostRepository } from '../data/post.repository';
+import { getHomeFeed } from '../data/home-feed';
 import { IntroRepository } from '../data/intro.repository';
 import SiteFooter from './components/SiteFooter';
 
-const RECENT_POSTS_COUNT = 5;
+const EXCERPT_MAX = 200;
+
+function truncateExcerpt(text: string, max: number): string {
+  const t = text.trim();
+  if (t.length <= max) return t;
+  return `${t.slice(0, max).trim()}…`;
+}
 
 export default async function Home() {
   const intro = IntroRepository.getIntro();
-  const allPosts = await PostRepository.getAllPostsMetadata();
-  const recentPosts = allPosts.slice(0, RECENT_POSTS_COUNT);
+  const feed = await getHomeFeed(3);
 
   return (
     <>
@@ -30,25 +35,44 @@ export default async function Home() {
             </div>
           )}
 
-          <ul className="home-posts">
-            {recentPosts.length === 0 ? (
-              <li className="text-sm">No posts yet.</li>
-            ) : (
-              recentPosts.map((post) => (
-                <li key={post.slug}>
-                  <Link href={`/blog/${post.slug}`}>
-                    {new Date(post.date).toLocaleDateString('en-US', {
-                      year: 'numeric',
-                      month: 'long',
-                      day: 'numeric',
-                    })}
-                    {' '}
-                    {post.title}
-                  </Link>
-                </li>
-              ))
-            )}
-          </ul>
+          <div className="home-writing">
+            <h2 className="home-writing-title">Recent writing</h2>
+            <p className="home-writing-lede">
+              Systems blueprints and blog posts (newest and featured first).{' '}
+              <Link href="/systems">All Systems</Link>
+              {' · '}
+              <Link href="/blog">All Blog</Link>
+            </p>
+
+            <ul className="home-posts">
+              {feed.length === 0 ? (
+                <li className="text-sm">No posts yet.</li>
+              ) : (
+                feed.map((post) => (
+                  <li key={`${post.source}-${post.slug}`} className="home-post-item">
+                    <div className="home-post-meta">
+                      <span className="home-post-date">
+                        {new Date(post.date).toLocaleDateString('en-US', {
+                          year: 'numeric',
+                          month: 'long',
+                          day: 'numeric',
+                        })}
+                      </span>
+                      <span className={`home-post-source home-post-source--${post.source}`}>
+                        {post.source === 'systems' ? 'Systems' : 'Blog'}
+                      </span>
+                    </div>
+                    <Link href={post.href} className="home-post-link">
+                      {post.title}
+                    </Link>
+                    {post.excerpt ? (
+                      <p className="home-post-excerpt">{truncateExcerpt(post.excerpt, EXCERPT_MAX)}</p>
+                    ) : null}
+                  </li>
+                ))
+              )}
+            </ul>
+          </div>
         </article>
 
         <SiteFooter />

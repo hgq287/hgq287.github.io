@@ -23,6 +23,7 @@ export const PostRepository = {
                 date: data.date ? new Date(data.date).toISOString() : new Date().toISOString(),
                 excerpt: data.excerpt || "",
                 tags: data.tags || [],
+                featured: data.featured === true,
             } as PostMetadata;
         });
       
@@ -53,6 +54,7 @@ export const PostRepository = {
       date: data.date ? new Date(data.date).toISOString() : new Date().toISOString(),
       excerpt: data.excerpt || "",
       tags: data.tags || [],
+      featured: data.featured === true,
       content: content,
     } as Post;
   }

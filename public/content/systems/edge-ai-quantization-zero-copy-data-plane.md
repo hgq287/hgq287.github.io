@@ -2,6 +2,7 @@
 slug: "edge-ai-quantization-zero-copy-data-plane"
 title: "Quantized Models and Zero-Copy Data Planes: Contracts from Calibration to HAL"
 date: "2026-04-18"
+featured: true
 excerpt: "How INT8/FP16 artifacts, runtime backends, buffer ownership, and sync points fit together on edge SoCs. Includes a capability-style HAL sketch and a realistic warning: zero-copy is not zero-synchronization."
 tags:
   - EdgeAI

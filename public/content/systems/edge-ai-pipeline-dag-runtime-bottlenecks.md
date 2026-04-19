@@ -2,6 +2,7 @@
 slug: "edge-ai-pipeline-dag-runtime-bottlenecks"
 title: "Edge Video AI Pipelines: DAG Runtimes, Queues, and System Bottlenecks"
 date: "2026-03-24"
+featured: true
 excerpt: "A concrete mental model for graph-based edge inference: stages, queues, executors, backpressure, and why DRAM bandwidth and thermal headroom often beat raw NPU FLOPs on the critical path."
 tags:
   - EdgeAI

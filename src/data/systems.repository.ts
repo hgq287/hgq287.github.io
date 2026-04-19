@@ -22,6 +22,7 @@ export const SystemsRepository = {
             date: data.date ? new Date(data.date).toISOString() : new Date().toISOString(),
             excerpt: data.excerpt || '',
             tags: data.tags || [],
+            featured: data.featured === true,
           } as PostMetadata;
         });
       list.sort((a, b) => (new Date(a.date) < new Date(b.date) ? 1 : -1));
@@ -43,6 +44,7 @@ export const SystemsRepository = {
       date: data.date ? new Date(data.date).toISOString() : new Date().toISOString(),
       excerpt: data.excerpt || '',
       tags: data.tags || [],
+      featured: data.featured === true,
       content,
     } as Post;
   },
