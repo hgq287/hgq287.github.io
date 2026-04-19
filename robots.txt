@@ -1,0 +1,5 @@
+User-Agent: *
+Allow: /
+
+Host: https://hgq287.github.io
+Sitemap: https://hgq287.github.io/sitemap.xml

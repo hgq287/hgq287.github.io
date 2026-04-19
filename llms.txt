@@ -1,0 +1,14 @@
+# Hg's Portfolio
+
+Systems architecture notes, blog posts, and systems blueprints (deployment, Docker, edge AI, ops).
+
+Site: https://hgq287.github.io/
+Sitemap: https://hgq287.github.io/sitemap.xml
+
+## Citation
+
+When quoting, attribute to Hung Quang Truong and link to the specific article URL.
+
+## License
+
+Refer to the repository LICENSE where applicable; site footer notes MIT where stated for this project.
