@@ -1,4 +1,6 @@
-import { PostRepository } from '../../data/post.repository'; 
+import type { Metadata } from 'next';
+import { PostRepository } from '../../data/post.repository';
+import { blogIndexMetadata } from '../../lib/site-config';
 
 import BlogHeader from '../components/BlogHeader';
 import ArticleMarkdown from '../components/ArticleMarkdown';
@@ -6,6 +8,8 @@ import ArticleMiniMap from '../components/ArticleMiniMap';
 import BlogSidebar from '../components/BlogSidebar';
 import PostMeta from '../components/PostMeta';
 import SiteFooter from '../components/SiteFooter';
+
+export const metadata: Metadata = blogIndexMetadata;
 
 export default async function BlogHomePage() {
   const allPostsMetadata = await PostRepository.getAllPostsMetadata();

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-label="HgQ portfolio - Hung Q. Truong">
+  <defs>
+    <linearGradient id="ogBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0c0c10"/>
+      <stop offset="55%" stop-color="#12121a"/>
+      <stop offset="100%" stop-color="#18181f"/>
+    </linearGradient>
+    <linearGradient id="ogAccent" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#7c7cff"/>
+      <stop offset="100%" stop-color="#5b5fef"/>
+    </linearGradient>
+  </defs>
+  <!-- Background -->
+  <rect width="1200" height="630" fill="url(#ogBg)"/>
+  <!-- Brand accent bar -->
+  <rect x="0" y="0" width="10" height="630" fill="url(#ogAccent)"/>
+  <!-- Subtle grid (engineering feel) -->
+  <g opacity="0.06" stroke="#ffffff" stroke-width="1">
+    <line x1="420" y1="0" x2="420" y2="630"/>
+    <line x1="840" y1="0" x2="840" y2="630"/>
+    <line x1="0" y1="210" x2="1200" y2="210"/>
+    <line x1="0" y1="420" x2="1200" y2="420"/>
+  </g>
+  <!-- Monogram block -->
+  <rect x="88" y="168" width="268" height="294" rx="20" fill="#1e1e28" stroke="#2a2a36" stroke-width="1"/>
+  <text x="222" y="395" text-anchor="middle" font-family="ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="132" font-weight="800" fill="#ffffff" letter-spacing="-0.06em">HgQ</text>
+  <text x="222" y="430" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="18" font-weight="600" fill="#7c7cff" letter-spacing="0.35em">PORTFOLIO</text>
+  <!-- Name and role -->
+  <text x="420" y="268" font-family="ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="44" font-weight="700" fill="#f4f4f5" letter-spacing="-0.03em">Hung Q. Truong</text>
+  <text x="420" y="338" font-family="ui-sans-serif, system-ui, sans-serif" font-size="26" font-weight="500" fill="#a1a1aa">Systems Architect</text>
+  <text x="420" y="382" font-family="ui-sans-serif, system-ui, sans-serif" font-size="26" font-weight="500" fill="#a1a1aa">Principal AI Engineer</text>
+  <text x="420" y="452" font-family="ui-mono, ui-monospace, 'SF Mono', Menlo, monospace" font-size="22" fill="#71717a">hgq287.github.io</text>
+  <!-- Bottom tagline -->
+  <text x="420" y="520" font-family="ui-sans-serif, system-ui, sans-serif" font-size="18" font-weight="500" fill="#52525b">Built, not just listed.</text>
+</svg>

@@ -41,12 +41,15 @@ Make sure you have the following installed:
 Follow these steps to create a production-ready build of your portfolio website.
 
 ```sh
-yarn build
+npm run build
 ```
 
 ## Deployment to GitHub Pages
+
+Uses `npm` so the lockfile in use (`package-lock.json`) matches the build. If you use Yarn 3, run `yarn install` once so `yarn.lock` stays in sync with `package.json`, then `yarn build` is fine too.
+
 ```sh
-yarn deploy
+npm run deploy
 ```
 
 That's all!

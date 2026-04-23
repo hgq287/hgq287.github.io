@@ -3,12 +3,15 @@ import { Metadata } from 'next';
 import Link from 'next/link';
 
 import { PostRepository } from '../../../data/post.repository';
+import { buildArticleJsonLd } from '../../../lib/json-ld';
+import { OG_IMAGE_PATH, SITE_ORIGIN } from '../../../lib/site-config';
 
 import ArticleMarkdown from '../../components/ArticleMarkdown';
 import ArticleMiniMap from '../../components/ArticleMiniMap';
 import BlogSidebar from '../../components/BlogSidebar';
 import PostMeta from '../../components/PostMeta';
 import SiteFooter from '../../components/SiteFooter';
+import { JsonLd } from '../../components/JsonLd';
 
 interface PostPageProps {
   params: Promise<{ slug: string }>;
@@ -31,6 +34,12 @@ export async function generateMetadata({ params }: PostPageProps): Promise<Metad
 
   const path = `/blog/${post.slug}`;
   const publishedTime = new Date(post.date).toISOString();
+  const ogImage = {
+    url: OG_IMAGE_PATH,
+    width: 1200,
+    height: 630,
+    alt: post.title,
+  };
 
   return {
     title: post.title,
@@ -47,11 +56,13 @@ export async function generateMetadata({ params }: PostPageProps): Promise<Metad
       description: post.excerpt,
       publishedTime,
       tags: post.tags,
+      images: [ogImage],
     },
     twitter: {
       card: 'summary_large_image',
       title: post.title,
       description: post.excerpt,
+      images: [OG_IMAGE_PATH],
     },
   };
 }
@@ -80,8 +91,19 @@ export default async function PostPage({ params }: PostPageProps) {
 
   const allPostsMetadata = await PostRepository.getAllPostsMetadata();
 
+  const articleUrl = `${SITE_ORIGIN}/blog/${currentPost.slug}`;
+  const articleJsonLd = buildArticleJsonLd({
+    headline: currentPost.title,
+    description: currentPost.excerpt,
+    url: articleUrl,
+    datePublished: new Date(currentPost.date).toISOString(),
+    sectionLabel: 'Blog',
+    sectionPath: '/blog',
+  });
+
   return (
     <div className="blog-page">
+      <JsonLd data={articleJsonLd} />
       <BlogHeader title={currentPost.title} headline={currentPost.excerpt} />
       <div className="blog-layout">
         <BlogSidebar

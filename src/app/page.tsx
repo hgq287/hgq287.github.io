@@ -1,8 +1,12 @@
 import MainHeader from './components/MainHeader';
 import Link from 'next/link';
+import type { Metadata } from 'next';
 import { getHomeFeed } from '../data/home-feed';
 import { IntroRepository } from '../data/intro.repository';
+import { homePageMetadata } from '../lib/site-config';
 import SiteFooter from './components/SiteFooter';
+
+export const metadata: Metadata = homePageMetadata;
 
 const EXCERPT_MAX = 200;
 
