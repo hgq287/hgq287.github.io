@@ -1,0 +1,479 @@
+1:"$Sreact.fragment"
+3:I[44338,["/_next/static/chunks/10f45d08b09cdbe8.js","/_next/static/chunks/eb5d4a461eae1602.js"],"default"]
+4:I[16737,["/_next/static/chunks/10f45d08b09cdbe8.js","/_next/static/chunks/eb5d4a461eae1602.js"],"default"]
+a:I[12036,["/_next/static/chunks/10f45d08b09cdbe8.js","/_next/static/chunks/eb5d4a461eae1602.js"],"default"]
+5b:I[35916,["/_next/static/chunks/10f45d08b09cdbe8.js","/_next/static/chunks/eb5d4a461eae1602.js"],"default"]
+5d:I[20191,["/_next/static/chunks/129931008aaa511c.js","/_next/static/chunks/4150d164f44f149b.js"],"OutletBoundary"]
+5e:"$Sreact.suspense"
+60:I[371,["/_next/static/chunks/10f45d08b09cdbe8.js","/_next/static/chunks/eb5d4a461eae1602.js"],"CodeBlockWithCopy"]
+2:T508,{"@context":"https://schema.org","@graph":[{"@type":"TechArticle","headline":"Cloud Delivery Flow: Cloud Run + Terraform + Artifact Registry","description":"A practical guide to ship web apps with Cloud Build, Artifact Registry, Terraform, and Cloud Run in one clean pipeline.","datePublished":"2026-04-30T00:00:00.000Z","author":{"@type":"Person","@id":"https://hgq287.github.io/#person","name":"Hung Q. Truong"},"url":"https://hgq287.github.io/systems/cloud-run-terraform-artifact-registry-delivery-flow","mainEntityOfPage":{"@type":"WebPage","@id":"https://hgq287.github.io/systems/cloud-run-terraform-artifact-registry-delivery-flow"},"isPartOf":{"@type":"WebSite","@id":"https://hgq287.github.io/#website","name":"Hg's Portfolio","url":"https://hgq287.github.io"},"publisher":{"@type":"Organization","name":"Hg's Portfolio","url":"https://hgq287.github.io"}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://hgq287.github.io/"},{"@type":"ListItem","position":2,"name":"Systems","item":"https://hgq287.github.io/systems"},{"@type":"ListItem","position":3,"name":"Cloud Delivery Flow: Cloud Run + Terraform + Artifact Registry","item":"https://hgq287.github.io/systems/cloud-run-terraform-artifact-registry-delivery-flow"}]}]}0:{"buildId":"IHN7vzOQmiAWsd6HyRU2S","rsc":["$","$1","c",{"children":[["$","div",null,{"className":"blog-page","children":[["$","script",null,{"type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"$2"}}],["$","$L3",null,{"title":"Cloud Delivery Flow: Cloud Run + Terraform + Artifact Registry","headline":"A practical guide to ship web apps with Cloud Build, Artifact Registry, Terraform, and Cloud Run in one clean pipeline."}],["$","div",null,{"className":"blog-layout","children":[["$","$L4",null,{"allPostsMetadata":[{"slug":"cloud-run-terraform-artifact-registry-delivery-flow","title":"Cloud Delivery Flow: Cloud Run + Terraform + Artifact Registry","date":"2026-04-30T00:00:00.000Z","excerpt":"A practical guide to ship web apps with Cloud Build, Artifact Registry, Terraform, and Cloud Run in one clean pipeline.","tags":["Cloud Run","Terraform","Artifact Registry","Cloud Build","DevOps","CI/CD"],"featured":false},{"slug":"edge-ai-quantization-zero-copy-data-plane","title":"Quantized Models and Zero-Copy Data Planes: Contracts from Calibration to HAL","date":"2026-04-18T00:00:00.000Z","excerpt":"How INT8/FP16 artifacts, runtime backends, buffer ownership, and sync points fit together on edge SoCs. Includes a capability-style HAL sketch and a realistic warning: zero-copy is not zero-synchronization.","tags":["EdgeAI","Quantization","Inference","Memory","SystemsArchitecture"],"featured":true},{"slug":"edge-ai-pipeline-dag-runtime-bottlenecks","title":"Edge Video AI Pipelines: DAG Runtimes, Queues, and System Bottlenecks","date":"2026-03-24T00:00:00.000Z","excerpt":"A concrete mental model for graph-based edge inference: stages, queues, executors, backpressure, and why DRAM bandwidth and thermal headroom often beat raw NPU FLOPs on the critical path.","tags":["EdgeAI","SystemsArchitecture","VideoAnalytics","RealTime","C++"],"featured":true},{"slug":"docker-blueprint-architecture-command-lab","title":"Docker Blueprint: Architecture & Command Lab","date":"2026-03-10T00:00:00.000Z","excerpt":"A practical guide to Docker architecture, core commands, networking, and Compose—with a VM vs container diagram and an architect's checklist.","tags":["Docker","DevOps","Architecture"],"featured":false},{"slug":"ops-blueprint-universal-deployment-playbook","title":"Ops Blueprint: Universal Deployment Playbook","date":"2025-12-16T00:00:00.000Z","excerpt":"A friendly ops blueprint for repeatable builds, production-like runtime, safe releases, rollbacks, secrets, Docker Compose, and incident response.","tags":["DevOps","Deployment","Docker","Security","IncidentResponse"],"featured":false}],"activeSlug":"cloud-run-terraform-artifact-registry-delivery-flow","basePath":"/systems","sidebarTitle":"All Articles"}],"$L5","$L6"]}],"$L7"]}],["$L8"],"$L9"]}],"loading":null,"isPartial":false}
+5:["$","main",null,{"className":"blog-main","children":["$","article",null,{"children":[["$","h1",null,{"className":"blog-article-title","children":"Cloud Delivery Flow: Cloud Run + Terraform + Artifact Registry"}],["$","div",null,{"className":"blog-article-meta","children":["$","$La",null,{"date":"2026-04-30T00:00:00.000Z","tags":["Cloud Run","Terraform","Artifact Registry","Cloud Build","DevOps","CI/CD"]}]}],["$","div",null,{"className":"blog-prose","children":["$","div",null,{"className":"prose prose-neutral dark:prose-invert max-w-none prose-headings:font-serif prose-headings:font-semibold prose-headings:tracking-tight prose-h2:text-2xl prose-h3:text-xl prose-p:leading-relaxed prose-strong:font-semibold prose-li:mb-1.5 prose-a:text-accent-fg prose-a:no-underline hover:prose-a:underline prose-text-foreground","children":[["$","h2","h2-0",{"id":"why-this-stack-works","className":"pt-20 -mt-20","children":"Why this stack works"}],"\n",["$","p","p-0",{"children":["When we build a web app, coding is only half of the story.",["$","br","br-0",{}],"\n","The other half is delivery: build, store, deploy, and update safely."]}],"\n",["$","p","p-1",{"children":"This stack solves that flow clearly:"}],"\n",["$","ul","ul-0",{"children":["\n",["$","li","li-0",{"children":[["$","strong","strong-0",{"children":"Cloud Build"}]," builds the container image."]}],"\n",["$","li","li-1",{"children":[["$","strong","strong-0",{"children":"Artifact Registry"}]," stores the image version."]}],"\n",["$","li","li-2",{"children":[["$","strong","strong-0",{"children":"Terraform"}]," defines infra as code."]}],"\n",["$","li","li-3",{"children":[["$","strong","strong-0",{"children":"Cloud Run"}]," runs the app with autoscaling."]}],"\n"]}],"\n",["$","p","p-2",{"children":"Short version: one pipeline, clear ownership, less manual work."}],"\n",["$","h2","h2-1",{"id":"tool-roles-simple-view","className":"pt-20 -mt-20","children":"Tool roles (simple view)"}],"\n",["$","table","table-0",{"children":[["$","thead","thead-0",{"children":["$","tr","tr-0",{"children":[["$","th","th-0",{"style":{"textAlign":"left"},"children":"Tool"}],["$","th","th-1",{"style":{"textAlign":"left"},"children":"Main role"}],["$","th","th-2",{"style":{"textAlign":"left"},"children":"Why it matters"}]]}]}],["$","tbody","tbody-0",{"children":[["$","tr","tr-0",{"children":[["$","td","td-0",{"style":{"textAlign":"left"},"children":"Cloud Build"}],["$","td","td-1",{"style":{"textAlign":"left"},"children":"Build and push image"}],["$","td","td-2",{"style":{"textAlign":"left"},"children":"Reproducible builds from source"}]]}],["$","tr","tr-1",{"children":[["$","td","td-0",{"style":{"textAlign":"left"},"children":"Artifact Registry"}],["$","td","td-1",{"style":{"textAlign":"left"},"children":"Store versioned image"}],["$","td","td-2",{"style":{"textAlign":"left"},"children":"Traceable deploys and rollback"}]]}],["$","tr","tr-2",{"children":[["$","td","td-0",{"style":{"textAlign":"left"},"children":"Terraform"}],["$","td","td-1",{"style":{"textAlign":"left"},"children":"Provision infra"}],["$","td","td-2",{"style":{"textAlign":"left"},"children":"Same setup across dev/stage/prod"}]]}],["$","tr","tr-3",{"children":[["$","td","td-0",{"style":{"textAlign":"left"},"children":"Cloud Run"}],["$","td","td-1",{"style":{"textAlign":"left"},"children":"Run container app"}],["$","td","td-2",{"style":{"textAlign":"left"},"children":"Serverless scale and pay-per-use"}]]}]]}]]}],"\n",["$","h2","h2-2",{"id":"terraform-use-cases-when-and-why","className":"pt-20 -mt-20","children":"Terraform use-cases: when and why"}],"\n",["$","p","p-3",{"children":"Terraform is most useful when infrastructure starts to repeat across environments or people."}],"\n",["$","p","p-4",{"children":"Use Terraform when:"}],"\n",["$","ul","ul-1",{"children":["\n",["$","li","li-0",{"children":["You have ",["$","strong","strong-0",{"children":"dev/stage/prod"}]," and want the same infra shape in all of them."]}],"\n",["$","li","li-1",{"children":"Your team wants infra changes reviewed in PRs, same as app code."}],"\n",["$","li","li-2",{"children":"You need repeatable setup for Cloud Run, IAM, Artifact Registry, networking, and secrets."}],"\n",["$","li","li-3",{"children":"You want safer rollback and auditing (what changed, when, and by whom)."}],"\n"]}],"\n","$Lb","\n","$Lc","\n","$Ld","\n","$Le","\n","$Lf","\n","$L10","\n","$L11","\n","$L12","\n","$L13","\n","$L14","\n","$L15","\n","$L16","\n","$L17","\n","$L18","\n","$L19","\n","$L1a","\n","$L1b","\n","$L1c","\n","$L1d","\n","$L1e","\n","$L1f","\n","$L20","\n","$L21","\n","$L22","\n","$L23","\n","$L24","\n","$L25","\n","$L26","\n","$L27","\n","$L28","\n","$L29","\n","$L2a","\n","$L2b","\n","$L2c","\n","$L2d","\n","$L2e","\n","$L2f","\n","$L30","\n","$L31","\n","$L32","\n","$L33","\n","$L34","\n","$L35","\n","$L36","\n","$L37","\n","$L38","\n","$L39","\n","$L3a","\n","$L3b","\n","$L3c","\n","$L3d","\n","$L3e","\n","$L3f","\n","$L40","\n","$L41","\n","$L42","\n","$L43","\n","$L44","\n","$L45","\n","$L46","\n","$L47","\n","$L48","\n","$L49","\n","$L4a","\n","$L4b","\n","$L4c","\n","$L4d","\n","$L4e","\n","$L4f","\n","$L50","\n","$L51","\n","$L52","\n","$L53","\n","$L54","\n","$L55","\n","$L56","\n","$L57","\n","$L58","\n","$L59","\n","$L5a"]}]}]]}]}]
+5c:T26d5,
+## Why this stack works
+
+When we build a web app, coding is only half of the story.  
+The other half is delivery: build, store, deploy, and update safely.
+
+This stack solves that flow clearly:
+
+- **Cloud Build** builds the container image.
+- **Artifact Registry** stores the image version.
+- **Terraform** defines infra as code.
+- **Cloud Run** runs the app with autoscaling.
+
+Short version: one pipeline, clear ownership, less manual work.
+
+## Tool roles (simple view)
+
+| Tool | Main role | Why it matters |
+| :--- | :--- | :--- |
+| Cloud Build | Build and push image | Reproducible builds from source |
+| Artifact Registry | Store versioned image | Traceable deploys and rollback |
+| Terraform | Provision infra | Same setup across dev/stage/prod |
+| Cloud Run | Run container app | Serverless scale and pay-per-use |
+
+## Terraform use-cases: when and why
+
+Terraform is most useful when infrastructure starts to repeat across environments or people.
+
+Use Terraform when:
+
+- You have **dev/stage/prod** and want the same infra shape in all of them.
+- Your team wants infra changes reviewed in PRs, same as app code.
+- You need repeatable setup for Cloud Run, IAM, Artifact Registry, networking, and secrets.
+- You want safer rollback and auditing (what changed, when, and by whom).
+
+For a single demo app, console clicks may be fine.  
+For real delivery flow with more than one environment, Terraform quickly pays back.
+
+## End-to-end flow
+
+```plaintext
+Git push
+  -> Cloud Build
+      -> Build Docker image
+      -> Push image to Artifact Registry
+  -> Terraform apply
+      -> Create/update Cloud Run service
+      -> Deploy new image tag
+Rollback
+  -> Change image tag to previous stable version
+  -> Terraform apply
+```
+
+The key idea is separation:
+
+- App artifact lifecycle is handled by build + registry.
+- Runtime infrastructure lifecycle is handled by Terraform.
+
+## Scenario: Deploy a Next.js app
+
+Below is a **real-shaped** example: Next.js builds inside Docker, the image runs on Cloud Run, and Cloud Build pushes to Artifact Registry.
+
+### A) Pick how Next.js runs in the container
+
+**Option 1 — Static export (`output: 'export'`)**  
+Good for marketing sites, docs, and blogs that ship as HTML under `out/`.  
+Run it behind **nginx** in the container. Cloud Run expects the process to listen on **`PORT`** (often `8080`), so nginx should listen on that port.
+
+**Option 2 — Node server (`output: 'standalone'`)**  
+Use when you need SSR, Route Handlers, or dynamic rendering.  
+Build produces `.next/standalone`; you run `node server.js` and set `PORT` to what Cloud Run gives you.
+
+Pick one path per project. Mixing export and standalone in one Dockerfile only confuses the build.
+
+### B) Dockerfile: static export + nginx (concrete)
+
+`Dockerfile` (multi-stage: build Next, serve `out/`):
+
+```dockerfile
+# --- build ---
+FROM node:22-alpine AS builder
+WORKDIR /app
+COPY package.json package-lock.json* ./
+RUN npm ci
+COPY . .
+# Your app should run `next build` and emit `out/` (next.config: output: "export")
+RUN npm run build
+
+# --- run ---
+FROM nginx:1.27-alpine
+COPY nginx.conf /etc/nginx/conf.d/default.conf
+COPY --from=builder /app/out /usr/share/nginx/html
+EXPOSE 8080
+```
+
+`nginx.conf` (listen on 8080 so Cloud Run’s default port matches):
+
+```nginx
+server {
+  listen 8080;
+  server_name _;
+  root /usr/share/nginx/html;
+  index index.html;
+
+  location / {
+    try_files $uri $uri/ $uri.html /index.html;
+  }
+}
+```
+
+`.dockerignore` (keeps the build context small):
+
+```gitignore
+node_modules
+.next
+out
+.git
+.env*
+```
+
+**Local smoke test:**
+
+```bash
+docker build -t website:local .
+docker run --rm -p 8080:8080 website:local
+# Open http://localhost:8080
+```
+
+### C) Dockerfile: Next.js standalone (when you are not using `export`)
+
+In `next.config` use `output: "standalone"`, then:
+
+```dockerfile
+FROM node:22-alpine AS builder
+WORKDIR /app
+COPY package.json package-lock.json* ./
+RUN npm ci
+COPY . .
+RUN npm run build
+
+FROM node:22-alpine AS runner
+WORKDIR /app
+ENV NODE_ENV=production
+ENV PORT=8080
+ENV HOSTNAME=0.0.0.0
+COPY --from=builder /app/public ./public
+COPY --from=builder /app/.next/standalone ./
+COPY --from=builder /app/.next/static ./.next/static
+CMD ["node", "server.js"]
+```
+
+Cloud Run sets `PORT`; the standalone server reads it, so you usually do not hardcode another port.
+
+### D) `cloudbuild.yaml`: build image and push to Artifact Registry
+
+Substitutions match the `gcloud builds submit` example later. Adjust project IDs and names.
+
+```yaml
+substitutions:
+  _REGION: asia-southeast1
+  _REPO: web-repo
+  _IMAGE_NAME: website
+  _TAG: v1
+
+steps:
+  - name: gcr.io/cloud-builders/docker
+    args:
+      - build
+      - "-t"
+      - "${_REGION}-docker.pkg.dev/$PROJECT_ID/${_REPO}/${_IMAGE_NAME}:${_TAG}"
+      - .
+
+images:
+  - "${_REGION}-docker.pkg.dev/$PROJECT_ID/${_REPO}/${_IMAGE_NAME}:${_TAG}"
+```
+
+Cloud Build’s service account needs permission to push to Artifact Registry (e.g. Artifact Registry Writer on the repo or project).
+
+### E) Build and push image with Cloud Build
+
+Example command:
+
+```bash
+gcloud builds submit --config=cloudbuild.yaml \
+  --substitutions=_REGION=asia-southeast1,_REPO=web-repo,_IMAGE_NAME=website,_TAG=v1 \
+  --project=my-web-project
+```
+
+What this gives you:
+
+- A tagged image like `asia-southeast1-docker.pkg.dev/my-web-project/web-repo/website:v1`
+- A deployment artifact you can reuse across environments
+
+### F) Keep image in Artifact Registry
+
+Why this is important:
+
+- Every release has a clear version.
+- Rollback is easy: deploy an older tag.
+- Security scanning and access control are centralized.
+
+### G) Manage Cloud Run with Terraform
+
+Small Terraform sample:
+
+```hcl
+resource "google_cloud_run_v2_service" "website" {
+  name     = "website"
+  location = var.region
+
+  template {
+    containers {
+      image = var.image_uri
+      ports {
+        container_port = 8080
+      }
+    }
+  }
+}
+```
+
+### H) How to write Terraform (practical workflow)
+
+Think in this order: **providers -> variables -> resources -> outputs**.
+
+1. **Provider and project context**
+
+```hcl
+terraform {
+  required_providers {
+    google = {
+      source  = "hashicorp/google"
+      version = "~> 5.0"
+    }
+  }
+}
+
+provider "google" {
+  project = var.project_id
+  region  = var.region
+}
+```
+
+2. **Input variables** (things that change by environment)
+
+```hcl
+variable "project_id" { type = string }
+variable "region"     { type = string }
+variable "service_name" {
+  type    = string
+  default = "website"
+}
+variable "image_uri" { type = string }
+```
+
+3. **Resources** (what you want Terraform to manage)
+
+```hcl
+resource "google_artifact_registry_repository" "web_repo" {
+  location      = var.region
+  repository_id = "web-repo"
+  format        = "DOCKER"
+}
+
+resource "google_cloud_run_v2_service" "website" {
+  name     = var.service_name
+  location = var.region
+
+  template {
+    containers {
+      image = var.image_uri
+      ports {
+        container_port = 8080
+      }
+    }
+  }
+}
+```
+
+4. **Outputs** (what other steps need)
+
+```hcl
+output "cloud_run_uri" {
+  value = google_cloud_run_v2_service.website.uri
+}
+```
+
+5. **Environment files**
+
+Use a `terraform.tfvars` (or `dev.tfvars`, `prod.tfvars`) per environment:
+
+```hcl
+project_id   = "my-web-project-dev"
+region       = "asia-southeast1"
+service_name = "website"
+image_uri    = "asia-southeast1-docker.pkg.dev/my-web-project-dev/web-repo/website:v1"
+```
+
+6. **Execution cycle**
+
+```bash
+terraform fmt
+terraform init
+terraform validate
+terraform plan -var-file=dev.tfvars
+terraform apply -var-file=dev.tfvars
+```
+
+That is the full writing loop: write small blocks, validate early, plan before apply, then promote the same code to the next environment by changing only `tfvars`.
+
+### I) Recommended Terraform folder structure
+
+Keep Terraform files boring and predictable:
+
+```plaintext
+terraform/
+  providers.tf
+  variables.tf
+  main.tf
+  outputs.tf
+  dev.tfvars
+  prod.tfvars
+```
+
+Minimal example:
+
+- `providers.tf`: provider and Terraform version.
+- `variables.tf`: typed inputs (`project_id`, `region`, `image_uri`).
+- `main.tf`: Cloud Run + Artifact Registry + IAM resources.
+- `outputs.tf`: service URL, useful IDs.
+- `*.tfvars`: environment-specific values only.
+
+This layout makes onboarding easier and reduces "where is that config?" confusion.
+
+Run:
+
+```bash
+terraform init
+terraform plan
+terraform apply
+```
+
+Set `container_port` to the port the container actually listens on (here **8080**, same as nginx and the standalone example with `PORT=8080`).
+
+Now infra and deploy config are reviewable in Git, same as application code.
+
+## Design choices that save time later
+
+### Pin every deployment by image tag
+
+Do not deploy floating tags like `latest` in production.
+Use explicit tags (`v1`, `v2`, or commit SHA) so release history is deterministic.
+
+### Keep environments separate
+
+Use separate Terraform state or projects for dev/stage/prod.
+This avoids accidental cross-environment impact.
+
+### Make rollback a first-class path
+
+Because Cloud Run deploys from image tags, rollback should be one fast command or one Terraform variable change.
+
+## Trade-offs (when this may be too much)
+
+This setup is strong, but not always needed.
+
+- For tiny prototypes, full Terraform can feel heavy.
+- Teams new to IaC need onboarding time.
+- Strict release controls add process overhead.
+
+If your app is still very early, start small and introduce Terraform once services or environments grow.
+
+## Practical checklist
+
+- [ ] Build image in CI, not on local machine
+- [ ] Push only versioned tags to Artifact Registry
+- [ ] Deploy Cloud Run via Terraform, not console clicks
+- [ ] Keep runtime variables in secure config/secrets
+- [ ] Verify rollback path before production release
+
+## Final note
+
+Cloud Run, Terraform, Artifact Registry, and Cloud Build work best as one delivery system, not separate tools.  
+Once connected, your deployments become predictable, reviewable, and easier to operate under pressure.
+6:["$","$L5b",null,{"content":"$5c"}]
+7:["$","footer",null,{"children":[["$","div",null,{"className":"home-links","children":[["$","a",null,{"href":"https://stackoverflow.com/users/12345813/hgq287","target":"_blank","rel":"noopener noreferrer","children":"↗ stackoverflow"}],["$","span",null,{"className":"home-links-sep","children":"/"}],["$","a",null,{"href":"https://github.com/hgq287","target":"_blank","rel":"noopener noreferrer","children":"↗ github"}],["$","span",null,{"className":"home-links-sep","children":"/"}],["$","a",null,{"href":"https://github.com/hgq287/hgq287.github.io","target":"_blank","rel":"noopener noreferrer","children":"↗ view source"}]]}],["$","div",null,{"className":"home-footer-second-row","children":[["$","span",null,{"className":"home-footer-copy","children":["© ",2026," MIT Licensed"]}],["$","span",null,{"className":"home-footer-sep","children":"/"}],["$","a",null,{"href":"/Resume.pdf","download":"Resume.pdf","className":"home-resume-link","children":"Resume"}]]}]]}]
+8:["$","script","script-0",{"src":"/_next/static/chunks/eb5d4a461eae1602.js","async":true}]
+9:["$","$L5d",null,{"children":["$","$5e",null,{"name":"Next.MetadataOutlet","children":"$@5f"}]}]
+b:["$","p","p-5",{"children":["For a single demo app, console clicks may be fine.",["$","br","br-0",{}],"\n","For real delivery flow with more than one environment, Terraform quickly pays back."]}]
+c:["$","h2","h2-3",{"id":"end-to-end-flow","className":"pt-20 -mt-20","children":"End-to-end flow"}]
+d:["$","$L60","pre-0",{"code":"Git push\n  -> Cloud Build\n      -> Build Docker image\n      -> Push image to Artifact Registry\n  -> Terraform apply\n      -> Create/update Cloud Run service\n      -> Deploy new image tag\nRollback\n  -> Change image tag to previous stable version\n  -> Terraform apply\n","children":["$","code","code-0",{"className":"language-plaintext","children":"Git push\n  -> Cloud Build\n      -> Build Docker image\n      -> Push image to Artifact Registry\n  -> Terraform apply\n      -> Create/update Cloud Run service\n      -> Deploy new image tag\nRollback\n  -> Change image tag to previous stable version\n  -> Terraform apply\n"}]}]
+e:["$","p","p-6",{"children":"The key idea is separation:"}]
+f:["$","ul","ul-2",{"children":["\n",["$","li","li-0",{"children":"App artifact lifecycle is handled by build + registry."}],"\n",["$","li","li-1",{"children":"Runtime infrastructure lifecycle is handled by Terraform."}],"\n"]}]
+10:["$","h2","h2-4",{"id":"scenario-deploy-a-nextjs-app","className":"pt-20 -mt-20","children":"Scenario: Deploy a Next.js app"}]
+11:["$","p","p-7",{"children":["Below is a ",["$","strong","strong-0",{"children":"real-shaped"}]," example: Next.js builds inside Docker, the image runs on Cloud Run, and Cloud Build pushes to Artifact Registry."]}]
+12:["$","h3","h3-0",{"id":"a-pick-how-nextjs-runs-in-the-container","className":"pt-20 -mt-20","children":"A) Pick how Next.js runs in the container"}]
+13:["$","p","p-8",{"children":[["$","strong","strong-0",{"children":["Option 1 — Static export (",["$","code","code-0",{"children":"output: 'export'"}],")"]}],["$","br","br-0",{}],"\n","Good for marketing sites, docs, and blogs that ship as HTML under ",["$","code","code-0",{"children":"out/"}],".",["$","br","br-1",{}],"\n","Run it behind ",["$","strong","strong-1",{"children":"nginx"}]," in the container. Cloud Run expects the process to listen on ",["$","strong","strong-2",{"children":["$","code","code-0",{"children":"PORT"}]}]," (often ",["$","code","code-1",{"children":"8080"}],"), so nginx should listen on that port."]}]
+14:["$","p","p-9",{"children":[["$","strong","strong-0",{"children":["Option 2 — Node server (",["$","code","code-0",{"children":"output: 'standalone'"}],")"]}],["$","br","br-0",{}],"\n","Use when you need SSR, Route Handlers, or dynamic rendering.",["$","br","br-1",{}],"\n","Build produces ",["$","code","code-0",{"children":".next/standalone"}],"; you run ",["$","code","code-1",{"children":"node server.js"}]," and set ",["$","code","code-2",{"children":"PORT"}]," to what Cloud Run gives you."]}]
+15:["$","p","p-10",{"children":"Pick one path per project. Mixing export and standalone in one Dockerfile only confuses the build."}]
+16:["$","h3","h3-1",{"id":"b-dockerfile-static-export-nginx-concrete","className":"pt-20 -mt-20","children":"B) Dockerfile: static export + nginx (concrete)"}]
+17:["$","p","p-11",{"children":[["$","code","code-0",{"children":"Dockerfile"}]," (multi-stage: build Next, serve ",["$","code","code-1",{"children":"out/"}],"):"]}]
+18:["$","$L60","pre-1",{"code":"# --- build ---\nFROM node:22-alpine AS builder\nWORKDIR /app\nCOPY package.json package-lock.json* ./\nRUN npm ci\nCOPY . .\n# Your app should run `next build` and emit `out/` (next.config: output: \"export\")\nRUN npm run build\n\n# --- run ---\nFROM nginx:1.27-alpine\nCOPY nginx.conf /etc/nginx/conf.d/default.conf\nCOPY --from=builder /app/out /usr/share/nginx/html\nEXPOSE 8080\n","children":["$","code","code-0",{"className":"language-dockerfile","children":"# --- build ---\nFROM node:22-alpine AS builder\nWORKDIR /app\nCOPY package.json package-lock.json* ./\nRUN npm ci\nCOPY . .\n# Your app should run `next build` and emit `out/` (next.config: output: \"export\")\nRUN npm run build\n\n# --- run ---\nFROM nginx:1.27-alpine\nCOPY nginx.conf /etc/nginx/conf.d/default.conf\nCOPY --from=builder /app/out /usr/share/nginx/html\nEXPOSE 8080\n"}]}]
+19:["$","p","p-12",{"children":[["$","code","code-0",{"children":"nginx.conf"}]," (listen on 8080 so Cloud Run’s default port matches):"]}]
+1a:["$","$L60","pre-2",{"code":"server {\n  listen 8080;\n  server_name _;\n  root /usr/share/nginx/html;\n  index index.html;\n\n  location / {\n    try_files $uri $uri/ $uri.html /index.html;\n  }\n}\n","children":["$","code","code-0",{"className":"language-nginx","children":"server {\n  listen 8080;\n  server_name _;\n  root /usr/share/nginx/html;\n  index index.html;\n\n  location / {\n    try_files $uri $uri/ $uri.html /index.html;\n  }\n}\n"}]}]
+1b:["$","p","p-13",{"children":[["$","code","code-0",{"children":".dockerignore"}]," (keeps the build context small):"]}]
+1c:["$","$L60","pre-3",{"code":"node_modules\n.next\nout\n.git\n.env*\n","children":["$","code","code-0",{"className":"language-gitignore","children":"node_modules\n.next\nout\n.git\n.env*\n"}]}]
+1d:["$","p","p-14",{"children":["$","strong","strong-0",{"children":"Local smoke test:"}]}]
+1e:["$","$L60","pre-4",{"code":"docker build -t website:local .\ndocker run --rm -p 8080:8080 website:local\n# Open http://localhost:8080\n","children":["$","code","code-0",{"className":"language-bash","children":"docker build -t website:local .\ndocker run --rm -p 8080:8080 website:local\n# Open http://localhost:8080\n"}]}]
+1f:["$","h3","h3-2",{"id":"c-dockerfile-nextjs-standalone-when-you-are-not-using-object-object","className":"pt-20 -mt-20","children":["C) Dockerfile: Next.js standalone (when you are not using ",["$","code","code-0",{"children":"export"}],")"]}]
+20:["$","p","p-15",{"children":["In ",["$","code","code-0",{"children":"next.config"}]," use ",["$","code","code-1",{"children":"output: \"standalone\""}],", then:"]}]
+21:["$","$L60","pre-5",{"code":"FROM node:22-alpine AS builder\nWORKDIR /app\nCOPY package.json package-lock.json* ./\nRUN npm ci\nCOPY . .\nRUN npm run build\n\nFROM node:22-alpine AS runner\nWORKDIR /app\nENV NODE_ENV=production\nENV PORT=8080\nENV HOSTNAME=0.0.0.0\nCOPY --from=builder /app/public ./public\nCOPY --from=builder /app/.next/standalone ./\nCOPY --from=builder /app/.next/static ./.next/static\nCMD [\"node\", \"server.js\"]\n","children":["$","code","code-0",{"className":"language-dockerfile","children":"FROM node:22-alpine AS builder\nWORKDIR /app\nCOPY package.json package-lock.json* ./\nRUN npm ci\nCOPY . .\nRUN npm run build\n\nFROM node:22-alpine AS runner\nWORKDIR /app\nENV NODE_ENV=production\nENV PORT=8080\nENV HOSTNAME=0.0.0.0\nCOPY --from=builder /app/public ./public\nCOPY --from=builder /app/.next/standalone ./\nCOPY --from=builder /app/.next/static ./.next/static\nCMD [\"node\", \"server.js\"]\n"}]}]
+22:["$","p","p-16",{"children":["Cloud Run sets ",["$","code","code-0",{"children":"PORT"}],"; the standalone server reads it, so you usually do not hardcode another port."]}]
+23:["$","h3","h3-3",{"id":"d-object-object-build-image-and-push-to-artifact-registry","className":"pt-20 -mt-20","children":["D) ",["$","code","code-0",{"children":"cloudbuild.yaml"}],": build image and push to Artifact Registry"]}]
+24:["$","p","p-17",{"children":["Substitutions match the ",["$","code","code-0",{"children":"gcloud builds submit"}]," example later. Adjust project IDs and names."]}]
+25:["$","$L60","pre-6",{"code":"substitutions:\n  _REGION: asia-southeast1\n  _REPO: web-repo\n  _IMAGE_NAME: website\n  _TAG: v1\n\nsteps:\n  - name: gcr.io/cloud-builders/docker\n    args:\n      - build\n      - \"-t\"\n      - \"${_REGION}-docker.pkg.dev/$PROJECT_ID/${_REPO}/${_IMAGE_NAME}:${_TAG}\"\n      - .\n\nimages:\n  - \"${_REGION}-docker.pkg.dev/$PROJECT_ID/${_REPO}/${_IMAGE_NAME}:${_TAG}\"\n","children":["$","code","code-0",{"className":"language-yaml","children":"substitutions:\n  _REGION: asia-southeast1\n  _REPO: web-repo\n  _IMAGE_NAME: website\n  _TAG: v1\n\nsteps:\n  - name: gcr.io/cloud-builders/docker\n    args:\n      - build\n      - \"-t\"\n      - \"${_REGION}-docker.pkg.dev/$PROJECT_ID/${_REPO}/${_IMAGE_NAME}:${_TAG}\"\n      - .\n\nimages:\n  - \"${_REGION}-docker.pkg.dev/$PROJECT_ID/${_REPO}/${_IMAGE_NAME}:${_TAG}\"\n"}]}]
+26:["$","p","p-18",{"children":"Cloud Build’s service account needs permission to push to Artifact Registry (e.g. Artifact Registry Writer on the repo or project)."}]
+27:["$","h3","h3-4",{"id":"e-build-and-push-image-with-cloud-build","className":"pt-20 -mt-20","children":"E) Build and push image with Cloud Build"}]
+28:["$","p","p-19",{"children":"Example command:"}]
+29:["$","$L60","pre-7",{"code":"gcloud builds submit --config=cloudbuild.yaml \\\n  --substitutions=_REGION=asia-southeast1,_REPO=web-repo,_IMAGE_NAME=website,_TAG=v1 \\\n  --project=my-web-project\n","children":["$","code","code-0",{"className":"language-bash","children":"gcloud builds submit --config=cloudbuild.yaml \\\n  --substitutions=_REGION=asia-southeast1,_REPO=web-repo,_IMAGE_NAME=website,_TAG=v1 \\\n  --project=my-web-project\n"}]}]
+2a:["$","p","p-20",{"children":"What this gives you:"}]
+2b:["$","ul","ul-3",{"children":["\n",["$","li","li-0",{"children":["A tagged image like ",["$","code","code-0",{"children":"asia-southeast1-docker.pkg.dev/my-web-project/web-repo/website:v1"}]]}],"\n",["$","li","li-1",{"children":"A deployment artifact you can reuse across environments"}],"\n"]}]
+2c:["$","h3","h3-5",{"id":"f-keep-image-in-artifact-registry","className":"pt-20 -mt-20","children":"F) Keep image in Artifact Registry"}]
+2d:["$","p","p-21",{"children":"Why this is important:"}]
+2e:["$","ul","ul-4",{"children":["\n",["$","li","li-0",{"children":"Every release has a clear version."}],"\n",["$","li","li-1",{"children":"Rollback is easy: deploy an older tag."}],"\n",["$","li","li-2",{"children":"Security scanning and access control are centralized."}],"\n"]}]
+2f:["$","h3","h3-6",{"id":"g-manage-cloud-run-with-terraform","className":"pt-20 -mt-20","children":"G) Manage Cloud Run with Terraform"}]
+30:["$","p","p-22",{"children":"Small Terraform sample:"}]
+31:["$","$L60","pre-8",{"code":"resource \"google_cloud_run_v2_service\" \"website\" {\n  name     = \"website\"\n  location = var.region\n\n  template {\n    containers {\n      image = var.image_uri\n      ports {\n        container_port = 8080\n      }\n    }\n  }\n}\n","children":["$","code","code-0",{"className":"language-hcl","children":"resource \"google_cloud_run_v2_service\" \"website\" {\n  name     = \"website\"\n  location = var.region\n\n  template {\n    containers {\n      image = var.image_uri\n      ports {\n        container_port = 8080\n      }\n    }\n  }\n}\n"}]}]
+32:["$","h3","h3-7",{"id":"h-how-to-write-terraform-practical-workflow","className":"pt-20 -mt-20","children":"H) How to write Terraform (practical workflow)"}]
+33:["$","p","p-23",{"children":["Think in this order: ",["$","strong","strong-0",{"children":"providers -> variables -> resources -> outputs"}],"."]}]
+34:["$","ol","ol-0",{"children":["\n",["$","li","li-0",{"children":["$","strong","strong-0",{"children":"Provider and project context"}]}],"\n"]}]
+35:["$","$L60","pre-9",{"code":"terraform {\n  required_providers {\n    google = {\n      source  = \"hashicorp/google\"\n      version = \"~> 5.0\"\n    }\n  }\n}\n\nprovider \"google\" {\n  project = var.project_id\n  region  = var.region\n}\n","children":["$","code","code-0",{"className":"language-hcl","children":"terraform {\n  required_providers {\n    google = {\n      source  = \"hashicorp/google\"\n      version = \"~> 5.0\"\n    }\n  }\n}\n\nprovider \"google\" {\n  project = var.project_id\n  region  = var.region\n}\n"}]}]
+36:["$","ol","ol-1",{"start":2,"children":["\n",["$","li","li-0",{"children":[["$","strong","strong-0",{"children":"Input variables"}]," (things that change by environment)"]}],"\n"]}]
+37:["$","$L60","pre-10",{"code":"variable \"project_id\" { type = string }\nvariable \"region\"     { type = string }\nvariable \"service_name\" {\n  type    = string\n  default = \"website\"\n}\nvariable \"image_uri\" { type = string }\n","children":["$","code","code-0",{"className":"language-hcl","children":"variable \"project_id\" { type = string }\nvariable \"region\"     { type = string }\nvariable \"service_name\" {\n  type    = string\n  default = \"website\"\n}\nvariable \"image_uri\" { type = string }\n"}]}]
+38:["$","ol","ol-2",{"start":3,"children":["\n",["$","li","li-0",{"children":[["$","strong","strong-0",{"children":"Resources"}]," (what you want Terraform to manage)"]}],"\n"]}]
+39:["$","$L60","pre-11",{"code":"resource \"google_artifact_registry_repository\" \"web_repo\" {\n  location      = var.region\n  repository_id = \"web-repo\"\n  format        = \"DOCKER\"\n}\n\nresource \"google_cloud_run_v2_service\" \"website\" {\n  name     = var.service_name\n  location = var.region\n\n  template {\n    containers {\n      image = var.image_uri\n      ports {\n        container_port = 8080\n      }\n    }\n  }\n}\n","children":["$","code","code-0",{"className":"language-hcl","children":"resource \"google_artifact_registry_repository\" \"web_repo\" {\n  location      = var.region\n  repository_id = \"web-repo\"\n  format        = \"DOCKER\"\n}\n\nresource \"google_cloud_run_v2_service\" \"website\" {\n  name     = var.service_name\n  location = var.region\n\n  template {\n    containers {\n      image = var.image_uri\n      ports {\n        container_port = 8080\n      }\n    }\n  }\n}\n"}]}]
+3a:["$","ol","ol-3",{"start":4,"children":["\n",["$","li","li-0",{"children":[["$","strong","strong-0",{"children":"Outputs"}]," (what other steps need)"]}],"\n"]}]
+3b:["$","$L60","pre-12",{"code":"output \"cloud_run_uri\" {\n  value = google_cloud_run_v2_service.website.uri\n}\n","children":["$","code","code-0",{"className":"language-hcl","children":"output \"cloud_run_uri\" {\n  value = google_cloud_run_v2_service.website.uri\n}\n"}]}]
+3c:["$","ol","ol-4",{"start":5,"children":["\n",["$","li","li-0",{"children":["$","strong","strong-0",{"children":"Environment files"}]}],"\n"]}]
+3d:["$","p","p-24",{"children":["Use a ",["$","code","code-0",{"children":"terraform.tfvars"}]," (or ",["$","code","code-1",{"children":"dev.tfvars"}],", ",["$","code","code-2",{"children":"prod.tfvars"}],") per environment:"]}]
+3e:["$","$L60","pre-13",{"code":"project_id   = \"my-web-project-dev\"\nregion       = \"asia-southeast1\"\nservice_name = \"website\"\nimage_uri    = \"asia-southeast1-docker.pkg.dev/my-web-project-dev/web-repo/website:v1\"\n","children":["$","code","code-0",{"className":"language-hcl","children":"project_id   = \"my-web-project-dev\"\nregion       = \"asia-southeast1\"\nservice_name = \"website\"\nimage_uri    = \"asia-southeast1-docker.pkg.dev/my-web-project-dev/web-repo/website:v1\"\n"}]}]
+3f:["$","ol","ol-5",{"start":6,"children":["\n",["$","li","li-0",{"children":["$","strong","strong-0",{"children":"Execution cycle"}]}],"\n"]}]
+40:["$","$L60","pre-14",{"code":"terraform fmt\nterraform init\nterraform validate\nterraform plan -var-file=dev.tfvars\nterraform apply -var-file=dev.tfvars\n","children":["$","code","code-0",{"className":"language-bash","children":"terraform fmt\nterraform init\nterraform validate\nterraform plan -var-file=dev.tfvars\nterraform apply -var-file=dev.tfvars\n"}]}]
+41:["$","p","p-25",{"children":["That is the full writing loop: write small blocks, validate early, plan before apply, then promote the same code to the next environment by changing only ",["$","code","code-0",{"children":"tfvars"}],"."]}]
+42:["$","h3","h3-8",{"id":"i-recommended-terraform-folder-structure","className":"pt-20 -mt-20","children":"I) Recommended Terraform folder structure"}]
+43:["$","p","p-26",{"children":"Keep Terraform files boring and predictable:"}]
+44:["$","$L60","pre-15",{"code":"terraform/\n  providers.tf\n  variables.tf\n  main.tf\n  outputs.tf\n  dev.tfvars\n  prod.tfvars\n","children":["$","code","code-0",{"className":"language-plaintext","children":"terraform/\n  providers.tf\n  variables.tf\n  main.tf\n  outputs.tf\n  dev.tfvars\n  prod.tfvars\n"}]}]
+45:["$","p","p-27",{"children":"Minimal example:"}]
+46:["$","ul","ul-5",{"children":["\n",["$","li","li-0",{"children":[["$","code","code-0",{"children":"providers.tf"}],": provider and Terraform version."]}],"\n",["$","li","li-1",{"children":[["$","code","code-0",{"children":"variables.tf"}],": typed inputs (",["$","code","code-1",{"children":"project_id"}],", ",["$","code","code-2",{"children":"region"}],", ",["$","code","code-3",{"children":"image_uri"}],")."]}],"\n",["$","li","li-2",{"children":[["$","code","code-0",{"children":"main.tf"}],": Cloud Run + Artifact Registry + IAM resources."]}],"\n",["$","li","li-3",{"children":[["$","code","code-0",{"children":"outputs.tf"}],": service URL, useful IDs."]}],"\n",["$","li","li-4",{"children":[["$","code","code-0",{"children":"*.tfvars"}],": environment-specific values only."]}],"\n"]}]
+47:["$","p","p-28",{"children":"This layout makes onboarding easier and reduces \"where is that config?\" confusion."}]
+48:["$","p","p-29",{"children":"Run:"}]
+49:["$","$L60","pre-16",{"code":"terraform init\nterraform plan\nterraform apply\n","children":["$","code","code-0",{"className":"language-bash","children":"terraform init\nterraform plan\nterraform apply\n"}]}]
+4a:["$","p","p-30",{"children":["Set ",["$","code","code-0",{"children":"container_port"}]," to the port the container actually listens on (here ",["$","strong","strong-0",{"children":"8080"}],", same as nginx and the standalone example with ",["$","code","code-1",{"children":"PORT=8080"}],")."]}]
+4b:["$","p","p-31",{"children":"Now infra and deploy config are reviewable in Git, same as application code."}]
+4c:["$","h2","h2-5",{"id":"design-choices-that-save-time-later","className":"pt-20 -mt-20","children":"Design choices that save time later"}]
+4d:["$","h3","h3-9",{"id":"pin-every-deployment-by-image-tag","className":"pt-20 -mt-20","children":"Pin every deployment by image tag"}]
+4e:["$","p","p-32",{"children":["Do not deploy floating tags like ",["$","code","code-0",{"children":"latest"}]," in production.\nUse explicit tags (",["$","code","code-1",{"children":"v1"}],", ",["$","code","code-2",{"children":"v2"}],", or commit SHA) so release history is deterministic."]}]
+4f:["$","h3","h3-10",{"id":"keep-environments-separate","className":"pt-20 -mt-20","children":"Keep environments separate"}]
+50:["$","p","p-33",{"children":"Use separate Terraform state or projects for dev/stage/prod.\nThis avoids accidental cross-environment impact."}]
+51:["$","h3","h3-11",{"id":"make-rollback-a-first-class-path","className":"pt-20 -mt-20","children":"Make rollback a first-class path"}]
+52:["$","p","p-34",{"children":"Because Cloud Run deploys from image tags, rollback should be one fast command or one Terraform variable change."}]
+53:["$","h2","h2-6",{"id":"trade-offs-when-this-may-be-too-much","className":"pt-20 -mt-20","children":"Trade-offs (when this may be too much)"}]
+54:["$","p","p-35",{"children":"This setup is strong, but not always needed."}]
+55:["$","ul","ul-6",{"children":["\n",["$","li","li-0",{"children":"For tiny prototypes, full Terraform can feel heavy."}],"\n",["$","li","li-1",{"children":"Teams new to IaC need onboarding time."}],"\n",["$","li","li-2",{"children":"Strict release controls add process overhead."}],"\n"]}]
+56:["$","p","p-36",{"children":"If your app is still very early, start small and introduce Terraform once services or environments grow."}]
+57:["$","h2","h2-7",{"id":"practical-checklist","className":"pt-20 -mt-20","children":"Practical checklist"}]
+58:["$","ul","ul-7",{"className":"contains-task-list","children":["\n",["$","li","li-0",{"className":"task-list-item","children":[["$","input","input-0",{"type":"checkbox","checked":false,"disabled":true}]," ","Build image in CI, not on local machine"]}],"\n",["$","li","li-1",{"className":"task-list-item","children":[["$","input","input-0",{"type":"checkbox","checked":false,"disabled":true}]," ","Push only versioned tags to Artifact Registry"]}],"\n",["$","li","li-2",{"className":"task-list-item","children":[["$","input","input-0",{"type":"checkbox","checked":false,"disabled":true}]," ","Deploy Cloud Run via Terraform, not console clicks"]}],"\n",["$","li","li-3",{"className":"task-list-item","children":[["$","input","input-0",{"type":"checkbox","checked":false,"disabled":true}]," ","Keep runtime variables in secure config/secrets"]}],"\n",["$","li","li-4",{"className":"task-list-item","children":[["$","input","input-0",{"type":"checkbox","checked":false,"disabled":true}]," ","Verify rollback path before production release"]}],"\n"]}]
+59:["$","h2","h2-8",{"id":"final-note","className":"pt-20 -mt-20","children":"Final note"}]
+5a:["$","p","p-37",{"children":["Cloud Run, Terraform, Artifact Registry, and Cloud Build work best as one delivery system, not separate tools.",["$","br","br-0",{}],"\n","Once connected, your deployments become predictable, reviewable, and easier to operate under pressure."]}]
+5f:null
