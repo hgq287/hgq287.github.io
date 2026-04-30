@@ -42,7 +42,7 @@ export default async function Home() {
           <div className="home-writing">
             <h2 className="home-writing-title">Recent writing</h2>
             <p className="home-writing-lede">
-              Systems blueprints and blog posts (newest and featured first).{' '}
+              Systems blueprints and blog posts (newest first).{' '}
               <Link href="/systems">All Systems</Link>
               {' · '}
               <Link href="/blog">All Blog</Link>

@@ -27,12 +27,7 @@ function mergeAndSort(blog: PostMetadata[], systems: PostMetadata[]): HomeFeedIt
     })),
   ];
 
-  items.sort((a, b) => {
-    const af = a.featured ? 1 : 0;
-    const bf = b.featured ? 1 : 0;
-    if (bf !== af) return bf - af;
-    return new Date(b.date).getTime() - new Date(a.date).getTime();
-  });
+  items.sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime());
 
   return items;
 }
