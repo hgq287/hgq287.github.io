@@ -32,6 +32,9 @@ const ogImageEntry = {
   alt: `${AUTHOR_NAME} – ${SITE_NAME}`,
 };
 
+/** Set at build time for Google Search Console “HTML tag” ownership verification. */
+const googleSiteVerification = process.env.NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION?.trim();
+
 export const rootMetadata = {
   metadataBase,
   title: {
@@ -54,6 +57,9 @@ export const rootMetadata = {
     description: SITE_DESCRIPTION,
     images: [OG_IMAGE_PATH],
   },
+  ...(googleSiteVerification
+    ? { verification: { google: googleSiteVerification } }
+    : {}),
 } satisfies Metadata;
 
 export const homePageMetadata = {

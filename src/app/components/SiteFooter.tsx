@@ -1,5 +1,3 @@
-import Link from 'next/link';
-
 export default function SiteFooter() {
   return (
     <footer>
@@ -20,10 +18,12 @@ export default function SiteFooter() {
         <span className="home-footer-copy">
           © {new Date().getFullYear()} MIT Licensed
         </span>
-        <span className="home-footer-sep">/</span>
+        {/* Resume download hidden: CV lives in docs/local/Resume.pdf (gitignored).
+            To show again: copy Resume.pdf to public/, then uncomment below. */}
+        {/* <span className="home-footer-sep">/</span>
         <a href="/Resume.pdf" download="Resume.pdf" className="home-resume-link">
           Resume
-        </a>
+        </a> */}
       </div>
     </footer>
   );
