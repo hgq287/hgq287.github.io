@@ -14,7 +14,7 @@ tags:
 
 Companion to [Edge Video AI Pipelines: DAG Runtimes, Queues, and System Bottlenecks](/systems/edge-ai-pipeline-dag-runtime-bottlenecks): that one covers **throughput and scheduling**; this one covers **model artifacts**, **memory contracts**, and **portability** across SoCs. It stays **runtime-agnostic**: plug in TensorRT, SNPE, QNN, OpenVINO, or whatever your board ships with.
 
-**Goal:** keep export, calibration, and buffer ownership as explicit as CI and deployment steps in the other blueprints here.
+**Goal:** treat export, calibration, and buffer ownership with the same rigor as CI and deploy steps.
 
 ## Table of contents
 
@@ -147,4 +147,4 @@ Graph lowering reads **caps** and chooses backends. Product code stays stable; n
 
 ---
 
-Illustrative architecture note. Backend names are examples; validate against your vendor SDKs and safety requirements, same as other playbooks on this site.
+Illustrative architecture note. Backend names are examples — validate against your vendor SDKs and safety requirements.

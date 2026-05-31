@@ -2,7 +2,7 @@
 slug: "ops-blueprint-universal-deployment-playbook"
 title: "Ops Blueprint: Universal Deployment Playbook"
 date: "2025-12-16"
-excerpt: "A friendly ops blueprint for repeatable builds, production-like runtime, safe releases, rollbacks, secrets, Docker Compose, and incident response."
+excerpt: "Ops notes for repeatable builds, production-like runtime, releases, rollbacks, secrets, Docker Compose, and incident response."
 tags:
   - DevOps
   - Deployment

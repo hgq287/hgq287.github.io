@@ -13,7 +13,7 @@ tags:
 
 ## Next.js Blog Architecture Summary
 
-This post describes the tech stack and main design choices used to build this blog. The goal is a simple, fast, and maintainable site that stays easy to extend.
+Stack and layout choices for this site: App Router, SSG, Markdown content, static export to GitHub Pages. Kept deliberately small so adding posts stays boring in a good way.
 
 ## Core stack
 
@@ -28,7 +28,7 @@ This post describes the tech stack and main design choices used to build this bl
 - **Home:** Single column: header, intro (from `intro.md`), list of recent posts, footer. Max width 42rem; padding aligned on left and right.
 - **Blog:** Two-level layout. Blog index shows the latest post; post list lives in a sidebar (desktop) or is reachable via navigation. Each post has its own route `/blog/[slug]`.
 - **Header:** Sticky, shared across home and blog. Navigation items (Home, Blog, Systems) and optional hamburger menu for small screens. When the hamburger is off, nav is centered on mobile.
-- **Footer:** Same on all pages: links (Stack Overflow, GitHub, view source), then a second row with copyright and Resume download.
+- **Footer:** Same on all pages: links (Stack Overflow, GitHub, view source), then copyright.
 
 ## Data and content flow
 

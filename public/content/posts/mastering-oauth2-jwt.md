@@ -11,7 +11,7 @@ tags:
   - Architecture
 ---
 
-This post describes how we built a **secure, performant authentication system** using **OAuth 2.0** with **JWT access tokens** signed by **RS256** and **opaque, revocable refresh tokens**. The hybrid approach keeps API checks fast while still allowing instant revocation when needed.
+Hybrid auth with **OAuth 2.0**: short-lived **JWT access tokens** (RS256) plus opaque **refresh tokens** you can revoke in the database. API checks stay fast; sessions can still be killed when needed.
 
 ## 1. Architecture overview
 

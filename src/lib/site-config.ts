@@ -107,14 +107,14 @@ export const blogIndexMetadata = {
 export const systemsIndexMetadata = {
   title: 'Systems',
   description:
-    'Systems blueprints and playbooks: deployment, Docker, edge AI pipelines, quantization, and ops. Written for repeatable execution, not slideware.',
+    'Systems notes and playbooks: deployment, Docker, edge AI, ops — written to run, not to present.',
   alternates: {
     canonical: '/systems',
   },
   openGraph: {
     title: `Systems | ${SITE_NAME}`,
     description:
-      'Blueprints for deployment, Docker, edge AI pipelines, quantization, and operations.',
+      'Deployment, Docker, edge AI, quantization, and ops notes.',
     url: '/systems',
     images: [ogImageEntry],
   },
@@ -122,7 +122,7 @@ export const systemsIndexMetadata = {
     card: 'summary_large_image' as const,
     title: `Systems | ${SITE_NAME}`,
     description:
-      'Blueprints for deployment, Docker, edge AI pipelines, quantization, and operations.',
+      'Deployment, Docker, edge AI, quantization, and ops notes.',
     images: [OG_IMAGE_PATH],
   },
 } satisfies Metadata;
