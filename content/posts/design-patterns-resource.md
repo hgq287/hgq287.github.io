@@ -8,7 +8,7 @@ tags:
   - Docs
 ---
 
-A resource I often recommend for learning **software design patterns** is [Refactoring.Guru: Design Patterns](https://refactoring.guru/design-patterns). This post sums up what the site offers and why it’s useful.
+For design patterns I often send people to [Refactoring.Guru: Design Patterns](https://refactoring.guru/design-patterns). Quick summary of what is on the site and when it helps.
 
 ## What are design patterns?
 
@@ -34,8 +34,8 @@ For each pattern you typically get: intent, structure (e.g. UML), example code, 
 
 Patterns are not mandatory. Use them when they clearly improve clarity or flexibility; avoid forcing them where a simple solution is enough.
 
-## Why this resource?
+## Why Refactoring.Guru
 
-Refactoring.Guru presents patterns in a **consistent format** with diagrams and code in several languages. It’s good for learning the idea first, then applying it in your stack (e.g. TypeScript, Swift, or Kotlin). The site also covers refactoring and SOLID, which pair well with design patterns.
+Refactoring.Guru uses a **consistent format** — diagrams, multi-language snippets, intent and trade-offs per pattern. Good for learning the idea, then applying it in your stack (TypeScript, Swift, Kotlin, etc.). Refactoring and SOLID sections pair well with patterns.
 
 **Link:** [Refactoring.Guru – Design Patterns](https://refactoring.guru/design-patterns)

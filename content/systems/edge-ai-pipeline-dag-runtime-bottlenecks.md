@@ -87,7 +87,7 @@ Scheduling here is not only “a thread pool.” It is **mapping nodes to execut
 
 ## 4. Sample shape: stages and a minimal scheduler loop
 
-The following is **illustrative pseudo-C++** to show separation of concerns: **handles**, **queues**, **stage functions**, and **policy hooks**. It is not a drop-in library, same as command snippets in other blueprints here.
+The following is **illustrative pseudo-C++** for handles, queues, stage functions, and policy hooks — not a drop-in library.
 
 ```cpp
 // Opaque buffer id: pool index, dmabuf handle, or vendor token.
@@ -169,4 +169,4 @@ Optimizing a kernel that is not on the critical path is a common way to waste we
 
 ---
 
-Illustrative architecture note. Tune numbers and policies to your SoC, OS, and product SLA, same as other playbooks on this site.
+Illustrative architecture note. Tune numbers and policies to your SoC, OS, and product SLA.

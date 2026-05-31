@@ -10,178 +10,268 @@ d:I[68027,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/247e
 :HL["/_next/static/chunks/e6feeec15da1bfda.css","style"]
 :HL["/_next/static/media/47df9ba1c7236d3b-s.p.7bbb93ea.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
 :HL["/_next/static/media/68d403cf9f2c68c5-s.p.f9f15f61.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
-0:{"P":null,"b":"5_XEWyH7cBar3x8o66O96","c":["","systems"],"q":"","i":false,"f":[[["",{"children":["systems",{"children":["__PAGE__",{}]}]},"$undefined","$undefined",true],[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/e6feeec15da1bfda.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/_next/static/chunks/58689c96b0676c41.js","async":true,"nonce":"$undefined"}]],["$","html",null,{"lang":"en","suppressHydrationWarning":true,"className":"source_sans_3_ef15b96b-module__iXAkeG__variable source_serif_4_ee15e1dc-module__HXKgIG__variable","children":["$","body",null,{"className":"font-sans antialiased","children":[["$","script",null,{"type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"{\"@context\":\"https://schema.org\",\"@graph\":[{\"@type\":\"Person\",\"@id\":\"https://hgq287.github.io/#person\",\"name\":\"Hung Q. Truong\",\"url\":\"https://hgq287.github.io\",\"sameAs\":[\"https://www.linkedin.com/in/hgq287\",\"https://github.com/hgq287\",\"https://stackoverflow.com/users/12345813/hgq287\"],\"jobTitle\":\"Systems Architect; Principal AI Engineer\"},{\"@type\":\"WebSite\",\"@id\":\"https://hgq287.github.io/#website\",\"name\":\"Hg's Portfolio\",\"url\":\"https://hgq287.github.io\",\"description\":\"Systems Architect with 15+ years. Principal AI: strategy, architecture, and shipping from research to production. Swift, C++, core engines, Kotlin Multiplatform, backends.\",\"inLanguage\":\"en-US\",\"publisher\":{\"@id\":\"https://hgq287.github.io/#person\"}}]}"}}],["$","$L2",null,{"attribute":"data-theme","children":["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]]}]}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":["$L5",[["$","script","script-0",{"src":"/_next/static/chunks/67a6e4e165ed0957.js","async":true,"nonce":"$undefined"}]],["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]]}],{},null,false,false]},null,false,false]},null,false,false],["$","$1","h",{"children":[null,["$","$L9",null,{"children":"$@a"}],["$","div",null,{"hidden":true,"children":["$","$Lb",null,{"children":["$","$7",null,{"name":"Next.Metadata","children":"$@c"}]}]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],false]],"m":"$undefined","G":["$d",[]],"S":true}
+0:{"P":null,"b":"U3iMdKkIuIcfxg4PdZqHF","c":["","systems"],"q":"","i":false,"f":[[["",{"children":["systems",{"children":["__PAGE__",{}]}]},"$undefined","$undefined",true],[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/e6feeec15da1bfda.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/_next/static/chunks/58689c96b0676c41.js","async":true,"nonce":"$undefined"}]],["$","html",null,{"lang":"en","suppressHydrationWarning":true,"className":"source_sans_3_ef15b96b-module__iXAkeG__variable source_serif_4_ee15e1dc-module__HXKgIG__variable","children":["$","body",null,{"className":"font-sans antialiased","children":[["$","script",null,{"type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"{\"@context\":\"https://schema.org\",\"@graph\":[{\"@type\":\"Person\",\"@id\":\"https://hgq287.github.io/#person\",\"name\":\"Hung Q. Truong\",\"url\":\"https://hgq287.github.io\",\"sameAs\":[\"https://www.linkedin.com/in/hgq287\",\"https://github.com/hgq287\",\"https://stackoverflow.com/users/12345813/hgq287\"],\"jobTitle\":\"Systems Architect; Principal AI Engineer\"},{\"@type\":\"WebSite\",\"@id\":\"https://hgq287.github.io/#website\",\"name\":\"Hg's Portfolio\",\"url\":\"https://hgq287.github.io\",\"description\":\"Systems Architect with 15+ years. Principal AI: strategy, architecture, and shipping from research to production. Swift, C++, core engines, Kotlin Multiplatform, backends.\",\"inLanguage\":\"en-US\",\"publisher\":{\"@id\":\"https://hgq287.github.io/#person\"}}]}"}}],["$","$L2",null,{"attribute":"data-theme","children":["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]]}]}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":["$L5",[["$","script","script-0",{"src":"/_next/static/chunks/67a6e4e165ed0957.js","async":true,"nonce":"$undefined"}]],["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]]}],{},null,false,false]},null,false,false]},null,false,false],["$","$1","h",{"children":[null,["$","$L9",null,{"children":"$@a"}],["$","div",null,{"hidden":true,"children":["$","$Lb",null,{"children":["$","$7",null,{"name":"Next.Metadata","children":"$@c"}]}]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],false]],"m":"$undefined","G":["$d",[]],"S":true}
 e:I[66576,["/_next/static/chunks/58689c96b0676c41.js","/_next/static/chunks/67a6e4e165ed0957.js"],"default"]
 f:I[8100,["/_next/static/chunks/58689c96b0676c41.js","/_next/static/chunks/67a6e4e165ed0957.js"],"default"]
-10:I[13192,["/_next/static/chunks/58689c96b0676c41.js","/_next/static/chunks/67a6e4e165ed0957.js"],"default"]
-5:["$","div",null,{"className":"blog-page","children":[["$","$Le",null,{"title":"Cloud Run Cost Defense: Scan Traffic, Cloud Armor, and CDN at the Edge","headline":"Stop vulnerability scanners from burning Cloud Run budget: Cloud Armor at the global HTTPS load balancer, CDN negative caching for residual 404s, and locked ingress so bots cannot bypass the front door."}],["$","div",null,{"className":"blog-layout","children":[["$","$Lf",null,{"allPostsMetadata":[{"slug":"cloud-run-cost-defense-armor-cdn","title":"Cloud Run Cost Defense: Scan Traffic, Cloud Armor, and CDN at the Edge","date":"2026-05-13T00:00:00.000Z","excerpt":"Stop vulnerability scanners from burning Cloud Run budget: Cloud Armor at the global HTTPS load balancer, CDN negative caching for residual 404s, and locked ingress so bots cannot bypass the front door.","tags":["Cloud Run","Cloud Armor","Cloud CDN","Google Cloud","Security","Cost optimization"],"featured":false},{"slug":"cloud-run-terraform-artifact-registry-delivery-flow","title":"Cloud Delivery Flow: Cloud Run + Terraform + Artifact Registry","date":"2026-04-30T00:00:00.000Z","excerpt":"A practical guide to ship web apps with Cloud Build, Artifact Registry, Terraform, and Cloud Run in one clean pipeline.","tags":["Cloud Run","Terraform","Artifact Registry","Cloud Build","DevOps","CI/CD"],"featured":false},{"slug":"edge-ai-quantization-zero-copy-data-plane","title":"Quantized Models and Zero-Copy Data Planes: Contracts from Calibration to HAL","date":"2026-04-18T00:00:00.000Z","excerpt":"How INT8/FP16 artifacts, runtime backends, buffer ownership, and sync points fit together on edge SoCs. Includes a capability-style HAL sketch and a realistic warning: zero-copy is not zero-synchronization.","tags":["EdgeAI","Quantization","Inference","Memory","SystemsArchitecture"],"featured":true},{"slug":"edge-ai-pipeline-dag-runtime-bottlenecks","title":"Edge Video AI Pipelines: DAG Runtimes, Queues, and System Bottlenecks","date":"2026-03-24T00:00:00.000Z","excerpt":"A concrete mental model for graph-based edge inference: stages, queues, executors, backpressure, and why DRAM bandwidth and thermal headroom often beat raw NPU FLOPs on the critical path.","tags":["EdgeAI","SystemsArchitecture","VideoAnalytics","RealTime","C++"],"featured":true},{"slug":"docker-blueprint-architecture-command-lab","title":"Docker Blueprint: Architecture & Command Lab","date":"2026-03-10T00:00:00.000Z","excerpt":"A practical guide to Docker architecture, core commands, networking, and Compose—with a VM vs container diagram and an architect's checklist.","tags":["Docker","DevOps","Architecture"],"featured":false},{"slug":"ops-blueprint-universal-deployment-playbook","title":"Ops Blueprint: Universal Deployment Playbook","date":"2025-12-16T00:00:00.000Z","excerpt":"A friendly ops blueprint for repeatable builds, production-like runtime, safe releases, rollbacks, secrets, Docker Compose, and incident response.","tags":["DevOps","Deployment","Docker","Security","IncidentResponse"],"featured":false}],"activeSlug":"cloud-run-cost-defense-armor-cdn","basePath":"/systems","sidebarTitle":"All Articles"}],["$","main",null,{"className":"blog-main","children":["$","article",null,{"children":[["$","h1",null,{"className":"blog-article-title","children":"Cloud Run Cost Defense: Scan Traffic, Cloud Armor, and CDN at the Edge"}],["$","div",null,{"className":"blog-article-meta","children":["$","$L10",null,{"date":"2026-05-13T00:00:00.000Z","tags":"$5:props:children:1:props:children:0:props:allPostsMetadata:0:tags"}]}],["$","div",null,{"className":"blog-prose","children":["$","div",null,{"className":"prose prose-neutral dark:prose-invert max-w-none prose-headings:font-serif prose-headings:font-semibold prose-headings:tracking-tight prose-h2:text-2xl prose-h3:text-xl prose-p:leading-relaxed prose-strong:font-semibold prose-li:mb-1.5 prose-a:text-accent-fg prose-a:no-underline hover:prose-a:underline prose-text-foreground","children":"$L11"}]}]]}]}],"$L12"]}],"$L13"]}]
-14:I[60956,["/_next/static/chunks/58689c96b0676c41.js","/_next/static/chunks/67a6e4e165ed0957.js"],"CodeBlockWithCopy"]
-39:I[87667,["/_next/static/chunks/58689c96b0676c41.js","/_next/static/chunks/67a6e4e165ed0957.js"],"default"]
-11:[["$","h2","h2-0",{"id":"why-the-bill-spikes-anyway","className":"pt-20 -mt-20","children":"Why the bill spikes anyway"}],"\n",["$","p","p-0",{"children":"One Monday you open Billing and Cloud Run is up sharply. In Logs Explorer the traffic looks like junk:"}],"\n",["$","ul","ul-0",{"children":["\n",["$","li","li-0",{"children":["$","code","code-0",{"children":"GET /wp-login.php"}]}],"\n",["$","li","li-1",{"children":["$","code","code-0",{"children":"GET /wp-admin/setup-config.php"}]}],"\n",["$","li","li-2",{"children":["$","code","code-0",{"children":"GET /.env"}]}],"\n"]}],"\n",["$","p","p-1",{"children":["Your app is ",["$","strong","strong-0",{"children":"Next.js"}],", not WordPress, and there is no PHP. Every probe still returns ",["$","strong","strong-1",{"children":"404"}],"—and that is the trap."]}],"\n",["$","p","p-2",{"children":[["$","strong","strong-0",{"children":"Cloud Run charges for real work at the edge of the platform:"}]," you pay for ",["$","strong","strong-1",{"children":"requests"}]," and for ",["$","strong","strong-2",{"children":"billable instance time"}]," (CPU and memory allocated while instances handle concurrency). A scanner does not need a “successful” page to cost money. Enough parallel junk requests can:"]}],"\n",["$","ul","ul-1",{"children":["\n",["$","li","li-0",{"children":[["$","strong","strong-0",{"children":"Raise concurrency"}]," and keep instances busy serving cheap 404s."]}],"\n",["$","li","li-1",{"children":[["$","strong","strong-0",{"children":"Trigger autoscaling"}]," and cold starts when bursts arrive faster than idle capacity."]}],"\n"]}],"\n",["$","p","p-3",{"children":["Application-layer fixes (Next.js middleware, route handlers) help, but they still spend ",["$","strong","strong-0",{"children":"your container’s CPU"}]," on noise. The cheaper pattern is ",["$","strong","strong-1",{"children":"defense in depth at Google’s front door"}],": deny obvious abuse before Cloud Run sees it, and ",["$","strong","strong-2",{"children":"cache safe negatives"}]," at the CDN so repeat probes do not hit the origin."]}],"\n",["$","h2","h2-1",{"id":"architecture-three-layers","className":"pt-20 -mt-20","children":"Architecture: three layers"}],"\n",["$","$L14","pre-0",{"code":"flowchart LR\n  client[ClientsAndBots]\n  lb[ExternalHTTPSLoadBalancer]\n  armor[CloudArmorPolicy]\n  cdn[CloudCDNEdge]\n  neg[ServerlessNEG]\n  run[CloudRunRevision]\n\n  client --> lb\n  lb --> armor\n  armor -->|allow| cdn\n  armor -->|deny_403| client\n  cdn -->|cache_hit| client\n  cdn -->|origin_miss| neg\n  neg --> run\n","children":["$","code","code-0",{"className":"language-mermaid","children":"flowchart LR\n  client[ClientsAndBots]\n  lb[ExternalHTTPSLoadBalancer]\n  armor[CloudArmorPolicy]\n  cdn[CloudCDNEdge]\n  neg[ServerlessNEG]\n  run[CloudRunRevision]\n\n  client --> lb\n  lb --> armor\n  armor -->|allow| cdn\n  armor -->|deny_403| client\n  cdn -->|cache_hit| client\n  cdn -->|origin_miss| neg\n  neg --> run\n"}]}],"\n",["$","table","table-0",{"children":[["$","thead","thead-0",{"children":["$","tr","tr-0",{"children":[["$","th","th-0",{"style":{"textAlign":"left"},"children":"Layer"}],["$","th","th-1",{"style":{"textAlign":"left"},"children":"Role"}],["$","th","th-2",{"style":{"textAlign":"left"},"children":"What you gain"}]]}]}],["$","tbody","tbody-0",{"children":[["$","tr","tr-0",{"children":[["$","td","td-0",{"style":{"textAlign":"left"},"children":["$","strong","strong-0",{"children":"Cloud Armor"}]}],["$","td","td-1",{"style":{"textAlign":"left"},"children":["WAF-style rules on the ",["$","strong","strong-0",{"children":"backend service"}]," attached to the load balancer"]}],["$","td","td-2",{"style":{"textAlign":"left"},"children":["Obvious scanner paths return ",["$","strong","strong-0",{"children":"403"}]," at the LB edge; traffic ",["$","strong","strong-1",{"children":"does not reach"}]," the serverless NEG or Cloud Run."]}]]}],["$","tr","tr-1",{"children":[["$","td","td-0",{"style":{"textAlign":"left"},"children":["$","strong","strong-0",{"children":"Cloud CDN"}]}],["$","td","td-1",{"style":{"textAlign":"left"},"children":["Edge caching, including ","$L15"," for error responses"]}],"$L16"]}],"$L17"]}]]}],"\n","$L18","\n","$L19","\n","$L1a","\n","$L1b","\n","$L1c","\n","$L1d","\n","$L1e","\n","$L1f","\n","$L20","\n","$L21","\n","$L22","\n","$L23","\n","$L24","\n","$L25","\n","$L26","\n","$L27","\n","$L28","\n","$L29","\n","$L2a","\n","$L2b","\n","$L2c","\n","$L2d","\n","$L2e","\n","$L2f","\n","$L30","\n","$L31","\n","$L32","\n","$L33","\n","$L34","\n","$L35","\n","$L36","\n","$L37","\n","$L38"]
-3a:T21ba,
-## Why the bill spikes anyway
+5:["$","div",null,{"className":"blog-page","children":[["$","$Le",null,{"title":"Next.js on a 2GB VPS: Real CI/CD, Real Failures, and What We Did","headline":"A production runbook for a small Vultr VPS — dual Next.js apps on one domain, GitHub Actions, nginx, GHCR, and the 403, AAAA, and CSS routing bugs we hit along the way."}],["$","div",null,{"className":"blog-layout","children":[["$","$Lf",null,{"allPostsMetadata":[{"slug":"nextjs-vps-2gb-cicd-real-world-runbook","title":"Next.js on a 2GB VPS: Real CI/CD, Real Failures, and What We Did","date":"2026-05-18T00:00:00.000Z","excerpt":"A production runbook for a small Vultr VPS — dual Next.js apps on one domain, GitHub Actions, nginx, GHCR, and the 403, AAAA, and CSS routing bugs we hit along the way.","tags":["Next.js","VPS","CI/CD","GitHub Actions","Docker","nginx","DevOps"],"featured":false},{"slug":"cloud-run-cost-defense-armor-cdn","title":"Cloud Run Cost Defense: Scan Traffic, Cloud Armor, and CDN at the Edge","date":"2026-05-13T00:00:00.000Z","excerpt":"Stop vulnerability scanners from burning Cloud Run budget: Cloud Armor at the global HTTPS load balancer, CDN negative caching for residual 404s, and locked ingress so bots cannot bypass the front door.","tags":["Cloud Run","Cloud Armor","Cloud CDN","Google Cloud","Security","Cost optimization"],"featured":false},{"slug":"cloud-run-terraform-artifact-registry-delivery-flow","title":"Cloud Delivery Flow: Cloud Run + Terraform + Artifact Registry","date":"2026-04-30T00:00:00.000Z","excerpt":"A practical guide to ship web apps with Cloud Build, Artifact Registry, Terraform, and Cloud Run in one clean pipeline.","tags":["Cloud Run","Terraform","Artifact Registry","Cloud Build","DevOps","CI/CD"],"featured":false},{"slug":"edge-ai-quantization-zero-copy-data-plane","title":"Quantized Models and Zero-Copy Data Planes: Contracts from Calibration to HAL","date":"2026-04-18T00:00:00.000Z","excerpt":"How INT8/FP16 artifacts, runtime backends, buffer ownership, and sync points fit together on edge SoCs. Includes a capability-style HAL sketch and a realistic warning: zero-copy is not zero-synchronization.","tags":["EdgeAI","Quantization","Inference","Memory","SystemsArchitecture"],"featured":true},{"slug":"edge-ai-pipeline-dag-runtime-bottlenecks","title":"Edge Video AI Pipelines: DAG Runtimes, Queues, and System Bottlenecks","date":"2026-03-24T00:00:00.000Z","excerpt":"A concrete mental model for graph-based edge inference: stages, queues, executors, backpressure, and why DRAM bandwidth and thermal headroom often beat raw NPU FLOPs on the critical path.","tags":["EdgeAI","SystemsArchitecture","VideoAnalytics","RealTime","C++"],"featured":true},{"slug":"docker-blueprint-architecture-command-lab","title":"Docker Blueprint: Architecture & Command Lab","date":"2026-03-10T00:00:00.000Z","excerpt":"A practical guide to Docker architecture, core commands, networking, and Compose—with a VM vs container diagram and an architect's checklist.","tags":["Docker","DevOps","Architecture"],"featured":false},{"slug":"ops-blueprint-universal-deployment-playbook","title":"Ops Blueprint: Universal Deployment Playbook","date":"2025-12-16T00:00:00.000Z","excerpt":"Ops notes for repeatable builds, production-like runtime, releases, rollbacks, secrets, Docker Compose, and incident response.","tags":["DevOps","Deployment","Docker","Security","IncidentResponse"],"featured":false}],"activeSlug":"nextjs-vps-2gb-cicd-real-world-runbook","basePath":"/systems","sidebarTitle":"All Articles"}],["$","main",null,{"className":"blog-main","children":["$","article",null,{"children":[["$","h1",null,{"className":"blog-article-title","children":"Next.js on a 2GB VPS: Real CI/CD, Real Failures, and What We Did"}],"$L10","$L11"]}]}],"$L12"]}],"$L13"]}]
+14:I[13192,["/_next/static/chunks/58689c96b0676c41.js","/_next/static/chunks/67a6e4e165ed0957.js"],"default"]
+15:I[60956,["/_next/static/chunks/58689c96b0676c41.js","/_next/static/chunks/67a6e4e165ed0957.js"],"CodeBlockWithCopy"]
+4f:I[87667,["/_next/static/chunks/58689c96b0676c41.js","/_next/static/chunks/67a6e4e165ed0957.js"],"default"]
+10:["$","div",null,{"className":"blog-article-meta","children":["$","$L14",null,{"date":"2026-05-18T00:00:00.000Z","tags":"$5:props:children:1:props:children:0:props:allPostsMetadata:0:tags"}]}]
+11:["$","div",null,{"className":"blog-prose","children":["$","div",null,{"className":"prose prose-neutral dark:prose-invert max-w-none prose-headings:font-serif prose-headings:font-semibold prose-headings:tracking-tight prose-h2:text-2xl prose-h3:text-xl prose-p:leading-relaxed prose-strong:font-semibold prose-li:mb-1.5 prose-a:text-accent-fg prose-a:no-underline hover:prose-a:underline prose-text-foreground","children":[["$","p","p-0",{"children":["Production runs on a small Vultr VPS: ",["$","strong","strong-0",{"children":"1 CPU, 2GB RAM"}],". Cloud Run stays as failover only. Builds never run on the box — push ",["$","code","code-0",{"children":"main"}],", GitHub Actions does the rest."]}],"\n",["$","p","p-1",{"children":"Notes below are from a real deploy: what worked, what broke, and what we changed."}],"\n",["$","h2","h2-0",{"id":"context-what-we-chose-and-what-we-skipped","className":"pt-20 -mt-20","children":"Context: what we chose and what we skipped"}],"\n",["$","p","p-2",{"children":["The project is one monorepo with ",["$","strong","strong-0",{"children":"two Next.js apps on one domain"}],":"]}],"\n",["$","ul","ul-0",{"children":["\n",["$","li","li-0",{"children":[["$","strong","strong-0",{"children":"Marketing / main site"}]," (",["$","code","code-0",{"children":"/"}],") — Next.js at the repo root"]}],"\n",["$","li","li-1",{"children":[["$","strong","strong-0",{"children":"Product app"}]," — lives in ",["$","code","code-0",{"children":"apps/web"}],", public under ",["$","code","code-1",{"children":"/apps/<product-slug>"}]]}],"\n"]}],"\n",["$","p","p-3",{"children":"Two apps, two containers, one domain."}],"\n",["$","p","p-4",{"children":["We kept ",["$","strong","strong-0",{"children":"GCP Cloud Run as failover"}]," — point DNS back and the old path still works. Primary production is the ",["$","strong","strong-1",{"children":"VPS"}],": cheap, controllable, enough for this stage."]}],"\n",["$","p","p-5",{"children":["A ",["$","strong","strong-0",{"children":"2GB VPS does not build Next.js on-server."}]," ",["$","code","code-0",{"children":"next build"}]," eats RAM. Build on ",["$","strong","strong-1",{"children":"GitHub Actions"}],", push images to ",["$","strong","strong-2",{"children":"GHCR"}],", deploy to the VPS."]}],"\n",["$","h2","h2-1",{"id":"architecture-compact","className":"pt-20 -mt-20","children":"Architecture (compact)"}],"\n",["$","p","p-6",{"children":["$","strong","strong-0",{"children":"Request path:"}]}],"\n",["$","$L15","pre-0",{"code":"Internet → nginx (VPS, ports 80/443)\n              ├─ /           → site container    (127.0.0.1:8080)\n              └─ /apps/      → product container (127.0.0.1:8081)\n","children":["$","code","code-0",{"className":"language-plaintext","children":"Internet → nginx (VPS, ports 80/443)\n              ├─ /           → site container    (127.0.0.1:8080)\n              └─ /apps/      → product container (127.0.0.1:8081)\n"}]}],"\n",["$","p","p-7",{"children":["$","strong","strong-0",{"children":"CI/CD:"}]}],"\n",["$","$L15","pre-1",{"code":"push main → build site + product images → push GHCR\n         → smoke test on runner\n         → ship images to VPS → docker compose up\n","children":["$","code","code-0",{"className":"language-plaintext","children":"push main → build site + product images → push GHCR\n         → smoke test on runner\n         → ship images to VPS → docker compose up\n"}]}],"\n",["$","p","p-8",{"children":["Containers are ",["$","strong","strong-0",{"children":"not"}]," exposed to the internet directly. Only ",["$","strong","strong-1",{"children":"nginx"}]," is public. ",["$","strong","strong-2",{"children":"Certbot"}]," runs on the nginx ",["$","strong","strong-3",{"children":"host"}],", not inside Docker — keeps TLS and routing simpler."]}],"\n",["$","h2","h2-2",{"id":"infra-layout-in-the-repo","className":"pt-20 -mt-20","children":"Infra layout in the repo"}],"\n",["$","p","p-9",{"children":"We split concerns clearly:"}],"\n","$L16","\n","$L17","\n","$L18","\n","$L19","\n","$L1a","\n","$L1b","\n","$L1c","\n","$L1d","\n","$L1e","\n","$L1f","\n","$L20","\n","$L21","\n","$L22","\n","$L23","\n","$L24","\n","$L25","\n","$L26","\n","$L27","\n","$L28","\n","$L29","\n","$L2a","\n","$L2b","\n","$L2c","\n","$L2d","\n","$L2e","\n","$L2f","\n","$L30","\n","$L31","\n","$L32","\n","$L33","\n","$L34","\n","$L35","\n","$L36","\n","$L37","\n","$L38","\n","$L39","\n","$L3a","\n","$L3b","\n","$L3c","\n","$L3d","\n","$L3e","\n","$L3f","\n","$L40","\n","$L41","\n","$L42","\n","$L43","\n","$L44","\n","$L45","\n","$L46","\n","$L47","\n","$L48","\n","$L49","\n","$L4a","\n","$L4b","\n","$L4c","\n","$L4d","\n","$L4e"]}]}]
+50:T1dc4,
+Production runs on a small Vultr VPS: **1 CPU, 2GB RAM**. Cloud Run stays as failover only. Builds never run on the box — push `main`, GitHub Actions does the rest.
 
-One Monday you open Billing and Cloud Run is up sharply. In Logs Explorer the traffic looks like junk:
+Notes below are from a real deploy: what worked, what broke, and what we changed.
 
-- `GET /wp-login.php`
-- `GET /wp-admin/setup-config.php`
-- `GET /.env`
+## Context: what we chose and what we skipped
 
-Your app is **Next.js**, not WordPress, and there is no PHP. Every probe still returns **404**—and that is the trap.
+The project is one monorepo with **two Next.js apps on one domain**:
 
-**Cloud Run charges for real work at the edge of the platform:** you pay for **requests** and for **billable instance time** (CPU and memory allocated while instances handle concurrency). A scanner does not need a “successful” page to cost money. Enough parallel junk requests can:
+- **Marketing / main site** (`/`) — Next.js at the repo root  
+- **Product app** — lives in `apps/web`, public under `/apps/<product-slug>`
 
-- **Raise concurrency** and keep instances busy serving cheap 404s.
-- **Trigger autoscaling** and cold starts when bursts arrive faster than idle capacity.
+Two apps, two containers, one domain.
 
-Application-layer fixes (Next.js middleware, route handlers) help, but they still spend **your container’s CPU** on noise. The cheaper pattern is **defense in depth at Google’s front door**: deny obvious abuse before Cloud Run sees it, and **cache safe negatives** at the CDN so repeat probes do not hit the origin.
+We kept **GCP Cloud Run as failover** — point DNS back and the old path still works. Primary production is the **VPS**: cheap, controllable, enough for this stage.
 
-## Architecture: three layers
+A **2GB VPS does not build Next.js on-server.** `next build` eats RAM. Build on **GitHub Actions**, push images to **GHCR**, deploy to the VPS.
 
-```mermaid
-flowchart LR
-  client[ClientsAndBots]
-  lb[ExternalHTTPSLoadBalancer]
-  armor[CloudArmorPolicy]
-  cdn[CloudCDNEdge]
-  neg[ServerlessNEG]
-  run[CloudRunRevision]
+## Architecture (compact)
 
-  client --> lb
-  lb --> armor
-  armor -->|allow| cdn
-  armor -->|deny_403| client
-  cdn -->|cache_hit| client
-  cdn -->|origin_miss| neg
-  neg --> run
+**Request path:**
+
+```plaintext
+Internet → nginx (VPS, ports 80/443)
+              ├─ /           → site container    (127.0.0.1:8080)
+              └─ /apps/      → product container (127.0.0.1:8081)
 ```
 
-| Layer | Role | What you gain |
+**CI/CD:**
+
+```plaintext
+push main → build site + product images → push GHCR
+         → smoke test on runner
+         → ship images to VPS → docker compose up
+```
+
+Containers are **not** exposed to the internet directly. Only **nginx** is public. **Certbot** runs on the nginx **host**, not inside Docker — keeps TLS and routing simpler.
+
+## Infra layout in the repo
+
+We split concerns clearly:
+
+| Path | Role |
+| :--- | :--- |
+| `infra/platforms/shared/` | docker-compose, deploy scripts — shared across VPS providers |
+| `infra/platforms/vultr/` | bootstrap, nginx template, config sync — Vultr only |
+| `infra/platforms/gcp/` | Terraform for Cloud Run — failover |
+
+Later, moving to Hetzner means copy `vultr/` → `hetzner/`, adjust bootstrap; **`shared/` stays**.
+
+On the VPS, runtime lives at a fixed workspace path, for example:
+
+```plaintext
+/home/<deploy-user>/workspace/projects/<repo-name>/
+```
+
+One-time bootstrap at `~/workspace/bootstrap/vultr/`. We skipped `/opt` — the team already had a **workspace** layout. Pick paths and stick to them.
+
+## GitHub: setup before the workflow
+
+### Secrets
+
+In the repo → **Settings → Secrets**:
+
+| Secret | Purpose |
+| :--- | :--- |
+| `VULTR_HOST` | VPS IP |
+| `VULTR_USER` | SSH user (e.g. `deploy`) |
+| `VULTR_SSH_KEY` | Deploy private key |
+
+Create a **dedicated key pair** for CI and add the public key to `authorized_keys` on the VPS. Do not reuse your daily personal key.
+
+### Org permissions for Actions
+
+If your **GitHub org** locks `GITHUB_TOKEN` to read-only, the build job **cannot push to GHCR**. An org owner must enable **Read and write** at org level, or the job must declare `permissions: packages: write`.
+
+**GHCR is lowercase:** org `MyOrg` → image `ghcr.io/myorg/my-web/site:sha-xxxxxxx`. Tags use `sha-` + **7 commit chars** so you always know which revision is running.
+
+After the first build: **Packages → connect your repo → Actions access**. Skip this and smoke tests fail often.
+
+## Workflow: three jobs, one pipeline
+
+File: `.github/workflows/deploy-production.yml`
+
+| Job | What it does |
+| :--- | :--- |
+| **build** | Build and push **site** + **product** images; tag `sha-xxxxxxx` and `latest` |
+| **smoke** | Pull on runner, run containers, `curl` `/api/health` and `/apps/<product-slug>` |
+| **deploy** | Ship images to VPS, `compose up` |
+
+If **smoke passes** but **deploy fails**, the problem is usually **SSH or the VPS** — not the build.
+
+## GHCR pull on VPS vs shipping the image over SSH
+
+First attempt on the VPS — the usual pattern:
+
+```bash
+docker login ghcr.io
+docker compose pull
+docker compose up -d
+```
+
+On the **runner**: fine. On the **VPS**: **`403 Forbidden`** — even with a PAT scoped to `read:packages`, even piping `GITHUB_TOKEN` from CI over SSH.
+
+`curl` GitHub user API → **200**. `curl` GHCR manifest → **403**. The token is alive; it still cannot read the org package. **Manage Actions access** on the package helps **workflows in that repo**, not arbitrary VPS pulls with a personal PAT.
+
+### What we chose
+
+Runner pulls (smoke already OK) → `docker save` → compress → `scp` to VPS `/tmp/` → `docker load` → delete tarball → `DEPLOY_SKIP_PULL=1 ./scripts/deploy.sh`.
+
+| | Pull on VPS | Ship over SSH |
 | :--- | :--- | :--- |
-| **Cloud Armor** | WAF-style rules on the **backend service** attached to the load balancer | Obvious scanner paths return **403** at the LB edge; traffic **does not reach** the serverless NEG or Cloud Run. |
-| **Cloud CDN** | Edge caching, including **negative caching** for error responses | After a path legitimately returns **404** once, repeat requests can be served from the edge (very low origin cost). |
-| **Ingress control** | Cloud Run accepts only **internal + load-balanced** traffic | The default **`*.run.app`** URL is no longer a public bypass around Armor and CDN. Users hit **your domain on the LB** only. |
+| GHCR auth on VPS | Required | Not required |
+| Bandwidth | Smaller if layers cache | Larger each deploy |
+| Reliability (our case) | Failed with 403 | Works |
 
-## Layer 1 — Cloud Armor as the first filter
+We ship over SSH for now: small VPS, low traffic, a few extra minutes per deploy is fine. If org GHCR permissions get fixed, switch back to pull — `deploy.sh` supports both.
 
-Bots rotate IPs, so a static IP block list does not scale. **Custom rules** in a Cloud Armor **security policy** use **CEL** (Common Expression Language) on request attributes; regex uses **RE2** via `matches()`.
+`/tmp/` is only a **short-lived** tarball staging area, not where the app runs. Delete after `docker load`.
 
-**Examples (tune priorities to your policy):**
+## First-time VPS setup (bootstrap)
 
-- **PHP probes:** deny paths ending in `.php` (adjust if you ever serve real `.php` assets—most Next.js stacks do not).
+`bootstrap.sh` installs: Docker, nginx, certbot, ufw, **2GB swap** (without swap, 2GB RAM hangs easily), copies nginx config to `/etc/nginx/sites-enabled/<app-name>`.
 
-```text
-request.path.matches('(?i:.*\\.php$)')
+Re-SSH after bootstrap so the **docker** group applies.
+
+We once had **healthy containers** but **no site** — bootstrap had not run, so **no nginx config**. Green `docker ps` does not mean production is done.
+
+Quick checks:
+
+```bash
+ls /etc/nginx/sites-enabled/<app-name>
+curl -H "Host: example.com" http://127.0.0.1/api/health
 ```
 
-- **WordPress-shaped paths** (normalize case if your clients send odd casing—`contains` is literal; `request.path.lower()` is an option per the [rules language reference](https://docs.cloud.google.com/armor/docs/rules-language-reference)):
+## DNS and Certbot
 
-```text
-request.path.contains('/wp-admin/') || request.path.contains('/wp-content/')
+At your DNS provider:
+
+- **A** `@` → VPS IP  
+- **A** `www` → VPS IP  
+- Remove stray **AAAA** if the VPS has no real IPv6  
+
+Certbot failed with **404**; logs showed odd IPv6 (`2001:4860:...`) — Let's Encrypt hit the wrong host. Remove AAAA, wait for DNS, then:
+
+```bash
+curl http://example.com/.well-known/acme-challenge/test
 ```
 
-- **Sensitive file extensions** (extend as needed):
+When HTTP is stable:
 
-```text
-request.path.matches('(?i:.*\\.(env|git|bak|sql|config)(/|$))')
+```bash
+sudo certbot --nginx -d example.com -d www.example.com
 ```
 
-**Operational notes:**
+## CSS bug: two Next.js apps, one domain
 
-- **Priority order matters** — more specific rules should win over broad catch-alls.
-- **Managed rules** (OWASP ModSecurity CRS, **Google-managed rules**, optional **Adaptive Protection** / bot defenses) are worth evaluating on top of hand-written paths; they catch classes of attacks regex alone will miss.
-- **False positives** — any regex that is too broad can block legitimate traffic. Test in **preview** mode first if your policy supports it, then enforce **deny(403)** (or **deny(404)** if you prefer not to signal “blocked”).
+The **product app** HTML loads under `/apps/...` (product container). Default Next.js CSS lives at `/_next/static/...` — nginx routes `/` to the **site** container.
 
-Deny actions evaluated at the **load balancer** mean those requests **never invoke** Cloud Run: no container CPU for that request line item.
+Result: the product page renders text, **no styles**. DevTools: CSS **404** or wrong file.
 
-## Layer 2 — Cloud CDN without “cache everything” by mistake
+**Fix:** `assetPrefix: "/apps"` in `apps/web/next.config.ts`. Assets become `/apps/_next/static/...` and hit the **product** upstream.
 
-**Important distinction:** enabling CDN with an aggressive **“cache all”** style mode (`CACHE_MODE_FORCE_CACHE_ALL` / console equivalents) is a poor default for a **dynamic** Next.js service. You can accidentally **cache 200 responses** that should be private or vary per user.
+Two apps on one domain: plan **static asset routing up front**, not after launch.
 
-For scanner economics, focus on **negative caching**:
+## After setup: what each release looks like
 
-- Configure the backend service / CDN settings so **404** (and optionally **403** if your origin returns them for unknown routes) can be cached at the edge for a bounded TTL (for example **many hours** for static junk paths).
-- **Trade-off:** a long TTL on **404** also caches **mistakes**. If you ship a bad route and return 404, edge caches may **serve that 404 until TTL expires**. Keep TTL long enough to kill repeat scans, short enough that you can recover quickly from config errors—or purge cache when you have a supported workflow.
+Mostly:
 
-For real user traffic, use **normal cache policies** for truly static assets (immutable hashes, `public/` static files) rather than forcing the entire site into one cache mode.
+1. Merge / push `main`
+2. Actions green (**build → smoke → deploy**)
+3. Browser check; hard refresh if CSS/JS changed
 
-## Layer 3 — Close the `*.run.app` bypass
+No manual SSH deploy. No GHCR pull on the VPS (with our current ship-over-SSH path).
 
-If the load balancer is public but the **Cloud Run service URL** is still open to the internet, scanners will hit **`https://<service>-<hash>-<region>.a.run.app`** directly and **skip Cloud Armor and CDN**.
+CI does **not** change nginx or certs. Reverse proxy or TLS changes → **manual on VPS**.
 
-**Fix (console wording):** Cloud Run **Ingress** → **Allow internal traffic and traffic from Cloud Load Balancing** (API: ingress traffic limited to internal sources and Google Cloud external HTTP(S) load balancers—see current [Cloud Run ingress documentation](https://cloud.google.com/run/docs/securing/ingress) for exact labels in your project).
+- **Runtime env** (non-public vars in `.env`): edit on VPS, `docker compose up -d`
+- **`NEXT_PUBLIC_*`**: requires a **new image build** — baked at build time
 
-Pair that with **DNS and TLS on the external HTTPS load balancer** as the only customer-facing entry.
+## Checklist
 
-## Implementation checklist (high level)
+1. GitHub secrets `VULTR_*`, org **Actions** permissions  
+2. VPS: bootstrap + sync config + `.env`  
+3. DNS **A** records; no bogus **AAAA**  
+4. Push `main`, wait for CI  
+5. Certbot after HTTP works  
+6. Verify main site and product path (e.g. `https://example.com/` and `https://example.com/apps/<product-slug>`)  
 
-1. **Serverless NEG** — point a serverless Network Endpoint Group at the **Cloud Run** service (region, service name).
-2. **Backend service** — use that NEG as the backend; enable **Cloud CDN** on the backend service when it fits your caching plan.
-3. **URL map + HTTPS proxy + forwarding rule** — global external **Application Load Balancer (HTTP/S)** fronting the backend.
-4. **Cloud Armor** — create a security policy, attach it to the **backend service**, add CEL rules (start strict on obvious scanner paths).
-5. **CDN tuning** — enable **negative caching** for **404** (optional **403**); avoid blanket **force-cache-all** for dynamic apps.
-6. **Cloud Run ingress** — restrict to **internal + Cloud Load Balancing**; verify the default `run.app` URL no longer accepts public probes.
-7. **Validate** — `curl` against the LB hostname vs direct `run.app`; confirm denied paths never appear in **Cloud Run request logs**.
+Full copy-paste commands belong in your repo runbook (e.g. `docs/PRODUCTION-DEPLOY.md`).
 
-## Proof in logs (what “good” looks like)
+Production is more than `docker run`: DNS, nginx, TLS, registry auth, and routing two Next.js apps on one hostname. The diagram in tutorials rarely matches org GHCR policy.
 
-Exact field names move between log schema versions, so phrase searches in terms of intent:
-
-- **Load Balancer / Armor:** filter for **deny** outcomes, matched rule names, and **low backend request volume** for garbage paths.
-- **CDN:** filter for **cache fill / hit** indicators vs **origin round-trips**; repeat scans of the same dead path should show **edge satisfaction** rather than new Cloud Run instances spinning up.
-- **Cloud Run:** request logs trend toward **legitimate routes** (for example **200** on real pages) rather than dense **404** storms during idle periods.
-
-Before hardening, you might have seen **“Starting new instance”** correlated with scan bursts. Afterward, that signal should quiet down for blocked paths because **the origin never sees them**, or sees them **once per cache key** before negative caching kicks in.
-
-## Cost framing (honest)
-
-A global HTTPS load balancer is **not free**: you pay for components such as **forwarding rules**, **proxy infrastructure**, and **data processing**, and list prices vary by region and time.
-
-Treat that line item as **insurance** against runaway **Cloud Run** request and instance-time growth from uncapped internet noise—especially when autoscaling turns scanner concurrency into **real money** and **operational toil**.
-
-## Closing
-
-**Cost control on cloud is both code and infrastructure.** Middleware can express policy, but it spends **container** resources. Putting **Cloud Armor** on the **backend service**, using **CDN negative caching** where it is safe, and **locking Cloud Run ingress** to **load-balanced paths only** is the boring, effective pattern: fewer meaningless requests reach your revision, and your graphs tell a calmer story.
-
-If you want the same story in **Terraform**, the cleanest next step is to codify the NEG, backend service, URL map, Armor attachment, and CDN flags beside the Cloud Run service—similar in spirit to the delivery-flow article already on this site.
-12:["$","$L39",null,{"content":"$3a"}]
+A **2GB VPS** works if you **build in CI**, **terminate TLS at nginx**, and remember **GHCR 403** often needs org/package access — not another PAT.
+12:["$","$L4f",null,{"content":"$50"}]
 13:["$","footer",null,{"children":[["$","div",null,{"className":"home-links","children":[["$","a",null,{"href":"https://stackoverflow.com/users/12345813/hgq287","target":"_blank","rel":"noopener noreferrer","children":"↗ stackoverflow"}],["$","span",null,{"className":"home-links-sep","children":"/"}],["$","a",null,{"href":"https://github.com/hgq287","target":"_blank","rel":"noopener noreferrer","children":"↗ github"}],["$","span",null,{"className":"home-links-sep","children":"/"}],["$","a",null,{"href":"https://github.com/hgq287/hgq287.github.io","target":"_blank","rel":"noopener noreferrer","children":"↗ view source"}]]}],["$","div",null,{"className":"home-footer-second-row","children":["$","span",null,{"className":"home-footer-copy","children":["© ",2026," MIT Licensed"]}]}]]}]
-15:["$","strong","strong-0",{"children":"negative caching"}]
-16:["$","td","td-2",{"style":{"textAlign":"left"},"children":["After a path legitimately returns ",["$","strong","strong-0",{"children":"404"}]," once, repeat requests can be served from the edge (very low origin cost)."]}]
-17:["$","tr","tr-2",{"children":[["$","td","td-0",{"style":{"textAlign":"left"},"children":["$","strong","strong-0",{"children":"Ingress control"}]}],["$","td","td-1",{"style":{"textAlign":"left"},"children":["Cloud Run accepts only ",["$","strong","strong-0",{"children":"internal + load-balanced"}]," traffic"]}],["$","td","td-2",{"style":{"textAlign":"left"},"children":["The default ",["$","strong","strong-0",{"children":["$","code","code-0",{"children":"*.run.app"}]}]," URL is no longer a public bypass around Armor and CDN. Users hit ",["$","strong","strong-1",{"children":"your domain on the LB"}]," only."]}]]}]
-18:["$","h2","h2-2",{"id":"layer-1-cloud-armor-as-the-first-filter","className":"pt-20 -mt-20","children":"Layer 1 — Cloud Armor as the first filter"}]
-19:["$","p","p-4",{"children":["Bots rotate IPs, so a static IP block list does not scale. ",["$","strong","strong-0",{"children":"Custom rules"}]," in a Cloud Armor ",["$","strong","strong-1",{"children":"security policy"}]," use ",["$","strong","strong-2",{"children":"CEL"}]," (Common Expression Language) on request attributes; regex uses ",["$","strong","strong-3",{"children":"RE2"}]," via ",["$","code","code-0",{"children":"matches()"}],"."]}]
-1a:["$","p","p-5",{"children":["$","strong","strong-0",{"children":"Examples (tune priorities to your policy):"}]}]
-1b:["$","ul","ul-2",{"children":["\n",["$","li","li-0",{"children":[["$","strong","strong-0",{"children":"PHP probes:"}]," deny paths ending in ",["$","code","code-0",{"children":".php"}]," (adjust if you ever serve real ",["$","code","code-1",{"children":".php"}]," assets—most Next.js stacks do not)."]}],"\n"]}]
-1c:["$","$L14","pre-1",{"code":"request.path.matches('(?i:.*\\\\.php$)')\n","children":["$","code","code-0",{"className":"language-text","children":"request.path.matches('(?i:.*\\\\.php$)')\n"}]}]
-1d:["$","ul","ul-3",{"children":["\n",["$","li","li-0",{"children":[["$","strong","strong-0",{"children":"WordPress-shaped paths"}]," (normalize case if your clients send odd casing—",["$","code","code-0",{"children":"contains"}]," is literal; ",["$","code","code-1",{"children":"request.path.lower()"}]," is an option per the ",["$","a","a-0",{"href":"https://docs.cloud.google.com/armor/docs/rules-language-reference","children":"rules language reference"}],"):"]}],"\n"]}]
-1e:["$","$L14","pre-2",{"code":"request.path.contains('/wp-admin/') || request.path.contains('/wp-content/')\n","children":["$","code","code-0",{"className":"language-text","children":"request.path.contains('/wp-admin/') || request.path.contains('/wp-content/')\n"}]}]
-1f:["$","ul","ul-4",{"children":["\n",["$","li","li-0",{"children":[["$","strong","strong-0",{"children":"Sensitive file extensions"}]," (extend as needed):"]}],"\n"]}]
-20:["$","$L14","pre-3",{"code":"request.path.matches('(?i:.*\\\\.(env|git|bak|sql|config)(/|$))')\n","children":["$","code","code-0",{"className":"language-text","children":"request.path.matches('(?i:.*\\\\.(env|git|bak|sql|config)(/|$))')\n"}]}]
-21:["$","p","p-6",{"children":["$","strong","strong-0",{"children":"Operational notes:"}]}]
-22:["$","ul","ul-5",{"children":["\n",["$","li","li-0",{"children":[["$","strong","strong-0",{"children":"Priority order matters"}]," — more specific rules should win over broad catch-alls."]}],"\n",["$","li","li-1",{"children":[["$","strong","strong-0",{"children":"Managed rules"}]," (OWASP ModSecurity CRS, ",["$","strong","strong-1",{"children":"Google-managed rules"}],", optional ",["$","strong","strong-2",{"children":"Adaptive Protection"}]," / bot defenses) are worth evaluating on top of hand-written paths; they catch classes of attacks regex alone will miss."]}],"\n",["$","li","li-2",{"children":[["$","strong","strong-0",{"children":"False positives"}]," — any regex that is too broad can block legitimate traffic. Test in ",["$","strong","strong-1",{"children":"preview"}]," mode first if your policy supports it, then enforce ",["$","strong","strong-2",{"children":"deny(403)"}]," (or ",["$","strong","strong-3",{"children":"deny(404)"}]," if you prefer not to signal “blocked”)."]}],"\n"]}]
-23:["$","p","p-7",{"children":["Deny actions evaluated at the ",["$","strong","strong-0",{"children":"load balancer"}]," mean those requests ",["$","strong","strong-1",{"children":"never invoke"}]," Cloud Run: no container CPU for that request line item."]}]
-24:["$","h2","h2-3",{"id":"layer-2-cloud-cdn-without-cache-everything-by-mistake","className":"pt-20 -mt-20","children":"Layer 2 — Cloud CDN without “cache everything” by mistake"}]
-25:["$","p","p-8",{"children":[["$","strong","strong-0",{"children":"Important distinction:"}]," enabling CDN with an aggressive ",["$","strong","strong-1",{"children":"“cache all”"}]," style mode (",["$","code","code-0",{"children":"CACHE_MODE_FORCE_CACHE_ALL"}]," / console equivalents) is a poor default for a ",["$","strong","strong-2",{"children":"dynamic"}]," Next.js service. You can accidentally ",["$","strong","strong-3",{"children":"cache 200 responses"}]," that should be private or vary per user."]}]
-26:["$","p","p-9",{"children":["For scanner economics, focus on ",["$","strong","strong-0",{"children":"negative caching"}],":"]}]
-27:["$","ul","ul-6",{"children":["\n",["$","li","li-0",{"children":["Configure the backend service / CDN settings so ",["$","strong","strong-0",{"children":"404"}]," (and optionally ",["$","strong","strong-1",{"children":"403"}]," if your origin returns them for unknown routes) can be cached at the edge for a bounded TTL (for example ",["$","strong","strong-2",{"children":"many hours"}]," for static junk paths)."]}],"\n",["$","li","li-1",{"children":[["$","strong","strong-0",{"children":"Trade-off:"}]," a long TTL on ",["$","strong","strong-1",{"children":"404"}]," also caches ",["$","strong","strong-2",{"children":"mistakes"}],". If you ship a bad route and return 404, edge caches may ",["$","strong","strong-3",{"children":"serve that 404 until TTL expires"}],". Keep TTL long enough to kill repeat scans, short enough that you can recover quickly from config errors—or purge cache when you have a supported workflow."]}],"\n"]}]
-28:["$","p","p-10",{"children":["For real user traffic, use ",["$","strong","strong-0",{"children":"normal cache policies"}]," for truly static assets (immutable hashes, ",["$","code","code-0",{"children":"public/"}]," static files) rather than forcing the entire site into one cache mode."]}]
-29:["$","h2","h2-4",{"id":"layer-3-close-the-object-object-bypass","className":"pt-20 -mt-20","children":["Layer 3 — Close the ",["$","code","code-0",{"children":"*.run.app"}]," bypass"]}]
-2a:["$","p","p-11",{"children":["If the load balancer is public but the ",["$","strong","strong-0",{"children":"Cloud Run service URL"}]," is still open to the internet, scanners will hit ",["$","strong","strong-1",{"children":["$","code","code-0",{"children":"https://<service>-<hash>-<region>.a.run.app"}]}]," directly and ",["$","strong","strong-2",{"children":"skip Cloud Armor and CDN"}],"."]}]
-2b:["$","p","p-12",{"children":[["$","strong","strong-0",{"children":"Fix (console wording):"}]," Cloud Run ",["$","strong","strong-1",{"children":"Ingress"}]," → ",["$","strong","strong-2",{"children":"Allow internal traffic and traffic from Cloud Load Balancing"}]," (API: ingress traffic limited to internal sources and Google Cloud external HTTP(S) load balancers—see current ",["$","a","a-0",{"href":"https://cloud.google.com/run/docs/securing/ingress","children":"Cloud Run ingress documentation"}]," for exact labels in your project)."]}]
-2c:["$","p","p-13",{"children":["Pair that with ",["$","strong","strong-0",{"children":"DNS and TLS on the external HTTPS load balancer"}]," as the only customer-facing entry."]}]
-2d:["$","h2","h2-5",{"id":"implementation-checklist-high-level","className":"pt-20 -mt-20","children":"Implementation checklist (high level)"}]
-2e:["$","ol","ol-0",{"children":["\n",["$","li","li-0",{"children":[["$","strong","strong-0",{"children":"Serverless NEG"}]," — point a serverless Network Endpoint Group at the ",["$","strong","strong-1",{"children":"Cloud Run"}]," service (region, service name)."]}],"\n",["$","li","li-1",{"children":[["$","strong","strong-0",{"children":"Backend service"}]," — use that NEG as the backend; enable ",["$","strong","strong-1",{"children":"Cloud CDN"}]," on the backend service when it fits your caching plan."]}],"\n",["$","li","li-2",{"children":[["$","strong","strong-0",{"children":"URL map + HTTPS proxy + forwarding rule"}]," — global external ",["$","strong","strong-1",{"children":"Application Load Balancer (HTTP/S)"}]," fronting the backend."]}],"\n",["$","li","li-3",{"children":[["$","strong","strong-0",{"children":"Cloud Armor"}]," — create a security policy, attach it to the ",["$","strong","strong-1",{"children":"backend service"}],", add CEL rules (start strict on obvious scanner paths)."]}],"\n",["$","li","li-4",{"children":[["$","strong","strong-0",{"children":"CDN tuning"}]," — enable ",["$","strong","strong-1",{"children":"negative caching"}]," for ",["$","strong","strong-2",{"children":"404"}]," (optional ",["$","strong","strong-3",{"children":"403"}],"); avoid blanket ",["$","strong","strong-4",{"children":"force-cache-all"}]," for dynamic apps."]}],"\n",["$","li","li-5",{"children":[["$","strong","strong-0",{"children":"Cloud Run ingress"}]," — restrict to ",["$","strong","strong-1",{"children":"internal + Cloud Load Balancing"}],"; verify the default ",["$","code","code-0",{"children":"run.app"}]," URL no longer accepts public probes."]}],"\n",["$","li","li-6",{"children":[["$","strong","strong-0",{"children":"Validate"}]," — ",["$","code","code-0",{"children":"curl"}]," against the LB hostname vs direct ",["$","code","code-1",{"children":"run.app"}],"; confirm denied paths never appear in ",["$","strong","strong-1",{"children":"Cloud Run request logs"}],"."]}],"\n"]}]
-2f:["$","h2","h2-6",{"id":"proof-in-logs-what-good-looks-like","className":"pt-20 -mt-20","children":"Proof in logs (what “good” looks like)"}]
-30:["$","p","p-14",{"children":"Exact field names move between log schema versions, so phrase searches in terms of intent:"}]
-31:["$","ul","ul-7",{"children":["\n",["$","li","li-0",{"children":[["$","strong","strong-0",{"children":"Load Balancer / Armor:"}]," filter for ",["$","strong","strong-1",{"children":"deny"}]," outcomes, matched rule names, and ",["$","strong","strong-2",{"children":"low backend request volume"}]," for garbage paths."]}],"\n",["$","li","li-1",{"children":[["$","strong","strong-0",{"children":"CDN:"}]," filter for ",["$","strong","strong-1",{"children":"cache fill / hit"}]," indicators vs ",["$","strong","strong-2",{"children":"origin round-trips"}],"; repeat scans of the same dead path should show ",["$","strong","strong-3",{"children":"edge satisfaction"}]," rather than new Cloud Run instances spinning up."]}],"\n",["$","li","li-2",{"children":[["$","strong","strong-0",{"children":"Cloud Run:"}]," request logs trend toward ",["$","strong","strong-1",{"children":"legitimate routes"}]," (for example ",["$","strong","strong-2",{"children":"200"}]," on real pages) rather than dense ",["$","strong","strong-3",{"children":"404"}]," storms during idle periods."]}],"\n"]}]
-32:["$","p","p-15",{"children":["Before hardening, you might have seen ",["$","strong","strong-0",{"children":"“Starting new instance”"}]," correlated with scan bursts. Afterward, that signal should quiet down for blocked paths because ",["$","strong","strong-1",{"children":"the origin never sees them"}],", or sees them ",["$","strong","strong-2",{"children":"once per cache key"}]," before negative caching kicks in."]}]
-33:["$","h2","h2-7",{"id":"cost-framing-honest","className":"pt-20 -mt-20","children":"Cost framing (honest)"}]
-34:["$","p","p-16",{"children":["A global HTTPS load balancer is ",["$","strong","strong-0",{"children":"not free"}],": you pay for components such as ",["$","strong","strong-1",{"children":"forwarding rules"}],", ",["$","strong","strong-2",{"children":"proxy infrastructure"}],", and ",["$","strong","strong-3",{"children":"data processing"}],", and list prices vary by region and time."]}]
-35:["$","p","p-17",{"children":["Treat that line item as ",["$","strong","strong-0",{"children":"insurance"}]," against runaway ",["$","strong","strong-1",{"children":"Cloud Run"}]," request and instance-time growth from uncapped internet noise—especially when autoscaling turns scanner concurrency into ",["$","strong","strong-2",{"children":"real money"}]," and ",["$","strong","strong-3",{"children":"operational toil"}],"."]}]
-36:["$","h2","h2-8",{"id":"closing","className":"pt-20 -mt-20","children":"Closing"}]
-37:["$","p","p-18",{"children":[["$","strong","strong-0",{"children":"Cost control on cloud is both code and infrastructure."}]," Middleware can express policy, but it spends ",["$","strong","strong-1",{"children":"container"}]," resources. Putting ",["$","strong","strong-2",{"children":"Cloud Armor"}]," on the ",["$","strong","strong-3",{"children":"backend service"}],", using ",["$","strong","strong-4",{"children":"CDN negative caching"}]," where it is safe, and ",["$","strong","strong-5",{"children":"locking Cloud Run ingress"}]," to ",["$","strong","strong-6",{"children":"load-balanced paths only"}]," is the boring, effective pattern: fewer meaningless requests reach your revision, and your graphs tell a calmer story."]}]
-38:["$","p","p-19",{"children":["If you want the same story in ",["$","strong","strong-0",{"children":"Terraform"}],", the cleanest next step is to codify the NEG, backend service, URL map, Armor attachment, and CDN flags beside the Cloud Run service—similar in spirit to the delivery-flow article already on this site."]}]
+16:["$","table","table-0",{"children":[["$","thead","thead-0",{"children":["$","tr","tr-0",{"children":[["$","th","th-0",{"style":{"textAlign":"left"},"children":"Path"}],["$","th","th-1",{"style":{"textAlign":"left"},"children":"Role"}]]}]}],["$","tbody","tbody-0",{"children":[["$","tr","tr-0",{"children":[["$","td","td-0",{"style":{"textAlign":"left"},"children":["$","code","code-0",{"children":"infra/platforms/shared/"}]}],["$","td","td-1",{"style":{"textAlign":"left"},"children":"docker-compose, deploy scripts — shared across VPS providers"}]]}],["$","tr","tr-1",{"children":[["$","td","td-0",{"style":{"textAlign":"left"},"children":["$","code","code-0",{"children":"infra/platforms/vultr/"}]}],["$","td","td-1",{"style":{"textAlign":"left"},"children":"bootstrap, nginx template, config sync — Vultr only"}]]}],["$","tr","tr-2",{"children":[["$","td","td-0",{"style":{"textAlign":"left"},"children":["$","code","code-0",{"children":"infra/platforms/gcp/"}]}],["$","td","td-1",{"style":{"textAlign":"left"},"children":"Terraform for Cloud Run — failover"}]]}]]}]]}]
+17:["$","p","p-10",{"children":["Later, moving to Hetzner means copy ",["$","code","code-0",{"children":"vultr/"}]," → ",["$","code","code-1",{"children":"hetzner/"}],", adjust bootstrap; ",["$","strong","strong-0",{"children":[["$","code","code-0",{"children":"shared/"}]," stays"]}],"."]}]
+18:["$","p","p-11",{"children":"On the VPS, runtime lives at a fixed workspace path, for example:"}]
+19:["$","$L15","pre-2",{"code":"/home/<deploy-user>/workspace/projects/<repo-name>/\n","children":["$","code","code-0",{"className":"language-plaintext","children":"/home/<deploy-user>/workspace/projects/<repo-name>/\n"}]}]
+1a:["$","p","p-12",{"children":["One-time bootstrap at ",["$","code","code-0",{"children":"~/workspace/bootstrap/vultr/"}],". We skipped ",["$","code","code-1",{"children":"/opt"}]," — the team already had a ",["$","strong","strong-0",{"children":"workspace"}]," layout. Pick paths and stick to them."]}]
+1b:["$","h2","h2-3",{"id":"github-setup-before-the-workflow","className":"pt-20 -mt-20","children":"GitHub: setup before the workflow"}]
+1c:["$","h3","h3-0",{"id":"secrets","className":"pt-20 -mt-20","children":"Secrets"}]
+1d:["$","p","p-13",{"children":["In the repo → ",["$","strong","strong-0",{"children":"Settings → Secrets"}],":"]}]
+1e:["$","table","table-1",{"children":[["$","thead","thead-0",{"children":["$","tr","tr-0",{"children":[["$","th","th-0",{"style":{"textAlign":"left"},"children":"Secret"}],["$","th","th-1",{"style":{"textAlign":"left"},"children":"Purpose"}]]}]}],["$","tbody","tbody-0",{"children":[["$","tr","tr-0",{"children":[["$","td","td-0",{"style":{"textAlign":"left"},"children":["$","code","code-0",{"children":"VULTR_HOST"}]}],["$","td","td-1",{"style":{"textAlign":"left"},"children":"VPS IP"}]]}],["$","tr","tr-1",{"children":[["$","td","td-0",{"style":{"textAlign":"left"},"children":["$","code","code-0",{"children":"VULTR_USER"}]}],["$","td","td-1",{"style":{"textAlign":"left"},"children":["SSH user (e.g. ",["$","code","code-0",{"children":"deploy"}],")"]}]]}],["$","tr","tr-2",{"children":[["$","td","td-0",{"style":{"textAlign":"left"},"children":["$","code","code-0",{"children":"VULTR_SSH_KEY"}]}],["$","td","td-1",{"style":{"textAlign":"left"},"children":"Deploy private key"}]]}]]}]]}]
+1f:["$","p","p-14",{"children":["Create a ",["$","strong","strong-0",{"children":"dedicated key pair"}]," for CI and add the public key to ",["$","code","code-0",{"children":"authorized_keys"}]," on the VPS. Do not reuse your daily personal key."]}]
+20:["$","h3","h3-1",{"id":"org-permissions-for-actions","className":"pt-20 -mt-20","children":"Org permissions for Actions"}]
+21:["$","p","p-15",{"children":["If your ",["$","strong","strong-0",{"children":"GitHub org"}]," locks ",["$","code","code-0",{"children":"GITHUB_TOKEN"}]," to read-only, the build job ",["$","strong","strong-1",{"children":"cannot push to GHCR"}],". An org owner must enable ",["$","strong","strong-2",{"children":"Read and write"}]," at org level, or the job must declare ",["$","code","code-1",{"children":"permissions: packages: write"}],"."]}]
+22:["$","p","p-16",{"children":[["$","strong","strong-0",{"children":"GHCR is lowercase:"}]," org ",["$","code","code-0",{"children":"MyOrg"}]," → image ",["$","code","code-1",{"children":"ghcr.io/myorg/my-web/site:sha-xxxxxxx"}],". Tags use ",["$","code","code-2",{"children":"sha-"}]," + ",["$","strong","strong-1",{"children":"7 commit chars"}]," so you always know which revision is running."]}]
+23:["$","p","p-17",{"children":["After the first build: ",["$","strong","strong-0",{"children":"Packages → connect your repo → Actions access"}],". Skip this and smoke tests fail often."]}]
+24:["$","h2","h2-4",{"id":"workflow-three-jobs-one-pipeline","className":"pt-20 -mt-20","children":"Workflow: three jobs, one pipeline"}]
+25:["$","p","p-18",{"children":["File: ",["$","code","code-0",{"children":".github/workflows/deploy-production.yml"}]]}]
+26:["$","table","table-2",{"children":[["$","thead","thead-0",{"children":["$","tr","tr-0",{"children":[["$","th","th-0",{"style":{"textAlign":"left"},"children":"Job"}],["$","th","th-1",{"style":{"textAlign":"left"},"children":"What it does"}]]}]}],["$","tbody","tbody-0",{"children":[["$","tr","tr-0",{"children":[["$","td","td-0",{"style":{"textAlign":"left"},"children":["$","strong","strong-0",{"children":"build"}]}],["$","td","td-1",{"style":{"textAlign":"left"},"children":["Build and push ",["$","strong","strong-0",{"children":"site"}]," + ",["$","strong","strong-1",{"children":"product"}]," images; tag ",["$","code","code-0",{"children":"sha-xxxxxxx"}]," and ",["$","code","code-1",{"children":"latest"}]]}]]}],["$","tr","tr-1",{"children":[["$","td","td-0",{"style":{"textAlign":"left"},"children":["$","strong","strong-0",{"children":"smoke"}]}],["$","td","td-1",{"style":{"textAlign":"left"},"children":["Pull on runner, run containers, ",["$","code","code-0",{"children":"curl"}]," ",["$","code","code-1",{"children":"/api/health"}]," and ",["$","code","code-2",{"children":"/apps/<product-slug>"}]]}]]}],["$","tr","tr-2",{"children":[["$","td","td-0",{"style":{"textAlign":"left"},"children":["$","strong","strong-0",{"children":"deploy"}]}],["$","td","td-1",{"style":{"textAlign":"left"},"children":["Ship images to VPS, ",["$","code","code-0",{"children":"compose up"}]]}]]}]]}]]}]
+27:["$","p","p-19",{"children":["If ",["$","strong","strong-0",{"children":"smoke passes"}]," but ",["$","strong","strong-1",{"children":"deploy fails"}],", the problem is usually ",["$","strong","strong-2",{"children":"SSH or the VPS"}]," — not the build."]}]
+28:["$","h2","h2-5",{"id":"ghcr-pull-on-vps-vs-shipping-the-image-over-ssh","className":"pt-20 -mt-20","children":"GHCR pull on VPS vs shipping the image over SSH"}]
+29:["$","p","p-20",{"children":"First attempt on the VPS — the usual pattern:"}]
+2a:["$","$L15","pre-3",{"code":"docker login ghcr.io\ndocker compose pull\ndocker compose up -d\n","children":["$","code","code-0",{"className":"language-bash","children":"docker login ghcr.io\ndocker compose pull\ndocker compose up -d\n"}]}]
+2b:["$","p","p-21",{"children":["On the ",["$","strong","strong-0",{"children":"runner"}],": fine. On the ",["$","strong","strong-1",{"children":"VPS"}],": ",["$","strong","strong-2",{"children":["$","code","code-0",{"children":"403 Forbidden"}]}]," — even with a PAT scoped to ",["$","code","code-0",{"children":"read:packages"}],", even piping ",["$","code","code-1",{"children":"GITHUB_TOKEN"}]," from CI over SSH."]}]
+2c:["$","p","p-22",{"children":[["$","code","code-0",{"children":"curl"}]," GitHub user API → ",["$","strong","strong-0",{"children":"200"}],". ",["$","code","code-1",{"children":"curl"}]," GHCR manifest → ",["$","strong","strong-1",{"children":"403"}],". The token is alive; it still cannot read the org package. ",["$","strong","strong-2",{"children":"Manage Actions access"}]," on the package helps ",["$","strong","strong-3",{"children":"workflows in that repo"}],", not arbitrary VPS pulls with a personal PAT."]}]
+2d:["$","h3","h3-2",{"id":"what-we-chose","className":"pt-20 -mt-20","children":"What we chose"}]
+2e:["$","p","p-23",{"children":["Runner pulls (smoke already OK) → ",["$","code","code-0",{"children":"docker save"}]," → compress → ",["$","code","code-1",{"children":"scp"}]," to VPS ",["$","code","code-2",{"children":"/tmp/"}]," → ",["$","code","code-3",{"children":"docker load"}]," → delete tarball → ",["$","code","code-4",{"children":"DEPLOY_SKIP_PULL=1 ./scripts/deploy.sh"}],"."]}]
+2f:["$","table","table-3",{"children":[["$","thead","thead-0",{"children":["$","tr","tr-0",{"children":[["$","th","th-0",{"style":{"textAlign":"left"}}],["$","th","th-1",{"style":{"textAlign":"left"},"children":"Pull on VPS"}],["$","th","th-2",{"style":{"textAlign":"left"},"children":"Ship over SSH"}]]}]}],["$","tbody","tbody-0",{"children":[["$","tr","tr-0",{"children":[["$","td","td-0",{"style":{"textAlign":"left"},"children":"GHCR auth on VPS"}],["$","td","td-1",{"style":{"textAlign":"left"},"children":"Required"}],["$","td","td-2",{"style":{"textAlign":"left"},"children":"Not required"}]]}],["$","tr","tr-1",{"children":[["$","td","td-0",{"style":{"textAlign":"left"},"children":"Bandwidth"}],["$","td","td-1",{"style":{"textAlign":"left"},"children":"Smaller if layers cache"}],["$","td","td-2",{"style":{"textAlign":"left"},"children":"Larger each deploy"}]]}],["$","tr","tr-2",{"children":[["$","td","td-0",{"style":{"textAlign":"left"},"children":"Reliability (our case)"}],["$","td","td-1",{"style":{"textAlign":"left"},"children":"Failed with 403"}],["$","td","td-2",{"style":{"textAlign":"left"},"children":"Works"}]]}]]}]]}]
+30:["$","p","p-24",{"children":["We ship over SSH for now: small VPS, low traffic, a few extra minutes per deploy is fine. If org GHCR permissions get fixed, switch back to pull — ",["$","code","code-0",{"children":"deploy.sh"}]," supports both."]}]
+31:["$","p","p-25",{"children":[["$","code","code-0",{"children":"/tmp/"}]," is only a ",["$","strong","strong-0",{"children":"short-lived"}]," tarball staging area, not where the app runs. Delete after ",["$","code","code-1",{"children":"docker load"}],"."]}]
+32:["$","h2","h2-6",{"id":"first-time-vps-setup-bootstrap","className":"pt-20 -mt-20","children":"First-time VPS setup (bootstrap)"}]
+33:["$","p","p-26",{"children":[["$","code","code-0",{"children":"bootstrap.sh"}]," installs: Docker, nginx, certbot, ufw, ",["$","strong","strong-0",{"children":"2GB swap"}]," (without swap, 2GB RAM hangs easily), copies nginx config to ",["$","code","code-1",{"children":"/etc/nginx/sites-enabled/<app-name>"}],"."]}]
+34:["$","p","p-27",{"children":["Re-SSH after bootstrap so the ",["$","strong","strong-0",{"children":"docker"}]," group applies."]}]
+35:["$","p","p-28",{"children":["We once had ",["$","strong","strong-0",{"children":"healthy containers"}]," but ",["$","strong","strong-1",{"children":"no site"}]," — bootstrap had not run, so ",["$","strong","strong-2",{"children":"no nginx config"}],". Green ",["$","code","code-0",{"children":"docker ps"}]," does not mean production is done."]}]
+36:["$","p","p-29",{"children":"Quick checks:"}]
+37:["$","$L15","pre-4",{"code":"ls /etc/nginx/sites-enabled/<app-name>\ncurl -H \"Host: example.com\" http://127.0.0.1/api/health\n","children":["$","code","code-0",{"className":"language-bash","children":"ls /etc/nginx/sites-enabled/<app-name>\ncurl -H \"Host: example.com\" http://127.0.0.1/api/health\n"}]}]
+38:["$","h2","h2-7",{"id":"dns-and-certbot","className":"pt-20 -mt-20","children":"DNS and Certbot"}]
+39:["$","p","p-30",{"children":"At your DNS provider:"}]
+3a:["$","ul","ul-1",{"children":["\n",["$","li","li-0",{"children":[["$","strong","strong-0",{"children":"A"}]," ",["$","code","code-0",{"children":"@"}]," → VPS IP"]}],"\n",["$","li","li-1",{"children":[["$","strong","strong-0",{"children":"A"}]," ",["$","code","code-0",{"children":"www"}]," → VPS IP"]}],"\n",["$","li","li-2",{"children":["Remove stray ",["$","strong","strong-0",{"children":"AAAA"}]," if the VPS has no real IPv6"]}],"\n"]}]
+3b:["$","p","p-31",{"children":["Certbot failed with ",["$","strong","strong-0",{"children":"404"}],"; logs showed odd IPv6 (",["$","code","code-0",{"children":"2001:4860:..."}],") — Let's Encrypt hit the wrong host. Remove AAAA, wait for DNS, then:"]}]
+3c:["$","$L15","pre-5",{"code":"curl http://example.com/.well-known/acme-challenge/test\n","children":["$","code","code-0",{"className":"language-bash","children":"curl http://example.com/.well-known/acme-challenge/test\n"}]}]
+3d:["$","p","p-32",{"children":"When HTTP is stable:"}]
+3e:["$","$L15","pre-6",{"code":"sudo certbot --nginx -d example.com -d www.example.com\n","children":["$","code","code-0",{"className":"language-bash","children":"sudo certbot --nginx -d example.com -d www.example.com\n"}]}]
+3f:["$","h2","h2-8",{"id":"css-bug-two-nextjs-apps-one-domain","className":"pt-20 -mt-20","children":"CSS bug: two Next.js apps, one domain"}]
+40:["$","p","p-33",{"children":["The ",["$","strong","strong-0",{"children":"product app"}]," HTML loads under ",["$","code","code-0",{"children":"/apps/..."}]," (product container). Default Next.js CSS lives at ",["$","code","code-1",{"children":"/_next/static/..."}]," — nginx routes ",["$","code","code-2",{"children":"/"}]," to the ",["$","strong","strong-1",{"children":"site"}]," container."]}]
+41:["$","p","p-34",{"children":["Result: the product page renders text, ",["$","strong","strong-0",{"children":"no styles"}],". DevTools: CSS ",["$","strong","strong-1",{"children":"404"}]," or wrong file."]}]
+42:["$","p","p-35",{"children":[["$","strong","strong-0",{"children":"Fix:"}]," ",["$","code","code-0",{"children":"assetPrefix: \"/apps\""}]," in ",["$","code","code-1",{"children":"apps/web/next.config.ts"}],". Assets become ",["$","code","code-2",{"children":"/apps/_next/static/..."}]," and hit the ",["$","strong","strong-1",{"children":"product"}]," upstream."]}]
+43:["$","p","p-36",{"children":["Two apps on one domain: plan ",["$","strong","strong-0",{"children":"static asset routing up front"}],", not after launch."]}]
+44:["$","h2","h2-9",{"id":"after-setup-what-each-release-looks-like","className":"pt-20 -mt-20","children":"After setup: what each release looks like"}]
+45:["$","p","p-37",{"children":"Mostly:"}]
+46:["$","ol","ol-0",{"children":["\n",["$","li","li-0",{"children":["Merge / push ",["$","code","code-0",{"children":"main"}]]}],"\n",["$","li","li-1",{"children":["Actions green (",["$","strong","strong-0",{"children":"build → smoke → deploy"}],")"]}],"\n",["$","li","li-2",{"children":"Browser check; hard refresh if CSS/JS changed"}],"\n"]}]
+47:["$","p","p-38",{"children":"No manual SSH deploy. No GHCR pull on the VPS (with our current ship-over-SSH path)."}]
+48:["$","p","p-39",{"children":["CI does ",["$","strong","strong-0",{"children":"not"}]," change nginx or certs. Reverse proxy or TLS changes → ",["$","strong","strong-1",{"children":"manual on VPS"}],"."]}]
+49:["$","ul","ul-2",{"children":["\n",["$","li","li-0",{"children":[["$","strong","strong-0",{"children":"Runtime env"}]," (non-public vars in ",["$","code","code-0",{"children":".env"}],"): edit on VPS, ",["$","code","code-1",{"children":"docker compose up -d"}]]}],"\n",["$","li","li-1",{"children":[["$","strong","strong-0",{"children":["$","code","code-0",{"children":"NEXT_PUBLIC_*"}]}],": requires a ",["$","strong","strong-1",{"children":"new image build"}]," — baked at build time"]}],"\n"]}]
+4a:["$","h2","h2-10",{"id":"checklist","className":"pt-20 -mt-20","children":"Checklist"}]
+4b:["$","ol","ol-1",{"children":["\n",["$","li","li-0",{"children":["GitHub secrets ",["$","code","code-0",{"children":"VULTR_*"}],", org ",["$","strong","strong-0",{"children":"Actions"}]," permissions"]}],"\n",["$","li","li-1",{"children":["VPS: bootstrap + sync config + ",["$","code","code-0",{"children":".env"}]]}],"\n",["$","li","li-2",{"children":["DNS ",["$","strong","strong-0",{"children":"A"}]," records; no bogus ",["$","strong","strong-1",{"children":"AAAA"}]]}],"\n",["$","li","li-3",{"children":["Push ",["$","code","code-0",{"children":"main"}],", wait for CI"]}],"\n",["$","li","li-4",{"children":"Certbot after HTTP works"}],"\n",["$","li","li-5",{"children":["Verify main site and product path (e.g. ",["$","code","code-0",{"children":"https://example.com/"}]," and ",["$","code","code-1",{"children":"https://example.com/apps/<product-slug>"}],")"]}],"\n"]}]
+4c:["$","p","p-40",{"children":["Full copy-paste commands belong in your repo runbook (e.g. ",["$","code","code-0",{"children":"docs/PRODUCTION-DEPLOY.md"}],")."]}]
+4d:["$","p","p-41",{"children":["Production is more than ",["$","code","code-0",{"children":"docker run"}],": DNS, nginx, TLS, registry auth, and routing two Next.js apps on one hostname. The diagram in tutorials rarely matches org GHCR policy."]}]
+4e:["$","p","p-42",{"children":["A ",["$","strong","strong-0",{"children":"2GB VPS"}]," works if you ",["$","strong","strong-1",{"children":"build in CI"}],", ",["$","strong","strong-2",{"children":"terminate TLS at nginx"}],", and remember ",["$","strong","strong-3",{"children":"GHCR 403"}]," often needs org/package access — not another PAT."]}]
 a:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
-c:[["$","title","0",{"children":"Systems | Hg's Portfolio"}],["$","meta","1",{"name":"description","content":"Systems blueprints and playbooks: deployment, Docker, edge AI pipelines, quantization, and ops. Written for repeatable execution, not slideware."}],["$","link","2",{"rel":"canonical","href":"https://hgq287.github.io/systems"}],["$","meta","3",{"property":"og:title","content":"Systems | Hg's Portfolio"}],["$","meta","4",{"property":"og:description","content":"Blueprints for deployment, Docker, edge AI pipelines, quantization, and operations."}],["$","meta","5",{"property":"og:url","content":"https://hgq287.github.io/systems"}],["$","meta","6",{"property":"og:image","content":"https://hgq287.github.io/og-default.png"}],["$","meta","7",{"property":"og:image:width","content":"1200"}],["$","meta","8",{"property":"og:image:height","content":"630"}],["$","meta","9",{"property":"og:image:alt","content":"Hung Q. Truong – Hg's Portfolio"}],["$","meta","10",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","11",{"name":"twitter:title","content":"Systems | Hg's Portfolio"}],["$","meta","12",{"name":"twitter:description","content":"Blueprints for deployment, Docker, edge AI pipelines, quantization, and operations."}],["$","meta","13",{"name":"twitter:image","content":"https://hgq287.github.io/og-default.png"}]]
+c:[["$","title","0",{"children":"Systems | Hg's Portfolio"}],["$","meta","1",{"name":"description","content":"Systems notes and playbooks: deployment, Docker, edge AI, ops — written to run, not to present."}],["$","link","2",{"rel":"canonical","href":"https://hgq287.github.io/systems"}],["$","meta","3",{"property":"og:title","content":"Systems | Hg's Portfolio"}],["$","meta","4",{"property":"og:description","content":"Deployment, Docker, edge AI, quantization, and ops notes."}],["$","meta","5",{"property":"og:url","content":"https://hgq287.github.io/systems"}],["$","meta","6",{"property":"og:image","content":"https://hgq287.github.io/og-default.png"}],["$","meta","7",{"property":"og:image:width","content":"1200"}],["$","meta","8",{"property":"og:image:height","content":"630"}],["$","meta","9",{"property":"og:image:alt","content":"Hung Q. Truong – Hg's Portfolio"}],["$","meta","10",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","11",{"name":"twitter:title","content":"Systems | Hg's Portfolio"}],["$","meta","12",{"name":"twitter:description","content":"Deployment, Docker, edge AI, quantization, and ops notes."}],["$","meta","13",{"name":"twitter:image","content":"https://hgq287.github.io/og-default.png"}]]
 8:null

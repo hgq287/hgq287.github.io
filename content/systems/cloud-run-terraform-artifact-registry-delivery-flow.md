@@ -24,7 +24,7 @@ This stack solves that flow clearly:
 - **Terraform** defines infra as code.
 - **Cloud Run** runs the app with autoscaling.
 
-Short version: one pipeline, clear ownership, less manual work.
+One pipeline, clear ownership, less manual deploy work.
 
 ## Tool roles (simple view)
 
@@ -64,7 +64,7 @@ Rollback
   -> Terraform apply
 ```
 
-The key idea is separation:
+The key split:
 
 - App artifact lifecycle is handled by build + registry.
 - Runtime infrastructure lifecycle is handled by Terraform.
@@ -373,7 +373,7 @@ This avoids accidental cross-environment impact.
 
 Because Cloud Run deploys from image tags, rollback should be one fast command or one Terraform variable change.
 
-## Trade-offs (when this may be too much)
+## When this is overkill
 
 This setup is strong, but not always needed.
 
@@ -391,7 +391,4 @@ If your app is still very early, start small and introduce Terraform once servic
 - [ ] Keep runtime variables in secure config/secrets
 - [ ] Verify rollback path before production release
 
-## Final note
-
-Cloud Run, Terraform, Artifact Registry, and Cloud Build work best as one delivery system, not separate tools.  
-Once connected, your deployments become predictable, reviewable, and easier to operate under pressure.
+Cloud Run, Terraform, Artifact Registry, and Cloud Build work best as one delivery system. Wired together, deploys stay predictable and reviewable when something breaks at 2am.

@@ -12,22 +12,22 @@ tags:
   - Cost optimization
 ---
 
-## Why the bill spikes anyway
+## Why the bill jumps
 
-One Monday you open Billing and Cloud Run is up sharply. In Logs Explorer the traffic looks like junk:
+Cloud Run billing spiked. Logs Explorer showed the usual scanner noise:
 
 - `GET /wp-login.php`
 - `GET /wp-admin/setup-config.php`
 - `GET /.env`
 
-Your app is **Next.js**, not WordPress, and there is no PHP. Every probe still returns **404**—and that is the trap.
+The app is **Next.js**, not WordPress. No PHP on the stack. Every probe still returns **404** — and you still pay for it.
 
-**Cloud Run charges for real work at the edge of the platform:** you pay for **requests** and for **billable instance time** (CPU and memory allocated while instances handle concurrency). A scanner does not need a “successful” page to cost money. Enough parallel junk requests can:
+Cloud Run bills **requests** and **instance time** (CPU/memory while instances handle concurrency). A scanner does not need a real page. Enough parallel junk can:
 
-- **Raise concurrency** and keep instances busy serving cheap 404s.
-- **Trigger autoscaling** and cold starts when bursts arrive faster than idle capacity.
+- **Raise concurrency** and keep instances busy on cheap 404s.
+- **Trigger autoscaling** and cold starts when bursts outrun idle capacity.
 
-Application-layer fixes (Next.js middleware, route handlers) help, but they still spend **your container’s CPU** on noise. The cheaper pattern is **defense in depth at Google’s front door**: deny obvious abuse before Cloud Run sees it, and **cache safe negatives** at the CDN so repeat probes do not hit the origin.
+Next.js middleware can block some of this, but it still burns **container CPU**. Cheaper to cut noise at the **load balancer**: deny obvious paths before Cloud Run sees them, and let the **CDN cache 404s** so repeat probes skip the origin.
 
 ## Architecture: three layers
 
@@ -79,24 +79,24 @@ request.path.contains('/wp-admin/') || request.path.contains('/wp-content/')
 request.path.matches('(?i:.*\\.(env|git|bak|sql|config)(/|$))')
 ```
 
-**Operational notes:**
+**Rules that matter:**
 
-- **Priority order matters** — more specific rules should win over broad catch-alls.
-- **Managed rules** (OWASP ModSecurity CRS, **Google-managed rules**, optional **Adaptive Protection** / bot defenses) are worth evaluating on top of hand-written paths; they catch classes of attacks regex alone will miss.
-- **False positives** — any regex that is too broad can block legitimate traffic. Test in **preview** mode first if your policy supports it, then enforce **deny(403)** (or **deny(404)** if you prefer not to signal “blocked”).
+- Put **specific rules above broad ones** in priority order.
+- **Managed rules** (OWASP CRS, Google-managed rules, Adaptive Protection) catch attack classes regex misses — worth adding on top of path blocks.
+- **False positives:** test in preview mode if you can, then `deny(403)` (or `deny(404)` if you do not want to advertise a block).
 
 Deny actions evaluated at the **load balancer** mean those requests **never invoke** Cloud Run: no container CPU for that request line item.
 
-## Layer 2 — Cloud CDN without “cache everything” by mistake
+## Layer 2 — CDN: negative caching, not “cache everything”
 
-**Important distinction:** enabling CDN with an aggressive **“cache all”** style mode (`CACHE_MODE_FORCE_CACHE_ALL` / console equivalents) is a poor default for a **dynamic** Next.js service. You can accidentally **cache 200 responses** that should be private or vary per user.
+Do not turn on **force-cache-all** (`CACHE_MODE_FORCE_CACHE_ALL` or the console equivalent) for a **dynamic** Next.js app — you can cache **200** responses that should stay private or vary per user.
 
-For scanner economics, focus on **negative caching**:
+For scanner traffic, use **negative caching**:
 
 - Configure the backend service / CDN settings so **404** (and optionally **403** if your origin returns them for unknown routes) can be cached at the edge for a bounded TTL (for example **many hours** for static junk paths).
-- **Trade-off:** a long TTL on **404** also caches **mistakes**. If you ship a bad route and return 404, edge caches may **serve that 404 until TTL expires**. Keep TTL long enough to kill repeat scans, short enough that you can recover quickly from config errors—or purge cache when you have a supported workflow.
+- **Trade-off:** a long **404** TTL also freezes real mistakes. Ship a bad route, and the edge may keep serving 404 until expiry. Balance scan noise vs recovery time — or purge cache when you can.
 
-For real user traffic, use **normal cache policies** for truly static assets (immutable hashes, `public/` static files) rather than forcing the entire site into one cache mode.
+Use normal cache rules for static assets (`public/`, hashed filenames). Do not force one cache mode over the whole app.
 
 ## Layer 3 — Close the `*.run.app` bypass
 
@@ -106,7 +106,7 @@ If the load balancer is public but the **Cloud Run service URL** is still open t
 
 Pair that with **DNS and TLS on the external HTTPS load balancer** as the only customer-facing entry.
 
-## Implementation checklist (high level)
+## Setup steps
 
 1. **Serverless NEG** — point a serverless Network Endpoint Group at the **Cloud Run** service (region, service name).
 2. **Backend service** — use that NEG as the backend; enable **Cloud CDN** on the backend service when it fits your caching plan.
@@ -116,24 +116,22 @@ Pair that with **DNS and TLS on the external HTTPS load balancer** as the only c
 6. **Cloud Run ingress** — restrict to **internal + Cloud Load Balancing**; verify the default `run.app` URL no longer accepts public probes.
 7. **Validate** — `curl` against the LB hostname vs direct `run.app`; confirm denied paths never appear in **Cloud Run request logs**.
 
-## Proof in logs (what “good” looks like)
+## What to look for in logs
 
-Exact field names move between log schema versions, so phrase searches in terms of intent:
+Log field names change between schema versions; search by intent:
 
 - **Load Balancer / Armor:** filter for **deny** outcomes, matched rule names, and **low backend request volume** for garbage paths.
 - **CDN:** filter for **cache fill / hit** indicators vs **origin round-trips**; repeat scans of the same dead path should show **edge satisfaction** rather than new Cloud Run instances spinning up.
 - **Cloud Run:** request logs trend toward **legitimate routes** (for example **200** on real pages) rather than dense **404** storms during idle periods.
 
-Before hardening, you might have seen **“Starting new instance”** correlated with scan bursts. Afterward, that signal should quiet down for blocked paths because **the origin never sees them**, or sees them **once per cache key** before negative caching kicks in.
+Before hardening, **“Starting new instance”** often lined up with scan bursts. Afterward that noise drops on blocked paths — the origin never sees them, or sees them once per cache key before negative caching kicks in.
 
-## Cost framing (honest)
+## LB cost
 
-A global HTTPS load balancer is **not free**: you pay for components such as **forwarding rules**, **proxy infrastructure**, and **data processing**, and list prices vary by region and time.
+A global HTTPS load balancer is not free: forwarding rules, proxy infra, data processing — prices vary by region.
 
-Treat that line item as **insurance** against runaway **Cloud Run** request and instance-time growth from uncapped internet noise—especially when autoscaling turns scanner concurrency into **real money** and **operational toil**.
+It is still cheaper than letting scanner concurrency drive **Cloud Run** instance time without a cap.
 
-## Closing
+Middleware can express policy; it spends **container** resources. **Cloud Armor** on the backend service, **CDN negative caching** where safe, and **ingress locked to load balancing only** cut junk before your revision runs.
 
-**Cost control on cloud is both code and infrastructure.** Middleware can express policy, but it spends **container** resources. Putting **Cloud Armor** on the **backend service**, using **CDN negative caching** where it is safe, and **locking Cloud Run ingress** to **load-balanced paths only** is the boring, effective pattern: fewer meaningless requests reach your revision, and your graphs tell a calmer story.
-
-If you want the same story in **Terraform**, the cleanest next step is to codify the NEG, backend service, URL map, Armor attachment, and CDN flags beside the Cloud Run service—similar in spirit to the delivery-flow article already on this site.
+For Terraform, codify the NEG, backend service, URL map, Armor attachment, and CDN flags next to the Cloud Run service — same split as in the Cloud Run delivery-flow write-up.
