@@ -48,4 +48,10 @@ export const SystemsRepository = {
       content,
     } as Post;
   },
+
+  async getAllPosts(): Promise<Post[]> {
+    const metadata = await this.getAllPostsMetadata();
+    const posts = await Promise.all(metadata.map((item) => this.getPostBySlug(item.slug)));
+    return posts.filter((post): post is Post => post !== null);
+  },
 };

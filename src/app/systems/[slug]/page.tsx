@@ -104,12 +104,20 @@ export default async function SystemsPostPage({ params }: PageProps) {
           activeSlug={currentPost.slug}
           basePath="/systems"
           sidebarTitle="All Articles"
+          variant="desktop"
         />
         <main className="blog-main">
+          <BlogSidebar
+            allPostsMetadata={allMetadata}
+            activeSlug={currentPost.slug}
+            basePath="/systems"
+            sidebarTitle="All Articles"
+            variant="mobile"
+          />
           <article>
             <h1 className="blog-article-title">{currentPost.title}</h1>
             <div className="blog-article-meta">
-              <PostMeta date={currentPost.date} tags={currentPost.tags} />
+              <PostMeta date={currentPost.date} tags={currentPost.tags} tagBasePath="/systems" />
             </div>
             <div className="blog-prose">
               <ArticleMarkdown content={currentPost.content} />

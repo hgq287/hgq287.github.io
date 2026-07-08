@@ -37,7 +37,6 @@ export const PostRepository = {
   },
 
   async getPostBySlug(slug: string): Promise<Post | null> {
-    console.log(`Fetching post by slug: ${slug}`);
     const filename = `${slug}.md`;
     const filePath = path.join(POSTS_DIR, filename);
 
@@ -57,5 +56,11 @@ export const PostRepository = {
       featured: data.featured === true,
       content: content,
     } as Post;
-  }
+  },
+
+  async getAllPosts(): Promise<Post[]> {
+    const metadata = await this.getAllPostsMetadata();
+    const posts = await Promise.all(metadata.map((item) => this.getPostBySlug(item.slug)));
+    return posts.filter((post): post is Post => post !== null);
+  },
 };

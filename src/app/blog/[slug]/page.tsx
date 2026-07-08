@@ -109,12 +109,18 @@ export default async function PostPage({ params }: PostPageProps) {
         <BlogSidebar
           allPostsMetadata={allPostsMetadata}
           activeSlug={currentPost.slug}
+          variant="desktop"
         />
         <main className="blog-main">
+          <BlogSidebar
+            allPostsMetadata={allPostsMetadata}
+            activeSlug={currentPost.slug}
+            variant="mobile"
+          />
           <article>
             <h1 className="blog-article-title">{currentPost.title}</h1>
             <div className="blog-article-meta">
-              <PostMeta date={currentPost.date} tags={currentPost.tags} />
+              <PostMeta date={currentPost.date} tags={currentPost.tags} tagBasePath="/blog" />
             </div>
             <div className="blog-prose">
               <ArticleMarkdown content={currentPost.content} />

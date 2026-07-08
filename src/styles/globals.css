@@ -540,11 +540,33 @@ body:has(.blog-page) .blog-header-bar:not(.header-no-hamburger) .header-home-men
   }
 }
 
+/* Related posts list above the article on mobile / tablet */
+.blog-page .blog-related-mobile {
+  display: block;
+  margin-bottom: 1.75rem;
+  padding-bottom: 1.25rem;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+@media (min-width: 1024px) {
+  .blog-page .blog-related-mobile {
+    display: none;
+  }
+}
+
 .blog-page .blog-sidebar-title {
   font-size: 1rem;
   font-weight: 600;
   color: #000;
   margin: 0 0 1rem 0;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.4rem;
+}
+
+.blog-page .blog-sidebar-title-prefix {
+  font-weight: 600;
 }
 
 .blog-page .blog-sidebar-list {
@@ -573,6 +595,24 @@ body:has(.blog-page) .blog-header-bar:not(.header-no-hamburger) .header-home-men
 .blog-page .blog-sidebar-list a.is-active {
   color: #000;
   font-weight: 600;
+}
+
+.blog-page .blog-related-more {
+  display: inline-block;
+  margin-top: 0.75rem;
+  padding: 0;
+  border: none;
+  background: transparent;
+  color: #333;
+  font-size: 0.875rem;
+  font-weight: 500;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+  cursor: pointer;
+}
+
+.blog-page .blog-related-more:hover {
+  color: #000;
 }
 
 .blog-page .blog-main {
@@ -615,18 +655,50 @@ body:has(.blog-page) .blog-header-bar:not(.header-no-hamburger) .header-home-men
   gap: 0.5rem;
 }
 
-.blog-page .blog-article-meta .post-meta-tag {
+.blog-page .blog-article-meta .post-meta-tag,
+.blog-page .post-meta-tag {
   background-color: #f0f0f0;
   color: #333;
   padding: 0.125rem 0.5rem;
   border-radius: 4px;
   font-size: 0.75rem;
+  font-weight: 500;
   text-decoration: none;
 }
 
 .blog-page .blog-article-meta .post-meta-tag:hover {
   background-color: #e0e0e0;
   text-decoration: underline;
+}
+
+.blog-page .tag-filter-bar {
+  display: inline-flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-bottom: 1.25rem;
+  font-size: 0.875rem;
+  color: #333;
+}
+
+.blog-page .tag-filter-bar-label {
+  font-weight: 400;
+}
+
+.blog-page .tag-filter-active-tag {
+  display: inline-block;
+  line-height: 1.4;
+}
+
+.blog-page .tag-filter-chip-clear {
+  color: #555;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+  font-size: 0.875rem;
+}
+
+.blog-page .tag-filter-chip-clear:hover {
+  color: #000;
 }
 
 .blog-page .blog-minimap-wrap {
