@@ -1,26 +1,429 @@
 1:"$Sreact.fragment"
 2:I[63178,["/_next/static/chunks/58689c96b0676c41.js"],"ThemeProvider"]
-3:I[39756,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/247eb132b7f7b574.js"],"default"]
-4:I[37457,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/247eb132b7f7b574.js"],"default"]
-6:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/247eb132b7f7b574.js"],"OutletBoundary"]
+3:I[39756,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/c81db6e24f0cfdeb.js"],"default"]
+4:I[37457,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/c81db6e24f0cfdeb.js"],"default"]
+6:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/c81db6e24f0cfdeb.js"],"OutletBoundary"]
 7:"$Sreact.suspense"
-9:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/247eb132b7f7b574.js"],"ViewportBoundary"]
-b:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/247eb132b7f7b574.js"],"MetadataBoundary"]
-d:I[68027,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/247eb132b7f7b574.js"],"default"]
-:HL["/_next/static/chunks/e6feeec15da1bfda.css","style"]
+9:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/c81db6e24f0cfdeb.js"],"ViewportBoundary"]
+b:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/c81db6e24f0cfdeb.js"],"MetadataBoundary"]
+d:I[68027,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/c81db6e24f0cfdeb.js"],"default"]
+:HL["/_next/static/chunks/ece62fef2316de36.css","style"]
 :HL["/_next/static/media/47df9ba1c7236d3b-s.p.7bbb93ea.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
 :HL["/_next/static/media/68d403cf9f2c68c5-s.p.f9f15f61.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
-0:{"P":null,"b":"8GxxVnr4WAhZ0OmMHxCdD","c":["","systems"],"q":"","i":false,"f":[[["",{"children":["systems",{"children":["__PAGE__",{}]}]},"$undefined","$undefined",true],[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/e6feeec15da1bfda.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/_next/static/chunks/58689c96b0676c41.js","async":true,"nonce":"$undefined"}]],["$","html",null,{"lang":"en","suppressHydrationWarning":true,"className":"source_sans_3_ef15b96b-module__iXAkeG__variable source_serif_4_ee15e1dc-module__HXKgIG__variable","children":["$","body",null,{"className":"font-sans antialiased","children":[["$","script",null,{"type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"{\"@context\":\"https://schema.org\",\"@graph\":[{\"@type\":\"Person\",\"@id\":\"https://hgq287.github.io/#person\",\"name\":\"Hung Q. Truong\",\"url\":\"https://hgq287.github.io\",\"sameAs\":[\"https://www.linkedin.com/in/hgq287\",\"https://github.com/hgq287\",\"https://stackoverflow.com/users/12345813/hgq287\"],\"jobTitle\":\"Systems Architect; Principal AI Engineer\"},{\"@type\":\"WebSite\",\"@id\":\"https://hgq287.github.io/#website\",\"name\":\"Hg's Portfolio\",\"url\":\"https://hgq287.github.io\",\"description\":\"Systems Architect with 15+ years. Principal AI: strategy, architecture, and shipping from research to production. Swift, C++, core engines, Kotlin Multiplatform, backends.\",\"inLanguage\":\"en-US\",\"publisher\":{\"@id\":\"https://hgq287.github.io/#person\"}}]}"}}],["$","$L2",null,{"attribute":"data-theme","children":["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]]}]}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":["$L5",[["$","script","script-0",{"src":"/_next/static/chunks/67a6e4e165ed0957.js","async":true,"nonce":"$undefined"}]],["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]]}],{},null,false,false]},null,false,false]},null,false,false],["$","$1","h",{"children":[null,["$","$L9",null,{"children":"$@a"}],["$","div",null,{"hidden":true,"children":["$","$Lb",null,{"children":["$","$7",null,{"name":"Next.Metadata","children":"$@c"}]}]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],false]],"m":"$undefined","G":["$d",[]],"S":true}
-e:I[66576,["/_next/static/chunks/58689c96b0676c41.js","/_next/static/chunks/67a6e4e165ed0957.js"],"default"]
-f:I[8100,["/_next/static/chunks/58689c96b0676c41.js","/_next/static/chunks/67a6e4e165ed0957.js"],"default"]
-5:["$","div",null,{"className":"blog-page","children":[["$","$Le",null,{"title":"Next.js on a 2GB VPS: Real CI/CD, Real Failures, and What We Did","headline":"A production runbook for a small Vultr VPS — dual Next.js apps on one domain, GitHub Actions, nginx, GHCR, and the 403, AAAA, and CSS routing bugs we hit along the way."}],["$","div",null,{"className":"blog-layout","children":[["$","$Lf",null,{"allPostsMetadata":[{"slug":"nextjs-vps-2gb-cicd-real-world-runbook","title":"Next.js on a 2GB VPS: Real CI/CD, Real Failures, and What We Did","date":"2026-05-18T00:00:00.000Z","excerpt":"A production runbook for a small Vultr VPS — dual Next.js apps on one domain, GitHub Actions, nginx, GHCR, and the 403, AAAA, and CSS routing bugs we hit along the way.","tags":["Next.js","VPS","CI/CD","GitHub Actions","Docker","nginx","DevOps"],"featured":false},{"slug":"cloud-run-cost-defense-armor-cdn","title":"Cloud Run Cost Defense: Scan Traffic, Cloud Armor, and CDN at the Edge","date":"2026-05-13T00:00:00.000Z","excerpt":"Stop vulnerability scanners from burning Cloud Run budget: Cloud Armor at the global HTTPS load balancer, CDN negative caching for residual 404s, and locked ingress so bots cannot bypass the front door.","tags":["Cloud Run","Cloud Armor","Cloud CDN","Google Cloud","Security","Cost optimization"],"featured":false},{"slug":"cloud-run-terraform-artifact-registry-delivery-flow","title":"Cloud Delivery Flow: Cloud Run + Terraform + Artifact Registry","date":"2026-04-30T00:00:00.000Z","excerpt":"A practical guide to ship web apps with Cloud Build, Artifact Registry, Terraform, and Cloud Run in one clean pipeline.","tags":["Cloud Run","Terraform","Artifact Registry","Cloud Build","DevOps","CI/CD"],"featured":false},{"slug":"edge-ai-quantization-zero-copy-data-plane","title":"Quantized Models and Zero-Copy Data Planes: Contracts from Calibration to HAL","date":"2026-04-18T00:00:00.000Z","excerpt":"How INT8/FP16 artifacts, runtime backends, buffer ownership, and sync points fit together on edge SoCs. Includes a capability-style HAL sketch and a realistic warning: zero-copy is not zero-synchronization.","tags":["EdgeAI","Quantization","Inference","Memory","SystemsArchitecture"],"featured":true},{"slug":"edge-ai-pipeline-dag-runtime-bottlenecks","title":"Edge Video AI Pipelines: DAG Runtimes, Queues, and System Bottlenecks","date":"2026-03-24T00:00:00.000Z","excerpt":"A concrete mental model for graph-based edge inference: stages, queues, executors, backpressure, and why DRAM bandwidth and thermal headroom often beat raw NPU FLOPs on the critical path.","tags":["EdgeAI","SystemsArchitecture","VideoAnalytics","RealTime","C++"],"featured":true},{"slug":"docker-blueprint-architecture-command-lab","title":"Docker Blueprint: Architecture & Command Lab","date":"2026-03-10T00:00:00.000Z","excerpt":"A practical guide to Docker architecture, core commands, networking, and Compose—with a VM vs container diagram and an architect's checklist.","tags":["Docker","DevOps","Architecture"],"featured":false},{"slug":"ops-blueprint-universal-deployment-playbook","title":"Ops Blueprint: Universal Deployment Playbook","date":"2025-12-16T00:00:00.000Z","excerpt":"Ops notes for repeatable builds, production-like runtime, releases, rollbacks, secrets, Docker Compose, and incident response.","tags":["DevOps","Deployment","Docker","Security","IncidentResponse"],"featured":false}],"activeSlug":"nextjs-vps-2gb-cicd-real-world-runbook","basePath":"/systems","sidebarTitle":"All Articles"}],["$","main",null,{"className":"blog-main","children":["$","article",null,{"children":[["$","h1",null,{"className":"blog-article-title","children":"Next.js on a 2GB VPS: Real CI/CD, Real Failures, and What We Did"}],"$L10","$L11"]}]}],"$L12"]}],"$L13"]}]
-14:I[13192,["/_next/static/chunks/58689c96b0676c41.js","/_next/static/chunks/67a6e4e165ed0957.js"],"default"]
-15:I[60956,["/_next/static/chunks/58689c96b0676c41.js","/_next/static/chunks/67a6e4e165ed0957.js"],"CodeBlockWithCopy"]
-4f:I[87667,["/_next/static/chunks/58689c96b0676c41.js","/_next/static/chunks/67a6e4e165ed0957.js"],"default"]
-10:["$","div",null,{"className":"blog-article-meta","children":["$","$L14",null,{"date":"2026-05-18T00:00:00.000Z","tags":"$5:props:children:1:props:children:0:props:allPostsMetadata:0:tags"}]}]
-11:["$","div",null,{"className":"blog-prose","children":["$","div",null,{"className":"prose prose-neutral dark:prose-invert max-w-none prose-headings:font-serif prose-headings:font-semibold prose-headings:tracking-tight prose-h2:text-2xl prose-h3:text-xl prose-p:leading-relaxed prose-strong:font-semibold prose-li:mb-1.5 prose-a:text-accent-fg prose-a:no-underline hover:prose-a:underline prose-text-foreground","children":[["$","p","p-0",{"children":["Production runs on a small Vultr VPS: ",["$","strong","strong-0",{"children":"1 CPU, 2GB RAM"}],". Cloud Run stays as failover only. Builds never run on the box — push ",["$","code","code-0",{"children":"main"}],", GitHub Actions does the rest."]}],"\n",["$","p","p-1",{"children":"Notes below are from a real deploy: what worked, what broke, and what we changed."}],"\n",["$","h2","h2-0",{"id":"context-what-we-chose-and-what-we-skipped","className":"pt-20 -mt-20","children":"Context: what we chose and what we skipped"}],"\n",["$","p","p-2",{"children":["The project is one monorepo with ",["$","strong","strong-0",{"children":"two Next.js apps on one domain"}],":"]}],"\n",["$","ul","ul-0",{"children":["\n",["$","li","li-0",{"children":[["$","strong","strong-0",{"children":"Marketing / main site"}]," (",["$","code","code-0",{"children":"/"}],") — Next.js at the repo root"]}],"\n",["$","li","li-1",{"children":[["$","strong","strong-0",{"children":"Product app"}]," — lives in ",["$","code","code-0",{"children":"apps/web"}],", public under ",["$","code","code-1",{"children":"/apps/<product-slug>"}]]}],"\n"]}],"\n",["$","p","p-3",{"children":"Two apps, two containers, one domain."}],"\n",["$","p","p-4",{"children":["We kept ",["$","strong","strong-0",{"children":"GCP Cloud Run as failover"}]," — point DNS back and the old path still works. Primary production is the ",["$","strong","strong-1",{"children":"VPS"}],": cheap, controllable, enough for this stage."]}],"\n",["$","p","p-5",{"children":["A ",["$","strong","strong-0",{"children":"2GB VPS does not build Next.js on-server."}]," ",["$","code","code-0",{"children":"next build"}]," eats RAM. Build on ",["$","strong","strong-1",{"children":"GitHub Actions"}],", push images to ",["$","strong","strong-2",{"children":"GHCR"}],", deploy to the VPS."]}],"\n",["$","h2","h2-1",{"id":"architecture-compact","className":"pt-20 -mt-20","children":"Architecture (compact)"}],"\n",["$","p","p-6",{"children":["$","strong","strong-0",{"children":"Request path:"}]}],"\n",["$","$L15","pre-0",{"code":"Internet → nginx (VPS, ports 80/443)\n              ├─ /           → site container    (127.0.0.1:8080)\n              └─ /apps/      → product container (127.0.0.1:8081)\n","children":["$","code","code-0",{"className":"language-plaintext","children":"Internet → nginx (VPS, ports 80/443)\n              ├─ /           → site container    (127.0.0.1:8080)\n              └─ /apps/      → product container (127.0.0.1:8081)\n"}]}],"\n",["$","p","p-7",{"children":["$","strong","strong-0",{"children":"CI/CD:"}]}],"\n",["$","$L15","pre-1",{"code":"push main → build site + product images → push GHCR\n         → smoke test on runner\n         → ship images to VPS → docker compose up\n","children":["$","code","code-0",{"className":"language-plaintext","children":"push main → build site + product images → push GHCR\n         → smoke test on runner\n         → ship images to VPS → docker compose up\n"}]}],"\n",["$","p","p-8",{"children":["Containers are ",["$","strong","strong-0",{"children":"not"}]," exposed to the internet directly. Only ",["$","strong","strong-1",{"children":"nginx"}]," is public. ",["$","strong","strong-2",{"children":"Certbot"}]," runs on the nginx ",["$","strong","strong-3",{"children":"host"}],", not inside Docker — keeps TLS and routing simpler."]}],"\n",["$","h2","h2-2",{"id":"infra-layout-in-the-repo","className":"pt-20 -mt-20","children":"Infra layout in the repo"}],"\n",["$","p","p-9",{"children":"We split concerns clearly:"}],"\n","$L16","\n","$L17","\n","$L18","\n","$L19","\n","$L1a","\n","$L1b","\n","$L1c","\n","$L1d","\n","$L1e","\n","$L1f","\n","$L20","\n","$L21","\n","$L22","\n","$L23","\n","$L24","\n","$L25","\n","$L26","\n","$L27","\n","$L28","\n","$L29","\n","$L2a","\n","$L2b","\n","$L2c","\n","$L2d","\n","$L2e","\n","$L2f","\n","$L30","\n","$L31","\n","$L32","\n","$L33","\n","$L34","\n","$L35","\n","$L36","\n","$L37","\n","$L38","\n","$L39","\n","$L3a","\n","$L3b","\n","$L3c","\n","$L3d","\n","$L3e","\n","$L3f","\n","$L40","\n","$L41","\n","$L42","\n","$L43","\n","$L44","\n","$L45","\n","$L46","\n","$L47","\n","$L48","\n","$L49","\n","$L4a","\n","$L4b","\n","$L4c","\n","$L4d","\n","$L4e"]}]}]
-50:T1dc4,
-Production runs on a small Vultr VPS: **1 CPU, 2GB RAM**. Cloud Run stays as failover only. Builds never run on the box — push `main`, GitHub Actions does the rest.
+0:{"P":null,"b":"VvURJn4hPWXanF50tPLNZ","c":["","systems"],"q":"","i":false,"f":[[["",{"children":["systems",{"children":["__PAGE__",{}]}]},"$undefined","$undefined",true],[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/ece62fef2316de36.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/_next/static/chunks/58689c96b0676c41.js","async":true,"nonce":"$undefined"}]],["$","html",null,{"lang":"en","suppressHydrationWarning":true,"className":"source_sans_3_ef15b96b-module__iXAkeG__variable source_serif_4_ee15e1dc-module__HXKgIG__variable","children":["$","body",null,{"className":"font-sans antialiased","children":[["$","script",null,{"type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"{\"@context\":\"https://schema.org\",\"@graph\":[{\"@type\":\"Person\",\"@id\":\"https://hgq287.github.io/#person\",\"name\":\"Hung Q. Truong\",\"url\":\"https://hgq287.github.io\",\"sameAs\":[\"https://www.linkedin.com/in/hgq287\",\"https://github.com/hgq287\",\"https://stackoverflow.com/users/12345813/hgq287\"],\"jobTitle\":\"Systems Architect; Principal AI Engineer\"},{\"@type\":\"WebSite\",\"@id\":\"https://hgq287.github.io/#website\",\"name\":\"Hg's Portfolio\",\"url\":\"https://hgq287.github.io\",\"description\":\"Systems Architect with 15+ years. Principal AI: strategy, architecture, and shipping from research to production. Swift, C++, core engines, Kotlin Multiplatform, backends.\",\"inLanguage\":\"en-US\",\"publisher\":{\"@id\":\"https://hgq287.github.io/#person\"}}]}"}}],["$","$L2",null,{"attribute":"data-theme","children":["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]]}]}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":["$L5",[["$","script","script-0",{"src":"/_next/static/chunks/13bdceb0db9ac3ad.js","async":true,"nonce":"$undefined"}],["$","script","script-1",{"src":"/_next/static/chunks/20c4f2dbccfb2b3c.js","async":true,"nonce":"$undefined"}]],["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]]}],{},null,false,false]},null,false,false]},null,false,false],["$","$1","h",{"children":[null,["$","$L9",null,{"children":"$@a"}],["$","div",null,{"hidden":true,"children":["$","$Lb",null,{"children":["$","$7",null,{"name":"Next.Metadata","children":"$@c"}]}]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],false]],"m":"$undefined","G":["$d",[]],"S":true}
+e:I[11997,["/_next/static/chunks/58689c96b0676c41.js","/_next/static/chunks/13bdceb0db9ac3ad.js","/_next/static/chunks/20c4f2dbccfb2b3c.js"],"default"]
+f:T172f,
+Kafka shines when you want to do work **after** a request, without making the user wait.
+
+If you only remember one sentence:
+
+**Kafka is a durable event log that many consumers can read at their own pace.**
+
+## Table of contents
+
+1. [Scenario](#1-scenario)
+2. [Queue vs log, in plain language](#2-queue-vs-log-in-plain-language)
+3. [Core model: topic, partition, offset, consumer group](#3-core-model-topic-partition-offset-consumer-group)
+4. [A tiny TypeScript lab (produce, consume, replay)](#4-a-tiny-typescript-lab-produce-consume-replay)
+5. [Delivery semantics: duplicates are normal](#5-delivery-semantics-duplicates-are-normal)
+6. [Case studies: LinkedIn and Uber](#6-case-studies-linkedin-and-uber)
+7. [The real failure modes](#7-the-real-failure-modes)
+8. [Checklist](#8-checklist)
+
+## 1. Scenario
+
+Checkout succeeds. Now several things must happen:
+
+- Send an email receipt
+- Run fraud checks
+- Update analytics
+- Notify warehouse
+
+If Checkout calls all of those services synchronously:
+
+- latency becomes the sum of many dependencies
+- any slow system blocks the user
+- a temporary outage turns into a full outage
+
+Instead, Checkout publishes one event: `order.paid`.
+Downstream systems consume it and do their work asynchronously.
+
+![Kafka event log fanout](/images/systems/kafka-event-log-fanout.svg)
+
+## 2. Queue vs log in plain language
+
+It is easy to think Kafka is "just a queue".
+That framing causes bad designs.
+
+### Queue mental model
+
+- One message is handled by one worker
+- Once done, it disappears
+
+### Log mental model (Kafka)
+
+- Events are appended to a log
+- Consumers track their own position (offset)
+- Multiple consumer groups can read the same events independently
+- Replay is a normal operation, not a panic move
+
+That is why Kafka fits "many systems react to the same event" so well.
+
+## 3. Core model: topic, partition, offset, consumer group
+
+You do not need to memorize internals to use Kafka well.
+You need these four ideas:
+
+- **Topic**: a named stream of events, like `order.paid`
+- **Partition**: a shard of that stream, ordered within the partition
+- **Offset**: the position of a consumer in a partition
+- **Consumer group**: a group of instances that share work for one topic
+
+Two important consequences:
+
+1. Ordering is per partition, not global.
+2. Scaling consumers means you scale by partitions.
+
+## 4. A tiny TypeScript lab (produce, consume, replay)
+
+Library to look at:
+
+- `kafkajs`
+
+Producer sketch:
+
+```ts
+import { Kafka } from 'kafkajs';
+
+const kafka = new Kafka({ clientId: 'checkout', brokers: ['localhost:9092'] });
+const producer = kafka.producer();
+
+await producer.connect();
+await producer.send({
+  topic: 'order.paid',
+  messages: [
+    { key: 'order-123', value: JSON.stringify({ orderId: 'order-123', amount: 1999 }) },
+  ],
+});
+```
+
+Consumer sketch (email service):
+
+```ts
+import { Kafka } from 'kafkajs';
+
+const kafka = new Kafka({ clientId: 'email', brokers: ['localhost:9092'] });
+const consumer = kafka.consumer({ groupId: 'email-receipts' });
+
+await consumer.connect();
+await consumer.subscribe({ topic: 'order.paid', fromBeginning: false });
+
+await consumer.run({
+  eachMessage: async ({ message }) => {
+    const payload = message.value ? JSON.parse(message.value.toString()) : null;
+    if (!payload) return;
+    // send email, then commit offset (handled by the client based on config)
+  },
+});
+```
+
+Replay idea:
+
+- Use a new group id to reprocess everything safely, or
+- Reset offsets for an existing group if you know what you are doing
+
+In production, replay is how you recover from downstream bugs without asking upstream to resend.
+
+## 5. Delivery semantics: duplicates are normal
+
+In many Kafka setups, you should assume "at least once" delivery.
+That means duplicates can happen.
+
+Fresh engineers often learn this the hard way:
+
+- customer gets two emails
+- you charge twice
+- you double-count analytics
+
+The fix is not to wish for perfect delivery.
+The fix is to make consumers idempotent.
+
+Common patterns:
+
+- Use an idempotency key (event id) and store processed ids
+- Make writes upsert-based (insert on conflict do nothing)
+- Design handlers so repeating is safe
+
+## 6. Case studies: LinkedIn and Uber
+
+### LinkedIn: Kafka as the company data pipeline
+
+Kafka started at LinkedIn as a central data pipeline.
+At scale, the key idea is that a durable log lets many teams build consumers without coupling to one producer.
+
+Reference: LinkedIn engineering posts about Kafka ecosystem.
+
+### Uber: Kafka for async queueing between microservices
+
+Uber uses Kafka heavily for pub-sub between services.
+They also built a Consumer Proxy to reduce common consumer mistakes and operational headaches.
+
+Reference: Uber engineering post on Kafka async queuing with Consumer Proxy.
+
+## 7. The real failure modes
+
+### 7.1 Treating Kafka like a request path
+
+Kafka is not a good place for "please answer now".
+If you need a bounded response, that is usually gRPC or HTTP.
+
+### 7.2 Too few partitions
+
+If you have one partition, you have one lane.
+Your consumer group cannot scale beyond that.
+
+Pick partition count with growth in mind, but do not overdo it.
+
+### 7.3 No schema discipline
+
+JSON without rules becomes a mess fast.
+If you scale teams, you eventually want schemas (Avro, protobuf, or JSON schema) plus versioning rules.
+
+### 7.4 Ignoring backpressure
+
+Consumers fall behind.
+That is normal.
+
+You should monitor:
+
+- consumer lag
+- error rates
+- retries
+
+And you should decide what happens when you are behind:
+
+- scale consumers
+- shed non-critical work
+- slow producers in the source system if needed
+
+## 8. Checklist
+
+Before you pick Kafka for a workflow:
+
+1. The work can be asynchronous.
+2. You are happy with eventual consistency.
+3. You will handle duplicates safely.
+4. You have a story for replay and backfill.
+5. You can operate it (lag, retries, partitions, retention).
+
+If you need a sync answer with a strict latency budget, use gRPC instead.
+
+10:T16e3,
+You usually reach for gRPC when Service A needs an answer from Service B **now**, not later.
+
+This post is not a framework tour. It focuses on what makes gRPC worth it in production:
+
+- A typed contract that does not drift
+- Deadlines that prevent slow calls from melting your fleet
+- Streaming when you need a long-lived, efficient connection
+
+## Table of contents
+
+1. [Scenario](#1-scenario)
+2. [What gRPC is, in one minute](#2-what-grpc-is-in-one-minute)
+3. [The contract: proto rules that keep you safe](#3-the-contract-proto-rules-that-keep-you-safe)
+4. [A tiny TypeScript lab (unary + deadline)](#4-a-tiny-typescript-lab-unary--deadline)
+5. [Streaming: when it is actually the right tool](#5-streaming-when-it-is-actually-the-right-tool)
+6. [Case studies: Netflix and Uber](#6-case-studies-netflix-and-uber)
+7. [The real failure modes](#7-the-real-failure-modes)
+8. [Checklist](#8-checklist)
+
+## 1. Scenario
+
+You run an Order API. Before you accept an order, you must check Inventory:
+
+- Target: p95 under 50 ms
+- Data is small and structured (SKU, quantity, availability)
+- A slow dependency must not block worker threads forever
+
+This is a synchronous call. If Order waits, the customer waits.
+
+That is the shape where gRPC is a strong default.
+
+![gRPC service call boundary](/images/systems/grpc-service-call-boundary.svg)
+
+## 2. What gRPC is, in one minute
+
+gRPC is RPC over HTTP/2 with a strongly typed interface definition (protobuf).
+
+You define the service once in a `.proto` file:
+
+- Both sides generate code from the same contract
+- Payloads are small (binary protobuf, not JSON text)
+- HTTP/2 keeps connections efficient (multiplexing, header compression)
+
+The part that matters most is not speed. It is that the contract and clients stay consistent.
+
+## 3. The contract: proto rules that keep you safe
+
+If you only remember one thing, remember this:
+
+**Proto files are an API. Treat them like one.**
+
+Basic rules that keep old clients working:
+
+- Never reuse field numbers
+- Only add optional fields, do not rename or change meaning lightly
+- Reserve removed field numbers
+- Keep messages small and stable
+
+Example contract:
+
+```proto
+syntax = "proto3";
+
+package inventory.v1;
+
+service InventoryService {
+  rpc CheckAvailability(CheckAvailabilityRequest) returns (CheckAvailabilityResponse);
+}
+
+message CheckAvailabilityRequest {
+  string sku = 1;
+  int32 quantity = 2;
+}
+
+message CheckAvailabilityResponse {
+  bool available = 1;
+  int32 available_quantity = 2;
+}
+```
+
+## 4. A tiny TypeScript lab (unary + deadline)
+
+Libraries to look at:
+
+- `@grpc/grpc-js`
+- `@grpc/proto-loader`
+
+Server sketch:
+
+```ts
+import * as grpc from '@grpc/grpc-js';
+
+function checkAvailability(call: grpc.ServerUnaryCall<any, any>, callback: grpc.sendUnaryData<any>) {
+  const { sku, quantity } = call.request;
+  const available = sku !== '' && quantity > 0;
+  callback(null, { available, available_quantity: available ? 42 : 0 });
+}
+```
+
+Client sketch with a deadline:
+
+```ts
+import * as grpc from '@grpc/grpc-js';
+
+const deadline = new Date(Date.now() + 50);
+
+client.CheckAvailability(
+  { sku: 'SKU-123', quantity: 2 },
+  { deadline },
+  (err: grpc.ServiceError | null, res?: any) => {
+    if (err) {
+      if (err.code === grpc.status.DEADLINE_EXCEEDED) {
+        // treat as a normal failure, not an incident
+      }
+      return;
+    }
+    // use res.available
+  }
+);
+```
+
+Deadlines are not optional.
+If you do not set them, you will eventually have a slow dependency and a pile-up behind it.
+
+## 5. Streaming: when it is actually the right tool
+
+Do not add streaming because it looks advanced.
+Use streaming when you need a long-lived channel:
+
+- Mobile push connection with acknowledgements
+- Live updates to a dashboard
+- Low-latency fanout where polling is wasteful
+
+If you just need request, response, unary calls are simpler and easier to debug.
+
+## 6. Case studies: Netflix and Uber
+
+These are different companies, but the lessons are the same.
+
+### Netflix: contracts and codegen are the big win
+
+Netflix chose gRPC largely for the interface definition and generated clients.
+At scale, the time saved is not microseconds per call. It is engineering time and fewer client bugs.
+
+Reference: CNCF Netflix case study on gRPC.
+
+### Uber: streaming for mobile push, better tail latency
+
+Uber moved parts of their push platform to gRPC streaming.
+They reported better p95 connection latency and improved delivery acknowledgement reliability by keeping everything on one stream.
+
+Reference: Uber engineering write-up on their next-gen push platform over gRPC.
+
+## 7. The real failure modes
+
+These are the ones that bite teams early.
+
+### 7.1 No deadlines
+
+If you ship without deadlines:
+
+- slow calls pile up
+- retries increase pressure
+- the system fails in a spiral
+
+Set deadlines everywhere and propagate them across hops.
+
+### 7.2 Too much data in one call
+
+gRPC is not a free pass to send large payloads.
+
+Large messages:
+
+- increase tail latency
+- stress memory
+- increase GC pressure in managed runtimes
+
+Prefer small messages and paginate when needed.
+
+### 7.3 Browser constraints
+
+Browsers cannot talk to native gRPC the same way servers do.
+If you need browser clients, you usually add a gateway (gRPC-Web or an HTTP API in front).
+
+### 7.4 Debugging without good tooling
+
+With REST, you can curl and read JSON.
+With gRPC, you should plan for:
+
+- structured logs (method name, status, latency)
+- tracing
+- a standard way to test locally (grpcurl, or a small dev client)
+
+## 8. Checklist
+
+Before you pick gRPC for a service boundary:
+
+1. The call is synchronous and needs a bounded latency budget.
+2. You will enforce deadlines by default.
+3. You can keep a shared proto contract stable (versioning discipline).
+4. You have a plan for observability (status codes, latency, tracing).
+5. You are not doing this for browsers without a gateway plan.
+
+11:T1f39,
+Production runs on a small Vultr VPS: **1 CPU, 2GB RAM**. Cloud Run stays as failover only. Builds never run on the box. We push `main` and GitHub Actions handles the rest.
 
 Notes below are from a real deploy: what worked, what broke, and what we changed.
 
@@ -28,34 +431,32 @@ Notes below are from a real deploy: what worked, what broke, and what we changed
 
 The project is one monorepo with **two Next.js apps on one domain**:
 
-- **Marketing / main site** (`/`) — Next.js at the repo root  
-- **Product app** — lives in `apps/web`, public under `/apps/<product-slug>`
+- **Marketing / main site** (`/`): Next.js at the repo root  
+- **Product app**: lives in `apps/web`, public under `/apps/<product-slug>`
 
 Two apps, two containers, one domain.
 
-We kept **GCP Cloud Run as failover** — point DNS back and the old path still works. Primary production is the **VPS**: cheap, controllable, enough for this stage.
+We kept **GCP Cloud Run as failover** so we can point DNS back if needed. Primary production is the **VPS** because it is cheap, controllable, and enough for this stage.
 
 A **2GB VPS does not build Next.js on-server.** `next build` eats RAM. Build on **GitHub Actions**, push images to **GHCR**, deploy to the VPS.
 
 ## Architecture (compact)
 
-**Request path:**
+![Request path through nginx on the VPS](/images/systems/nextjs-vps-request-path.svg)
 
-```plaintext
-Internet → nginx (VPS, ports 80/443)
-              ├─ /           → site container    (127.0.0.1:8080)
-              └─ /apps/      → product container (127.0.0.1:8081)
-```
+Traffic comes into nginx on the VPS (`80/443`). nginx routes `/` to the site container (`127.0.0.1:8080`) and `/apps/` to the product container (`127.0.0.1:8081`).
 
-**CI/CD:**
+![CI/CD flow on GitHub Actions](/images/systems/nextjs-vps-cicd.svg)
 
-```plaintext
-push main → build site + product images → push GHCR
-         → smoke test on runner
-         → ship images to VPS → docker compose up
-```
+The CI/CD flow is straightforward:
 
-Containers are **not** exposed to the internet directly. Only **nginx** is public. **Certbot** runs on the nginx **host**, not inside Docker — keeps TLS and routing simpler.
+1. Push to `main`.
+2. Build site and product images in GitHub Actions.
+3. Push images to GHCR.
+4. Run smoke tests on the runner.
+5. Ship images to the VPS and run `docker compose up`.
+
+Containers are **not** exposed to the internet directly. Only **nginx** is public. **Certbot** runs on the nginx **host**, not inside Docker, which keeps TLS and routing simpler.
 
 ## Infra layout in the repo
 
@@ -63,11 +464,11 @@ We split concerns clearly:
 
 | Path | Role |
 | :--- | :--- |
-| `infra/platforms/shared/` | docker-compose, deploy scripts — shared across VPS providers |
-| `infra/platforms/vultr/` | bootstrap, nginx template, config sync — Vultr only |
-| `infra/platforms/gcp/` | Terraform for Cloud Run — failover |
+| `infra/platforms/shared/` | docker-compose and deploy scripts shared across VPS providers |
+| `infra/platforms/vultr/` | bootstrap, nginx template, and config sync for Vultr |
+| `infra/platforms/gcp/` | Terraform for Cloud Run failover |
 
-Later, moving to Hetzner means copy `vultr/` → `hetzner/`, adjust bootstrap; **`shared/` stays**.
+Later, moving to Hetzner means copying `vultr/` to `hetzner/`, then adjusting bootstrap. **`shared/` stays**.
 
 On the VPS, runtime lives at a fixed workspace path, for example:
 
@@ -75,13 +476,13 @@ On the VPS, runtime lives at a fixed workspace path, for example:
 /home/<deploy-user>/workspace/projects/<repo-name>/
 ```
 
-One-time bootstrap at `~/workspace/bootstrap/vultr/`. We skipped `/opt` — the team already had a **workspace** layout. Pick paths and stick to them.
+One-time bootstrap is at `~/workspace/bootstrap/vultr/`. We skipped `/opt` because the team already had a **workspace** layout. Pick paths and stick to them.
 
 ## GitHub: setup before the workflow
 
 ### Secrets
 
-In the repo → **Settings → Secrets**:
+In the repo, go to **Settings**, then **Secrets**:
 
 | Secret | Purpose |
 | :--- | :--- |
@@ -95,9 +496,9 @@ Create a **dedicated key pair** for CI and add the public key to `authorized_key
 
 If your **GitHub org** locks `GITHUB_TOKEN` to read-only, the build job **cannot push to GHCR**. An org owner must enable **Read and write** at org level, or the job must declare `permissions: packages: write`.
 
-**GHCR is lowercase:** org `MyOrg` → image `ghcr.io/myorg/my-web/site:sha-xxxxxxx`. Tags use `sha-` + **7 commit chars** so you always know which revision is running.
+**GHCR is lowercase:** org `MyOrg` becomes image `ghcr.io/myorg/my-web/site:sha-xxxxxxx`. Tags use `sha-` plus **7 commit chars** so you always know which revision is running.
 
-After the first build: **Packages → connect your repo → Actions access**. Skip this and smoke tests fail often.
+After the first build, open **Packages**, connect your repo, then grant **Actions access**. Skipping this often causes smoke test failures.
 
 ## Workflow: three jobs, one pipeline
 
@@ -109,11 +510,11 @@ File: `.github/workflows/deploy-production.yml`
 | **smoke** | Pull on runner, run containers, `curl` `/api/health` and `/apps/<product-slug>` |
 | **deploy** | Ship images to VPS, `compose up` |
 
-If **smoke passes** but **deploy fails**, the problem is usually **SSH or the VPS** — not the build.
+If **smoke passes** but **deploy fails**, the problem is usually **SSH or the VPS**, not the build.
 
 ## GHCR pull on VPS vs shipping the image over SSH
 
-First attempt on the VPS — the usual pattern:
+First attempt on the VPS used the usual pattern:
 
 ```bash
 docker login ghcr.io
@@ -121,13 +522,13 @@ docker compose pull
 docker compose up -d
 ```
 
-On the **runner**: fine. On the **VPS**: **`403 Forbidden`** — even with a PAT scoped to `read:packages`, even piping `GITHUB_TOKEN` from CI over SSH.
+On the **runner** this worked. On the **VPS** it failed with **`403 Forbidden`**, even with a PAT scoped to `read:packages`, and even when piping `GITHUB_TOKEN` from CI over SSH.
 
-`curl` GitHub user API → **200**. `curl` GHCR manifest → **403**. The token is alive; it still cannot read the org package. **Manage Actions access** on the package helps **workflows in that repo**, not arbitrary VPS pulls with a personal PAT.
+`curl` to the GitHub user API returned **200**. `curl` to the GHCR manifest returned **403**. The token was still valid, but it could not read the org package. **Manage Actions access** on the package helps **workflows in that repo**, not arbitrary VPS pulls with a personal PAT.
 
 ### What we chose
 
-Runner pulls (smoke already OK) → `docker save` → compress → `scp` to VPS `/tmp/` → `docker load` → delete tarball → `DEPLOY_SKIP_PULL=1 ./scripts/deploy.sh`.
+We switched to shipping images from CI: runner pulls (smoke already OK), runs `docker save`, compresses, copies to VPS `/tmp/`, runs `docker load`, deletes the tarball, then executes `DEPLOY_SKIP_PULL=1 ./scripts/deploy.sh`.
 
 | | Pull on VPS | Ship over SSH |
 | :--- | :--- | :--- |
@@ -135,7 +536,7 @@ Runner pulls (smoke already OK) → `docker save` → compress → `scp` to VPS 
 | Bandwidth | Smaller if layers cache | Larger each deploy |
 | Reliability (our case) | Failed with 403 | Works |
 
-We ship over SSH for now: small VPS, low traffic, a few extra minutes per deploy is fine. If org GHCR permissions get fixed, switch back to pull — `deploy.sh` supports both.
+We ship over SSH for now. For a small VPS and low traffic, a few extra minutes per deploy is fine. If org GHCR permissions get fixed, we can switch back to pull. `deploy.sh` supports both paths.
 
 `/tmp/` is only a **short-lived** tarball staging area, not where the app runs. Delete after `docker load`.
 
@@ -145,7 +546,7 @@ We ship over SSH for now: small VPS, low traffic, a few extra minutes per deploy
 
 Re-SSH after bootstrap so the **docker** group applies.
 
-We once had **healthy containers** but **no site** — bootstrap had not run, so **no nginx config**. Green `docker ps` does not mean production is done.
+We once had **healthy containers** but **no site** because bootstrap had not run, so there was **no nginx config**. Green `docker ps` does not mean production is done.
 
 Quick checks:
 
@@ -158,11 +559,11 @@ curl -H "Host: example.com" http://127.0.0.1/api/health
 
 At your DNS provider:
 
-- **A** `@` → VPS IP  
-- **A** `www` → VPS IP  
+- **A** `@` to VPS IP  
+- **A** `www` to VPS IP  
 - Remove stray **AAAA** if the VPS has no real IPv6  
 
-Certbot failed with **404**; logs showed odd IPv6 (`2001:4860:...`) — Let's Encrypt hit the wrong host. Remove AAAA, wait for DNS, then:
+Certbot failed with **404**; logs showed odd IPv6 (`2001:4860:...`). Let's Encrypt was hitting the wrong host. Remove AAAA, wait for DNS, then:
 
 ```bash
 curl http://example.com/.well-known/acme-challenge/test
@@ -176,7 +577,7 @@ sudo certbot --nginx -d example.com -d www.example.com
 
 ## CSS bug: two Next.js apps, one domain
 
-The **product app** HTML loads under `/apps/...` (product container). Default Next.js CSS lives at `/_next/static/...` — nginx routes `/` to the **site** container.
+The **product app** HTML loads under `/apps/...` (product container). Default Next.js CSS lives at `/_next/static/...`, while nginx routes `/` to the **site** container.
 
 Result: the product page renders text, **no styles**. DevTools: CSS **404** or wrong file.
 
@@ -189,15 +590,15 @@ Two apps on one domain: plan **static asset routing up front**, not after launch
 Mostly:
 
 1. Merge / push `main`
-2. Actions green (**build → smoke → deploy**)
+2. Actions green (build, smoke, deploy)
 3. Browser check; hard refresh if CSS/JS changed
 
 No manual SSH deploy. No GHCR pull on the VPS (with our current ship-over-SSH path).
 
-CI does **not** change nginx or certs. Reverse proxy or TLS changes → **manual on VPS**.
+CI does **not** change nginx or certs. Reverse proxy or TLS changes are **manual on VPS**.
 
 - **Runtime env** (non-public vars in `.env`): edit on VPS, `docker compose up -d`
-- **`NEXT_PUBLIC_*`**: requires a **new image build** — baked at build time
+- **`NEXT_PUBLIC_*`**: requires a **new image build** because values are baked at build time
 
 ## Checklist
 
@@ -212,66 +613,1217 @@ Full copy-paste commands belong in your repo runbook (e.g. `docs/PRODUCTION-DEPL
 
 Production is more than `docker run`: DNS, nginx, TLS, registry auth, and routing two Next.js apps on one hostname. The diagram in tutorials rarely matches org GHCR policy.
 
-A **2GB VPS** works if you **build in CI**, **terminate TLS at nginx**, and remember **GHCR 403** often needs org/package access — not another PAT.
-12:["$","$L4f",null,{"content":"$50"}]
-13:["$","footer",null,{"children":[["$","div",null,{"className":"home-links","children":[["$","a",null,{"href":"https://stackoverflow.com/users/12345813/hgq287","target":"_blank","rel":"noopener noreferrer","children":"↗ stackoverflow"}],["$","span",null,{"className":"home-links-sep","children":"/"}],["$","a",null,{"href":"https://github.com/hgq287","target":"_blank","rel":"noopener noreferrer","children":"↗ github"}],["$","span",null,{"className":"home-links-sep","children":"/"}],["$","a",null,{"href":"https://github.com/hgq287/hgq287.github.io","target":"_blank","rel":"noopener noreferrer","children":"↗ view source"}]]}],["$","div",null,{"className":"home-footer-second-row","children":["$","span",null,{"className":"home-footer-copy","children":["© ",2026," MIT Licensed"]}]}]]}]
-16:["$","table","table-0",{"children":[["$","thead","thead-0",{"children":["$","tr","tr-0",{"children":[["$","th","th-0",{"style":{"textAlign":"left"},"children":"Path"}],["$","th","th-1",{"style":{"textAlign":"left"},"children":"Role"}]]}]}],["$","tbody","tbody-0",{"children":[["$","tr","tr-0",{"children":[["$","td","td-0",{"style":{"textAlign":"left"},"children":["$","code","code-0",{"children":"infra/platforms/shared/"}]}],["$","td","td-1",{"style":{"textAlign":"left"},"children":"docker-compose, deploy scripts — shared across VPS providers"}]]}],["$","tr","tr-1",{"children":[["$","td","td-0",{"style":{"textAlign":"left"},"children":["$","code","code-0",{"children":"infra/platforms/vultr/"}]}],["$","td","td-1",{"style":{"textAlign":"left"},"children":"bootstrap, nginx template, config sync — Vultr only"}]]}],["$","tr","tr-2",{"children":[["$","td","td-0",{"style":{"textAlign":"left"},"children":["$","code","code-0",{"children":"infra/platforms/gcp/"}]}],["$","td","td-1",{"style":{"textAlign":"left"},"children":"Terraform for Cloud Run — failover"}]]}]]}]]}]
-17:["$","p","p-10",{"children":["Later, moving to Hetzner means copy ",["$","code","code-0",{"children":"vultr/"}]," → ",["$","code","code-1",{"children":"hetzner/"}],", adjust bootstrap; ",["$","strong","strong-0",{"children":[["$","code","code-0",{"children":"shared/"}]," stays"]}],"."]}]
-18:["$","p","p-11",{"children":"On the VPS, runtime lives at a fixed workspace path, for example:"}]
-19:["$","$L15","pre-2",{"code":"/home/<deploy-user>/workspace/projects/<repo-name>/\n","children":["$","code","code-0",{"className":"language-plaintext","children":"/home/<deploy-user>/workspace/projects/<repo-name>/\n"}]}]
-1a:["$","p","p-12",{"children":["One-time bootstrap at ",["$","code","code-0",{"children":"~/workspace/bootstrap/vultr/"}],". We skipped ",["$","code","code-1",{"children":"/opt"}]," — the team already had a ",["$","strong","strong-0",{"children":"workspace"}]," layout. Pick paths and stick to them."]}]
-1b:["$","h2","h2-3",{"id":"github-setup-before-the-workflow","className":"pt-20 -mt-20","children":"GitHub: setup before the workflow"}]
-1c:["$","h3","h3-0",{"id":"secrets","className":"pt-20 -mt-20","children":"Secrets"}]
-1d:["$","p","p-13",{"children":["In the repo → ",["$","strong","strong-0",{"children":"Settings → Secrets"}],":"]}]
-1e:["$","table","table-1",{"children":[["$","thead","thead-0",{"children":["$","tr","tr-0",{"children":[["$","th","th-0",{"style":{"textAlign":"left"},"children":"Secret"}],["$","th","th-1",{"style":{"textAlign":"left"},"children":"Purpose"}]]}]}],["$","tbody","tbody-0",{"children":[["$","tr","tr-0",{"children":[["$","td","td-0",{"style":{"textAlign":"left"},"children":["$","code","code-0",{"children":"VULTR_HOST"}]}],["$","td","td-1",{"style":{"textAlign":"left"},"children":"VPS IP"}]]}],["$","tr","tr-1",{"children":[["$","td","td-0",{"style":{"textAlign":"left"},"children":["$","code","code-0",{"children":"VULTR_USER"}]}],["$","td","td-1",{"style":{"textAlign":"left"},"children":["SSH user (e.g. ",["$","code","code-0",{"children":"deploy"}],")"]}]]}],["$","tr","tr-2",{"children":[["$","td","td-0",{"style":{"textAlign":"left"},"children":["$","code","code-0",{"children":"VULTR_SSH_KEY"}]}],["$","td","td-1",{"style":{"textAlign":"left"},"children":"Deploy private key"}]]}]]}]]}]
-1f:["$","p","p-14",{"children":["Create a ",["$","strong","strong-0",{"children":"dedicated key pair"}]," for CI and add the public key to ",["$","code","code-0",{"children":"authorized_keys"}]," on the VPS. Do not reuse your daily personal key."]}]
-20:["$","h3","h3-1",{"id":"org-permissions-for-actions","className":"pt-20 -mt-20","children":"Org permissions for Actions"}]
-21:["$","p","p-15",{"children":["If your ",["$","strong","strong-0",{"children":"GitHub org"}]," locks ",["$","code","code-0",{"children":"GITHUB_TOKEN"}]," to read-only, the build job ",["$","strong","strong-1",{"children":"cannot push to GHCR"}],". An org owner must enable ",["$","strong","strong-2",{"children":"Read and write"}]," at org level, or the job must declare ",["$","code","code-1",{"children":"permissions: packages: write"}],"."]}]
-22:["$","p","p-16",{"children":[["$","strong","strong-0",{"children":"GHCR is lowercase:"}]," org ",["$","code","code-0",{"children":"MyOrg"}]," → image ",["$","code","code-1",{"children":"ghcr.io/myorg/my-web/site:sha-xxxxxxx"}],". Tags use ",["$","code","code-2",{"children":"sha-"}]," + ",["$","strong","strong-1",{"children":"7 commit chars"}]," so you always know which revision is running."]}]
-23:["$","p","p-17",{"children":["After the first build: ",["$","strong","strong-0",{"children":"Packages → connect your repo → Actions access"}],". Skip this and smoke tests fail often."]}]
-24:["$","h2","h2-4",{"id":"workflow-three-jobs-one-pipeline","className":"pt-20 -mt-20","children":"Workflow: three jobs, one pipeline"}]
-25:["$","p","p-18",{"children":["File: ",["$","code","code-0",{"children":".github/workflows/deploy-production.yml"}]]}]
-26:["$","table","table-2",{"children":[["$","thead","thead-0",{"children":["$","tr","tr-0",{"children":[["$","th","th-0",{"style":{"textAlign":"left"},"children":"Job"}],["$","th","th-1",{"style":{"textAlign":"left"},"children":"What it does"}]]}]}],["$","tbody","tbody-0",{"children":[["$","tr","tr-0",{"children":[["$","td","td-0",{"style":{"textAlign":"left"},"children":["$","strong","strong-0",{"children":"build"}]}],["$","td","td-1",{"style":{"textAlign":"left"},"children":["Build and push ",["$","strong","strong-0",{"children":"site"}]," + ",["$","strong","strong-1",{"children":"product"}]," images; tag ",["$","code","code-0",{"children":"sha-xxxxxxx"}]," and ",["$","code","code-1",{"children":"latest"}]]}]]}],["$","tr","tr-1",{"children":[["$","td","td-0",{"style":{"textAlign":"left"},"children":["$","strong","strong-0",{"children":"smoke"}]}],["$","td","td-1",{"style":{"textAlign":"left"},"children":["Pull on runner, run containers, ",["$","code","code-0",{"children":"curl"}]," ",["$","code","code-1",{"children":"/api/health"}]," and ",["$","code","code-2",{"children":"/apps/<product-slug>"}]]}]]}],["$","tr","tr-2",{"children":[["$","td","td-0",{"style":{"textAlign":"left"},"children":["$","strong","strong-0",{"children":"deploy"}]}],["$","td","td-1",{"style":{"textAlign":"left"},"children":["Ship images to VPS, ",["$","code","code-0",{"children":"compose up"}]]}]]}]]}]]}]
-27:["$","p","p-19",{"children":["If ",["$","strong","strong-0",{"children":"smoke passes"}]," but ",["$","strong","strong-1",{"children":"deploy fails"}],", the problem is usually ",["$","strong","strong-2",{"children":"SSH or the VPS"}]," — not the build."]}]
-28:["$","h2","h2-5",{"id":"ghcr-pull-on-vps-vs-shipping-the-image-over-ssh","className":"pt-20 -mt-20","children":"GHCR pull on VPS vs shipping the image over SSH"}]
-29:["$","p","p-20",{"children":"First attempt on the VPS — the usual pattern:"}]
-2a:["$","$L15","pre-3",{"code":"docker login ghcr.io\ndocker compose pull\ndocker compose up -d\n","children":["$","code","code-0",{"className":"language-bash","children":"docker login ghcr.io\ndocker compose pull\ndocker compose up -d\n"}]}]
-2b:["$","p","p-21",{"children":["On the ",["$","strong","strong-0",{"children":"runner"}],": fine. On the ",["$","strong","strong-1",{"children":"VPS"}],": ",["$","strong","strong-2",{"children":["$","code","code-0",{"children":"403 Forbidden"}]}]," — even with a PAT scoped to ",["$","code","code-0",{"children":"read:packages"}],", even piping ",["$","code","code-1",{"children":"GITHUB_TOKEN"}]," from CI over SSH."]}]
-2c:["$","p","p-22",{"children":[["$","code","code-0",{"children":"curl"}]," GitHub user API → ",["$","strong","strong-0",{"children":"200"}],". ",["$","code","code-1",{"children":"curl"}]," GHCR manifest → ",["$","strong","strong-1",{"children":"403"}],". The token is alive; it still cannot read the org package. ",["$","strong","strong-2",{"children":"Manage Actions access"}]," on the package helps ",["$","strong","strong-3",{"children":"workflows in that repo"}],", not arbitrary VPS pulls with a personal PAT."]}]
-2d:["$","h3","h3-2",{"id":"what-we-chose","className":"pt-20 -mt-20","children":"What we chose"}]
-2e:["$","p","p-23",{"children":["Runner pulls (smoke already OK) → ",["$","code","code-0",{"children":"docker save"}]," → compress → ",["$","code","code-1",{"children":"scp"}]," to VPS ",["$","code","code-2",{"children":"/tmp/"}]," → ",["$","code","code-3",{"children":"docker load"}]," → delete tarball → ",["$","code","code-4",{"children":"DEPLOY_SKIP_PULL=1 ./scripts/deploy.sh"}],"."]}]
-2f:["$","table","table-3",{"children":[["$","thead","thead-0",{"children":["$","tr","tr-0",{"children":[["$","th","th-0",{"style":{"textAlign":"left"}}],["$","th","th-1",{"style":{"textAlign":"left"},"children":"Pull on VPS"}],["$","th","th-2",{"style":{"textAlign":"left"},"children":"Ship over SSH"}]]}]}],["$","tbody","tbody-0",{"children":[["$","tr","tr-0",{"children":[["$","td","td-0",{"style":{"textAlign":"left"},"children":"GHCR auth on VPS"}],["$","td","td-1",{"style":{"textAlign":"left"},"children":"Required"}],["$","td","td-2",{"style":{"textAlign":"left"},"children":"Not required"}]]}],["$","tr","tr-1",{"children":[["$","td","td-0",{"style":{"textAlign":"left"},"children":"Bandwidth"}],["$","td","td-1",{"style":{"textAlign":"left"},"children":"Smaller if layers cache"}],["$","td","td-2",{"style":{"textAlign":"left"},"children":"Larger each deploy"}]]}],["$","tr","tr-2",{"children":[["$","td","td-0",{"style":{"textAlign":"left"},"children":"Reliability (our case)"}],["$","td","td-1",{"style":{"textAlign":"left"},"children":"Failed with 403"}],["$","td","td-2",{"style":{"textAlign":"left"},"children":"Works"}]]}]]}]]}]
-30:["$","p","p-24",{"children":["We ship over SSH for now: small VPS, low traffic, a few extra minutes per deploy is fine. If org GHCR permissions get fixed, switch back to pull — ",["$","code","code-0",{"children":"deploy.sh"}]," supports both."]}]
-31:["$","p","p-25",{"children":[["$","code","code-0",{"children":"/tmp/"}]," is only a ",["$","strong","strong-0",{"children":"short-lived"}]," tarball staging area, not where the app runs. Delete after ",["$","code","code-1",{"children":"docker load"}],"."]}]
-32:["$","h2","h2-6",{"id":"first-time-vps-setup-bootstrap","className":"pt-20 -mt-20","children":"First-time VPS setup (bootstrap)"}]
-33:["$","p","p-26",{"children":[["$","code","code-0",{"children":"bootstrap.sh"}]," installs: Docker, nginx, certbot, ufw, ",["$","strong","strong-0",{"children":"2GB swap"}]," (without swap, 2GB RAM hangs easily), copies nginx config to ",["$","code","code-1",{"children":"/etc/nginx/sites-enabled/<app-name>"}],"."]}]
-34:["$","p","p-27",{"children":["Re-SSH after bootstrap so the ",["$","strong","strong-0",{"children":"docker"}]," group applies."]}]
-35:["$","p","p-28",{"children":["We once had ",["$","strong","strong-0",{"children":"healthy containers"}]," but ",["$","strong","strong-1",{"children":"no site"}]," — bootstrap had not run, so ",["$","strong","strong-2",{"children":"no nginx config"}],". Green ",["$","code","code-0",{"children":"docker ps"}]," does not mean production is done."]}]
-36:["$","p","p-29",{"children":"Quick checks:"}]
-37:["$","$L15","pre-4",{"code":"ls /etc/nginx/sites-enabled/<app-name>\ncurl -H \"Host: example.com\" http://127.0.0.1/api/health\n","children":["$","code","code-0",{"className":"language-bash","children":"ls /etc/nginx/sites-enabled/<app-name>\ncurl -H \"Host: example.com\" http://127.0.0.1/api/health\n"}]}]
-38:["$","h2","h2-7",{"id":"dns-and-certbot","className":"pt-20 -mt-20","children":"DNS and Certbot"}]
-39:["$","p","p-30",{"children":"At your DNS provider:"}]
-3a:["$","ul","ul-1",{"children":["\n",["$","li","li-0",{"children":[["$","strong","strong-0",{"children":"A"}]," ",["$","code","code-0",{"children":"@"}]," → VPS IP"]}],"\n",["$","li","li-1",{"children":[["$","strong","strong-0",{"children":"A"}]," ",["$","code","code-0",{"children":"www"}]," → VPS IP"]}],"\n",["$","li","li-2",{"children":["Remove stray ",["$","strong","strong-0",{"children":"AAAA"}]," if the VPS has no real IPv6"]}],"\n"]}]
-3b:["$","p","p-31",{"children":["Certbot failed with ",["$","strong","strong-0",{"children":"404"}],"; logs showed odd IPv6 (",["$","code","code-0",{"children":"2001:4860:..."}],") — Let's Encrypt hit the wrong host. Remove AAAA, wait for DNS, then:"]}]
-3c:["$","$L15","pre-5",{"code":"curl http://example.com/.well-known/acme-challenge/test\n","children":["$","code","code-0",{"className":"language-bash","children":"curl http://example.com/.well-known/acme-challenge/test\n"}]}]
-3d:["$","p","p-32",{"children":"When HTTP is stable:"}]
-3e:["$","$L15","pre-6",{"code":"sudo certbot --nginx -d example.com -d www.example.com\n","children":["$","code","code-0",{"className":"language-bash","children":"sudo certbot --nginx -d example.com -d www.example.com\n"}]}]
-3f:["$","h2","h2-8",{"id":"css-bug-two-nextjs-apps-one-domain","className":"pt-20 -mt-20","children":"CSS bug: two Next.js apps, one domain"}]
-40:["$","p","p-33",{"children":["The ",["$","strong","strong-0",{"children":"product app"}]," HTML loads under ",["$","code","code-0",{"children":"/apps/..."}]," (product container). Default Next.js CSS lives at ",["$","code","code-1",{"children":"/_next/static/..."}]," — nginx routes ",["$","code","code-2",{"children":"/"}]," to the ",["$","strong","strong-1",{"children":"site"}]," container."]}]
-41:["$","p","p-34",{"children":["Result: the product page renders text, ",["$","strong","strong-0",{"children":"no styles"}],". DevTools: CSS ",["$","strong","strong-1",{"children":"404"}]," or wrong file."]}]
-42:["$","p","p-35",{"children":[["$","strong","strong-0",{"children":"Fix:"}]," ",["$","code","code-0",{"children":"assetPrefix: \"/apps\""}]," in ",["$","code","code-1",{"children":"apps/web/next.config.ts"}],". Assets become ",["$","code","code-2",{"children":"/apps/_next/static/..."}]," and hit the ",["$","strong","strong-1",{"children":"product"}]," upstream."]}]
-43:["$","p","p-36",{"children":["Two apps on one domain: plan ",["$","strong","strong-0",{"children":"static asset routing up front"}],", not after launch."]}]
-44:["$","h2","h2-9",{"id":"after-setup-what-each-release-looks-like","className":"pt-20 -mt-20","children":"After setup: what each release looks like"}]
-45:["$","p","p-37",{"children":"Mostly:"}]
-46:["$","ol","ol-0",{"children":["\n",["$","li","li-0",{"children":["Merge / push ",["$","code","code-0",{"children":"main"}]]}],"\n",["$","li","li-1",{"children":["Actions green (",["$","strong","strong-0",{"children":"build → smoke → deploy"}],")"]}],"\n",["$","li","li-2",{"children":"Browser check; hard refresh if CSS/JS changed"}],"\n"]}]
-47:["$","p","p-38",{"children":"No manual SSH deploy. No GHCR pull on the VPS (with our current ship-over-SSH path)."}]
-48:["$","p","p-39",{"children":["CI does ",["$","strong","strong-0",{"children":"not"}]," change nginx or certs. Reverse proxy or TLS changes → ",["$","strong","strong-1",{"children":"manual on VPS"}],"."]}]
-49:["$","ul","ul-2",{"children":["\n",["$","li","li-0",{"children":[["$","strong","strong-0",{"children":"Runtime env"}]," (non-public vars in ",["$","code","code-0",{"children":".env"}],"): edit on VPS, ",["$","code","code-1",{"children":"docker compose up -d"}]]}],"\n",["$","li","li-1",{"children":[["$","strong","strong-0",{"children":["$","code","code-0",{"children":"NEXT_PUBLIC_*"}]}],": requires a ",["$","strong","strong-1",{"children":"new image build"}]," — baked at build time"]}],"\n"]}]
-4a:["$","h2","h2-10",{"id":"checklist","className":"pt-20 -mt-20","children":"Checklist"}]
-4b:["$","ol","ol-1",{"children":["\n",["$","li","li-0",{"children":["GitHub secrets ",["$","code","code-0",{"children":"VULTR_*"}],", org ",["$","strong","strong-0",{"children":"Actions"}]," permissions"]}],"\n",["$","li","li-1",{"children":["VPS: bootstrap + sync config + ",["$","code","code-0",{"children":".env"}]]}],"\n",["$","li","li-2",{"children":["DNS ",["$","strong","strong-0",{"children":"A"}]," records; no bogus ",["$","strong","strong-1",{"children":"AAAA"}]]}],"\n",["$","li","li-3",{"children":["Push ",["$","code","code-0",{"children":"main"}],", wait for CI"]}],"\n",["$","li","li-4",{"children":"Certbot after HTTP works"}],"\n",["$","li","li-5",{"children":["Verify main site and product path (e.g. ",["$","code","code-0",{"children":"https://example.com/"}]," and ",["$","code","code-1",{"children":"https://example.com/apps/<product-slug>"}],")"]}],"\n"]}]
-4c:["$","p","p-40",{"children":["Full copy-paste commands belong in your repo runbook (e.g. ",["$","code","code-0",{"children":"docs/PRODUCTION-DEPLOY.md"}],")."]}]
-4d:["$","p","p-41",{"children":["Production is more than ",["$","code","code-0",{"children":"docker run"}],": DNS, nginx, TLS, registry auth, and routing two Next.js apps on one hostname. The diagram in tutorials rarely matches org GHCR policy."]}]
-4e:["$","p","p-42",{"children":["A ",["$","strong","strong-0",{"children":"2GB VPS"}]," works if you ",["$","strong","strong-1",{"children":"build in CI"}],", ",["$","strong","strong-2",{"children":"terminate TLS at nginx"}],", and remember ",["$","strong","strong-3",{"children":"GHCR 403"}]," often needs org/package access — not another PAT."]}]
+A **2GB VPS** works if you **build in CI**, **terminate TLS at nginx**, and remember GHCR `403` often means org or package access issues, not just a missing PAT.
+12:T1cc4,
+## Why the bill jumps
+
+Cloud Run billing spiked. Logs Explorer showed the usual scanner noise:
+
+- `GET /wp-login.php`
+- `GET /wp-admin/setup-config.php`
+- `GET /.env`
+
+The app is **Next.js**, not WordPress. No PHP on the stack. Every probe still returns **404**, and you still pay for it.
+
+Cloud Run bills **requests** and **instance time** (CPU/memory while instances handle concurrency). A scanner does not need a real page. Enough parallel junk can:
+
+- **Raise concurrency** and keep instances busy on cheap 404s.
+- **Trigger autoscaling** and cold starts when bursts outrun idle capacity.
+
+Next.js middleware can block some of this, but it still burns **container CPU**. Cheaper to cut noise at the **load balancer**: deny obvious paths before Cloud Run sees them, and let the **CDN cache 404s** so repeat probes skip the origin.
+
+## Architecture: three layers
+
+![Cloud Armor, CDN, and Cloud Run defense layers](/images/systems/cloud-run-edge-defense.svg)
+
+Requests hit the external HTTPS load balancer first. Cloud Armor evaluates policy there, so blocked requests are denied before they reach Cloud Run. Allowed requests then pass through Cloud CDN. Cache hits are served from the edge, and cache misses go through the serverless NEG to the Cloud Run revision.
+
+| Layer | Role | What you gain |
+| :--- | :--- | :--- |
+| **Cloud Armor** | WAF-style rules on the **backend service** attached to the load balancer | Obvious scanner paths return **403** at the LB edge; traffic **does not reach** the serverless NEG or Cloud Run. |
+| **Cloud CDN** | Edge caching, including **negative caching** for error responses | After a path legitimately returns **404** once, repeat requests can be served from the edge (very low origin cost). |
+| **Ingress control** | Cloud Run accepts only **internal + load-balanced** traffic | The default **`*.run.app`** URL is no longer a public bypass around Armor and CDN. Users hit **your domain on the LB** only. |
+
+## Layer 1: Cloud Armor as the first filter
+
+Bots rotate IPs, so a static IP block list does not scale. **Custom rules** in a Cloud Armor **security policy** use **CEL** (Common Expression Language) on request attributes; regex uses **RE2** via `matches()`.
+
+**Examples (tune priorities to your policy):**
+
+- **PHP probes:** deny paths ending in `.php` (adjust if you ever serve real `.php` assets; most Next.js stacks do not).
+
+```text
+request.path.matches('(?i:.*\\.php$)')
+```
+
+- **WordPress-shaped paths** (normalize case if your clients send odd casing. `contains` is literal; `request.path.lower()` is an option per the [rules language reference](https://docs.cloud.google.com/armor/docs/rules-language-reference)):
+
+```text
+request.path.contains('/wp-admin/') || request.path.contains('/wp-content/')
+```
+
+- **Sensitive file extensions** (extend as needed):
+
+```text
+request.path.matches('(?i:.*\\.(env|git|bak|sql|config)(/|$))')
+```
+
+**Rules that matter:**
+
+- Put **specific rules above broad ones** in priority order.
+- **Managed rules** (OWASP CRS, Google-managed rules, Adaptive Protection) catch attack classes regex misses and are worth adding on top of path blocks.
+- **False positives:** test in preview mode if you can, then `deny(403)` (or `deny(404)` if you do not want to advertise a block).
+
+Deny actions evaluated at the **load balancer** mean those requests **never invoke** Cloud Run: no container CPU for that request line item.
+
+## Layer 2: CDN negative caching, not "cache everything"
+
+Do not turn on **force-cache-all** (`CACHE_MODE_FORCE_CACHE_ALL` or the console equivalent) for a **dynamic** Next.js app. It can cache **200** responses that should stay private or vary per user.
+
+For scanner traffic, use **negative caching**:
+
+- Configure the backend service / CDN settings so **404** (and optionally **403** if your origin returns them for unknown routes) can be cached at the edge for a bounded TTL (for example **many hours** for static junk paths).
+- **Trade-off:** a long **404** TTL also freezes real mistakes. Ship a bad route, and the edge may keep serving 404 until expiry. Balance scan noise vs recovery time, or purge cache when possible.
+
+Use normal cache rules for static assets (`public/`, hashed filenames). Do not force one cache mode over the whole app.
+
+## Layer 3: Close the `*.run.app` bypass
+
+If the load balancer is public but the **Cloud Run service URL** is still open to the internet, scanners will hit **`https://<service>-<hash>-<region>.a.run.app`** directly and **skip Cloud Armor and CDN**.
+
+**Fix (console wording):** set Cloud Run **Ingress** to **Allow internal traffic and traffic from Cloud Load Balancing**. At the API level, ingress is limited to internal sources and Google Cloud external HTTP(S) load balancers. See current [Cloud Run ingress documentation](https://cloud.google.com/run/docs/securing/ingress) for exact labels in your project.
+
+Pair that with **DNS and TLS on the external HTTPS load balancer** as the only customer-facing entry.
+
+## Setup steps
+
+1. **Serverless NEG**: point a serverless Network Endpoint Group at the **Cloud Run** service (region, service name).
+2. **Backend service**: use that NEG as the backend; enable **Cloud CDN** when it fits your caching plan.
+3. **URL map + HTTPS proxy + forwarding rule**: create a global external **Application Load Balancer (HTTP/S)** in front of the backend.
+4. **Cloud Armor**: create a security policy, attach it to the **backend service**, and add CEL rules (start strict on obvious scanner paths).
+5. **CDN tuning**: enable **negative caching** for **404** (optional **403**); avoid blanket **force-cache-all** for dynamic apps.
+6. **Cloud Run ingress**: restrict to **internal + Cloud Load Balancing**; verify the default `run.app` URL no longer accepts public probes.
+7. **Validate**: run `curl` against the LB hostname and direct `run.app`; confirm denied paths never appear in **Cloud Run request logs**.
+
+## What to look for in logs
+
+Log field names change between schema versions; search by intent:
+
+- **Load Balancer / Armor:** filter for **deny** outcomes, matched rule names, and **low backend request volume** for garbage paths.
+- **CDN:** filter for **cache fill / hit** indicators vs **origin round-trips**; repeat scans of the same dead path should show **edge satisfaction** rather than new Cloud Run instances spinning up.
+- **Cloud Run:** request logs trend toward **legitimate routes** (for example **200** on real pages) rather than dense **404** storms during idle periods.
+
+Before hardening, **"Starting new instance"** often lined up with scan bursts. Afterward that noise drops on blocked paths. The origin either never sees them, or sees them once per cache key before negative caching kicks in.
+
+## LB cost
+
+A global HTTPS load balancer is not free. Forwarding rules, proxy infrastructure, and data processing costs vary by region.
+
+It is still cheaper than letting scanner concurrency drive **Cloud Run** instance time without a cap.
+
+Middleware can express policy; it spends **container** resources. **Cloud Armor** on the backend service, **CDN negative caching** where safe, and **ingress locked to load balancing only** cut junk before your revision runs.
+
+For Terraform, codify the NEG, backend service, URL map, Armor attachment, and CDN flags next to the Cloud Run service, using the same split as in the Cloud Run delivery-flow write-up.
+13:T270d,
+## Why this stack works
+
+When we build a web app, coding is only half of the story.  
+The other half is delivery: build, store, deploy, and update safely.
+
+This stack solves that flow clearly:
+
+- **Cloud Build** builds the container image.
+- **Artifact Registry** stores the image version.
+- **Terraform** defines infra as code.
+- **Cloud Run** runs the app with autoscaling.
+
+One pipeline, clear ownership, less manual deploy work.
+
+## Tool roles (simple view)
+
+| Tool | Main role | Why it matters |
+| :--- | :--- | :--- |
+| Cloud Build | Build and push image | Reproducible builds from source |
+| Artifact Registry | Store versioned image | Traceable deploys and rollback |
+| Terraform | Provision infra | Same setup across dev/stage/prod |
+| Cloud Run | Run container app | Serverless scale and pay-per-use |
+
+## Terraform use-cases: when and why
+
+Terraform is most useful when infrastructure starts to repeat across environments or people.
+
+Use Terraform when:
+
+- You have **dev/stage/prod** and want the same infra shape in all of them.
+- Your team wants infra changes reviewed in PRs, same as app code.
+- You need repeatable setup for Cloud Run, IAM, Artifact Registry, networking, and secrets.
+- You want safer rollback and auditing (what changed, when, and by whom).
+
+For a single demo app, console clicks may be fine.  
+For real delivery flow with more than one environment, Terraform quickly pays back.
+
+## End-to-end flow
+
+![Cloud delivery flow from Git to Cloud Run](/images/systems/cloud-delivery-flow.svg)
+
+This delivery flow has two connected tracks:
+
+- Build track: Git push triggers Cloud Build, which builds the Docker image and pushes it to Artifact Registry.
+- Deploy track: Terraform applies infrastructure and updates Cloud Run to the target image tag.
+- Rollback track: set the image tag to a previous stable version and run Terraform apply again.
+
+The key split:
+
+- App artifact lifecycle is handled by build + registry.
+- Runtime infrastructure lifecycle is handled by Terraform.
+
+## Scenario: Deploy a Next.js app
+
+Below is a **real-shaped** example: Next.js builds inside Docker, the image runs on Cloud Run, and Cloud Build pushes to Artifact Registry.
+
+### A) Pick how Next.js runs in the container
+
+**Option 1: Static export (`output: 'export'`)**  
+Good for marketing sites, docs, and blogs that ship as HTML under `out/`.  
+Run it behind **nginx** in the container. Cloud Run expects the process to listen on **`PORT`** (often `8080`), so nginx should listen on that port.
+
+**Option 2: Node server (`output: 'standalone'`)**  
+Use when you need SSR, Route Handlers, or dynamic rendering.  
+Build produces `.next/standalone`; you run `node server.js` and set `PORT` to what Cloud Run gives you.
+
+Pick one path per project. Mixing export and standalone in one Dockerfile only confuses the build.
+
+### B) Dockerfile: static export + nginx (concrete)
+
+`Dockerfile` (multi-stage: build Next, serve `out/`):
+
+```dockerfile
+# --- build ---
+FROM node:22-alpine AS builder
+WORKDIR /app
+COPY package.json package-lock.json* ./
+RUN npm ci
+COPY . .
+# Your app should run `next build` and emit `out/` (next.config: output: "export")
+RUN npm run build
+
+# --- run ---
+FROM nginx:1.27-alpine
+COPY nginx.conf /etc/nginx/conf.d/default.conf
+COPY --from=builder /app/out /usr/share/nginx/html
+EXPOSE 8080
+```
+
+`nginx.conf` (listen on 8080 so Cloud Run’s default port matches):
+
+```nginx
+server {
+  listen 8080;
+  server_name _;
+  root /usr/share/nginx/html;
+  index index.html;
+
+  location / {
+    try_files $uri $uri/ $uri.html /index.html;
+  }
+}
+```
+
+`.dockerignore` (keeps the build context small):
+
+```gitignore
+node_modules
+.next
+out
+.git
+.env*
+```
+
+**Local smoke test:**
+
+```bash
+docker build -t website:local .
+docker run --rm -p 8080:8080 website:local
+# Open http://localhost:8080
+```
+
+### C) Dockerfile: Next.js standalone (when you are not using `export`)
+
+In `next.config` use `output: "standalone"`, then:
+
+```dockerfile
+FROM node:22-alpine AS builder
+WORKDIR /app
+COPY package.json package-lock.json* ./
+RUN npm ci
+COPY . .
+RUN npm run build
+
+FROM node:22-alpine AS runner
+WORKDIR /app
+ENV NODE_ENV=production
+ENV PORT=8080
+ENV HOSTNAME=0.0.0.0
+COPY --from=builder /app/public ./public
+COPY --from=builder /app/.next/standalone ./
+COPY --from=builder /app/.next/static ./.next/static
+CMD ["node", "server.js"]
+```
+
+Cloud Run sets `PORT`; the standalone server reads it, so you usually do not hardcode another port.
+
+### D) `cloudbuild.yaml`: build image and push to Artifact Registry
+
+Substitutions match the `gcloud builds submit` example later. Adjust project IDs and names.
+
+```yaml
+substitutions:
+  _REGION: asia-southeast1
+  _REPO: web-repo
+  _IMAGE_NAME: website
+  _TAG: v1
+
+steps:
+  - name: gcr.io/cloud-builders/docker
+    args:
+      - build
+      - "-t"
+      - "${_REGION}-docker.pkg.dev/$PROJECT_ID/${_REPO}/${_IMAGE_NAME}:${_TAG}"
+      - .
+
+images:
+  - "${_REGION}-docker.pkg.dev/$PROJECT_ID/${_REPO}/${_IMAGE_NAME}:${_TAG}"
+```
+
+Cloud Build’s service account needs permission to push to Artifact Registry (e.g. Artifact Registry Writer on the repo or project).
+
+### E) Build and push image with Cloud Build
+
+Example command:
+
+```bash
+gcloud builds submit --config=cloudbuild.yaml \
+  --substitutions=_REGION=asia-southeast1,_REPO=web-repo,_IMAGE_NAME=website,_TAG=v1 \
+  --project=my-web-project
+```
+
+What this gives you:
+
+- A tagged image like `asia-southeast1-docker.pkg.dev/my-web-project/web-repo/website:v1`
+- A deployment artifact you can reuse across environments
+
+### F) Keep image in Artifact Registry
+
+Why this is important:
+
+- Every release has a clear version.
+- Rollback is easy: deploy an older tag.
+- Security scanning and access control are centralized.
+
+### G) Manage Cloud Run with Terraform
+
+Small Terraform sample:
+
+```hcl
+resource "google_cloud_run_v2_service" "website" {
+  name     = "website"
+  location = var.region
+
+  template {
+    containers {
+      image = var.image_uri
+      ports {
+        container_port = 8080
+      }
+    }
+  }
+}
+```
+
+### H) How to write Terraform (practical workflow)
+
+Think in this order: **providers -> variables -> resources -> outputs**.
+
+1. **Provider and project context**
+
+```hcl
+terraform {
+  required_providers {
+    google = {
+      source  = "hashicorp/google"
+      version = "~> 5.0"
+    }
+  }
+}
+
+provider "google" {
+  project = var.project_id
+  region  = var.region
+}
+```
+
+2. **Input variables** (things that change by environment)
+
+```hcl
+variable "project_id" { type = string }
+variable "region"     { type = string }
+variable "service_name" {
+  type    = string
+  default = "website"
+}
+variable "image_uri" { type = string }
+```
+
+3. **Resources** (what you want Terraform to manage)
+
+```hcl
+resource "google_artifact_registry_repository" "web_repo" {
+  location      = var.region
+  repository_id = "web-repo"
+  format        = "DOCKER"
+}
+
+resource "google_cloud_run_v2_service" "website" {
+  name     = var.service_name
+  location = var.region
+
+  template {
+    containers {
+      image = var.image_uri
+      ports {
+        container_port = 8080
+      }
+    }
+  }
+}
+```
+
+4. **Outputs** (what other steps need)
+
+```hcl
+output "cloud_run_uri" {
+  value = google_cloud_run_v2_service.website.uri
+}
+```
+
+5. **Environment files**
+
+Use a `terraform.tfvars` (or `dev.tfvars`, `prod.tfvars`) per environment:
+
+```hcl
+project_id   = "my-web-project-dev"
+region       = "asia-southeast1"
+service_name = "website"
+image_uri    = "asia-southeast1-docker.pkg.dev/my-web-project-dev/web-repo/website:v1"
+```
+
+6. **Execution cycle**
+
+```bash
+terraform fmt
+terraform init
+terraform validate
+terraform plan -var-file=dev.tfvars
+terraform apply -var-file=dev.tfvars
+```
+
+That is the full writing loop: write small blocks, validate early, plan before apply, then promote the same code to the next environment by changing only `tfvars`.
+
+### I) Recommended Terraform folder structure
+
+Keep Terraform files boring and predictable:
+
+```plaintext
+terraform/
+  providers.tf
+  variables.tf
+  main.tf
+  outputs.tf
+  dev.tfvars
+  prod.tfvars
+```
+
+Minimal example:
+
+- `providers.tf`: provider and Terraform version.
+- `variables.tf`: typed inputs (`project_id`, `region`, `image_uri`).
+- `main.tf`: Cloud Run + Artifact Registry + IAM resources.
+- `outputs.tf`: service URL, useful IDs.
+- `*.tfvars`: environment-specific values only.
+
+This layout makes onboarding easier and reduces "where is that config?" confusion.
+
+Run:
+
+```bash
+terraform init
+terraform plan
+terraform apply
+```
+
+Set `container_port` to the port the container actually listens on (here **8080**, same as nginx and the standalone example with `PORT=8080`).
+
+Now infra and deploy config are reviewable in Git, same as application code.
+
+## Design choices that save time later
+
+### Pin every deployment by image tag
+
+Do not deploy floating tags like `latest` in production.
+Use explicit tags (`v1`, `v2`, or commit SHA) so release history is deterministic.
+
+### Keep environments separate
+
+Use separate Terraform state or projects for dev/stage/prod.
+This avoids accidental cross-environment impact.
+
+### Make rollback a first-class path
+
+Because Cloud Run deploys from image tags, rollback should be one fast command or one Terraform variable change.
+
+## When this is overkill
+
+This setup is strong, but not always needed.
+
+- For tiny prototypes, full Terraform can feel heavy.
+- Teams new to IaC need onboarding time.
+- Strict release controls add process overhead.
+
+If your app is still very early, start small and introduce Terraform once services or environments grow.
+
+## Practical checklist
+
+- [ ] Build image in CI, not on local machine
+- [ ] Push only versioned tags to Artifact Registry
+- [ ] Deploy Cloud Run via Terraform, not console clicks
+- [ ] Keep runtime variables in secure config/secrets
+- [ ] Verify rollback path before production release
+
+Cloud Run, Terraform, Artifact Registry, and Cloud Build work best as one delivery system. Wired together, deploys stay predictable and reviewable when something breaks at 2am.
+14:T1395,
+Companion to [Edge video AI pipelines: queues, DAG runtimes, and real bottlenecks](/systems/edge-ai-pipeline-dag-runtime-bottlenecks): that one covers **throughput and scheduling**; this one covers **model artifacts**, **memory contracts**, and **portability** across SoCs. It stays **runtime-agnostic**: plug in TensorRT, SNPE, QNN, OpenVINO, or whatever your board ships with.
+
+**Goal:** treat export, calibration, and buffer ownership with the same rigor as CI and deploy steps.
+
+## Table of contents
+
+1. [Three layers of responsibility](#1-three-layers-of-responsibility)
+2. [PTQ versus QAT in one practical table](#2-ptq-versus-qat-in-one-practical-table)
+3. [What native support means in an engine](#3-what-native-support-means-in-an-engine)
+4. [Zero-copy versus synchronization](#4-zero-copy-versus-synchronization)
+5. [Sample: explicit buffer ownership](#5-sample-explicit-buffer-ownership)
+6. [HAL sketch: capability flags](#6-hal-sketch-capability-flags)
+7. [Checklist](#7-checklist)
+
+## 1. Three layers of responsibility
+
+![From training to device runtime](/images/systems/edge-ai-quantization-layers.svg)
+
+Think of the stack as three connected layers:
+
+- **Training side**: model quality, regularization, and sometimes QAT graphs.
+- **Conversion**: export format, operator support, fusion, calibration tensors, and optional sparsity.
+- **Runtime + engine**: tensor layouts, batching, device placement, buffer lifetimes, and fallback when an op is missing.
+
+The important part is the **contracts** between these layers, not only the export file format.
+
+## 2. PTQ versus QAT in one practical table
+
+| Topic | PTQ | QAT |
+|-------|-----|-----|
+| Engineering cost | Lower | Higher |
+| Accuracy under domain shift | More fragile | Usually better |
+| Good fit | Stable inputs, rapid iteration | Safety-critical or wide scene variance |
+
+Neither PTQ nor QAT replaces **measurement** on device. On the edge, **latency**, **memory**, and **worst-case** behavior decide whether a graph ships.
+
+## 3. What native support means in an engine
+
+“Native support” should mean more than **loading a file**. A useful pipeline engine tracks:
+
+- **Expected tensor layouts** per backend (NCHW vs NHWC, packed formats).
+- **Quantization parameters** per tensor where applicable (scales, zero points).
+- **Batching policy** (fixed batch, dynamic shapes, padding rules).
+- **Degradation paths** when an op is unsupported (partition graph, CPU fallback, or refuse to run).
+
+That avoids a graph that looks fine on desktop but **cannot be scheduled** reliably on device.
+
+## 4. Zero-copy versus synchronization
+
+![Zero-copy still needs synchronization](/images/systems/edge-ai-zero-copy-sync.svg)
+
+Zero-copy (shared pools, **DMA**-friendly buffers, importer APIs) cuts **memcpy** overhead. It does **not** remove:
+
+- **Cache coherency** work when CPU and accelerator share memory maps.
+- **Fences / events** between producers and consumers.
+- **Lifetime rules**: who is allowed to overwrite a buffer while another stage still reads it.
+
+In a real frame path, DMA feeds decode, decode returns or recycles buffers into a pool, and the NPU consumes a tensor view from that pool. Even with shared buffers, you still need explicit synchronization points between producer and consumer stages.
+
+## 5. Sample: explicit buffer ownership
+
+Illustrative pseudo-C++:
+
+```cpp
+enum class Owner { Decoder, Preprocess, NPU, CPU };
+
+struct FrameBuffer {
+  void*  y;
+  void*  uv;
+  size_t stride_y;
+  Owner  owner;
+};
+
+bool handoff(FrameBuffer& fb, Owner from, Owner to) {
+  if (fb.owner != from) return false;
+  fb.owner = to;
+  // insert SoC-specific cache ops / fences here
+  return true;
+}
+```
+
+The point is not the enum itself. It is **making illegal ownership states hard to commit** in review and in runtime asserts.
+
+## 6. HAL sketch: capability flags
+
+Instead of `#ifdef` for every SoC inside business logic, expose **capabilities** the graph compiler or runtime can query:
+
+| Flag | Meaning for the engine |
+|------|-------------------------|
+| `kResizeOnFastIP` | Prefer fixed-function or DSP resize to save CPU/GPU |
+| `kInt8PreferredPath` | Prefer INT8-capable accelerator for conv-heavy graphs |
+| `kDmabufImporter` | Import camera or decoder buffers without extra copies |
+
+```cpp
+struct DeviceCaps {
+  bool resize_on_fast_ip;
+  bool int8_preferred_path;
+  bool dmabuf_importer;
+};
+
+DeviceCaps probe(const char* platform_id);
+```
+
+Graph lowering reads **caps** and chooses backends. Product code stays stable; new SoCs add **probe** data only at the boundary.
+
+## 7. Checklist
+
+1. Calibration and QAT artifacts are versioned with the **exact** export pipeline used in CI.
+2. Each buffer transition has a named **owner** and a **sync rule**.
+3. Fallback paths are **tested**, not only listed in documentation.
+4. HAL exposes **capabilities**, not raw vendor headers, at the boundary under your control.
+
+---
+
+Illustrative architecture note. Backend names are examples; validate against your vendor SDKs and safety requirements.
+15:T180f,
+This note is a practical systems sketch for shipping **stable** video analytics on embedded SoCs. It stays **SDK-agnostic**: swap decoder, NPU runtime, and queue policies to fit your platform. Topics: DAG topology, buffer contracts, scheduling, and the limits (DRAM, thermal, fabric) that show up under real load, not only on slides.
+
+**Goal:** reason about **p95/p99 latency**, drops, and jitter with the same discipline as OS scheduling and memory: name the bottleneck, then optimize the critical path.
+
+## Table of contents
+
+1. [Scenario](#1-scenario)
+2. [DAG plus queues, not DAG alone](#2-dag-plus-queues-not-dag-alone)
+3. [Map stages to executors](#3-map-stages-to-executors)
+4. [Sample shape: stages and a minimal scheduler loop](#4-sample-shape-stages-and-a-minimal-scheduler-loop)
+5. [Bottlenecks beyond FLOPs](#5-bottlenecks-beyond-flops)
+6. [Profiling the critical path](#6-profiling-the-critical-path)
+7. [Checklist](#7-checklist)
+
+## 1. Scenario
+
+Assume:
+
+- One inbound stream: **1080p30** (could scale to N streams later).
+- Decode from compressed video (vendor decoder on **DSP/VDEC** or CPU fallback).
+- Preprocess: resize, mean/variance, layout conversion.
+- Detector: **INT8** network on **NPU** (or GPU where that is the only option).
+- Tracker and business logic: mostly **CPU**.
+- Output: overlay, encode, or metadata only.
+
+In production, the painful failure mode is usually not “model accuracy on a slide.” It is **p95/p99 latency**, **frame drops**, and **jitter** when the SoC gets hot or DRAM gets busy.
+
+## 2. DAG plus queues, not DAG alone
+
+A DAG drawn on a whiteboard is **topology**. A shipped engine needs **edges with semantics**:
+
+- **Buffer ownership** (who allocates, who releases, who may alias).
+- **Backpressure** (what happens when the next stage is slower).
+- **Failure policy** (drop oldest, block, degrade resolution, skip inference every K frames).
+
+The mental picture to implement is **DAG nodes plus bounded queues** between them, not only "node A calls node B."
+
+![Edge video AI pipeline with bounded queues](/images/systems/edge-ai-pipeline-dag.svg)
+
+A typical order is ingest (`camera/file` then `decoder`), vision (`preprocess`, `detector`, `tracker`), then output (`overlay/encode`). Put a bounded queue between each stage and define queue depth, drop policy, and metrics for every edge.
+
+Those stage queues are not decorative. They are where you implement **max depth**, **drop policy**, and **metrics** (wait time, utilization).
+
+## 3. Map stages to executors
+
+Below is a **pattern table**, not a universal law. Names change per vendor (DSP, VPU, NPU, GPU).
+
+| Stage | Typical executor | Why | Risk if misplaced |
+|-------|------------------|-----|---------------------|
+| Decode | Hardware decoder or DSP | Bitstream work should not starve the rest | CPU pegged, everything else drifts |
+| Preprocess | GPU shader, NEON, or vendor image DSP | High pixel volume | Extra copies through DRAM |
+| Detector | NPU or GPU | Convolution-heavy | Deep queues hide latency until they explode |
+| Tracker | CPU | Small tensors, branching logic | Lock contention if shared with unrelated work |
+
+Scheduling here is not only “a thread pool.” It is **mapping nodes to executors** plus **policies** (priority, affinity, batching rules).
+
+## 4. Sample shape: stages and a minimal scheduler loop
+
+The following is **illustrative pseudo-C++** for handles, queues, stage functions, and policy hooks. It is not a drop-in library.
+
+```cpp
+// Opaque buffer id: pool index, dmabuf handle, or vendor token.
+struct BufferHandle { uint32_t id; };
+
+template <typename T>
+struct BoundedQueue {
+  bool try_push(const T&);   // returns false when full (backpressure)
+  bool try_pop(T& out);
+  size_t depth() const;
+};
+
+struct StageCtx {
+  BoundedQueue<BufferHandle>* in_q;
+  BoundedQueue<BufferHandle>* out_q;
+};
+
+void run_preprocess(StageCtx& ctx) {
+  BufferHandle in, out;
+  while (ctx.in_q->try_pop(in)) {
+    // map in, produce out, or recycle on failure
+    if (!allocate_output(out)) {
+      release(in);
+      continue;
+    }
+    preprocess(in, out);
+    while (!ctx.out_q->try_push(out)) {
+      // policy: spin, sleep, or drop according to product rules
+    }
+    release(in);
+  }
+}
+```
+
+**Review focus for this shape**
+
+- Clear **ownership** transitions (`release`, `allocate_output`).
+- A place to attach **metrics** (`depth()`, wait in `try_push`).
+- No hidden copies in the “happy path” comments (real code still needs explicit sync).
+
+## 5. Bottlenecks beyond FLOPs
+
+![Shared SoC budget bottlenecks for edge AI](/images/systems/edge-ai-soc-bottlenecks.svg)
+
+At runtime, decoder and inference stages compete for shared SoC budgets: DRAM bandwidth, system fabric or I/O bandwidth, and thermal headroom. This shared pressure is often the real limit before raw compute is exhausted.
+
+**DRAM bandwidth:** Large feature maps, suboptimal strides, or extra color converts can saturate memory before the NPU runs out of ops.
+
+**Thermal:** Sustained load reduces clocks. Jitter rises. A pipeline that looked fine for five minutes fails after twenty.
+
+**PCIe / fabric:** Matters when accelerators or cameras are off-chip. Even on-chip, **contention** on shared buses still appears in integrated designs under stress.
+
+## 6. Profiling the critical path
+
+Use vendor tools where available (GPU/NPU timelines), plus system-wide views (**perf**, **eBPF**, **Nsight Systems**, or equivalents). Then:
+
+1. Identify the **longest dependent chain** per frame (critical path).
+2. Decide whether the next optimization belongs there or in **queue policy** and **memory traffic**.
+
+Optimizing a kernel that is not on the critical path is a common way to waste weeks.
+
+## 7. Checklist
+
+1. Every edge between stages has **max queue depth** and **policy** under pressure.
+2. You can name the **one** system bottleneck for your workload (DRAM, thermal, PCIe/fabric, or a specific stage).
+3. Latency numbers are reported with **percentiles**, not only averages.
+4. The team agrees what **degradation** means before it is needed in the field.
+
+---
+
+Illustrative architecture note. Tune numbers and policies to your SoC, OS, and product SLA.
+16:Taf2,
+## 1. Docker vs virtual machine
+
+To understand why containers start fast, focus on the kernel boundary:
+
+![Docker vs Virtual Machine architecture](/images/systems/docker-vm-architecture.svg)
+
+- A VM includes a full guest OS and usually runs through a hypervisor layer.
+- A container shares the host kernel and isolates user-space processes.
+- Because there is no extra guest kernel per workload, memory and startup overhead are usually lower.
+
+## 2. Core commands
+
+### A. Image management
+
+**Build an image:**
+
+```bash
+docker build -t <name>:<tag> .
+```
+
+**Remove dangling images** (failed builds, free disk space):
+
+```bash
+docker image prune
+```
+
+**Inspect layers** (see what makes an image heavy):
+
+```bash
+docker history <image_id>
+```
+
+### B. Container lifecycle
+
+**Run app and map port:**
+
+```bash
+docker run -d -p 8080:3000 --name my-app <image>
+```
+
+- `-d`: Run in the background (detached).
+- `-p 8080:3000`: Host port 8080 maps to container port 3000.
+
+**Stream logs** (essential for debugging):
+
+```bash
+docker logs -f <container_name>
+```
+
+**Shell into a running container:**
+
+```bash
+docker exec -it <container_name> /bin/sh
+```
+
+### C. Cleanup
+
+**Full cleanup** (containers, images, networks, volumes not in use):
+
+```bash
+docker system prune -a --volumes
+```
+
+Use when disk is full. This removes everything unused.
+
+## 3. Networking
+
+In a stack like NestJS + Kafka + PostgreSQL, containers need to talk to each other.
+
+**Create a custom network:**
+
+```bash
+docker network create my-system-net
+```
+
+**Attach services:** When you run a container, add `--network my-system-net`.
+
+**Internal DNS:** Containers can reach each other by **name** (e.g. NestJS connects to Postgres at `postgres:5432` instead of an IP).
+
+## 4. Docker Compose
+
+Use a single `docker-compose.yml` to define and run the whole stack instead of many manual commands.
+
+```yaml
+version: '3.8'
+services:
+  api-gateway:
+    build: .
+    ports:
+      - "3000:3000"
+    depends_on:
+      - redis
+      - db
+    networks:
+      - backend-net
+
+  db:
+    image: postgres:15-alpine
+    volumes:
+      - db-data:/var/lib/postgresql/data
+    environment:
+      POSTGRES_PASSWORD: ${DB_PASSWORD}
+    networks:
+      - backend-net
+
+networks:
+  backend-net:
+    driver: bridge
+
+volumes:
+  db-data:
+```
+
+## 5. Checklist
+
+**Persistence:** Always use **volumes** for databases. If the container is removed, data remains.
+
+**Security:**
+
+- Never put secrets in the Dockerfile. Use `.env` and `environment` in Compose.
+- Prefer Alpine-based images to reduce attack surface.
+
+**Optimization:**
+
+- **Layer order in Dockerfile:** Put commands that change less often (e.g. `npm install`) higher so the build cache is reused.
+- Use **`.dockerignore`** to exclude `node_modules`, `.git`, etc. from the build context. Builds can be much faster.
+17:T2848,
+This playbook is a practical guide you can reuse for a web app, an API, or a multi-container stack. It stays framework-agnostic: swap service names, paths, and env vars to fit your project.
+
+## Table of contents
+
+1. [Executive summary](#1-executive-summary)
+2. [Deployment architecture patterns](#2-deployment-architecture-patterns)
+3. [Standard deployment flow](#3-standard-deployment-flow)
+4. [Environment & secrets model](#4-environment--secrets-model)
+5. [Build/runtime compatibility pitfalls](#5-buildruntime-compatibility-pitfalls)
+6. [Database lifecycle](#6-database-lifecycle)
+7. [Security baseline](#7-security-baseline)
+8. [Incident response checklist](#8-incident-response-checklist)
+9. [Docker/Compose handbook templates](#9-dockercompose-handbook-templates)
+10. [Quick command templates](#10-quick-command-templates)
+
+## 1. Executive summary
+
+Goals:
+
+- **Repeatable builds**: same inputs produce the same artifact.
+- **Runtime parity**: what runs in prod matches what you tested.
+- **Controlled releases**: you know what version is live.
+- **Clear rollback**: you can go back without guessing.
+- **Security and supply chain**: handled early, not as an afterthought.
+
+Standard flow:
+
+![Standard deployment flow](/images/systems/ops-deployment-flow.svg)
+
+1. Lock source and dependencies.
+2. Build in a clean environment.
+3. Package the artifact.
+4. Transfer only required deploy assets.
+5. Deploy and run migrations.
+6. Verify health and smoke tests.
+7. Promote release or rollback.
+
+## 2. Deployment architecture patterns
+
+### 2.1 Build on the host (fast dev loop)
+
+- **Pros:** quick feedback, easy debugging.
+- **Cons:** your laptop OS/arch/libs may differ from the server, which creates "works on my machine" surprises.
+
+### 2.2 Build inside Docker (recommended for parity)
+
+- Build in a Linux image that matches (or is very close to) production: same distro, libc (glibc vs musl), CPU arch.
+- Use `docker build --platform ...` when the server arch differs from your laptop.
+
+### 2.3 Build on CI, promote the artifact
+
+- CI builds the image, tags it (semver or git SHA), pushes to a registry (GHCR, ECR, Harbor, etc.).
+- The server only pulls and runs, with no compiler toolchain on the VPS.
+
+### 2.4 Artifact without a registry
+
+- Use `docker save` to create a `.tar`, copy with `scp` or `rsync`, then run `docker load` on the server.
+- Good for air-gapped networks or minimal setups.
+
+### 2.5 Minimal deploy surface
+
+- Sync only what you need: compose files, scripts, env templates, optional image tar.
+- Avoid syncing the whole repo if it is not required. You get a smaller attack surface and faster transfers.
+
+## 3. Standard deployment flow
+
+### A. Prepare source and lock dependencies
+
+- Commit lockfiles (`package-lock.json`, `pnpm-lock.yaml`, `go.sum`, etc.).
+- Tag a release or at least record the exact commit you deploy.
+
+### B. Build
+
+- **Host build:** follow project README; keep build-time secrets out of production values.
+- **Docker build:** prefer multi-stage; use `.dockerignore` so you do not copy `node_modules`, `.git`, or build cache junk into the image.
+
+### C. Package
+
+- Tag images clearly (`app:1.2.3`). Optionally export tar if you skip a registry.
+
+### D. Transfer
+
+- Registry: `docker push`.
+- No registry: ship tar + compose + sample env.
+
+### E. Release
+
+- Start the database first with a **healthcheck**; wait until it is ready before starting app services that depend on it.
+- Run migrations with a strategy that matches your downtime goals (zero-downtime often needs backward-compatible migrations).
+
+### F. Verify
+
+- Health/readiness checks pass.
+- Smoke tests pass (a couple of critical paths).
+- Logs show no boot loops or repeating errors.
+
+### G. Rollback
+
+- Keep the previous image tag handy.
+- If a migration is risky, have a DB backup and a tested restore path.
+
+## 4. Environment & secrets model
+
+### 4.1 Config layers
+
+- **Platform:** DB host, port, TLS mode, often injected on the server.
+- **App:** API URLs, feature flags.
+- **Runtime:** `NODE_ENV`, worker concurrency, and similar values that change less often across environments.
+
+### 4.2 File conventions
+
+- `.env.example` lists required keys with **no real secrets**.
+- Real secrets live in a vault, a cloud secret manager, or a file on the server outside git.
+- Never commit production `.env` files.
+
+### 4.3 Rotate secrets
+
+If you suspect a leak, rotate DB password, JWT or session secrets, and API keys. Prioritize public-facing services first.
+
+### 4.4 Changing only `.env`: do you need to rebuild the image?
+
+- **Runtime env read at container start:** you **do not** need a new image. You **do** need to **recreate** the container so it picks up new env values (Docker does not hot-reload env for a running container).
+- **Build-time variables** baked into the bundle (e.g. some `NEXT_PUBLIC_*` values): you **must** rebuild the app and image.
+
+Minimal recreate:
+
+```bash
+docker compose -f deploy/docker-compose.yaml up -d --force-recreate web
+```
+
+Check env inside the container:
+
+```bash
+docker compose -f deploy/docker-compose.yaml exec web sh -c 'printenv | grep -E "DATABASE|API|NODE" | sort'
+```
+
+## 5. Build/runtime compatibility pitfalls
+
+### 5.1 CPU architecture mismatch
+
+- Building `arm64` and running `amd64` (or the reverse) causes errors or slow emulation.
+- **Fix:** build with the correct `--platform`, or build on CI that targets the server arch.
+
+### 5.2 glibc vs musl (Alpine)
+
+- Native binaries (ORM, crypto) may behave differently.
+- **Fix:** build and test with the same base image family you use in production.
+
+### 5.3 OpenSSL / TLS library mismatch
+
+- Do not run binaries built for macOS against Linux without rebuilding or using a compatible engine for the target.
+
+### 5.4 `node_modules` copied from the host into the image
+
+- Always exclude with `.dockerignore`.
+- Install dependencies **inside** the Dockerfile (`npm ci`).
+
+## 6. Database lifecycle
+
+- Use explicit volumes for data (bind mount or named volume).
+- Wait for the DB to be ready before import/migrate jobs.
+- Schedule backups; take a snapshot before large migrations.
+
+## 7. Security baseline
+
+### Container
+
+- Run as non-root when possible.
+- Read-only root filesystem for the app layer when it fits your app.
+- Set CPU/memory limits so one container cannot starve the node.
+
+### Edge
+
+- Reverse proxy: TLS termination, sensible timeouts, body size limits.
+- Rate limit sensitive routes (`/auth`, `/api/login`).
+
+### App
+
+- Do not execute shell commands built from raw user input.
+- Validate redirect URLs (avoid open redirects).
+- Use high-entropy secrets for sessions/JWT.
+
+### Supply chain
+
+- Lock dependencies with lockfiles.
+- Use `npm ci` (or equivalent) in CI, and avoid ad-hoc `install` on production paths.
+- Run vulnerability scans (`npm audit`, OSV) on a schedule.
+
+## 8. Incident response checklist
+
+### Warning signs
+
+- Logs suggesting RCE: `curl | sh`, `base64 -d | sh`, changes to `authorized_keys`, odd processes.
+- CPU/memory spikes that do not match real traffic.
+- Brute-force traffic or random paths.
+
+### Act fast
+
+1. Reduce public exposure (firewall / security group) if needed.
+2. Collect logs and runtime forensics (`docker inspect`, `docker diff`, process list).
+3. Compare image digest/tag with a clean CI build.
+4. Rotate secrets that might be exposed.
+5. Redeploy from a trusted source and watch closely for 24–48 hours.
+
+## 9. Docker/Compose handbook templates
+
+### 9.1 `.dockerignore`
+
+```text
+.git
+.github
+*.md
+.env
+.env.*
+!.env.example
+node_modules
+**/node_modules
+**/dist
+**/.next/cache
+coverage
+*.log
+```
+
+### 9.2 Dockerfile API (multi-stage)
+
+```dockerfile
+FROM node:20-bookworm-slim AS builder
+WORKDIR /app
+COPY services/api/package.json services/api/package-lock.json* ./
+RUN npm ci --omit=dev
+COPY services/api .
+RUN npm run build
+
+FROM node:20-bookworm-slim
+WORKDIR /app
+ENV NODE_ENV=production
+COPY --from=builder /app/package.json ./
+COPY --from=builder /app/node_modules ./node_modules
+COPY --from=builder /app/dist ./dist
+RUN addgroup --system app && adduser --system --ingroup app app \
+  && chown -R app:app /app
+USER app
+EXPOSE 4000
+CMD ["node", "dist/server.js"]
+```
+
+### 9.3 Dockerfile web static (Nginx)
+
+```dockerfile
+FROM nginx:1.27-alpine
+COPY apps/web/dist /usr/share/nginx/html:ro
+EXPOSE 80
+```
+
+### 9.4 Docker Compose template
+
+```yaml
+name: acme-local
+
+services:
+  db:
+    image: postgres:16-alpine
+    environment:
+      POSTGRES_USER: app
+      POSTGRES_PASSWORD: ${DB_PASSWORD}
+      POSTGRES_DB: app
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    ports:
+      - "127.0.0.1:5432:5432"
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U app -d app"]
+      interval: 5s
+      timeout: 3s
+      retries: 10
+
+  api:
+    build:
+      context: ..
+      dockerfile: deploy/Dockerfile.api
+    image: myorg/api:${APP_VERSION:-latest}
+    env_file:
+      - ../services/api/.env
+    environment:
+      DATABASE_URL: postgresql://app:${DB_PASSWORD}@db:5432/app
+      PORT: 4000
+    ports:
+      - "127.0.0.1:4000:4000"
+    depends_on:
+      db:
+        condition: service_healthy
+    restart: unless-stopped
+
+  web:
+    build:
+      context: ..
+      dockerfile: deploy/Dockerfile.web
+    image: myorg/web:${APP_VERSION:-latest}
+    ports:
+      - "127.0.0.1:8080:80"
+    depends_on:
+      - api
+    restart: unless-stopped
+
+volumes:
+  pgdata:
+```
+
+### 9.5 Runtime env sample
+
+```bash
+DB_PASSWORD=change-me-strong
+APP_VERSION=1.0.0
+```
+
+## 10. Quick command templates
+
+### Build and run
+
+```bash
+export DOCKER_DEFAULT_PLATFORM=linux/amd64
+docker compose --env-file deploy/.env -f deploy/docker-compose.yaml build --no-cache
+docker compose --env-file deploy/.env -f deploy/docker-compose.yaml up -d
+docker compose -f deploy/docker-compose.yaml ps -a
+```
+
+### Logs and debug
+
+```bash
+docker compose -f deploy/docker-compose.yaml logs -f --tail=200 api web
+docker compose -f deploy/docker-compose.yaml exec api sh -c 'printenv | sort'
+docker compose -f deploy/docker-compose.yaml config
+docker stats --no-stream
+```
+
+### Tar-based deploy (no registry)
+
+```bash
+docker save -o deploy/images/api.tar myorg/api:1.0.0
+docker save -o deploy/images/web.tar myorg/web:1.0.0
+scp deploy/images/*.tar user@vps:/opt/acme/images/
+```
+
+---
+
+## Related diagram
+
+![Docker vs Virtual Machine architecture](/images/systems/docker-vm-architecture.svg)
+5:["$","$7",null,{"fallback":null,"children":["$","$Le",null,{"posts":[{"slug":"kafka-real-systems-event-log-consumer-groups-replay","title":"Kafka in real systems: the event log, consumer groups, and replay","date":"2026-07-02T00:00:00.000Z","excerpt":"Kafka is not just a queue. It is a durable event log that lets many systems react, recover, and replay. This post shows a small TypeScript setup and the production lessons from LinkedIn and Uber.","tags":["Kafka","EventStreaming","Architecture","TypeScript","Backend"],"featured":false,"content":"$f"},{"slug":"grpc-real-systems-contracts-deadlines-streaming","title":"gRPC in real systems: contracts, deadlines, and streaming","date":"2026-06-12T00:00:00.000Z","excerpt":"When a service needs a fast answer, gRPC is a great fit. This post shows a small TypeScript setup, the failure modes that bite teams, and what Netflix and Uber learned at scale.","tags":["gRPC","Microservices","Architecture","TypeScript","Backend"],"featured":false,"content":"$10"},{"slug":"nextjs-vps-2gb-cicd-real-world-runbook","title":"Next.js on a 2GB VPS: what broke in real CI/CD","date":"2026-05-18T00:00:00.000Z","excerpt":"Dual Next.js apps on one Vultr VPS: GitHub Actions, nginx, GHCR 403, weird AAAA records, and the CSS routing bug we hit.","tags":["Next.js","VPS","CI/CD","GitHub Actions","Docker","nginx","DevOps"],"featured":false,"content":"$11"},{"slug":"cloud-run-cost-defense-armor-cdn","title":"Cloud Run cost defense: Armor, CDN, and locked ingress","date":"2026-05-13T00:00:00.000Z","excerpt":"How we cut scanner noise before it burns Cloud Run budget: Cloud Armor at the LB, CDN negative caching, and no public *.run.app bypass.","tags":["Cloud Run","Cloud Armor","Cloud CDN","Google Cloud","Security","Cost optimization"],"featured":false,"content":"$12"},{"slug":"cloud-run-terraform-artifact-registry-delivery-flow","title":"Cloud delivery with Cloud Run, Terraform, and Artifact Registry","date":"2026-04-30T00:00:00.000Z","excerpt":"One clean path from Git to production: Cloud Build, versioned images, Terraform for infra, Cloud Run for runtime.","tags":["Cloud Run","Terraform","Artifact Registry","Cloud Build","DevOps","CI/CD"],"featured":false,"content":"$13"},{"slug":"edge-ai-quantization-zero-copy-data-plane","title":"Quantized models and zero-copy data planes: contracts that actually ship","date":"2026-04-18T00:00:00.000Z","excerpt":"INT8/FP16 artifacts, backend contracts, buffer ownership, and why zero-copy still needs explicit sync points on edge SoCs.","tags":["EdgeAI","Quantization","Inference","Memory","SystemsArchitecture"],"featured":true,"content":"$14"},{"slug":"edge-ai-pipeline-dag-runtime-bottlenecks","title":"Edge video AI pipelines: queues, DAG runtimes, and real bottlenecks","date":"2026-03-24T00:00:00.000Z","excerpt":"A working model for edge inference: stages, bounded queues, executor mapping, and why DRAM and thermal limits often beat raw NPU FLOPs.","tags":["EdgeAI","SystemsArchitecture","VideoAnalytics","RealTime","C++"],"featured":true,"content":"$15"},{"slug":"docker-blueprint-architecture-command-lab","title":"Docker blueprint: architecture and the commands that matter","date":"2026-03-10T00:00:00.000Z","excerpt":"VM vs container, core Docker commands, networking, Compose, and a short architect checklist.","tags":["Docker","DevOps","Architecture"],"featured":false,"content":"$16"},{"slug":"ops-blueprint-universal-deployment-playbook","title":"Ops blueprint: a deployment playbook you can reuse","date":"2025-12-16T00:00:00.000Z","excerpt":"Repeatable builds, runtime parity, secrets, Compose templates, and an incident checklist that works across stacks.","tags":["DevOps","Deployment","Docker","Security","IncidentResponse"],"featured":false,"content":"$17"}],"basePath":"/systems","sectionTitle":"Systems","sidebarTitle":"All Articles","emptyLabel":"articles"}]}]
 a:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
 c:[["$","title","0",{"children":"Systems | Hg's Portfolio"}],["$","meta","1",{"name":"description","content":"Systems notes and playbooks: deployment, Docker, edge AI, ops — written to run, not to present."}],["$","link","2",{"rel":"canonical","href":"https://hgq287.github.io/systems"}],["$","meta","3",{"property":"og:title","content":"Systems | Hg's Portfolio"}],["$","meta","4",{"property":"og:description","content":"Deployment, Docker, edge AI, quantization, and ops notes."}],["$","meta","5",{"property":"og:url","content":"https://hgq287.github.io/systems"}],["$","meta","6",{"property":"og:image","content":"https://hgq287.github.io/og-default.png"}],["$","meta","7",{"property":"og:image:width","content":"1200"}],["$","meta","8",{"property":"og:image:height","content":"630"}],["$","meta","9",{"property":"og:image:alt","content":"Hung Q. Truong – Hg's Portfolio"}],["$","meta","10",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","11",{"name":"twitter:title","content":"Systems | Hg's Portfolio"}],["$","meta","12",{"name":"twitter:description","content":"Deployment, Docker, edge AI, quantization, and ops notes."}],["$","meta","13",{"name":"twitter:image","content":"https://hgq287.github.io/og-default.png"}]]
 8:null

@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="360" viewBox="0 0 1400 360" role="img" aria-label="GitHub Actions CI/CD flow for dual Next.js apps">
+  <defs>
+    <style>
+      .bg { fill: #f5f7fb; }
+      .title { font: 700 28px Inter, "Segoe UI", Helvetica, Arial, sans-serif; fill: #1f2937; }
+      .box { fill: #ffffff; stroke: #94a3b8; stroke-width: 2; }
+      .build { fill: #e0e7ff; stroke: #6366f1; stroke-width: 2; }
+      .smoke { fill: #fef3c7; stroke: #f59e0b; stroke-width: 2; }
+      .deploy { fill: #dcfce7; stroke: #22c55e; stroke-width: 2; }
+      .txt { font: 600 17px Inter, "Segoe UI", Helvetica, Arial, sans-serif; fill: #1f2937; }
+      .small { font: 500 14px Inter, "Segoe UI", Helvetica, Arial, sans-serif; fill: #475569; }
+      .line { stroke: #64748b; stroke-width: 2.5; fill: none; marker-end: url(#ah); }
+    </style>
+    <marker id="ah" markerWidth="10" markerHeight="8" refX="9" refY="4" orient="auto">
+      <path d="M0,0 L9,4 L0,8 Z" fill="#64748b" />
+    </marker>
+  </defs>
+
+  <rect class="bg" width="1400" height="360" rx="18" />
+  <text class="title" x="40" y="48">CI/CD on GitHub Actions</text>
+
+  <rect class="box" x="40" y="130" width="180" height="100" rx="12" />
+  <text class="txt" x="75" y="175">Push main</text>
+  <text class="small" x="70" y="200">trigger pipeline</text>
+
+  <rect class="build" x="280" y="130" width="240" height="100" rx="12" />
+  <text class="txt" x="310" y="175">Build both images</text>
+  <text class="small" x="320" y="200">push to GHCR</text>
+
+  <rect class="smoke" x="580" y="130" width="220" height="100" rx="12" />
+  <text class="txt" x="620" y="175">Smoke on runner</text>
+  <text class="small" x="615" y="200">health checks first</text>
+
+  <rect class="deploy" x="860" y="130" width="250" height="100" rx="12" />
+  <text class="txt" x="895" y="175">Ship images to VPS</text>
+  <text class="small" x="900" y="200">docker compose up</text>
+
+  <rect class="box" x="1170" y="130" width="190" height="100" rx="12" />
+  <text class="txt" x="1210" y="175">Live traffic</text>
+  <text class="small" x="1205" y="200">nginx front door</text>
+
+  <path class="line" d="M220 180 H275" />
+  <path class="line" d="M520 180 H575" />
+  <path class="line" d="M800 180 H855" />
+  <path class="line" d="M1110 180 H1165" />
+
+  <text class="small" x="40" y="300">Build never runs on the 2GB VPS. Smoke must pass before deploy. GHCR pull auth on the VPS may force ship-over-SSH.</text>
+</svg>

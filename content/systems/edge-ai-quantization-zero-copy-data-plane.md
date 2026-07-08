@@ -1,9 +1,9 @@
 ---
 slug: "edge-ai-quantization-zero-copy-data-plane"
-title: "Quantized Models and Zero-Copy Data Planes: Contracts from Calibration to HAL"
+title: "Quantized models and zero-copy data planes: contracts that actually ship"
 date: "2026-04-18"
 featured: true
-excerpt: "How INT8/FP16 artifacts, runtime backends, buffer ownership, and sync points fit together on edge SoCs. Includes a capability-style HAL sketch and a realistic warning: zero-copy is not zero-synchronization."
+excerpt: "INT8/FP16 artifacts, backend contracts, buffer ownership, and why zero-copy still needs explicit sync points on edge SoCs."
 tags:
   - EdgeAI
   - Quantization
@@ -12,7 +12,7 @@ tags:
   - SystemsArchitecture
 ---
 
-Companion to [Edge Video AI Pipelines: DAG Runtimes, Queues, and System Bottlenecks](/systems/edge-ai-pipeline-dag-runtime-bottlenecks): that one covers **throughput and scheduling**; this one covers **model artifacts**, **memory contracts**, and **portability** across SoCs. It stays **runtime-agnostic**: plug in TensorRT, SNPE, QNN, OpenVINO, or whatever your board ships with.
+Companion to [Edge video AI pipelines: queues, DAG runtimes, and real bottlenecks](/systems/edge-ai-pipeline-dag-runtime-bottlenecks): that one covers **throughput and scheduling**; this one covers **model artifacts**, **memory contracts**, and **portability** across SoCs. It stays **runtime-agnostic**: plug in TensorRT, SNPE, QNN, OpenVINO, or whatever your board ships with.
 
 **Goal:** treat export, calibration, and buffer ownership with the same rigor as CI and deploy steps.
 
@@ -28,26 +28,13 @@ Companion to [Edge Video AI Pipelines: DAG Runtimes, Queues, and System Bottlene
 
 ## 1. Three layers of responsibility
 
-```mermaid
-flowchart LR
-  subgraph train [TrainingSide]
-    PT[ModelTrain]
-  end
-  subgraph convert [Conversion]
-    EXP[ExportONNXOrSimilar]
-    CAL[CalibOrQATArtifacts]
-  end
-  subgraph run [Runtime]
-    BE[TensorRT_SNPE_QNN_OpenVINO]
-    ENG[YourPipelineEngine]
-  end
-  PT --> EXP --> CAL --> BE
-  BE --> ENG
-```
+![From training to device runtime](/images/systems/edge-ai-quantization-layers.svg)
 
-- **Training side:** accuracy, regularization, sometimes QAT graphs.
-- **Conversion:** operator support, fusion rules, calibration tensors, optional sparsity.
-- **Runtime + engine:** tensor layouts, batching rules, device placement, buffer lifetimes, **fallback** when an op is missing.
+Think of the stack as three connected layers:
+
+- **Training side**: model quality, regularization, and sometimes QAT graphs.
+- **Conversion**: export format, operator support, fusion, calibration tensors, and optional sparsity.
+- **Runtime + engine**: tensor layouts, batching, device placement, buffer lifetimes, and fallback when an op is missing.
 
 The important part is the **contracts** between these layers, not only the export file format.
 
@@ -74,23 +61,15 @@ That avoids a graph that looks fine on desktop but **cannot be scheduled** relia
 
 ## 4. Zero-copy versus synchronization
 
+![Zero-copy still needs synchronization](/images/systems/edge-ai-zero-copy-sync.svg)
+
 Zero-copy (shared pools, **DMA**-friendly buffers, importer APIs) cuts **memcpy** overhead. It does **not** remove:
 
 - **Cache coherency** work when CPU and accelerator share memory maps.
 - **Fences / events** between producers and consumers.
 - **Lifetime rules**: who is allowed to overwrite a buffer while another stage still reads it.
 
-```mermaid
-sequenceDiagram
-  participant DMA
-  participant Dec as Decoder
-  participant Pool as BufferPool
-  participant NPU
-  DMA->>Dec: compressed_frame
-  Dec->>Pool: return_or_recycle
-  Pool->>NPU: tensor_view
-  Note over Pool,NPU: sync_point_required
-```
+In a real frame path, DMA feeds decode, decode returns or recycles buffers into a pool, and the NPU consumes a tensor view from that pool. Even with shared buffers, you still need explicit synchronization points between producer and consumer stages.
 
 ## 5. Sample: explicit buffer ownership
 
@@ -147,4 +126,4 @@ Graph lowering reads **caps** and chooses backends. Product code stays stable; n
 
 ---
 
-Illustrative architecture note. Backend names are examples — validate against your vendor SDKs and safety requirements.
+Illustrative architecture note. Backend names are examples; validate against your vendor SDKs and safety requirements.

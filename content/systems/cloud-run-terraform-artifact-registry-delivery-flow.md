@@ -1,8 +1,8 @@
 ---
 slug: "cloud-run-terraform-artifact-registry-delivery-flow"
-title: "Cloud Delivery Flow: Cloud Run + Terraform + Artifact Registry"
+title: "Cloud delivery with Cloud Run, Terraform, and Artifact Registry"
 date: "2026-04-30"
-excerpt: "A practical guide to ship web apps with Cloud Build, Artifact Registry, Terraform, and Cloud Run in one clean pipeline."
+excerpt: "One clean path from Git to production: Cloud Build, versioned images, Terraform for infra, Cloud Run for runtime."
 tags:
   - Cloud Run
   - Terraform
@@ -51,18 +51,13 @@ For real delivery flow with more than one environment, Terraform quickly pays ba
 
 ## End-to-end flow
 
-```plaintext
-Git push
-  -> Cloud Build
-      -> Build Docker image
-      -> Push image to Artifact Registry
-  -> Terraform apply
-      -> Create/update Cloud Run service
-      -> Deploy new image tag
-Rollback
-  -> Change image tag to previous stable version
-  -> Terraform apply
-```
+![Cloud delivery flow from Git to Cloud Run](/images/systems/cloud-delivery-flow.svg)
+
+This delivery flow has two connected tracks:
+
+- Build track: Git push triggers Cloud Build, which builds the Docker image and pushes it to Artifact Registry.
+- Deploy track: Terraform applies infrastructure and updates Cloud Run to the target image tag.
+- Rollback track: set the image tag to a previous stable version and run Terraform apply again.
 
 The key split:
 
@@ -75,11 +70,11 @@ Below is a **real-shaped** example: Next.js builds inside Docker, the image runs
 
 ### A) Pick how Next.js runs in the container
 
-**Option 1 — Static export (`output: 'export'`)**  
+**Option 1: Static export (`output: 'export'`)**  
 Good for marketing sites, docs, and blogs that ship as HTML under `out/`.  
 Run it behind **nginx** in the container. Cloud Run expects the process to listen on **`PORT`** (often `8080`), so nginx should listen on that port.
 
-**Option 2 — Node server (`output: 'standalone'`)**  
+**Option 2: Node server (`output: 'standalone'`)**  
 Use when you need SSR, Route Handlers, or dynamic rendering.  
 Build produces `.next/standalone`; you run `node server.js` and set `PORT` to what Cloud Run gives you.
 

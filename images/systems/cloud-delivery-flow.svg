@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="420" viewBox="0 0 1400 420" role="img" aria-label="Cloud Build to Artifact Registry to Terraform to Cloud Run delivery flow">
+  <defs>
+    <style>
+      .bg { fill: #f5f7fb; }
+      .title { font: 700 28px Inter, "Segoe UI", Helvetica, Arial, sans-serif; fill: #1f2937; }
+      .box { fill: #ffffff; stroke: #94a3b8; stroke-width: 2; }
+      .build { fill: #e0e7ff; stroke: #6366f1; stroke-width: 2; }
+      .registry { fill: #fef3c7; stroke: #f59e0b; stroke-width: 2; }
+      .tf { fill: #dbeafe; stroke: #3b82f6; stroke-width: 2; }
+      .run { fill: #dcfce7; stroke: #22c55e; stroke-width: 2; }
+      .txt { font: 600 17px Inter, "Segoe UI", Helvetica, Arial, sans-serif; fill: #1f2937; }
+      .small { font: 500 14px Inter, "Segoe UI", Helvetica, Arial, sans-serif; fill: #475569; }
+      .line { stroke: #64748b; stroke-width: 2.5; fill: none; marker-end: url(#ah); }
+    </style>
+    <marker id="ah" markerWidth="10" markerHeight="8" refX="9" refY="4" orient="auto">
+      <path d="M0,0 L9,4 L0,8 Z" fill="#64748b" />
+    </marker>
+  </defs>
+
+  <rect class="bg" width="1400" height="420" rx="18" />
+  <text class="title" x="40" y="48">Cloud delivery flow</text>
+
+  <rect class="box" x="40" y="140" width="180" height="110" rx="12" />
+  <text class="txt" x="85" y="185">Git push</text>
+  <text class="small" x="70" y="212">source of truth</text>
+
+  <rect class="build" x="280" y="140" width="220" height="110" rx="12" />
+  <text class="txt" x="325" y="185">Cloud Build</text>
+  <text class="small" x="310" y="212">build Docker image</text>
+
+  <rect class="registry" x="560" y="140" width="250" height="110" rx="12" />
+  <text class="txt" x="585" y="185">Artifact Registry</text>
+  <text class="small" x="590" y="212">versioned image tags</text>
+
+  <rect class="tf" x="870" y="140" width="210" height="110" rx="12" />
+  <text class="txt" x="915" y="185">Terraform</text>
+  <text class="small" x="900" y="212">apply infra + service</text>
+
+  <rect class="run" x="1140" y="140" width="220" height="110" rx="12" />
+  <text class="txt" x="1190" y="185">Cloud Run</text>
+  <text class="small" x="1175" y="212">serve pinned image</text>
+
+  <path class="line" d="M220 195 H275" />
+  <path class="line" d="M500 195 H555" />
+  <path class="line" d="M810 195 H865" />
+  <path class="line" d="M1080 195 H1135" />
+
+  <text class="small" x="40" y="320">Artifact lifecycle stays in build + registry. Runtime config and service wiring stay in Terraform.</text>
+  <text class="small" x="40" y="350">Rollback: point Terraform at a previous stable image tag, then apply.</text>
+</svg>

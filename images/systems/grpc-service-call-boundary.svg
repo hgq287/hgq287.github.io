@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1480" height="420" viewBox="0 0 1480 420" role="img" aria-label="gRPC service call boundary with deadline and contract">
+  <defs>
+    <style>
+      .bg { fill: #f5f7fb; }
+      .title { font: 700 28px Inter, "Segoe UI", Helvetica, Arial, sans-serif; fill: #1f2937; }
+      .box { fill: #ffffff; stroke: #94a3b8; stroke-width: 2; }
+      .accent { fill: #e0e7ff; stroke: #6366f1; stroke-width: 2; }
+      .ok { fill: #dcfce7; stroke: #22c55e; stroke-width: 2; }
+      .warn { fill: #fff7ed; stroke: #fb923c; stroke-width: 2; }
+      .txt { font: 600 18px Inter, "Segoe UI", Helvetica, Arial, sans-serif; fill: #1f2937; }
+      .small { font: 500 14px Inter, "Segoe UI", Helvetica, Arial, sans-serif; fill: #475569; }
+      .line { stroke: #64748b; stroke-width: 2.5; fill: none; marker-end: url(#ah); }
+    </style>
+    <marker id="ah" markerWidth="10" markerHeight="8" refX="9" refY="4" orient="auto">
+      <path d="M0,0 L9,4 L0,8 Z" fill="#64748b" />
+    </marker>
+  </defs>
+
+  <rect class="bg" width="1480" height="420" rx="18" />
+  <text class="title" x="40" y="48">gRPC service call boundary</text>
+
+  <rect class="box" x="60" y="150" width="260" height="110" rx="12" />
+  <text class="txt" x="120" y="195">Order service</text>
+  <text class="small" x="92" y="225">needs an answer now</text>
+
+  <rect class="accent" x="400" y="130" width="300" height="150" rx="12" />
+  <text class="txt" x="470" y="185">gRPC call</text>
+  <text class="small" x="435" y="215">proto contract + codegen</text>
+  <text class="small" x="435" y="240">deadline on every call</text>
+
+  <rect class="ok" x="780" y="150" width="260" height="110" rx="12" />
+  <text class="txt" x="845" y="195">Inventory</text>
+  <text class="small" x="830" y="225">checks availability</text>
+
+  <rect class="warn" x="1120" y="150" width="300" height="110" rx="12" />
+  <text class="txt" x="1150" y="195">Timeout path</text>
+  <text class="small" x="1145" y="225">fail fast, fall back</text>
+
+  <path class="line" d="M320 205 H395" />
+  <path class="line" d="M700 205 H775" />
+  <path class="line" d="M1040 205 H1115" />
+
+  <text class="small" x="40" y="370">The contract stays stable. Deadlines prevent slow dependencies from piling up behind a call.</text>
+</svg>
+

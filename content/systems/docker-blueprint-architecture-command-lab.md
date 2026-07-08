@@ -1,37 +1,27 @@
 ---
 slug: "docker-blueprint-architecture-command-lab"
-title: "Docker Blueprint: Architecture & Command Lab"
+title: "Docker blueprint: architecture and the commands that matter"
 date: "2026-03-10"
-excerpt: "A practical guide to Docker architecture, core commands, networking, and Compose—with a VM vs container diagram and an architect's checklist."
+excerpt: "VM vs container, core Docker commands, networking, Compose, and a short architect checklist."
 tags:
   - Docker
   - DevOps
   - Architecture
 ---
 
-## 1. Conceptual Diagram: Docker vs. Virtual Machine
+## 1. Docker vs virtual machine
 
-To see why Docker is fast, look at the kernel layer. A VM runs a full guest OS and hypervisor; a container shares the host kernel.
+To understand why containers start fast, focus on the kernel boundary:
 
-```plaintext
-      [ VIRTUAL MACHINE ]                    [ DOCKER CONTAINER ]
-+----------------------------+          +----------------------------+
-|      App / Business        |          |      App / Business        |
-+----------------------------+          +----------------------------+
-|   Bins / Libs (Guest OS)   |          |    Bins / Libs (Isolated)  |
-+----------------------------+          +----------------------------+
-|      Guest OS Kernel       |          |      Docker Engine         |
-+----------------------------+          +----------------------------+
-|      Hypervisor            |          |      Host OS Kernel        |
-+----------------------------+          +----------------------------+
-|      Infrastructure        |          |      Infrastructure        |
-+----------------------------+          +----------------------------+
-(Resource-heavy: full guest OS)          (Shared kernel — much lighter)
-```
+![Docker vs Virtual Machine architecture](/images/systems/docker-vm-architecture.svg)
 
-## 2. Core Commands Lab (Quick Reference)
+- A VM includes a full guest OS and usually runs through a hypervisor layer.
+- A container shares the host kernel and isolates user-space processes.
+- Because there is no extra guest kernel per workload, memory and startup overhead are usually lower.
 
-### A. Image Management (The Mold)
+## 2. Core commands
+
+### A. Image management
 
 **Build an image:**
 
@@ -51,7 +41,7 @@ docker image prune
 docker history <image_id>
 ```
 
-### B. Container Lifecycle (Running the App)
+### B. Container lifecycle
 
 **Run app and map port:**
 
@@ -60,7 +50,7 @@ docker run -d -p 8080:3000 --name my-app <image>
 ```
 
 - `-d`: Run in the background (detached).
-- `-p 8080:3000`: Host port 8080 → container port 3000.
+- `-p 8080:3000`: Host port 8080 maps to container port 3000.
 
 **Stream logs** (essential for debugging):
 
@@ -74,7 +64,7 @@ docker logs -f <container_name>
 docker exec -it <container_name> /bin/sh
 ```
 
-### C. Cleanup (System Tidy)
+### C. Cleanup
 
 **Full cleanup** (containers, images, networks, volumes not in use):
 
@@ -84,7 +74,7 @@ docker system prune -a --volumes
 
 Use when disk is full. This removes everything unused.
 
-## 3. Networking Blueprint (Connecting Services)
+## 3. Networking
 
 In a stack like NestJS + Kafka + PostgreSQL, containers need to talk to each other.
 
@@ -98,7 +88,7 @@ docker network create my-system-net
 
 **Internal DNS:** Containers can reach each other by **name** (e.g. NestJS connects to Postgres at `postgres:5432` instead of an IP).
 
-## 4. Docker Compose: The Orchestrator
+## 4. Docker Compose
 
 Use a single `docker-compose.yml` to define and run the whole stack instead of many manual commands.
 
@@ -132,7 +122,7 @@ volumes:
   db-data:
 ```
 
-## 5. Architect's Checklist (Things to Revisit)
+## 5. Checklist
 
 **Persistence:** Always use **volumes** for databases. If the container is removed, data remains.
 

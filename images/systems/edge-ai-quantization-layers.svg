@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="420" viewBox="0 0 1400 420" role="img" aria-label="Quantization and runtime layers from training to pipeline engine">
+  <defs>
+    <style>
+      .bg { fill: #f5f7fb; }
+      .title { font: 700 28px Inter, "Segoe UI", Helvetica, Arial, sans-serif; fill: #1f2937; }
+      .panel { fill: #ffffff; stroke: #cbd5e1; stroke-width: 2; }
+      .box { fill: #eef2f7; stroke: #94a3b8; stroke-width: 2; }
+      .txt { font: 600 18px Inter, "Segoe UI", Helvetica, Arial, sans-serif; fill: #1f2937; }
+      .section { font: 600 16px Inter, "Segoe UI", Helvetica, Arial, sans-serif; fill: #4b5563; }
+      .small { font: 500 14px Inter, "Segoe UI", Helvetica, Arial, sans-serif; fill: #475569; }
+      .line { stroke: #64748b; stroke-width: 2.5; fill: none; marker-end: url(#ah); }
+    </style>
+    <marker id="ah" markerWidth="10" markerHeight="8" refX="9" refY="4" orient="auto">
+      <path d="M0,0 L9,4 L0,8 Z" fill="#64748b" />
+    </marker>
+  </defs>
+
+  <rect class="bg" width="1400" height="420" rx="18" />
+  <text class="title" x="40" y="48">From model train to device runtime</text>
+
+  <rect class="panel" x="40" y="90" width="300" height="240" rx="14" />
+  <text class="section" x="60" y="125">Training side</text>
+  <rect class="box" x="70" y="160" width="240" height="80" rx="10" />
+  <text class="txt" x="120" y="208">Model train</text>
+
+  <rect class="panel" x="390" y="90" width="430" height="240" rx="14" />
+  <text class="section" x="410" y="125">Conversion</text>
+  <rect class="box" x="420" y="150" width="370" height="60" rx="10" />
+  <text class="txt" x="470" y="188">Export ONNX (or similar)</text>
+  <rect class="box" x="420" y="235" width="370" height="60" rx="10" />
+  <text class="txt" x="470" y="273">Calib / QAT artifacts</text>
+  <path class="line" d="M605 210 V230" />
+
+  <rect class="panel" x="870" y="90" width="490" height="240" rx="14" />
+  <text class="section" x="890" y="125">Runtime</text>
+  <rect class="box" x="900" y="150" width="430" height="60" rx="10" />
+  <text class="txt" x="940" y="188">Backend: TRT / SNPE / QNN / OV</text>
+  <rect class="box" x="900" y="235" width="430" height="60" rx="10" />
+  <text class="txt" x="980" y="273">Your pipeline engine</text>
+  <path class="line" d="M1115 210 V230" />
+
+  <path class="line" d="M340 200 H385" />
+  <path class="line" d="M820 265 H865" />
+
+  <text class="small" x="40" y="380">Contracts matter more than file format: layouts, scales, owners, sync rules, and fallbacks.</text>
+</svg>

@@ -1,0 +1,278 @@
+1:"$Sreact.fragment"
+2:I[63178,["/_next/static/chunks/58689c96b0676c41.js"],"ThemeProvider"]
+3:I[39756,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/c81db6e24f0cfdeb.js"],"default"]
+4:I[37457,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/c81db6e24f0cfdeb.js"],"default"]
+6:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/c81db6e24f0cfdeb.js"],"OutletBoundary"]
+7:"$Sreact.suspense"
+9:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/c81db6e24f0cfdeb.js"],"ViewportBoundary"]
+b:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/c81db6e24f0cfdeb.js"],"MetadataBoundary"]
+d:I[68027,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/c81db6e24f0cfdeb.js"],"default"]
+:HL["/_next/static/chunks/ece62fef2316de36.css","style"]
+:HL["/_next/static/media/47df9ba1c7236d3b-s.p.7bbb93ea.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/media/68d403cf9f2c68c5-s.p.f9f15f61.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+0:{"P":null,"b":"VvURJn4hPWXanF50tPLNZ","c":["","systems","grpc-real-systems-contracts-deadlines-streaming"],"q":"","i":false,"f":[[["",{"children":["systems",{"children":[["slug","grpc-real-systems-contracts-deadlines-streaming","d"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/ece62fef2316de36.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/_next/static/chunks/58689c96b0676c41.js","async":true,"nonce":"$undefined"}]],["$","html",null,{"lang":"en","suppressHydrationWarning":true,"className":"source_sans_3_ef15b96b-module__iXAkeG__variable source_serif_4_ee15e1dc-module__HXKgIG__variable","children":["$","body",null,{"className":"font-sans antialiased","children":[["$","script",null,{"type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"{\"@context\":\"https://schema.org\",\"@graph\":[{\"@type\":\"Person\",\"@id\":\"https://hgq287.github.io/#person\",\"name\":\"Hung Q. Truong\",\"url\":\"https://hgq287.github.io\",\"sameAs\":[\"https://www.linkedin.com/in/hgq287\",\"https://github.com/hgq287\",\"https://stackoverflow.com/users/12345813/hgq287\"],\"jobTitle\":\"Systems Architect; Principal AI Engineer\"},{\"@type\":\"WebSite\",\"@id\":\"https://hgq287.github.io/#website\",\"name\":\"Hg's Portfolio\",\"url\":\"https://hgq287.github.io\",\"description\":\"Systems Architect with 15+ years. Principal AI: strategy, architecture, and shipping from research to production. Swift, C++, core engines, Kotlin Multiplatform, backends.\",\"inLanguage\":\"en-US\",\"publisher\":{\"@id\":\"https://hgq287.github.io/#person\"}}]}"}}],["$","$L2",null,{"attribute":"data-theme","children":["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]]}]}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":["$L5",[["$","script","script-0",{"src":"/_next/static/chunks/7bfeb23b4063c883.js","async":true,"nonce":"$undefined"}]],["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]]}],{},null,false,false]},null,false,false]},null,false,false]},null,false,false],["$","$1","h",{"children":[null,["$","$L9",null,{"children":"$@a"}],["$","div",null,{"hidden":true,"children":["$","$Lb",null,{"children":["$","$7",null,{"name":"Next.Metadata","children":"$@c"}]}]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],false]],"m":"$undefined","G":["$d",[]],"S":true}
+f:I[66576,["/_next/static/chunks/58689c96b0676c41.js","/_next/static/chunks/7bfeb23b4063c883.js"],"default"]
+10:I[8100,["/_next/static/chunks/58689c96b0676c41.js","/_next/static/chunks/7bfeb23b4063c883.js"],"default"]
+e:T52c,{"@context":"https://schema.org","@graph":[{"@type":"TechArticle","headline":"gRPC in real systems: contracts, deadlines, and streaming","description":"When a service needs a fast answer, gRPC is a great fit. This post shows a small TypeScript setup, the failure modes that bite teams, and what Netflix and Uber learned at scale.","datePublished":"2026-06-12T00:00:00.000Z","author":{"@type":"Person","@id":"https://hgq287.github.io/#person","name":"Hung Q. Truong"},"url":"https://hgq287.github.io/systems/grpc-real-systems-contracts-deadlines-streaming","mainEntityOfPage":{"@type":"WebPage","@id":"https://hgq287.github.io/systems/grpc-real-systems-contracts-deadlines-streaming"},"isPartOf":{"@type":"WebSite","@id":"https://hgq287.github.io/#website","name":"Hg's Portfolio","url":"https://hgq287.github.io"},"publisher":{"@type":"Organization","name":"Hg's Portfolio","url":"https://hgq287.github.io"}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://hgq287.github.io/"},{"@type":"ListItem","position":2,"name":"Systems","item":"https://hgq287.github.io/systems"},{"@type":"ListItem","position":3,"name":"gRPC in real systems: contracts, deadlines, and streaming","item":"https://hgq287.github.io/systems/grpc-real-systems-contracts-deadlines-streaming"}]}]}5:["$","div",null,{"className":"blog-page","children":[["$","script",null,{"type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"$e"}}],["$","$Lf",null,{"title":"gRPC in real systems: contracts, deadlines, and streaming","headline":"When a service needs a fast answer, gRPC is a great fit. This post shows a small TypeScript setup, the failure modes that bite teams, and what Netflix and Uber learned at scale."}],["$","div",null,{"className":"blog-layout","children":[["$","$L10",null,{"allPostsMetadata":[{"slug":"kafka-real-systems-event-log-consumer-groups-replay","title":"Kafka in real systems: the event log, consumer groups, and replay","date":"2026-07-02T00:00:00.000Z","excerpt":"Kafka is not just a queue. It is a durable event log that lets many systems react, recover, and replay. This post shows a small TypeScript setup and the production lessons from LinkedIn and Uber.","tags":["Kafka","EventStreaming","Architecture","TypeScript","Backend"],"featured":false},{"slug":"grpc-real-systems-contracts-deadlines-streaming","title":"gRPC in real systems: contracts, deadlines, and streaming","date":"2026-06-12T00:00:00.000Z","excerpt":"When a service needs a fast answer, gRPC is a great fit. This post shows a small TypeScript setup, the failure modes that bite teams, and what Netflix and Uber learned at scale.","tags":["gRPC","Microservices","Architecture","TypeScript","Backend"],"featured":false},{"slug":"nextjs-vps-2gb-cicd-real-world-runbook","title":"Next.js on a 2GB VPS: what broke in real CI/CD","date":"2026-05-18T00:00:00.000Z","excerpt":"Dual Next.js apps on one Vultr VPS: GitHub Actions, nginx, GHCR 403, weird AAAA records, and the CSS routing bug we hit.","tags":["Next.js","VPS","CI/CD","GitHub Actions","Docker","nginx","DevOps"],"featured":false},{"slug":"cloud-run-cost-defense-armor-cdn","title":"Cloud Run cost defense: Armor, CDN, and locked ingress","date":"2026-05-13T00:00:00.000Z","excerpt":"How we cut scanner noise before it burns Cloud Run budget: Cloud Armor at the LB, CDN negative caching, and no public *.run.app bypass.","tags":["Cloud Run","Cloud Armor","Cloud CDN","Google Cloud","Security","Cost optimization"],"featured":false},{"slug":"cloud-run-terraform-artifact-registry-delivery-flow","title":"Cloud delivery with Cloud Run, Terraform, and Artifact Registry","date":"2026-04-30T00:00:00.000Z","excerpt":"One clean path from Git to production: Cloud Build, versioned images, Terraform for infra, Cloud Run for runtime.","tags":["Cloud Run","Terraform","Artifact Registry","Cloud Build","DevOps","CI/CD"],"featured":false},{"slug":"edge-ai-quantization-zero-copy-data-plane","title":"Quantized models and zero-copy data planes: contracts that actually ship","date":"2026-04-18T00:00:00.000Z","excerpt":"INT8/FP16 artifacts, backend contracts, buffer ownership, and why zero-copy still needs explicit sync points on edge SoCs.","tags":["EdgeAI","Quantization","Inference","Memory","SystemsArchitecture"],"featured":true},{"slug":"edge-ai-pipeline-dag-runtime-bottlenecks","title":"Edge video AI pipelines: queues, DAG runtimes, and real bottlenecks","date":"2026-03-24T00:00:00.000Z","excerpt":"A working model for edge inference: stages, bounded queues, executor mapping, and why DRAM and thermal limits often beat raw NPU FLOPs.","tags":["EdgeAI","SystemsArchitecture","VideoAnalytics","RealTime","C++"],"featured":true},{"slug":"docker-blueprint-architecture-command-lab","title":"Docker blueprint: architecture and the commands that matter","date":"2026-03-10T00:00:00.000Z","excerpt":"VM vs container, core Docker commands, networking, Compose, and a short architect checklist.","tags":["Docker","DevOps","Architecture"],"featured":false},{"slug":"ops-blueprint-universal-deployment-playbook","title":"Ops blueprint: a deployment playbook you can reuse","date":"2025-12-16T00:00:00.000Z","excerpt":"Repeatable builds, runtime parity, secrets, Compose templates, and an incident checklist that works across stacks.","tags":["DevOps","Deployment","Docker","Security","IncidentResponse"],"featured":false}],"activeSlug":"grpc-real-systems-contracts-deadlines-streaming","basePath":"/systems","sidebarTitle":"All Articles","variant":"desktop"}],"$L11","$L12"]}],"$L13"]}]
+14:I[13192,["/_next/static/chunks/58689c96b0676c41.js","/_next/static/chunks/7bfeb23b4063c883.js"],"default"]
+45:I[87667,["/_next/static/chunks/58689c96b0676c41.js","/_next/static/chunks/7bfeb23b4063c883.js"],"default"]
+:HL["/images/systems/grpc-service-call-boundary.svg","image"]
+11:["$","main",null,{"className":"blog-main","children":[["$","$L10",null,{"allPostsMetadata":"$5:props:children:2:props:children:0:props:allPostsMetadata","activeSlug":"grpc-real-systems-contracts-deadlines-streaming","basePath":"/systems","sidebarTitle":"All Articles","variant":"mobile"}],["$","article",null,{"children":[["$","h1",null,{"className":"blog-article-title","children":"gRPC in real systems: contracts, deadlines, and streaming"}],["$","div",null,{"className":"blog-article-meta","children":["$","$L14",null,{"date":"2026-06-12T00:00:00.000Z","tags":"$5:props:children:2:props:children:0:props:allPostsMetadata:1:tags","tagBasePath":"/systems"}]}],["$","div",null,{"className":"blog-prose","children":["$","div",null,{"className":"prose prose-neutral dark:prose-invert max-w-none prose-headings:font-serif prose-headings:font-semibold prose-headings:tracking-tight prose-h2:text-2xl prose-h3:text-xl prose-p:leading-relaxed prose-strong:font-semibold prose-li:mb-1.5 prose-a:text-accent-fg prose-a:no-underline hover:prose-a:underline prose-text-foreground","children":[["$","p","p-0",{"children":["You usually reach for gRPC when Service A needs an answer from Service B ",["$","strong","strong-0",{"children":"now"}],", not later."]}],"\n",["$","p","p-1",{"children":"This post is not a framework tour. It focuses on what makes gRPC worth it in production:"}],"\n",["$","ul","ul-0",{"children":["\n",["$","li","li-0",{"children":"A typed contract that does not drift"}],"\n",["$","li","li-1",{"children":"Deadlines that prevent slow calls from melting your fleet"}],"\n",["$","li","li-2",{"children":"Streaming when you need a long-lived, efficient connection"}],"\n"]}],"\n",["$","h2","h2-0",{"id":"table-of-contents","className":"pt-20 -mt-20","children":"Table of contents"}],"\n",["$","ol","ol-0",{"children":["\n",["$","li","li-0",{"children":["$","a","a-0",{"href":"#1-scenario","children":"Scenario"}]}],"\n",["$","li","li-1",{"children":["$","a","a-0",{"href":"#2-what-grpc-is-in-one-minute","children":"What gRPC is, in one minute"}]}],"\n",["$","li","li-2",{"children":["$","a","a-0",{"href":"#3-the-contract-proto-rules-that-keep-you-safe","children":"The contract: proto rules that keep you safe"}]}],"\n",["$","li","li-3",{"children":["$","a","a-0",{"href":"#4-a-tiny-typescript-lab-unary--deadline","children":"A tiny TypeScript lab (unary + deadline)"}]}],"\n",["$","li","li-4",{"children":["$","a","a-0",{"href":"#5-streaming-when-it-is-actually-the-right-tool","children":"Streaming: when it is actually the right tool"}]}],"\n",["$","li","li-5",{"children":["$","a","a-0",{"href":"#6-case-studies-netflix-and-uber","children":"Case studies: Netflix and Uber"}]}],"\n",["$","li","li-6",{"children":["$","a","a-0",{"href":"#7-the-real-failure-modes","children":"The real failure modes"}]}],"\n",["$","li","li-7",{"children":["$","a","a-0",{"href":"#8-checklist","children":"Checklist"}]}],"\n"]}],"\n",["$","h2","h2-1",{"id":"1-scenario","className":"pt-20 -mt-20","children":"1. Scenario"}],"\n",["$","p","p-2",{"children":"You run an Order API. Before you accept an order, you must check Inventory:"}],"\n",["$","ul","ul-1",{"children":["\n",["$","li","li-0",{"children":"Target: p95 under 50 ms"}],"\n",["$","li","li-1",{"children":"Data is small and structured (SKU, quantity, availability)"}],"\n",["$","li","li-2",{"children":"A slow dependency must not block worker threads forever"}],"\n"]}],"\n",["$","p","p-3",{"children":"This is a synchronous call. If Order waits, the customer waits."}],"\n",["$","p","p-4",{"children":"That is the shape where gRPC is a strong default."}],"\n",["$","p","p-5",{"children":["$","img","img-0",{"src":"/images/systems/grpc-service-call-boundary.svg","alt":"gRPC service call boundary"}]}],"\n",["$","h2","h2-2",{"id":"2-what-grpc-is-in-one-minute","className":"pt-20 -mt-20","children":"2. What gRPC is, in one minute"}],"\n",["$","p","p-6",{"children":"gRPC is RPC over HTTP/2 with a strongly typed interface definition (protobuf)."}],"\n",["$","p","p-7",{"children":["You define the service once in a ",["$","code","code-0",{"children":".proto"}]," file:"]}],"\n",["$","ul","ul-2",{"children":["\n",["$","li","li-0",{"children":"Both sides generate code from the same contract"}],"\n",["$","li","li-1",{"children":"Payloads are small (binary protobuf, not JSON text)"}],"\n","$L15","\n"]}],"\n","$L16","\n","$L17","\n","$L18","\n","$L19","\n","$L1a","\n","$L1b","\n","$L1c","\n","$L1d","\n","$L1e","\n","$L1f","\n","$L20","\n","$L21","\n","$L22","\n","$L23","\n","$L24","\n","$L25","\n","$L26","\n","$L27","\n","$L28","\n","$L29","\n","$L2a","\n","$L2b","\n","$L2c","\n","$L2d","\n","$L2e","\n","$L2f","\n","$L30","\n","$L31","\n","$L32","\n","$L33","\n","$L34","\n","$L35","\n","$L36","\n","$L37","\n","$L38","\n","$L39","\n","$L3a","\n","$L3b","\n","$L3c","\n","$L3d","\n","$L3e","\n","$L3f","\n","$L40","\n","$L41","\n","$L42","\n","$L43","\n","$L44"]}]}]]}]]}]
+46:T16e3,
+You usually reach for gRPC when Service A needs an answer from Service B **now**, not later.
+
+This post is not a framework tour. It focuses on what makes gRPC worth it in production:
+
+- A typed contract that does not drift
+- Deadlines that prevent slow calls from melting your fleet
+- Streaming when you need a long-lived, efficient connection
+
+## Table of contents
+
+1. [Scenario](#1-scenario)
+2. [What gRPC is, in one minute](#2-what-grpc-is-in-one-minute)
+3. [The contract: proto rules that keep you safe](#3-the-contract-proto-rules-that-keep-you-safe)
+4. [A tiny TypeScript lab (unary + deadline)](#4-a-tiny-typescript-lab-unary--deadline)
+5. [Streaming: when it is actually the right tool](#5-streaming-when-it-is-actually-the-right-tool)
+6. [Case studies: Netflix and Uber](#6-case-studies-netflix-and-uber)
+7. [The real failure modes](#7-the-real-failure-modes)
+8. [Checklist](#8-checklist)
+
+## 1. Scenario
+
+You run an Order API. Before you accept an order, you must check Inventory:
+
+- Target: p95 under 50 ms
+- Data is small and structured (SKU, quantity, availability)
+- A slow dependency must not block worker threads forever
+
+This is a synchronous call. If Order waits, the customer waits.
+
+That is the shape where gRPC is a strong default.
+
+![gRPC service call boundary](/images/systems/grpc-service-call-boundary.svg)
+
+## 2. What gRPC is, in one minute
+
+gRPC is RPC over HTTP/2 with a strongly typed interface definition (protobuf).
+
+You define the service once in a `.proto` file:
+
+- Both sides generate code from the same contract
+- Payloads are small (binary protobuf, not JSON text)
+- HTTP/2 keeps connections efficient (multiplexing, header compression)
+
+The part that matters most is not speed. It is that the contract and clients stay consistent.
+
+## 3. The contract: proto rules that keep you safe
+
+If you only remember one thing, remember this:
+
+**Proto files are an API. Treat them like one.**
+
+Basic rules that keep old clients working:
+
+- Never reuse field numbers
+- Only add optional fields, do not rename or change meaning lightly
+- Reserve removed field numbers
+- Keep messages small and stable
+
+Example contract:
+
+```proto
+syntax = "proto3";
+
+package inventory.v1;
+
+service InventoryService {
+  rpc CheckAvailability(CheckAvailabilityRequest) returns (CheckAvailabilityResponse);
+}
+
+message CheckAvailabilityRequest {
+  string sku = 1;
+  int32 quantity = 2;
+}
+
+message CheckAvailabilityResponse {
+  bool available = 1;
+  int32 available_quantity = 2;
+}
+```
+
+## 4. A tiny TypeScript lab (unary + deadline)
+
+Libraries to look at:
+
+- `@grpc/grpc-js`
+- `@grpc/proto-loader`
+
+Server sketch:
+
+```ts
+import * as grpc from '@grpc/grpc-js';
+
+function checkAvailability(call: grpc.ServerUnaryCall<any, any>, callback: grpc.sendUnaryData<any>) {
+  const { sku, quantity } = call.request;
+  const available = sku !== '' && quantity > 0;
+  callback(null, { available, available_quantity: available ? 42 : 0 });
+}
+```
+
+Client sketch with a deadline:
+
+```ts
+import * as grpc from '@grpc/grpc-js';
+
+const deadline = new Date(Date.now() + 50);
+
+client.CheckAvailability(
+  { sku: 'SKU-123', quantity: 2 },
+  { deadline },
+  (err: grpc.ServiceError | null, res?: any) => {
+    if (err) {
+      if (err.code === grpc.status.DEADLINE_EXCEEDED) {
+        // treat as a normal failure, not an incident
+      }
+      return;
+    }
+    // use res.available
+  }
+);
+```
+
+Deadlines are not optional.
+If you do not set them, you will eventually have a slow dependency and a pile-up behind it.
+
+## 5. Streaming: when it is actually the right tool
+
+Do not add streaming because it looks advanced.
+Use streaming when you need a long-lived channel:
+
+- Mobile push connection with acknowledgements
+- Live updates to a dashboard
+- Low-latency fanout where polling is wasteful
+
+If you just need request, response, unary calls are simpler and easier to debug.
+
+## 6. Case studies: Netflix and Uber
+
+These are different companies, but the lessons are the same.
+
+### Netflix: contracts and codegen are the big win
+
+Netflix chose gRPC largely for the interface definition and generated clients.
+At scale, the time saved is not microseconds per call. It is engineering time and fewer client bugs.
+
+Reference: CNCF Netflix case study on gRPC.
+
+### Uber: streaming for mobile push, better tail latency
+
+Uber moved parts of their push platform to gRPC streaming.
+They reported better p95 connection latency and improved delivery acknowledgement reliability by keeping everything on one stream.
+
+Reference: Uber engineering write-up on their next-gen push platform over gRPC.
+
+## 7. The real failure modes
+
+These are the ones that bite teams early.
+
+### 7.1 No deadlines
+
+If you ship without deadlines:
+
+- slow calls pile up
+- retries increase pressure
+- the system fails in a spiral
+
+Set deadlines everywhere and propagate them across hops.
+
+### 7.2 Too much data in one call
+
+gRPC is not a free pass to send large payloads.
+
+Large messages:
+
+- increase tail latency
+- stress memory
+- increase GC pressure in managed runtimes
+
+Prefer small messages and paginate when needed.
+
+### 7.3 Browser constraints
+
+Browsers cannot talk to native gRPC the same way servers do.
+If you need browser clients, you usually add a gateway (gRPC-Web or an HTTP API in front).
+
+### 7.4 Debugging without good tooling
+
+With REST, you can curl and read JSON.
+With gRPC, you should plan for:
+
+- structured logs (method name, status, latency)
+- tracing
+- a standard way to test locally (grpcurl, or a small dev client)
+
+## 8. Checklist
+
+Before you pick gRPC for a service boundary:
+
+1. The call is synchronous and needs a bounded latency budget.
+2. You will enforce deadlines by default.
+3. You can keep a shared proto contract stable (versioning discipline).
+4. You have a plan for observability (status codes, latency, tracing).
+5. You are not doing this for browsers without a gateway plan.
+
+12:["$","$L45",null,{"content":"$46"}]
+13:["$","footer",null,{"children":[["$","div",null,{"className":"home-links","children":[["$","a",null,{"href":"https://stackoverflow.com/users/12345813/hgq287","target":"_blank","rel":"noopener noreferrer","children":"↗ stackoverflow"}],["$","span",null,{"className":"home-links-sep","children":"/"}],["$","a",null,{"href":"https://github.com/hgq287","target":"_blank","rel":"noopener noreferrer","children":"↗ github"}],["$","span",null,{"className":"home-links-sep","children":"/"}],["$","a",null,{"href":"https://github.com/hgq287/hgq287.github.io","target":"_blank","rel":"noopener noreferrer","children":"↗ view source"}]]}],["$","div",null,{"className":"home-footer-second-row","children":["$","span",null,{"className":"home-footer-copy","children":["© ",2026," MIT Licensed"]}]}]]}]
+47:I[60956,["/_next/static/chunks/58689c96b0676c41.js","/_next/static/chunks/7bfeb23b4063c883.js"],"CodeBlockWithCopy"]
+15:["$","li","li-2",{"children":"HTTP/2 keeps connections efficient (multiplexing, header compression)"}]
+16:["$","p","p-8",{"children":"The part that matters most is not speed. It is that the contract and clients stay consistent."}]
+17:["$","h2","h2-3",{"id":"3-the-contract-proto-rules-that-keep-you-safe","className":"pt-20 -mt-20","children":"3. The contract: proto rules that keep you safe"}]
+18:["$","p","p-9",{"children":"If you only remember one thing, remember this:"}]
+19:["$","p","p-10",{"children":["$","strong","strong-0",{"children":"Proto files are an API. Treat them like one."}]}]
+1a:["$","p","p-11",{"children":"Basic rules that keep old clients working:"}]
+1b:["$","ul","ul-3",{"children":["\n",["$","li","li-0",{"children":"Never reuse field numbers"}],"\n",["$","li","li-1",{"children":"Only add optional fields, do not rename or change meaning lightly"}],"\n",["$","li","li-2",{"children":"Reserve removed field numbers"}],"\n",["$","li","li-3",{"children":"Keep messages small and stable"}],"\n"]}]
+1c:["$","p","p-12",{"children":"Example contract:"}]
+1d:["$","$L47","pre-0",{"code":"syntax = \"proto3\";\n\npackage inventory.v1;\n\nservice InventoryService {\n  rpc CheckAvailability(CheckAvailabilityRequest) returns (CheckAvailabilityResponse);\n}\n\nmessage CheckAvailabilityRequest {\n  string sku = 1;\n  int32 quantity = 2;\n}\n\nmessage CheckAvailabilityResponse {\n  bool available = 1;\n  int32 available_quantity = 2;\n}\n","children":["$","code","code-0",{"className":"language-proto","children":"syntax = \"proto3\";\n\npackage inventory.v1;\n\nservice InventoryService {\n  rpc CheckAvailability(CheckAvailabilityRequest) returns (CheckAvailabilityResponse);\n}\n\nmessage CheckAvailabilityRequest {\n  string sku = 1;\n  int32 quantity = 2;\n}\n\nmessage CheckAvailabilityResponse {\n  bool available = 1;\n  int32 available_quantity = 2;\n}\n"}]}]
+1e:["$","h2","h2-4",{"id":"4-a-tiny-typescript-lab-unary-deadline","className":"pt-20 -mt-20","children":"4. A tiny TypeScript lab (unary + deadline)"}]
+1f:["$","p","p-13",{"children":"Libraries to look at:"}]
+20:["$","ul","ul-4",{"children":["\n",["$","li","li-0",{"children":["$","code","code-0",{"children":"@grpc/grpc-js"}]}],"\n",["$","li","li-1",{"children":["$","code","code-0",{"children":"@grpc/proto-loader"}]}],"\n"]}]
+21:["$","p","p-14",{"children":"Server sketch:"}]
+22:["$","$L47","pre-1",{"code":"import * as grpc from '@grpc/grpc-js';\n\nfunction checkAvailability(call: grpc.ServerUnaryCall<any, any>, callback: grpc.sendUnaryData<any>) {\n  const { sku, quantity } = call.request;\n  const available = sku !== '' && quantity > 0;\n  callback(null, { available, available_quantity: available ? 42 : 0 });\n}\n","children":["$","code","code-0",{"className":"language-ts","children":"import * as grpc from '@grpc/grpc-js';\n\nfunction checkAvailability(call: grpc.ServerUnaryCall<any, any>, callback: grpc.sendUnaryData<any>) {\n  const { sku, quantity } = call.request;\n  const available = sku !== '' && quantity > 0;\n  callback(null, { available, available_quantity: available ? 42 : 0 });\n}\n"}]}]
+23:["$","p","p-15",{"children":"Client sketch with a deadline:"}]
+24:["$","$L47","pre-2",{"code":"import * as grpc from '@grpc/grpc-js';\n\nconst deadline = new Date(Date.now() + 50);\n\nclient.CheckAvailability(\n  { sku: 'SKU-123', quantity: 2 },\n  { deadline },\n  (err: grpc.ServiceError | null, res?: any) => {\n    if (err) {\n      if (err.code === grpc.status.DEADLINE_EXCEEDED) {\n        // treat as a normal failure, not an incident\n      }\n      return;\n    }\n    // use res.available\n  }\n);\n","children":["$","code","code-0",{"className":"language-ts","children":"import * as grpc from '@grpc/grpc-js';\n\nconst deadline = new Date(Date.now() + 50);\n\nclient.CheckAvailability(\n  { sku: 'SKU-123', quantity: 2 },\n  { deadline },\n  (err: grpc.ServiceError | null, res?: any) => {\n    if (err) {\n      if (err.code === grpc.status.DEADLINE_EXCEEDED) {\n        // treat as a normal failure, not an incident\n      }\n      return;\n    }\n    // use res.available\n  }\n);\n"}]}]
+25:["$","p","p-16",{"children":"Deadlines are not optional.\nIf you do not set them, you will eventually have a slow dependency and a pile-up behind it."}]
+26:["$","h2","h2-5",{"id":"5-streaming-when-it-is-actually-the-right-tool","className":"pt-20 -mt-20","children":"5. Streaming: when it is actually the right tool"}]
+27:["$","p","p-17",{"children":"Do not add streaming because it looks advanced.\nUse streaming when you need a long-lived channel:"}]
+28:["$","ul","ul-5",{"children":["\n",["$","li","li-0",{"children":"Mobile push connection with acknowledgements"}],"\n",["$","li","li-1",{"children":"Live updates to a dashboard"}],"\n",["$","li","li-2",{"children":"Low-latency fanout where polling is wasteful"}],"\n"]}]
+29:["$","p","p-18",{"children":"If you just need request, response, unary calls are simpler and easier to debug."}]
+2a:["$","h2","h2-6",{"id":"6-case-studies-netflix-and-uber","className":"pt-20 -mt-20","children":"6. Case studies: Netflix and Uber"}]
+2b:["$","p","p-19",{"children":"These are different companies, but the lessons are the same."}]
+2c:["$","h3","h3-0",{"id":"netflix-contracts-and-codegen-are-the-big-win","className":"pt-20 -mt-20","children":"Netflix: contracts and codegen are the big win"}]
+2d:["$","p","p-20",{"children":"Netflix chose gRPC largely for the interface definition and generated clients.\nAt scale, the time saved is not microseconds per call. It is engineering time and fewer client bugs."}]
+2e:["$","p","p-21",{"children":"Reference: CNCF Netflix case study on gRPC."}]
+2f:["$","h3","h3-1",{"id":"uber-streaming-for-mobile-push-better-tail-latency","className":"pt-20 -mt-20","children":"Uber: streaming for mobile push, better tail latency"}]
+30:["$","p","p-22",{"children":"Uber moved parts of their push platform to gRPC streaming.\nThey reported better p95 connection latency and improved delivery acknowledgement reliability by keeping everything on one stream."}]
+31:["$","p","p-23",{"children":"Reference: Uber engineering write-up on their next-gen push platform over gRPC."}]
+32:["$","h2","h2-7",{"id":"7-the-real-failure-modes","className":"pt-20 -mt-20","children":"7. The real failure modes"}]
+33:["$","p","p-24",{"children":"These are the ones that bite teams early."}]
+34:["$","h3","h3-2",{"id":"71-no-deadlines","className":"pt-20 -mt-20","children":"7.1 No deadlines"}]
+35:["$","p","p-25",{"children":"If you ship without deadlines:"}]
+36:["$","ul","ul-6",{"children":["\n",["$","li","li-0",{"children":"slow calls pile up"}],"\n",["$","li","li-1",{"children":"retries increase pressure"}],"\n",["$","li","li-2",{"children":"the system fails in a spiral"}],"\n"]}]
+37:["$","p","p-26",{"children":"Set deadlines everywhere and propagate them across hops."}]
+38:["$","h3","h3-3",{"id":"72-too-much-data-in-one-call","className":"pt-20 -mt-20","children":"7.2 Too much data in one call"}]
+39:["$","p","p-27",{"children":"gRPC is not a free pass to send large payloads."}]
+3a:["$","p","p-28",{"children":"Large messages:"}]
+3b:["$","ul","ul-7",{"children":["\n",["$","li","li-0",{"children":"increase tail latency"}],"\n",["$","li","li-1",{"children":"stress memory"}],"\n",["$","li","li-2",{"children":"increase GC pressure in managed runtimes"}],"\n"]}]
+3c:["$","p","p-29",{"children":"Prefer small messages and paginate when needed."}]
+3d:["$","h3","h3-4",{"id":"73-browser-constraints","className":"pt-20 -mt-20","children":"7.3 Browser constraints"}]
+3e:["$","p","p-30",{"children":"Browsers cannot talk to native gRPC the same way servers do.\nIf you need browser clients, you usually add a gateway (gRPC-Web or an HTTP API in front)."}]
+3f:["$","h3","h3-5",{"id":"74-debugging-without-good-tooling","className":"pt-20 -mt-20","children":"7.4 Debugging without good tooling"}]
+40:["$","p","p-31",{"children":"With REST, you can curl and read JSON.\nWith gRPC, you should plan for:"}]
+41:["$","ul","ul-8",{"children":["\n",["$","li","li-0",{"children":"structured logs (method name, status, latency)"}],"\n",["$","li","li-1",{"children":"tracing"}],"\n",["$","li","li-2",{"children":"a standard way to test locally (grpcurl, or a small dev client)"}],"\n"]}]
+42:["$","h2","h2-8",{"id":"8-checklist","className":"pt-20 -mt-20","children":"8. Checklist"}]
+43:["$","p","p-32",{"children":"Before you pick gRPC for a service boundary:"}]
+44:["$","ol","ol-1",{"children":["\n",["$","li","li-0",{"children":"The call is synchronous and needs a bounded latency budget."}],"\n",["$","li","li-1",{"children":"You will enforce deadlines by default."}],"\n",["$","li","li-2",{"children":"You can keep a shared proto contract stable (versioning discipline)."}],"\n",["$","li","li-3",{"children":"You have a plan for observability (status codes, latency, tracing)."}],"\n",["$","li","li-4",{"children":"You are not doing this for browsers without a gateway plan."}],"\n"]}]
+a:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+c:[["$","title","0",{"children":"gRPC in real systems: contracts, deadlines, and streaming | Hg's Portfolio"}],["$","meta","1",{"name":"description","content":"When a service needs a fast answer, gRPC is a great fit. This post shows a small TypeScript setup, the failure modes that bite teams, and what Netflix and Uber learned at scale."}],["$","meta","2",{"name":"keywords","content":"gRPC,Microservices,Architecture,TypeScript,Backend"}],["$","link","3",{"rel":"canonical","href":"https://hgq287.github.io/systems/grpc-real-systems-contracts-deadlines-streaming"}],["$","meta","4",{"property":"og:title","content":"gRPC in real systems: contracts, deadlines, and streaming"}],["$","meta","5",{"property":"og:description","content":"When a service needs a fast answer, gRPC is a great fit. This post shows a small TypeScript setup, the failure modes that bite teams, and what Netflix and Uber learned at scale."}],["$","meta","6",{"property":"og:url","content":"https://hgq287.github.io/systems/grpc-real-systems-contracts-deadlines-streaming"}],["$","meta","7",{"property":"og:site_name","content":"Hg's Portfolio"}],["$","meta","8",{"property":"og:image","content":"https://hgq287.github.io/og-default.png"}],["$","meta","9",{"property":"og:image:width","content":"1200"}],["$","meta","10",{"property":"og:image:height","content":"630"}],["$","meta","11",{"property":"og:image:alt","content":"gRPC in real systems: contracts, deadlines, and streaming"}],["$","meta","12",{"property":"og:type","content":"article"}],["$","meta","13",{"property":"article:published_time","content":"2026-06-12T00:00:00.000Z"}],["$","meta","14",{"property":"article:tag","content":"gRPC"}],["$","meta","15",{"property":"article:tag","content":"Microservices"}],["$","meta","16",{"property":"article:tag","content":"Architecture"}],["$","meta","17",{"property":"article:tag","content":"TypeScript"}],["$","meta","18",{"property":"article:tag","content":"Backend"}],["$","meta","19",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","20",{"name":"twitter:title","content":"gRPC in real systems: contracts, deadlines, and streaming"}],["$","meta","21",{"name":"twitter:description","content":"When a service needs a fast answer, gRPC is a great fit. This post shows a small TypeScript setup, the failure modes that bite teams, and what Netflix and Uber learned at scale."}],["$","meta","22",{"name":"twitter:image","content":"https://hgq287.github.io/og-default.png"}]]
+8:null

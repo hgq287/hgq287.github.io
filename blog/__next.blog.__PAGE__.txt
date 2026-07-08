@@ -1,21 +1,9 @@
 1:"$Sreact.fragment"
-2:I[66576,["/_next/static/chunks/58689c96b0676c41.js","/_next/static/chunks/67a6e4e165ed0957.js"],"default"]
-3:I[8100,["/_next/static/chunks/58689c96b0676c41.js","/_next/static/chunks/67a6e4e165ed0957.js"],"default"]
-4:I[13192,["/_next/static/chunks/58689c96b0676c41.js","/_next/static/chunks/67a6e4e165ed0957.js"],"default"]
-11:I[87667,["/_next/static/chunks/58689c96b0676c41.js","/_next/static/chunks/67a6e4e165ed0957.js"],"default"]
-13:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/247eb132b7f7b574.js"],"OutletBoundary"]
-14:"$Sreact.suspense"
-0:{"buildId":"8GxxVnr4WAhZ0OmMHxCdD","rsc":["$","$1","c",{"children":[["$","div",null,{"className":"blog-page","children":[["$","$L2",null,{"title":"Essential Resource: Software Design Patterns","headline":"A recommended resource for learning software design patterns, with a short guide to what they are and when they help."}],["$","div",null,{"className":"blog-layout","children":[["$","$L3",null,{"allPostsMetadata":[{"slug":"design-patterns-resource","title":"Essential Resource: Software Design Patterns","date":"2025-12-12T00:00:00.000Z","excerpt":"A recommended resource for learning software design patterns, with a short guide to what they are and when they help.","tags":["design-patterns","Docs"],"featured":false},{"slug":"mastering-oauth2-jwt","title":"Building a Modern Authentication System: OAuth 2.0 & JWT (RS256)","date":"2025-12-11T00:00:00.000Z","excerpt":"A guide to a hybrid auth setup: stateless JWT access tokens (RS256) and revocable refresh tokens for security and performance.","tags":["OAuth2","Security","JWT","Backend","Architecture"],"featured":false},{"slug":"nextjs-blog-architecture-summary","title":"Next.js Blog Architecture Summary: Core Stack & Optimization","date":"2025-12-09T00:00:00.000Z","excerpt":"An overview of the stack and design choices behind this Next.js blog: App Router, SSG, content, and layout.","tags":["Next.js","Architecture","TypeScript","SSG","Performance"],"featured":false}],"activeSlug":"design-patterns-resource"}],["$","main",null,{"className":"blog-main","children":["$","article",null,{"children":[["$","h1",null,{"className":"blog-article-title","children":"Essential Resource: Software Design Patterns"}],["$","div",null,{"className":"blog-article-meta","children":["$","$L4",null,{"date":"2025-12-12T00:00:00.000Z","tags":["design-patterns","Docs"]}]}],["$","div",null,{"className":"blog-prose","children":["$","div",null,{"className":"prose prose-neutral dark:prose-invert max-w-none prose-headings:font-serif prose-headings:font-semibold prose-headings:tracking-tight prose-h2:text-2xl prose-h3:text-xl prose-p:leading-relaxed prose-strong:font-semibold prose-li:mb-1.5 prose-a:text-accent-fg prose-a:no-underline hover:prose-a:underline prose-text-foreground","children":[["$","p","p-0",{"children":["For design patterns I often send people to ",["$","a","a-0",{"href":"https://refactoring.guru/design-patterns","children":"Refactoring.Guru: Design Patterns"}],". Quick summary of what is on the site and when it helps."]}],"\n",["$","h2","h2-0",{"id":"what-are-design-patterns","className":"pt-20 -mt-20","children":"What are design patterns?"}],"\n",["$","p","p-1",{"children":["Design patterns are ",["$","strong","strong-0",{"children":"reusable solutions to common problems"}]," in software design. They are not ready-made code you copy-paste; they are ",["$","strong","strong-1",{"children":"templates or blueprints"}]," you adapt to your context. Using them helps you write code that is easier to maintain, extend, and discuss with others."]}],"\n",["$","p","p-2",{"children":"Patterns come from real-world use. The “Gang of Four” (GoF) book documented 23 classic patterns; many resources, including Refactoring.Guru, build on that and explain them in a clear, example-driven way."}],"\n",["$","h2","h2-1",{"id":"what-youll-find-on-refactoringguru","className":"pt-20 -mt-20","children":"What you’ll find on Refactoring.Guru"}],"\n",["$","p","p-3",{"children":["The site covers ",["$","strong","strong-0",{"children":"22 classic design patterns"}],", grouped by intent:"]}],"\n",["$","ol","ol-0",{"children":["\n",["$","li","li-0",{"children":[["$","strong","strong-0",{"children":"Creational patterns"}]," — How objects are created and who creates them. Examples: Factory Method, Abstract Factory, Singleton, Builder, Prototype."]}],"\n",["$","li","li-1",{"children":[["$","strong","strong-0",{"children":"Structural patterns"}]," — How classes and objects are composed to form larger structures. Examples: Adapter, Bridge, Composite, Decorator, Facade, Flyweight, Proxy."]}],"\n","$L5","\n"]}],"\n","$L6","\n","$L7","\n","$L8","\n","$L9","\n","$La","\n","$Lb","\n","$Lc"]}]}]]}]}],"$Ld"]}],"$Le"]}],["$Lf"],"$L10"]}],"loading":null,"isPartial":false}
-5:["$","li","li-2",{"children":[["$","strong","strong-0",{"children":"Behavioral patterns"}]," — How objects interact and how responsibilities are assigned. Examples: Chain of Responsibility, Command, Iterator, Mediator, Memento, Observer, State, Strategy, Template Method, Visitor."]}]
-6:["$","p","p-4",{"children":"For each pattern you typically get: intent, structure (e.g. UML), example code, pros and cons, and when to use it. The explanations are in plain language and avoid unnecessary jargon."}]
-7:["$","h2","h2-2",{"id":"when-are-patterns-useful","className":"pt-20 -mt-20","children":"When are patterns useful?"}]
-8:["$","ul","ul-0",{"children":["\n",["$","li","li-0",{"children":[["$","strong","strong-0",{"children":"Recurring problems:"}]," When you keep solving the same kind of design problem (e.g. “I need to add new behavior without changing existing code”), a pattern might fit."]}],"\n",["$","li","li-1",{"children":[["$","strong","strong-0",{"children":"Communication:"}]," Patterns give you a ",["$","strong","strong-1",{"children":"shared vocabulary"}]," (e.g. “we’ll use a Strategy here”) so the team can reason about design quickly."]}],"\n",["$","li","li-2",{"children":[["$","strong","strong-0",{"children":"Guidance:"}]," They suggest a structure and trade-offs instead of inventing everything from scratch."]}],"\n"]}]
-9:["$","p","p-5",{"children":"Patterns are not mandatory. Use them when they clearly improve clarity or flexibility; avoid forcing them where a simple solution is enough."}]
-a:["$","h2","h2-3",{"id":"why-refactoringguru","className":"pt-20 -mt-20","children":"Why Refactoring.Guru"}]
-b:["$","p","p-6",{"children":["Refactoring.Guru uses a ",["$","strong","strong-0",{"children":"consistent format"}]," — diagrams, multi-language snippets, intent and trade-offs per pattern. Good for learning the idea, then applying it in your stack (TypeScript, Swift, Kotlin, etc.). Refactoring and SOLID sections pair well with patterns."]}]
-c:["$","p","p-7",{"children":[["$","strong","strong-0",{"children":"Link:"}]," ",["$","a","a-0",{"href":"https://refactoring.guru/design-patterns","children":"Refactoring.Guru – Design Patterns"}]]}]
-12:T9dc,
-For design patterns I often send people to [Refactoring.Guru: Design Patterns](https://refactoring.guru/design-patterns). Quick summary of what is on the site and when it helps.
+2:"$Sreact.suspense"
+3:I[11997,["/_next/static/chunks/58689c96b0676c41.js","/_next/static/chunks/13bdceb0db9ac3ad.js","/_next/static/chunks/20c4f2dbccfb2b3c.js"],"default"]
+a:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/c81db6e24f0cfdeb.js"],"OutletBoundary"]
+4:T9ff,
+For design patterns, I usually point people to [Refactoring.Guru: Design Patterns](https://refactoring.guru/design-patterns). Here is a quick guide to what you get there and when it helps.
 
 ## What are design patterns?
 
@@ -27,9 +15,9 @@ Patterns come from real-world use. The “Gang of Four” (GoF) book documented 
 
 The site covers **22 classic design patterns**, grouped by intent:
 
-1. **Creational patterns** — How objects are created and who creates them. Examples: Factory Method, Abstract Factory, Singleton, Builder, Prototype.
-2. **Structural patterns** — How classes and objects are composed to form larger structures. Examples: Adapter, Bridge, Composite, Decorator, Facade, Flyweight, Proxy.
-3. **Behavioral patterns** — How objects interact and how responsibilities are assigned. Examples: Chain of Responsibility, Command, Iterator, Mediator, Memento, Observer, State, Strategy, Template Method, Visitor.
+1. **Creational patterns**: how objects are created and who creates them. Examples: Factory Method, Abstract Factory, Singleton, Builder, Prototype.
+2. **Structural patterns**: how classes and objects are combined into larger structures. Examples: Adapter, Bridge, Composite, Decorator, Facade, Flyweight, Proxy.
+3. **Behavioral patterns**: how objects interact and how responsibilities are assigned. Examples: Chain of Responsibility, Command, Iterator, Mediator, Memento, Observer, State, Strategy, Template Method, Visitor.
 
 For each pattern you typically get: intent, structure (e.g. UML), example code, pros and cons, and when to use it. The explanations are in plain language and avoid unnecessary jargon.
 
@@ -43,11 +31,116 @@ Patterns are not mandatory. Use them when they clearly improve clarity or flexib
 
 ## Why Refactoring.Guru
 
-Refactoring.Guru uses a **consistent format** — diagrams, multi-language snippets, intent and trade-offs per pattern. Good for learning the idea, then applying it in your stack (TypeScript, Swift, Kotlin, etc.). Refactoring and SOLID sections pair well with patterns.
+Refactoring.Guru uses a **consistent format** with diagrams, multi-language snippets, intent, and trade-offs for each pattern. It is good for learning the idea first, then applying it in your own stack (TypeScript, Swift, Kotlin, and more). The Refactoring and SOLID sections also pair well with patterns.
 
 **Link:** [Refactoring.Guru – Design Patterns](https://refactoring.guru/design-patterns)
-d:["$","$L11",null,{"content":"$12"}]
-e:["$","footer",null,{"children":[["$","div",null,{"className":"home-links","children":[["$","a",null,{"href":"https://stackoverflow.com/users/12345813/hgq287","target":"_blank","rel":"noopener noreferrer","children":"↗ stackoverflow"}],["$","span",null,{"className":"home-links-sep","children":"/"}],["$","a",null,{"href":"https://github.com/hgq287","target":"_blank","rel":"noopener noreferrer","children":"↗ github"}],["$","span",null,{"className":"home-links-sep","children":"/"}],["$","a",null,{"href":"https://github.com/hgq287/hgq287.github.io","target":"_blank","rel":"noopener noreferrer","children":"↗ view source"}]]}],["$","div",null,{"className":"home-footer-second-row","children":["$","span",null,{"className":"home-footer-copy","children":["© ",2026," MIT Licensed"]}]}]]}]
-f:["$","script","script-0",{"src":"/_next/static/chunks/67a6e4e165ed0957.js","async":true}]
-10:["$","$L13",null,{"children":["$","$14",null,{"name":"Next.MetadataOutlet","children":"$@15"}]}]
-15:null
+5:T1419,
+Hybrid auth with **OAuth 2.0**: short-lived **JWT access tokens** (RS256) plus opaque **refresh tokens** you can revoke in the database. API checks stay fast; sessions can still be killed when needed.
+
+## 1. Architecture overview
+
+We use two kinds of tokens so that **speed** (no DB on every request) and **security** (ability to revoke sessions) are both satisfied.
+
+| Component | Technology | Role | Main point |
+| :--- | :--- | :--- | :--- |
+| **Access Token** | JWT (RS256) | Presented when calling APIs | **Stateless**: verified by signature only, no DB lookup |
+| **Refresh Token** | Opaque string | Used to obtain a new access token | **Revocable**: stored in DB; we can invalidate it anytime |
+| **Server** | express-oauth-server | Implements OAuth 2.0 flows and token handling | Standard behavior; we customize the model (see below) |
+| **Database** | PostgreSQL/Prisma | Stores users and refresh tokens | Single source of truth for long-lived sessions |
+
+**Why RS256?** We sign JWTs with a **private key** and verify with a **public key**. That allows verification without sharing the signing secret (e.g. multiple services can verify tokens with only the public key). RS256 is a good fit when you have a central auth service that issues tokens and other services that only verify them.
+
+## 2. Why two tokens?
+
+### Access token (short-lived, stateless)
+
+- **Format:** JWT (claims like `sub`, `exp`, `scope`, etc.).
+- **Signing:** RS256 with a private key; servers verify with the public key.
+- **Benefit:** No database call on each API request. Validation is a cryptographic check only.
+- **Lifetime:** Short (e.g. 15 minutes to 1 hour). Limits damage if the token is leaked.
+
+### Refresh token (long-lived, revocable)
+
+- **Format:** Opaque string (random, stored in DB).
+- **Storage:** Saved in the database and linked to the user (and optionally client/session).
+- **Benefit:** When we revoke a session (logout, compromise, password change), we delete or invalidate the refresh token. The user can no longer get new access tokens.
+- **Lifetime:** Long (e.g. days or weeks). Only used occasionally to get a new access token.
+
+So: **access token = fast, stateless, short-lived**; **refresh token = revocable, long-lived, stored**.
+
+## 3. Supported login flows
+
+### 3.1. Password grant (username + password sign-in)
+
+- **Endpoint:** `POST /v1/signin` (or equivalent).
+- **Flow:** Client sends client ID/secret (e.g. in Basic Auth header) and username/password (e.g. in JSON body). Server validates credentials, creates access + refresh tokens, returns both.
+- **Use case:** First-party apps (e.g. your own web or mobile app) where the user types a password. We implemented a custom handler here to fix a library bug and to control exactly how tokens are issued.
+
+### 3.2. Authorization code grant
+
+- **Endpoint:** `GET /v1/oauth/authorize` (and token endpoint for exchanging the code).
+- **Flow:** User is redirected to the auth server, logs in, and approves access. The server redirects back with a one-time **authorization code**. The client exchanges the code (with client secret) for access and refresh tokens.
+- **Use case:** Third-party or public clients (e.g. another company’s app) that need limited access to a user’s data. The secret never goes to the browser; the code is one-time use.
+
+## 4. Key logic in the OAuth model
+
+We plug custom logic into the OAuth library via a **model** (e.g. `oauth.model.ts`). Main responsibilities:
+
+| Function | Responsibility |
+| :--- | :--- |
+| **`generateAccessToken`** | Create a JWT with the right claims and sign it with the **private key** (RS256). |
+| **`getAccessToken`** | **Verify** the JWT signature with the **public key** and return the token object. No database access. |
+| **`saveToken`** | Persist **only the refresh token** (and metadata) in the DB. The access token is not stored. |
+| **`getRefreshToken`** | Load the refresh token from the DB (e.g. to validate and rotate it). |
+| **`revokeToken`** | Delete or mark the refresh token as invalid in the DB. |
+| **`getUser`** | Validate username/password (or other credentials) and return the user object. |
+
+This keeps **JWT creation and verification** in one place and **refresh token lifecycle** in the database.
+
+## 5. Security considerations
+
+- **Access token:** Prefer short expiry. Store in memory or a short-lived cookie; avoid long-term storage in localStorage if XSS is a concern.
+- **Refresh token:** Store in DB; send over HTTPS only. Optionally bind to client or IP; rotate on use (issue a new refresh token and invalidate the old one).
+- **Keys:** Keep the RS256 private key only on the auth server; distribute the public key to services that verify tokens. Rotate keys with a clear strategy (e.g. support two public keys during transition).
+
+## 6. Wrap-up
+
+Using **JWT (RS256)** for access tokens and **opaque, stored refresh tokens** gives a hybrid auth system that is fast (stateless verification), standards-based (OAuth 2.0), and secure (revocation and short-lived access). Customizing the OAuth model lets you align token format, storage, and revocation with your product and security requirements.
+6:Ta3c,
+This site uses App Router, SSG, Markdown content, and static export to GitHub Pages. The setup stays intentionally small, so publishing a new post is routine and low effort.
+
+## Core stack
+
+- **Framework:** Next.js (App Router) with React and TypeScript.
+- **Rendering:** Static Site Generation (SSG). Pages are built at build time; no runtime server needed for content.
+- **Content:** Markdown files in `public/content/` (posts in `posts/`, intro in `intro.md`). Front matter (YAML) holds metadata (title, date, excerpt, tags). Content is read at build time via the filesystem and parsed with `gray-matter`.
+- **Styling:** Tailwind CSS plus a global CSS file for layout, header, footer, and blog-specific styles (sidebar, prose, minimap).
+- **Deployment:** Static export (e.g. GitHub Pages). No Node server required.
+
+## Structure and layout
+
+- **Home:** Single column: header, intro (from `intro.md`), list of recent posts, footer. Max width 42rem; padding aligned on left and right.
+- **Blog:** Two-level layout. Blog index shows the latest post; post list lives in a sidebar (desktop) or is reachable via navigation. Each post has its own route `/blog/[slug]`.
+- **Header:** Sticky, shared across home and blog. Navigation items (Home, Blog, Systems) and optional hamburger menu for small screens. When the hamburger is off, nav is centered on mobile.
+- **Footer:** Same on all pages: links (Stack Overflow, GitHub, view source), then copyright.
+
+## Data and content flow
+
+- **Posts:** Metadata (slug, title, date, excerpt, tags) is read from Markdown front matter. Full post content is loaded by slug when rendering a post page. Posts are sorted by date (newest first).
+- **Intro:** Home intro comes from `public/content/intro.md` (title + body). Optional paragraphs are split by double newline and rendered as separate paragraphs.
+- **Table of contents:** Headings are extracted from post Markdown (e.g. with a utility) to build an on-page minimap for long articles.
+
+## Performance and optimization
+
+- **Static generation:** All post pages are pre-rendered at build time via `generateStaticParams`, so first load is fast and no content API is needed at runtime.
+- **Images:** Next.js `Image` is used where needed (e.g. favicon in the header) for optimization.
+- **Fonts:** Google fonts (e.g. Source Sans 3, Source Serif 4) are loaded via `next/font` with `display: swap` to avoid layout shift.
+
+## Summary
+
+The blog is a static Next.js app. Markdown is the source of truth, pages are pre-rendered, and shared layout keeps the UI consistent. The codebase stays simple and easy to extend with more posts or pages.
+0:{"buildId":"VvURJn4hPWXanF50tPLNZ","rsc":["$","$1","c",{"children":[["$","$2",null,{"fallback":null,"children":["$","$L3",null,{"posts":[{"slug":"design-patterns-resource","title":"Design patterns resource I keep sending people","date":"2025-12-12T00:00:00.000Z","excerpt":"Refactoring.Guru in short: what design patterns are, how the site groups them, and when they are actually worth using.","tags":["design-patterns","Docs"],"featured":false,"content":"$4"},{"slug":"mastering-oauth2-jwt","title":"OAuth 2.0 and JWT (RS256): a hybrid auth setup that stays fast and revocable","date":"2025-12-11T00:00:00.000Z","excerpt":"How we pair short-lived JWT access tokens with opaque refresh tokens so API checks stay cheap and sessions can still be killed.","tags":["OAuth2","Security","JWT","Backend","Architecture"],"featured":false,"content":"$5"},{"slug":"nextjs-blog-architecture-summary","title":"How this Next.js blog is put together","date":"2025-12-09T00:00:00.000Z","excerpt":"The stack behind this site: App Router, static generation, Markdown content, and a layout that stays easy to extend.","tags":["Next.js","Architecture","TypeScript","SSG","Performance"],"featured":false,"content":"$6"}],"basePath":"/blog","sectionTitle":"Blog","sidebarTitle":"All Posts","emptyLabel":"posts"}]}],["$L7","$L8"],"$L9"]}],"loading":null,"isPartial":false}
+7:["$","script","script-0",{"src":"/_next/static/chunks/13bdceb0db9ac3ad.js","async":true}]
+8:["$","script","script-1",{"src":"/_next/static/chunks/20c4f2dbccfb2b3c.js","async":true}]
+9:["$","$La",null,{"children":["$","$2",null,{"name":"Next.MetadataOutlet","children":"$@b"}]}]
+b:null

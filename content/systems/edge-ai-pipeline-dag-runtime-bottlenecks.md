@@ -1,9 +1,9 @@
 ---
 slug: "edge-ai-pipeline-dag-runtime-bottlenecks"
-title: "Edge Video AI Pipelines: DAG Runtimes, Queues, and System Bottlenecks"
+title: "Edge video AI pipelines: queues, DAG runtimes, and real bottlenecks"
 date: "2026-03-24"
 featured: true
-excerpt: "A concrete mental model for graph-based edge inference: stages, queues, executors, backpressure, and why DRAM bandwidth and thermal headroom often beat raw NPU FLOPs on the critical path."
+excerpt: "A working model for edge inference: stages, bounded queues, executor mapping, and why DRAM and thermal limits often beat raw NPU FLOPs."
 tags:
   - EdgeAI
   - SystemsArchitecture
@@ -47,30 +47,13 @@ A DAG drawn on a whiteboard is **topology**. A shipped engine needs **edges with
 - **Backpressure** (what happens when the next stage is slower).
 - **Failure policy** (drop oldest, block, degrade resolution, skip inference every K frames).
 
-The mental picture to implement is **DAG nodes plus bounded queues** between them, not only “node A calls node B.”
+The mental picture to implement is **DAG nodes plus bounded queues** between them, not only "node A calls node B."
 
-```mermaid
-flowchart LR
-  subgraph ingest [Ingest]
-    Cam[CameraOrFile]
-    Dec[Decoder]
-  end
-  subgraph vision [Vision]
-    Pre[Preprocess]
-    Det[DetectorNPU]
-    Trk[TrackerCPU]
-  end
-  subgraph out [Output]
-    Post[OverlayOrEncode]
-  end
-  Cam --> Dec
-  Dec -->|Q1| Pre
-  Pre -->|Q2| Det
-  Det -->|Q3| Trk
-  Trk -->|Q4| Post
-```
+![Edge video AI pipeline with bounded queues](/images/systems/edge-ai-pipeline-dag.svg)
 
-**Q1..Q4** are not decorative. They are where you implement **max depth**, **drop policy**, and **metrics** (wait time, utilization).
+A typical order is ingest (`camera/file` then `decoder`), vision (`preprocess`, `detector`, `tracker`), then output (`overlay/encode`). Put a bounded queue between each stage and define queue depth, drop policy, and metrics for every edge.
+
+Those stage queues are not decorative. They are where you implement **max depth**, **drop policy**, and **metrics** (wait time, utilization).
 
 ## 3. Map stages to executors
 
@@ -87,7 +70,7 @@ Scheduling here is not only “a thread pool.” It is **mapping nodes to execut
 
 ## 4. Sample shape: stages and a minimal scheduler loop
 
-The following is **illustrative pseudo-C++** for handles, queues, stage functions, and policy hooks — not a drop-in library.
+The following is **illustrative pseudo-C++** for handles, queues, stage functions, and policy hooks. It is not a drop-in library.
 
 ```cpp
 // Opaque buffer id: pool index, dmabuf handle, or vendor token.
@@ -130,20 +113,9 @@ void run_preprocess(StageCtx& ctx) {
 
 ## 5. Bottlenecks beyond FLOPs
 
-```mermaid
-flowchart TB
-  subgraph soc [SoCSharedBudget]
-    DRAM[DRAM_bandwidth]
-    BUS[IO_and_system_fabric]
-    THM[Thermal_headroom]
-  end
-  Dec[Decoder_path]
-  NPU[Inference_path]
-  Dec --> DRAM
-  NPU --> DRAM
-  Dec --> THM
-  NPU --> THM
-```
+![Shared SoC budget bottlenecks for edge AI](/images/systems/edge-ai-soc-bottlenecks.svg)
+
+At runtime, decoder and inference stages compete for shared SoC budgets: DRAM bandwidth, system fabric or I/O bandwidth, and thermal headroom. This shared pressure is often the real limit before raw compute is exhausted.
 
 **DRAM bandwidth:** Large feature maps, suboptimal strides, or extra color converts can saturate memory before the NPU runs out of ops.
 
