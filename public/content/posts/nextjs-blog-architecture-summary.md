@@ -1,8 +1,8 @@
 ---
 slug: "nextjs-blog-architecture-summary"
-title: "Next.js Blog Architecture Summary: Core Stack & Optimization"
+title: "How this Next.js blog is put together"
 date: "2025-12-09"
-excerpt: "An overview of the stack and design choices behind this Next.js blog: App Router, SSG, content, and layout."
+excerpt: "The stack behind this site: App Router, static generation, Markdown content, and a layout that stays easy to extend."
 tags:
 - Next.js
 - Architecture
@@ -11,9 +11,7 @@ tags:
 - Performance
 ---
 
-## Next.js Blog Architecture Summary
-
-Stack and layout choices for this site: App Router, SSG, Markdown content, static export to GitHub Pages. Kept deliberately small so adding posts stays boring in a good way.
+This site uses App Router, SSG, Markdown content, and static export to GitHub Pages. The setup stays intentionally small, so publishing a new post is routine and low effort.
 
 ## Core stack
 
@@ -44,4 +42,4 @@ Stack and layout choices for this site: App Router, SSG, Markdown content, stati
 
 ## Summary
 
-The blog is a static Next.js app: Markdown as the source of truth, SSG for speed and simplicity, shared layout (header/footer), and a small set of utilities for content and headings. This keeps the codebase straightforward and suitable for adding more posts or pages later.
+The blog is a static Next.js app. Markdown is the source of truth, pages are pre-rendered, and shared layout keeps the UI consistent. The codebase stays simple and easy to extend with more posts or pages.

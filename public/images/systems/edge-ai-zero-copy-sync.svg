@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="420" viewBox="0 0 1200 420" role="img" aria-label="Zero-copy buffer handoff still needs synchronization">
+  <defs>
+    <style>
+      .bg { fill: #f5f7fb; }
+      .title { font: 700 28px Inter, "Segoe UI", Helvetica, Arial, sans-serif; fill: #1f2937; }
+      .box { fill: #ffffff; stroke: #94a3b8; stroke-width: 2; }
+      .warn { fill: #fff7ed; stroke: #fb923c; stroke-width: 2; }
+      .txt { font: 600 18px Inter, "Segoe UI", Helvetica, Arial, sans-serif; fill: #1f2937; }
+      .small { font: 500 14px Inter, "Segoe UI", Helvetica, Arial, sans-serif; fill: #475569; }
+      .line { stroke: #64748b; stroke-width: 2.5; fill: none; marker-end: url(#ah); }
+    </style>
+    <marker id="ah" markerWidth="10" markerHeight="8" refX="9" refY="4" orient="auto">
+      <path d="M0,0 L9,4 L0,8 Z" fill="#64748b" />
+    </marker>
+  </defs>
+
+  <rect class="bg" width="1200" height="420" rx="18" />
+  <text class="title" x="40" y="48">Zero-copy is not zero-synchronization</text>
+
+  <rect class="box" x="60" y="150" width="160" height="80" rx="12" />
+  <text class="txt" x="110" y="198">DMA</text>
+
+  <rect class="box" x="300" y="150" width="180" height="80" rx="12" />
+  <text class="txt" x="345" y="198">Decoder</text>
+
+  <rect class="box" x="560" y="150" width="200" height="80" rx="12" />
+  <text class="txt" x="595" y="198">Buffer pool</text>
+
+  <rect class="box" x="850" y="150" width="180" height="80" rx="12" />
+  <text class="txt" x="910" y="198">NPU</text>
+
+  <path class="line" d="M220 190 H295" />
+  <path class="line" d="M480 190 H555" />
+  <path class="line" d="M760 190 H845" />
+
+  <rect class="warn" x="560" y="280" width="470" height="70" rx="12" />
+  <text class="txt" x="590" y="322">Sync point: fence / cache / lifetime</text>
+
+  <path class="line" d="M660 230 V275" />
+  <path class="line" d="M940 230 V275" />
+
+  <text class="small" x="40" y="390">Shared buffers remove memcpy. They do not remove ownership rules or coherency work.</text>
+</svg>

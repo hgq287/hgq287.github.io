@@ -1,8 +1,8 @@
 ---
 slug: "mastering-oauth2-jwt"
-title: "Building a Modern Authentication System: OAuth 2.0 & JWT (RS256)"
+title: "OAuth 2.0 and JWT (RS256): a hybrid auth setup that stays fast and revocable"
 date: "2025-12-11"
-excerpt: "A guide to a hybrid auth setup: stateless JWT access tokens (RS256) and revocable refresh tokens for security and performance."
+excerpt: "How we pair short-lived JWT access tokens with opaque refresh tokens so API checks stay cheap and sessions can still be killed."
 tags:
   - OAuth2
   - Security
@@ -19,8 +19,8 @@ We use two kinds of tokens so that **speed** (no DB on every request) and **secu
 
 | Component | Technology | Role | Main point |
 | :--- | :--- | :--- | :--- |
-| **Access Token** | JWT (RS256) | Presented when calling APIs | **Stateless** — verified by signature only, no DB lookup |
-| **Refresh Token** | Opaque string | Used to obtain a new access token | **Revocable** — stored in DB; we can invalidate it anytime |
+| **Access Token** | JWT (RS256) | Presented when calling APIs | **Stateless**: verified by signature only, no DB lookup |
+| **Refresh Token** | Opaque string | Used to obtain a new access token | **Revocable**: stored in DB; we can invalidate it anytime |
 | **Server** | express-oauth-server | Implements OAuth 2.0 flows and token handling | Standard behavior; we customize the model (see below) |
 | **Database** | PostgreSQL/Prisma | Stores users and refresh tokens | Single source of truth for long-lived sessions |
 

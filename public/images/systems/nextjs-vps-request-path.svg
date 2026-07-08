@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="520" viewBox="0 0 1280 520" role="img" aria-label="Next.js dual app request path through nginx on a VPS">
+  <defs>
+    <style>
+      .bg { fill: #f5f7fb; }
+      .title { font: 700 28px Inter, "Segoe UI", Helvetica, Arial, sans-serif; fill: #1f2937; }
+      .box { fill: #ffffff; stroke: #94a3b8; stroke-width: 2; }
+      .nginx { fill: #e0e7ff; stroke: #6366f1; stroke-width: 2; }
+      .site { fill: #dbeafe; stroke: #3b82f6; stroke-width: 2; }
+      .product { fill: #dcfce7; stroke: #22c55e; stroke-width: 2; }
+      .txt { font: 600 18px Inter, "Segoe UI", Helvetica, Arial, sans-serif; fill: #1f2937; }
+      .small { font: 500 14px Inter, "Segoe UI", Helvetica, Arial, sans-serif; fill: #475569; }
+      .line { stroke: #64748b; stroke-width: 2.5; fill: none; marker-end: url(#ah); }
+    </style>
+    <marker id="ah" markerWidth="10" markerHeight="8" refX="9" refY="4" orient="auto">
+      <path d="M0,0 L9,4 L0,8 Z" fill="#64748b" />
+    </marker>
+  </defs>
+
+  <rect class="bg" width="1280" height="520" rx="18" />
+  <text class="title" x="40" y="48">Request path on the VPS</text>
+
+  <rect class="box" x="60" y="200" width="180" height="90" rx="12" />
+  <text class="txt" x="110" y="242">Internet</text>
+  <text class="small" x="95" y="268">80 / 443</text>
+
+  <rect class="nginx" x="340" y="180" width="280" height="130" rx="12" />
+  <text class="txt" x="410" y="230">nginx on VPS</text>
+  <text class="small" x="385" y="260">TLS termination + routing</text>
+
+  <rect class="site" x="760" y="100" width="420" height="100" rx="12" />
+  <text class="txt" x="820" y="145">Site container</text>
+  <text class="small" x="820" y="172">/  to 127.0.0.1:8080</text>
+
+  <rect class="product" x="760" y="290" width="420" height="100" rx="12" />
+  <text class="txt" x="800" y="335">Product container</text>
+  <text class="small" x="800" y="362">/apps/ to 127.0.0.1:8081</text>
+
+  <path class="line" d="M240 245 H335" />
+  <path class="line" d="M620 220 H755" />
+  <path class="line" d="M620 270 H755 V340" />
+
+  <text class="small" x="40" y="470">Only nginx is public. App containers stay on localhost. Certbot runs on the host, not in Docker.</text>
+</svg>

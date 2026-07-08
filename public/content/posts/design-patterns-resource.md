@@ -1,14 +1,14 @@
 ---
 slug: "design-patterns-resource"
-title: "Essential Resource: Software Design Patterns"
+title: "Design patterns resource I keep sending people"
 date: "2025-12-12"
-excerpt: "A recommended resource for learning software design patterns, with a short guide to what they are and when they help."
+excerpt: "Refactoring.Guru in short: what design patterns are, how the site groups them, and when they are actually worth using."
 tags:
   - design-patterns
   - Docs
 ---
 
-For design patterns I often send people to [Refactoring.Guru: Design Patterns](https://refactoring.guru/design-patterns). Quick summary of what is on the site and when it helps.
+For design patterns, I usually point people to [Refactoring.Guru: Design Patterns](https://refactoring.guru/design-patterns). Here is a quick guide to what you get there and when it helps.
 
 ## What are design patterns?
 
@@ -20,9 +20,9 @@ Patterns come from real-world use. The “Gang of Four” (GoF) book documented 
 
 The site covers **22 classic design patterns**, grouped by intent:
 
-1. **Creational patterns** — How objects are created and who creates them. Examples: Factory Method, Abstract Factory, Singleton, Builder, Prototype.
-2. **Structural patterns** — How classes and objects are composed to form larger structures. Examples: Adapter, Bridge, Composite, Decorator, Facade, Flyweight, Proxy.
-3. **Behavioral patterns** — How objects interact and how responsibilities are assigned. Examples: Chain of Responsibility, Command, Iterator, Mediator, Memento, Observer, State, Strategy, Template Method, Visitor.
+1. **Creational patterns**: how objects are created and who creates them. Examples: Factory Method, Abstract Factory, Singleton, Builder, Prototype.
+2. **Structural patterns**: how classes and objects are combined into larger structures. Examples: Adapter, Bridge, Composite, Decorator, Facade, Flyweight, Proxy.
+3. **Behavioral patterns**: how objects interact and how responsibilities are assigned. Examples: Chain of Responsibility, Command, Iterator, Mediator, Memento, Observer, State, Strategy, Template Method, Visitor.
 
 For each pattern you typically get: intent, structure (e.g. UML), example code, pros and cons, and when to use it. The explanations are in plain language and avoid unnecessary jargon.
 
@@ -36,6 +36,6 @@ Patterns are not mandatory. Use them when they clearly improve clarity or flexib
 
 ## Why Refactoring.Guru
 
-Refactoring.Guru uses a **consistent format** — diagrams, multi-language snippets, intent and trade-offs per pattern. Good for learning the idea, then applying it in your stack (TypeScript, Swift, Kotlin, etc.). Refactoring and SOLID sections pair well with patterns.
+Refactoring.Guru uses a **consistent format** with diagrams, multi-language snippets, intent, and trade-offs for each pattern. It is good for learning the idea first, then applying it in your own stack (TypeScript, Swift, Kotlin, and more). The Refactoring and SOLID sections also pair well with patterns.
 
 **Link:** [Refactoring.Guru – Design Patterns](https://refactoring.guru/design-patterns)

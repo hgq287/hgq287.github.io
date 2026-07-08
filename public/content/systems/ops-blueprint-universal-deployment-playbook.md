@@ -1,8 +1,8 @@
 ---
 slug: "ops-blueprint-universal-deployment-playbook"
-title: "Ops Blueprint: Universal Deployment Playbook"
+title: "Ops blueprint: a deployment playbook you can reuse"
 date: "2025-12-16"
-excerpt: "Ops notes for repeatable builds, production-like runtime, releases, rollbacks, secrets, Docker Compose, and incident response."
+excerpt: "Repeatable builds, runtime parity, secrets, Compose templates, and an incident checklist that works across stacks."
 tags:
   - DevOps
   - Deployment
@@ -30,30 +30,30 @@ This playbook is a practical guide you can reuse for a web app, an API, or a mul
 
 Goals:
 
-- **Repeatable builds** — same inputs produce the same artifact.
-- **Runtime parity** — what runs in prod matches what you tested.
-- **Controlled releases** — you know what version is live.
-- **Clear rollback** — you can go back without guessing.
-- **Security & supply chain** — thought about early, not as an afterthought.
+- **Repeatable builds**: same inputs produce the same artifact.
+- **Runtime parity**: what runs in prod matches what you tested.
+- **Controlled releases**: you know what version is live.
+- **Clear rollback**: you can go back without guessing.
+- **Security and supply chain**: handled early, not as an afterthought.
 
 Standard flow:
 
-```mermaid
-flowchart LR
-  lockSource[LockSource] --> buildClean[BuildInCleanEnv]
-  buildClean --> packageArtifact[PackageArtifact]
-  packageArtifact --> transferTarget[TransferToTarget]
-  transferTarget --> deployMigrate[DeployAndMigrate]
-  deployMigrate --> verifyHealth[VerifyHealth]
-  verifyHealth --> promoteRollback[PromoteOrRollback]
-```
+![Standard deployment flow](/images/systems/ops-deployment-flow.svg)
+
+1. Lock source and dependencies.
+2. Build in a clean environment.
+3. Package the artifact.
+4. Transfer only required deploy assets.
+5. Deploy and run migrations.
+6. Verify health and smoke tests.
+7. Promote release or rollback.
 
 ## 2. Deployment architecture patterns
 
 ### 2.1 Build on the host (fast dev loop)
 
 - **Pros:** quick feedback, easy debugging.
-- **Cons:** your laptop OS/arch/libs may differ from the server → “works on my machine” surprises.
+- **Cons:** your laptop OS/arch/libs may differ from the server, which creates "works on my machine" surprises.
 
 ### 2.2 Build inside Docker (recommended for parity)
 
@@ -63,17 +63,17 @@ flowchart LR
 ### 2.3 Build on CI, promote the artifact
 
 - CI builds the image, tags it (semver or git SHA), pushes to a registry (GHCR, ECR, Harbor, etc.).
-- The server only pulls and runs — no compiler toolchain on the VPS.
+- The server only pulls and runs, with no compiler toolchain on the VPS.
 
 ### 2.4 Artifact without a registry
 
-- `docker save` → `.tar`, copy with `scp`/`rsync`, then `docker load` on the server.
+- Use `docker save` to create a `.tar`, copy with `scp` or `rsync`, then run `docker load` on the server.
 - Good for air-gapped networks or minimal setups.
 
 ### 2.5 Minimal deploy surface
 
 - Sync only what you need: compose files, scripts, env templates, optional image tar.
-- Avoid syncing the whole repo if it is not required — smaller attack surface and faster transfers.
+- Avoid syncing the whole repo if it is not required. You get a smaller attack surface and faster transfers.
 
 ## 3. Standard deployment flow
 
@@ -116,21 +116,21 @@ flowchart LR
 
 ### 4.1 Config layers
 
-- **Platform:** DB host, port, TLS mode — often injected on the server.
+- **Platform:** DB host, port, TLS mode, often injected on the server.
 - **App:** API URLs, feature flags.
-- **Runtime:** `NODE_ENV`, worker concurrency — changes less often across environments.
+- **Runtime:** `NODE_ENV`, worker concurrency, and similar values that change less often across environments.
 
 ### 4.2 File conventions
 
-- `.env.example` lists required keys — **no real secrets**.
+- `.env.example` lists required keys with **no real secrets**.
 - Real secrets live in a vault, a cloud secret manager, or a file on the server outside git.
 - Never commit production `.env` files.
 
 ### 4.3 Rotate secrets
 
-If you suspect a leak: rotate DB password, JWT/session secrets, and API keys — prioritize public-facing services first.
+If you suspect a leak, rotate DB password, JWT or session secrets, and API keys. Prioritize public-facing services first.
 
-### 4.4 Changing only `.env` — do you need to rebuild the image?
+### 4.4 Changing only `.env`: do you need to rebuild the image?
 
 - **Runtime env read at container start:** you **do not** need a new image. You **do** need to **recreate** the container so it picks up new env values (Docker does not hot-reload env for a running container).
 - **Build-time variables** baked into the bundle (e.g. some `NEXT_PUBLIC_*` values): you **must** rebuild the app and image.
@@ -196,7 +196,7 @@ docker compose -f deploy/docker-compose.yaml exec web sh -c 'printenv | grep -E 
 ### Supply chain
 
 - Lock dependencies with lockfiles.
-- Use `npm ci` (or equivalent) in CI — avoid ad-hoc `install` on production paths.
+- Use `npm ci` (or equivalent) in CI, and avoid ad-hoc `install` on production paths.
 - Run vulnerability scans (`npm audit`, OSV) on a schedule.
 
 ## 8. Incident response checklist
@@ -356,8 +356,6 @@ scp deploy/images/*.tar user@vps:/opt/acme/images/
 
 ---
 
-## Architecture diagram (export)
-
-Vector diagram for slides or docs (sharp at any zoom):
+## Related diagram
 
 ![Docker vs Virtual Machine architecture](/images/systems/docker-vm-architecture.svg)

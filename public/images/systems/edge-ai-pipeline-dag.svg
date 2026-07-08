@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1480" height="520" viewBox="0 0 1480 520" role="img" aria-label="Edge video AI pipeline with bounded queues">
+  <defs>
+    <style>
+      .bg { fill: #f5f7fb; }
+      .title { font: 700 28px Inter, "Segoe UI", Helvetica, Arial, sans-serif; fill: #1f2937; }
+      .section { font: 600 18px Inter, "Segoe UI", Helvetica, Arial, sans-serif; fill: #4b5563; }
+      .panel { fill: #ffffff; stroke: #cbd5e1; stroke-width: 2; }
+      .box { fill: #eef2f7; stroke: #94a3b8; stroke-width: 2; }
+      .boxAccent { fill: #e0e7ff; stroke: #6366f1; stroke-width: 2; }
+      .queue { fill: #fff7ed; stroke: #fb923c; stroke-width: 2; }
+      .txt { font: 600 20px Inter, "Segoe UI", Helvetica, Arial, sans-serif; fill: #1f2937; }
+      .small { font: 500 15px Inter, "Segoe UI", Helvetica, Arial, sans-serif; fill: #475569; }
+      .arrow { stroke: #64748b; stroke-width: 2.5; fill: none; marker-end: url(#arrowHead); }
+    </style>
+    <marker id="arrowHead" markerWidth="10" markerHeight="8" refX="9" refY="4" orient="auto">
+      <path d="M0,0 L9,4 L0,8 Z" fill="#64748b" />
+    </marker>
+  </defs>
+
+  <rect class="bg" width="1480" height="520" rx="18" />
+  <text class="title" x="40" y="48">Edge video AI pipeline (DAG with bounded queues)</text>
+
+  <rect class="panel" x="40" y="80" width="300" height="360" rx="14" />
+  <text class="section" x="60" y="112">Ingest</text>
+  <rect class="box" x="70" y="140" width="240" height="70" rx="10" />
+  <text class="txt" x="118" y="183">Camera / File</text>
+  <rect class="box" x="70" y="260" width="240" height="70" rx="10" />
+  <text class="txt" x="145" y="303">Decoder</text>
+  <path class="arrow" d="M190 210 V255" />
+
+  <rect class="panel" x="380" y="80" width="700" height="360" rx="14" />
+  <text class="section" x="400" y="112">Vision</text>
+  <rect class="box" x="410" y="160" width="160" height="70" rx="10" />
+  <text class="txt" x="435" y="203">Preprocess</text>
+  <rect class="boxAccent" x="650" y="160" width="170" height="70" rx="10" />
+  <text class="txt" x="675" y="203">Detector NPU</text>
+  <rect class="box" x="900" y="160" width="150" height="70" rx="10" />
+  <text class="txt" x="922" y="203">Tracker CPU</text>
+
+  <rect class="queue" x="585" y="300" width="70" height="48" rx="8" />
+  <text class="small" x="603" y="330">Q1</text>
+  <rect class="queue" x="720" y="300" width="70" height="48" rx="8" />
+  <text class="small" x="738" y="330">Q2</text>
+  <rect class="queue" x="860" y="300" width="70" height="48" rx="8" />
+  <text class="small" x="878" y="330">Q3</text>
+
+  <path class="arrow" d="M570 195 H645" />
+  <path class="arrow" d="M820 195 H895" />
+
+  <rect class="panel" x="1120" y="80" width="320" height="360" rx="14" />
+  <text class="section" x="1140" y="112">Output</text>
+  <rect class="box" x="1160" y="200" width="240" height="70" rx="10" />
+  <text class="txt" x="1185" y="243">Overlay / Encode</text>
+  <rect class="queue" x="1215" y="300" width="70" height="48" rx="8" />
+  <text class="small" x="1233" y="330">Q4</text>
+
+  <path class="arrow" d="M340 295 H380" />
+  <path class="arrow" d="M1080 195 H1155" />
+
+  <text class="small" x="40" y="480">Each queue carries max depth, drop policy, wait-time metrics, and ownership rules.</text>
+</svg>
