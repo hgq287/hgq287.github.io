@@ -195,14 +195,8 @@ body:has(.home-page) header.header-home:not(.header-no-hamburger) .header-home-m
 }
 
 .home-page article {
-  padding-top: 4rem;
+  padding-top: 1.5rem;
   padding-bottom: 4rem;
-}
-
-@media (min-width: 640px) {
-  .home-page article {
-    padding-top: 6rem;
-  }
 }
 
 .home-page .home-title {
@@ -506,7 +500,7 @@ body:has(.blog-page) .blog-header-bar:not(.header-no-hamburger) .header-home-men
   margin-right: auto;
   padding-left: 1.25rem;
   padding-right: 1.25rem;
-  padding-top: 2rem;
+  padding-top: 1.5rem;
   padding-bottom: 3rem;
 }
 
