@@ -94,7 +94,7 @@ body:has(.home-page) header.header-home {
 
 body:has(.home-page) header.header-home .header-home-inner {
   width: 100%;
-  max-width: 42rem;
+  max-width: 1320px;
   margin-left: auto;
   margin-right: auto;
   padding-left: 1rem;
@@ -173,24 +173,34 @@ body:has(.home-page) header.header-home:not(.header-no-hamburger) .header-home-m
   background-color: #ffffff;
   color: #333;
   min-height: calc(100vh - 4rem);
+  width: 100%;
+  max-width: 100%;
   display: flex;
   flex-direction: column;
+}
+
+.home-page-main {
+  flex: 1;
+}
+
+.home-page article {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
   padding-left: 1rem;
   padding-right: 1rem;
 }
 
-.home-page article,
-.home-page footer {
-  max-width: 42rem;
-  width: 100%;
-  margin-left: auto;
-  margin-right: auto;
-}
-
 @media (min-width: 640px) {
-  .home-page {
+  .home-page article {
     padding-left: 2rem;
     padding-right: 2rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .home-page article {
+    max-width: 760px;
   }
 }
 
@@ -325,19 +335,23 @@ body:has(.home-page) header.header-home:not(.header-no-hamburger) .header-home-m
   margin-top: auto;
   padding-top: 3rem;
   padding-bottom: 2.5rem;
+  width: 100%;
+  max-width: 100%;
+  box-sizing: border-box;
 }
 
-/* Blog footer: horizontally aligned like blog layout */
-.blog-page footer {
+.site-footer-inner {
+  width: 100%;
   max-width: 1320px;
   margin-left: auto;
   margin-right: auto;
   padding-left: 1rem;
   padding-right: 1rem;
+  box-sizing: border-box;
 }
 
 @media (min-width: 640px) {
-  .blog-page footer {
+  .site-footer-inner {
     padding-left: 2rem;
     padding-right: 2rem;
   }
@@ -408,6 +422,8 @@ body:has(.blog-page) {
   background-color: #ffffff;
   color: #333;
   min-height: calc(100vh - 4rem);
+  width: 100%;
+  max-width: 100%;
 }
 
 /* Blog header: sticky when scroll, same bar, left container */
@@ -496,12 +512,14 @@ body:has(.blog-page) .blog-header-bar:not(.header-no-hamburger) .header-home-men
 
 .blog-page .blog-layout {
   max-width: 1320px;
+  width: 100%;
   margin-left: auto;
   margin-right: auto;
   padding-left: 1rem;
   padding-right: 1rem;
   padding-top: 1.5rem;
   padding-bottom: 3rem;
+  box-sizing: border-box;
 }
 
 @media (min-width: 640px) {
@@ -514,7 +532,7 @@ body:has(.blog-page) .blog-header-bar:not(.header-no-hamburger) .header-home-men
 @media (min-width: 1024px) {
   .blog-page .blog-layout {
     display: grid;
-    grid-template-columns: minmax(140px, 220px) minmax(0, 760px) minmax(140px, 220px);
+    grid-template-columns: minmax(0, 220px) minmax(0, 760px) minmax(0, 220px);
     gap: 1.5rem;
     align-items: start;
   }
