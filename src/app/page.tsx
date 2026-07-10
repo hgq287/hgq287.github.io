@@ -24,62 +24,64 @@ export default async function Home() {
     <>
       <MainHeader minimal />
       <div className="home-page">
-        <main className="home-page-main">
-          <article>
-            <h1 className="home-title">
-              {intro?.title ?? 'My Portfolio'}
-            </h1>
-            {intro?.intro && (
-              <div className="home-intro">
-                {intro.intro
-                  .split(/\n\n+/)
-                  .filter((s) => s.trim())
-                  .map((paragraph, i) => (
-                    <p key={i}>{paragraph.trim()}</p>
-                  ))}
+        <div className="home-layout">
+          <main className="home-page-main">
+            <article>
+              <h1 className="home-title">
+                {intro?.title ?? 'My Portfolio'}
+              </h1>
+              {intro?.intro && (
+                <div className="home-intro">
+                  {intro.intro
+                    .split(/\n\n+/)
+                    .filter((s) => s.trim())
+                    .map((paragraph, i) => (
+                      <p key={i}>{paragraph.trim()}</p>
+                    ))}
+                </div>
+              )}
+
+              <div className="home-writing">
+                <h2 className="home-writing-title">Recent writing</h2>
+                <p className="home-writing-lede">
+                  Systems blueprints and blog posts (newest first).{' '}
+                  <Link href="/systems">All Systems</Link>
+                  {' · '}
+                  <Link href="/blog">All Blog</Link>
+                </p>
+
+                <ul className="home-posts">
+                  {feed.length === 0 ? (
+                    <li className="text-sm">No posts yet.</li>
+                  ) : (
+                    feed.map((post) => (
+                      <li key={`${post.source}-${post.slug}`} className="home-post-item">
+                        <div className="home-post-meta">
+                          <span className="home-post-date">
+                            {new Date(post.date).toLocaleDateString('en-US', {
+                              year: 'numeric',
+                              month: 'long',
+                              day: 'numeric',
+                            })}
+                          </span>
+                          <span className={`home-post-source home-post-source--${post.source}`}>
+                            {post.source === 'systems' ? 'Systems' : 'Blog'}
+                          </span>
+                        </div>
+                        <Link href={post.href} className="home-post-link">
+                          {post.title}
+                        </Link>
+                        {post.excerpt ? (
+                          <p className="home-post-excerpt">{truncateExcerpt(post.excerpt, EXCERPT_MAX)}</p>
+                        ) : null}
+                      </li>
+                    ))
+                  )}
+                </ul>
               </div>
-            )}
-
-            <div className="home-writing">
-              <h2 className="home-writing-title">Recent writing</h2>
-              <p className="home-writing-lede">
-                Systems blueprints and blog posts (newest first).{' '}
-                <Link href="/systems">All Systems</Link>
-                {' · '}
-                <Link href="/blog">All Blog</Link>
-              </p>
-
-              <ul className="home-posts">
-                {feed.length === 0 ? (
-                  <li className="text-sm">No posts yet.</li>
-                ) : (
-                  feed.map((post) => (
-                    <li key={`${post.source}-${post.slug}`} className="home-post-item">
-                      <div className="home-post-meta">
-                        <span className="home-post-date">
-                          {new Date(post.date).toLocaleDateString('en-US', {
-                            year: 'numeric',
-                            month: 'long',
-                            day: 'numeric',
-                          })}
-                        </span>
-                        <span className={`home-post-source home-post-source--${post.source}`}>
-                          {post.source === 'systems' ? 'Systems' : 'Blog'}
-                        </span>
-                      </div>
-                      <Link href={post.href} className="home-post-link">
-                        {post.title}
-                      </Link>
-                      {post.excerpt ? (
-                        <p className="home-post-excerpt">{truncateExcerpt(post.excerpt, EXCERPT_MAX)}</p>
-                      ) : null}
-                    </li>
-                  ))
-                )}
-              </ul>
-            </div>
-          </article>
-        </main>
+            </article>
+          </main>
+        </div>
         <SiteFooter />
       </div>
     </>

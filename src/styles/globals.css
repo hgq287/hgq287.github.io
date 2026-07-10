@@ -181,32 +181,48 @@ body:has(.home-page) header.header-home:not(.header-no-hamburger) .header-home-m
 
 .home-page-main {
   flex: 1;
+  min-width: 0;
+  width: 100%;
 }
 
-.home-page article {
+.home-layout {
+  max-width: 1320px;
   width: 100%;
   margin-left: auto;
   margin-right: auto;
   padding-left: 1rem;
   padding-right: 1rem;
+  padding-top: 1.5rem;
+  box-sizing: border-box;
 }
 
 @media (min-width: 640px) {
-  .home-page article {
+  .home-layout {
     padding-left: 2rem;
     padding-right: 2rem;
   }
 }
 
 @media (min-width: 1024px) {
-  .home-page article {
-    max-width: 760px;
+  .home-layout {
+    display: grid;
+    grid-template-columns: 1fr minmax(0, 760px) 1fr;
+    align-items: start;
+  }
+
+  .home-page-main {
+    grid-column: 2;
   }
 }
 
 .home-page article {
-  padding-top: 1.5rem;
+  width: 100%;
+  max-width: none;
+  min-width: 0;
+  margin: 0;
+  padding: 0;
   padding-bottom: 4rem;
+  overflow-wrap: anywhere;
 }
 
 .home-page .home-title {
@@ -310,7 +326,7 @@ body:has(.home-page) header.header-home:not(.header-no-hamburger) .header-home-m
 }
 
 .home-page .home-post-link {
-  display: inline-block;
+  display: block;
   font-weight: 600;
   color: #000;
   text-decoration: none;
