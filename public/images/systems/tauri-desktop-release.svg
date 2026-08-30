@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1480" height="380" viewBox="0 0 1480 380" role="img" aria-label="GitHub Actions builds and signs Mac and Windows installers">
+  <defs>
+    <style>
+      .bg { fill: #f5f7fb; }
+      .title { font: 700 28px Inter, "Segoe UI", Helvetica, Arial, sans-serif; fill: #1f2937; }
+      .box { fill: #ffffff; stroke: #94a3b8; stroke-width: 2; }
+      .build { fill: #e0e7ff; stroke: #6366f1; stroke-width: 2; }
+      .sign { fill: #fef3c7; stroke: #f59e0b; stroke-width: 2; }
+      .ok { fill: #dcfce7; stroke: #22c55e; stroke-width: 2; }
+      .txt { font: 600 17px Inter, "Segoe UI", Helvetica, Arial, sans-serif; fill: #1f2937; }
+      .small { font: 500 14px Inter, "Segoe UI", Helvetica, Arial, sans-serif; fill: #475569; }
+      .line { stroke: #64748b; stroke-width: 2.5; fill: none; marker-end: url(#ah); }
+    </style>
+    <marker id="ah" markerWidth="10" markerHeight="8" refX="9" refY="4" orient="auto">
+      <path d="M0,0 L9,4 L0,8 Z" fill="#64748b" />
+    </marker>
+  </defs>
+
+  <rect class="bg" width="1480" height="380" rx="18" />
+  <text class="title" x="40" y="48">Desktop release on GitHub Actions</text>
+
+  <rect class="box" x="40" y="150" width="180" height="100" rx="12" />
+  <text class="txt" x="85" y="195">Push tag</text>
+  <text class="small" x="80" y="220">v* trigger</text>
+
+  <rect class="build" x="280" y="90" width="260" height="90" rx="12" />
+  <text class="txt" x="325" y="130">macos-latest</text>
+  <text class="small" x="320" y="155">npm run tauri build</text>
+
+  <rect class="build" x="280" y="220" width="260" height="90" rx="12" />
+  <text class="txt" x="320" y="260">windows-latest</text>
+  <text class="small" x="320" y="285">npm run tauri build</text>
+
+  <rect class="sign" x="610" y="90" width="320" height="90" rx="12" />
+  <text class="txt" x="645" y="130">Developer ID + notarize</text>
+  <text class="small" x="680" y="155">Apple cert in CI secrets</text>
+
+  <rect class="sign" x="610" y="220" width="320" height="90" rx="12" />
+  <text class="txt" x="690" y="260">Authenticode</text>
+  <text class="small" x="655" y="285">EV if you want SmartScreen</text>
+
+  <rect class="ok" x="1000" y="150" width="440" height="100" rx="12" />
+  <text class="txt" x="1085" y="195">Signed installers</text>
+  <text class="small" x="1060" y="220">updater off until the server is signed</text>
+
+  <path class="line" d="M130 200 V135 H275" />
+  <path class="line" d="M130 200 V265 H275" />
+  <path class="line" d="M540 135 H605" />
+  <path class="line" d="M540 265 H605" />
+  <path class="line" d="M930 135 H970 V200 H995" />
+  <path class="line" d="M930 265 H970 V200 H995" />
+
+  <text class="small" x="40" y="350">Build on runners, not a laptop. First ONNX/ORT compile is slow. Signing is a calendar item, not a Tauri feature.</text>
+</svg>
