@@ -32,8 +32,10 @@ const ogImageEntry = {
   alt: `${AUTHOR_NAME} – ${SITE_NAME}`,
 };
 
-/** Set at build time for Google Search Console “HTML tag” ownership verification. */
-const googleSiteVerification = process.env.NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION?.trim();
+/** Google Search Console HTML-tag ownership. Env overrides; default is the public verification token. */
+const googleSiteVerification =
+  process.env.NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION?.trim() ||
+  'OHqTl_CUC6UNI90uBoGk9FSiU9orGMSq7dWROOccWms';
 
 export const rootMetadata = {
   metadataBase,
