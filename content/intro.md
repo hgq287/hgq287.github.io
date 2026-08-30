@@ -2,8 +2,8 @@
 title: My Portfolio
 ---
 
-Systems Architect and multi-platform engineer with 15+ years of experience. I specialize in the Apple ecosystem (Swift, Objective-C, C++), shared core engines, and cross-platform logic with Kotlin Multiplatform (KMP). Backend: NestJS, gRPC, Kafka, AWS/GCP.
+Systems Architect with 15+ years. I design shared core engines and the platforms around them: native Apple (Swift, Objective-C, C++), Rust on desktop, and Kotlin Multiplatform when iOS and Android are first-class clients.
 
-I focus on modular architecture, security, CI/CD (Fastlane, GitHub Actions), and clean code. I also lead through architectural reviews, roadmaps, and mentoring. My approach: prioritize fundamentals-OS internals, memory, and data structures for systems that stay maintainable and scalable.
+Recent work is Principal-level AI on the edge: quantized models, zero-copy data planes, and on-device inference that fails closed to deterministic rules. Same discipline on the backend — gRPC, Kafka, Cloud Run / GCP — and on delivery: GitHub Actions, signing, Terraform.
 
-My work has evolved into Principal AI engineering: end-to-end ownership of strategy, architecture, and execution, from research constraints to shipped systems.
+I lead through architecture reviews, roadmaps, and mentoring. I start from OS internals, memory, and data structures so Mac, Windows, a CLI, and a weekly job stay one product.
