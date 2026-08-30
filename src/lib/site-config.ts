@@ -10,7 +10,7 @@ export const SITE_TITLE_DEFAULT =
 
 /** ~155 chars: portfolio + positioning for snippets. */
 export const SITE_DESCRIPTION =
-  'Systems Architect with 15+ years. Principal AI: strategy, architecture, and shipping from research to production. Swift, C++, core engines, Kotlin Multiplatform, backends.';
+  'Systems Architect, 15+ years. Shared engines in Rust, Swift, and C++. Edge AI, on-device inference, and delivery on GCP and GitHub Actions.';
 
 export const AUTHOR_NAME = 'Hung Q. Truong';
 
@@ -107,14 +107,14 @@ export const blogIndexMetadata = {
 export const systemsIndexMetadata = {
   title: 'Systems',
   description:
-    'Systems notes and playbooks: deployment, Docker, edge AI, ops — written to run, not to present.',
+    'Systems notes and playbooks: edge AI, desktop engines, Cloud Run, Kafka, ops — written to run, not to present.',
   alternates: {
     canonical: '/systems',
   },
   openGraph: {
     title: `Systems | ${SITE_NAME}`,
     description:
-      'Deployment, Docker, edge AI, quantization, and ops notes.',
+      'Edge AI, desktop (Tauri/Rust), Cloud Run, Kafka, and ops notes.',
     url: '/systems',
     images: [ogImageEntry],
   },
@@ -122,7 +122,7 @@ export const systemsIndexMetadata = {
     card: 'summary_large_image' as const,
     title: `Systems | ${SITE_NAME}`,
     description:
-      'Deployment, Docker, edge AI, quantization, and ops notes.',
+      'Edge AI, desktop (Tauri/Rust), Cloud Run, Kafka, and ops notes.',
     images: [OG_IMAGE_PATH],
   },
 } satisfies Metadata;
