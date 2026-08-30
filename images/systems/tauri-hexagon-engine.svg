@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1480" height="540" viewBox="0 0 1480 540" role="img" aria-label="Hexagonal architecture: React, CLI, and schedulers call one Engine">
+  <defs>
+    <style>
+      .bg { fill: #f5f7fb; }
+      .title { font: 700 28px Inter, "Segoe UI", Helvetica, Arial, sans-serif; fill: #1f2937; }
+      .panel { fill: #ffffff; stroke: #cbd5e1; stroke-width: 2; }
+      .box { fill: #ffffff; stroke: #94a3b8; stroke-width: 2; }
+      .accent { fill: #e0e7ff; stroke: #6366f1; stroke-width: 2; }
+      .ok { fill: #dcfce7; stroke: #22c55e; stroke-width: 2; }
+      .warn { fill: #fff7ed; stroke: #fb923c; stroke-width: 2; }
+      .section { font: 600 16px Inter, "Segoe UI", Helvetica, Arial, sans-serif; fill: #4b5563; }
+      .txt { font: 600 18px Inter, "Segoe UI", Helvetica, Arial, sans-serif; fill: #1f2937; }
+      .small { font: 500 14px Inter, "Segoe UI", Helvetica, Arial, sans-serif; fill: #475569; }
+      .line { stroke: #64748b; stroke-width: 2.5; fill: none; marker-end: url(#ah); }
+    </style>
+    <marker id="ah" markerWidth="10" markerHeight="8" refX="9" refY="4" orient="auto">
+      <path d="M0,0 L9,4 L0,8 Z" fill="#64748b" />
+    </marker>
+  </defs>
+
+  <rect class="bg" width="1480" height="540" rx="18" />
+  <text class="title" x="40" y="48">One engine, many entry points</text>
+
+  <rect class="panel" x="40" y="80" width="400" height="380" rx="14" />
+  <text class="section" x="60" y="112">Apps</text>
+
+  <rect class="box" x="70" y="140" width="340" height="80" rx="10" />
+  <text class="txt" x="95" y="175">React</text>
+  <text class="small" x="95" y="200">IPC to Tauri commands</text>
+
+  <rect class="box" x="70" y="250" width="340" height="80" rx="10" />
+  <text class="txt" x="95" y="285">CLI</text>
+  <text class="small" x="95" y="310">same Engine, no webview</text>
+
+  <rect class="warn" x="70" y="360" width="340" height="80" rx="10" />
+  <text class="txt" x="95" y="395">launchd / Task Scheduler</text>
+  <text class="small" x="95" y="420">runs the same CLI binary</text>
+
+  <rect class="ok" x="520" y="180" width="420" height="200" rx="14" />
+  <text class="txt" x="640" y="240">Engine</text>
+  <text class="small" x="575" y="275">core crate: domain, use cases, ports</text>
+  <text class="small" x="555" y="300">no objc, no windows crate, no ort</text>
+  <text class="small" x="590" y="335">plan, then execute, then receipt</text>
+
+  <rect class="accent" x="1020" y="180" width="420" height="200" rx="14" />
+  <text class="txt" x="1110" y="240">Platform crate</text>
+  <text class="small" x="1085" y="275">OS adapters, SQLite, model</text>
+  <text class="small" x="1075" y="300">Trash / Recycle tokens live here</text>
+  <text class="small" x="1095" y="335">constructed by each app</text>
+
+  <path class="line" d="M410 180 H515" />
+  <path class="line" d="M410 290 H515" />
+  <path class="line" d="M240 360 V336" />
+  <path class="line" d="M940 280 H1015" />
+
+  <text class="small" x="40" y="500">Apps only construct adapters and call Engine. Windows is not a flavor flag in the scanner.</text>
+</svg>

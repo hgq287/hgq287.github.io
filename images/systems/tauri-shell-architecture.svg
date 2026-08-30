@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1480" height="420" viewBox="0 0 1480 420" role="img" aria-label="Tauri plus Rust: webview chrome talks to a Rust engine over IPC">
+  <defs>
+    <style>
+      .bg { fill: #f5f7fb; }
+      .title { font: 700 28px Inter, "Segoe UI", Helvetica, Arial, sans-serif; fill: #1f2937; }
+      .box { fill: #ffffff; stroke: #94a3b8; stroke-width: 2; }
+      .accent { fill: #e0e7ff; stroke: #6366f1; stroke-width: 2; }
+      .ok { fill: #dcfce7; stroke: #22c55e; stroke-width: 2; }
+      .warn { fill: #fff7ed; stroke: #fb923c; stroke-width: 2; }
+      .txt { font: 600 18px Inter, "Segoe UI", Helvetica, Arial, sans-serif; fill: #1f2937; }
+      .small { font: 500 14px Inter, "Segoe UI", Helvetica, Arial, sans-serif; fill: #475569; }
+      .line { stroke: #64748b; stroke-width: 2.5; fill: none; marker-end: url(#ah); }
+    </style>
+    <marker id="ah" markerWidth="10" markerHeight="8" refX="9" refY="4" orient="auto">
+      <path d="M0,0 L9,4 L0,8 Z" fill="#64748b" />
+    </marker>
+  </defs>
+
+  <rect class="bg" width="1480" height="420" rx="18" />
+  <text class="title" x="40" y="48">Tauri plus Rust: one window, one engine</text>
+
+  <rect class="box" x="40" y="140" width="250" height="130" rx="12" />
+  <text class="txt" x="105" y="190">React UI</text>
+  <text class="small" x="70" y="220">screens, lists, settings</text>
+  <text class="small" x="68" y="244">WKWebView / WebView2</text>
+
+  <rect class="accent" x="370" y="140" width="280" height="130" rx="12" />
+  <text class="txt" x="415" y="190">Tauri commands</text>
+  <text class="small" x="410" y="220">IPC boundary</text>
+  <text class="small" x="400" y="244">OS chrome, not the kernel</text>
+
+  <rect class="ok" x="730" y="140" width="300" height="130" rx="12" />
+  <text class="txt" x="800" y="190">Engine (Rust)</text>
+  <text class="small" x="760" y="220">scan, rules, delete, license</text>
+  <text class="small" x="775" y="244">same crate as the CLI</text>
+
+  <rect class="warn" x="1110" y="140" width="330" height="130" rx="12" />
+  <text class="txt" x="1160" y="190">OS adapters</text>
+  <text class="small" x="1145" y="220">Trash / Recycle, Finder</text>
+  <text class="small" x="1155" y="244">tiny FFI per platform</text>
+
+  <path class="line" d="M290 205 H365" />
+  <path class="line" d="M650 205 H725" />
+  <path class="line" d="M1030 205 H1105" />
+
+  <text class="small" x="370" y="120">IPC</text>
+
+  <text class="small" x="40" y="360">Webview owns chrome. Rust owns anything that can ruin a user's files. Electron inverts this: Chromium is the app.</text>
+</svg>
