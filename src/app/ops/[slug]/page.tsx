@@ -1,8 +1,7 @@
 import BlogHeader from '../../components/BlogHeader';
 import { Metadata } from 'next';
 import Link from 'next/link';
-import { SystemsRepository } from '../../../data/systems.repository';
-import { OPS_SLUGS_MOVED_FROM_SYSTEMS, OpsRepository } from '../../../data/ops.repository';
+import { OpsRepository } from '../../../data/ops.repository';
 import { buildArticleJsonLd } from '../../../lib/json-ld';
 import { OG_IMAGE_PATH, SITE_ORIGIN } from '../../../lib/site-config';
 import ArticleMarkdown from '../../components/ArticleMarkdown';
@@ -16,34 +15,17 @@ interface PageProps {
   params: Promise<{ slug: string }>;
 }
 
-function isMovedToOps(slug: string): boolean {
-  return (OPS_SLUGS_MOVED_FROM_SYSTEMS as readonly string[]).includes(slug);
-}
-
 export async function generateStaticParams() {
-  const list = await SystemsRepository.getAllPostsMetadata();
-  const moved = OPS_SLUGS_MOVED_FROM_SYSTEMS.map((slug) => ({ slug }));
-  return [...list.map((item) => ({ slug: item.slug })), ...moved];
+  const list = await OpsRepository.getAllPostsMetadata();
+  return list.map((item) => ({ slug: item.slug }));
 }
 
 export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
   const { slug } = await params;
-
-  if (isMovedToOps(slug)) {
-    const post = await OpsRepository.getPostBySlug(slug);
-    const path = `/ops/${slug}`;
-    return {
-      title: post?.title ?? 'Moved to Ops',
-      description: post?.excerpt ?? 'This note now lives under Ops.',
-      alternates: { canonical: path },
-      robots: { index: false, follow: true },
-    };
-  }
-
-  const post = await SystemsRepository.getPostBySlug(slug);
+  const post = await OpsRepository.getPostBySlug(slug);
   if (!post) return { title: "Article not found | Hg's Portfolio" };
 
-  const path = `/systems/${post.slug}`;
+  const path = `/ops/${post.slug}`;
   const publishedTime = new Date(post.date).toISOString();
   const ogImage = {
     url: OG_IMAGE_PATH,
@@ -78,49 +60,20 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   };
 }
 
-export default async function SystemsPostPage({ params }: PageProps) {
+export default async function OpsPostPage({ params }: PageProps) {
   const { slug } = await params;
-
-  if (isMovedToOps(slug)) {
-    const post = await OpsRepository.getPostBySlug(slug);
-    const href = `/ops/${slug}`;
-    return (
-      <div className="blog-page">
-        <BlogHeader title="Moved to Ops" headline="This cloud note now lives under Ops." />
-        <div className="blog-layout">
-          <main className="blog-main">
-            <h1 className="blog-article-title">Moved to Ops</h1>
-            <p className="blog-prose" style={{ marginTop: '1rem' }}>
-              {post ? (
-                <>
-                  <strong>{post.title}</strong> is now an Ops article.
-                </>
-              ) : (
-                <>This note moved to the Ops section.</>
-              )}
-            </p>
-            <Link href={href} className="blog-prose" style={{ marginTop: '1rem', display: 'inline-block' }}>
-              Continue to {href} &rarr;
-            </Link>
-          </main>
-        </div>
-        <SiteFooter />
-      </div>
-    );
-  }
-
-  const currentPost = await SystemsRepository.getPostBySlug(slug);
+  const currentPost = await OpsRepository.getPostBySlug(slug);
 
   if (!currentPost) {
     return (
       <div className="blog-page">
-        <BlogHeader title="Systems" headline="Article not found" />
+        <BlogHeader title="Ops" headline="Article not found" />
         <div className="blog-layout">
           <main className="blog-main">
             <h1 className="blog-article-title">404</h1>
             <p className="blog-prose" style={{ marginTop: '1rem' }}>Page not found.</p>
-            <Link href="/systems" className="blog-prose" style={{ marginTop: '1rem', display: 'inline-block' }}>
-              &larr; Back to Systems
+            <Link href="/ops" className="blog-prose" style={{ marginTop: '1rem', display: 'inline-block' }}>
+              &larr; Back to Ops
             </Link>
           </main>
         </div>
@@ -129,16 +82,16 @@ export default async function SystemsPostPage({ params }: PageProps) {
     );
   }
 
-  const allMetadata = await SystemsRepository.getAllPostsMetadata();
+  const allMetadata = await OpsRepository.getAllPostsMetadata();
 
-  const articleUrl = `${SITE_ORIGIN}/systems/${currentPost.slug}`;
+  const articleUrl = `${SITE_ORIGIN}/ops/${currentPost.slug}`;
   const articleJsonLd = buildArticleJsonLd({
     headline: currentPost.title,
     description: currentPost.excerpt,
     url: articleUrl,
     datePublished: new Date(currentPost.date).toISOString(),
-    sectionLabel: 'Systems',
-    sectionPath: '/systems',
+    sectionLabel: 'Ops',
+    sectionPath: '/ops',
   });
 
   return (
@@ -149,7 +102,7 @@ export default async function SystemsPostPage({ params }: PageProps) {
         <BlogSidebar
           allPostsMetadata={allMetadata}
           activeSlug={currentPost.slug}
-          basePath="/systems"
+          basePath="/ops"
           sidebarTitle="All Articles"
           variant="desktop"
         />
@@ -157,14 +110,14 @@ export default async function SystemsPostPage({ params }: PageProps) {
           <BlogSidebar
             allPostsMetadata={allMetadata}
             activeSlug={currentPost.slug}
-            basePath="/systems"
+            basePath="/ops"
             sidebarTitle="All Articles"
             variant="mobile"
           />
           <article>
             <h1 className="blog-article-title">{currentPost.title}</h1>
             <div className="blog-article-meta">
-              <PostMeta date={currentPost.date} tags={currentPost.tags} tagBasePath="/systems" />
+              <PostMeta date={currentPost.date} tags={currentPost.tags} tagBasePath="/ops" />
             </div>
             <div className="blog-prose">
               <ArticleMarkdown content={currentPost.content} />

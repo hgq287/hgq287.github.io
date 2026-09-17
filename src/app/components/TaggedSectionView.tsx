@@ -20,7 +20,7 @@ export default function TaggedSectionView({
   emptyLabel,
 }: {
   posts: Post[];
-  basePath: '/blog' | '/systems';
+  basePath: '/blog' | '/systems' | '/ops';
   sectionTitle: string;
   sidebarTitle: string;
   emptyLabel: string;

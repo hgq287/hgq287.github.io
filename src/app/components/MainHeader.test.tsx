@@ -46,7 +46,8 @@ describe('MainHeader', () => {
 
       expect(drawer.querySelector('a[href="/"]')).toHaveTextContent('Home');
       expect(drawer.querySelector('a[href="/blog"]')).toHaveTextContent('Blog');
-      expect(drawer.querySelector('a[href="https://github.com/hgq287/hgq287.github.io#readme"]')).toHaveTextContent('Systems');
+      expect(drawer.querySelector('a[href="/systems"]')).toHaveTextContent('Systems');
+      expect(drawer.querySelector('a[href="/ops"]')).toHaveTextContent('Ops');
     });
 
     it('closes mobile menu when backdrop is clicked', async () => {

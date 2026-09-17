@@ -10,6 +10,7 @@ export const NAV_ITEMS: NavItem[] = [
   { href: '/', label: 'Home' },
   { href: '/blog', label: 'Blog' },
   { href: '/systems', label: 'Systems' },
+  { href: '/ops', label: 'Ops' },
 ];
 
 export interface MobileNavMenuProps {

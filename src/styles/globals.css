@@ -325,6 +325,10 @@ body:has(.home-page) header.header-home:not(.header-no-hamburger) .header-home-m
   color: #333;
 }
 
+.home-page .home-post-source--ops {
+  background-color: #eef3f8;
+}
+
 .home-page .home-post-link {
   display: block;
   font-weight: 600;

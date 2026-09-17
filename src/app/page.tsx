@@ -44,8 +44,10 @@ export default async function Home() {
               <div className="home-writing">
                 <h2 className="home-writing-title">Recent writing</h2>
                 <p className="home-writing-lede">
-                  Systems blueprints and blog posts (newest first).{' '}
+                  Systems, ops, and blog notes (newest first).{' '}
                   <Link href="/systems">All Systems</Link>
+                  {' · '}
+                  <Link href="/ops">All Ops</Link>
                   {' · '}
                   <Link href="/blog">All Blog</Link>
                 </p>
@@ -65,7 +67,7 @@ export default async function Home() {
                             })}
                           </span>
                           <span className={`home-post-source home-post-source--${post.source}`}>
-                            {post.source === 'systems' ? 'Systems' : 'Blog'}
+                            {post.sourceLabel}
                           </span>
                         </div>
                         <Link href={post.href} className="home-post-link">

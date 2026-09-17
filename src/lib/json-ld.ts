@@ -39,8 +39,8 @@ export function buildArticleJsonLd(input: {
   description: string;
   url: string;
   datePublished: string;
-  sectionLabel: 'Blog' | 'Systems';
-  sectionPath: '/blog' | '/systems';
+  sectionLabel: 'Blog' | 'Systems' | 'Ops';
+  sectionPath: '/blog' | '/systems' | '/ops';
 }) {
   const personIdRef = `${SITE_ORIGIN}/#person`;
   const websiteIdRef = `${SITE_ORIGIN}/#website`;

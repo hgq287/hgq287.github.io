@@ -109,22 +109,41 @@ export const blogIndexMetadata = {
 export const systemsIndexMetadata = {
   title: 'Systems',
   description:
-    'Systems notes and playbooks: edge AI, desktop engines, Cloud Run, Kafka, ops — written to run, not to present.',
+    'Systems notes and playbooks: edge AI, desktop engines, Kafka, gRPC, Docker — written to run, not to present.',
   alternates: {
     canonical: '/systems',
   },
   openGraph: {
     title: `Systems | ${SITE_NAME}`,
-    description:
-      'Edge AI, desktop (Tauri/Rust), Cloud Run, Kafka, and ops notes.',
+    description: 'Edge AI, desktop (Tauri/Rust), Kafka, gRPC, and Docker notes.',
     url: '/systems',
     images: [ogImageEntry],
   },
   twitter: {
     card: 'summary_large_image' as const,
     title: `Systems | ${SITE_NAME}`,
-    description:
-      'Edge AI, desktop (Tauri/Rust), Cloud Run, Kafka, and ops notes.',
+    description: 'Edge AI, desktop (Tauri/Rust), Kafka, gRPC, and Docker notes.',
+    images: [OG_IMAGE_PATH],
+  },
+} satisfies Metadata;
+
+export const opsIndexMetadata = {
+  title: 'Ops',
+  description:
+    'Cloud operations notes: AWS cost floors, ECS Express Mode, Cloud Run, Terraform, and delivery on GCP.',
+  alternates: {
+    canonical: '/ops',
+  },
+  openGraph: {
+    title: `Ops | ${SITE_NAME}`,
+    description: 'AWS, GCP, Cloud Run, ECS, and cloud delivery notes.',
+    url: '/ops',
+    images: [ogImageEntry],
+  },
+  twitter: {
+    card: 'summary_large_image' as const,
+    title: `Ops | ${SITE_NAME}`,
+    description: 'AWS, GCP, Cloud Run, ECS, and cloud delivery notes.',
     images: [OG_IMAGE_PATH],
   },
 } satisfies Metadata;

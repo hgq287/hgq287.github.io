@@ -4,7 +4,7 @@ export interface PostMetadata {
   date: string;
   excerpt: string;
   tags: string[];
-  /** When true, surfaced first on the home feed (Systems + Blog merged). */
+  /** When true, surfaced first on the home feed (Systems + Ops + Blog merged). */
   featured?: boolean;
 }
 
