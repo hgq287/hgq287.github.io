@@ -120,4 +120,4 @@ It is still cheaper than letting scanner concurrency drive **Cloud Run** instanc
 
 Middleware can express policy; it spends **container** resources. **Cloud Armor** on the backend service, **CDN negative caching** where safe, and **ingress locked to load balancing only** cut junk before your revision runs.
 
-For Terraform, codify the NEG, backend service, URL map, Armor attachment, and CDN flags next to the Cloud Run service, using the same split as in the Cloud Run delivery-flow write-up.
+For Terraform, codify the NEG, backend service, URL map, Armor attachment, and CDN flags next to the Cloud Run service, using the same split as in [Cloud delivery with Cloud Run, Terraform, and Artifact Registry](/ops/cloud-run-terraform-artifact-registry-delivery-flow).
