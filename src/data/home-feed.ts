@@ -12,7 +12,7 @@ export type HomeFeedItem = PostMetadata & {
   sourceLabel: string;
 };
 
-const DEFAULT_HOME_FEED_LIMIT = 3;
+const DEFAULT_HOME_FEED_LIMIT = 5;
 
 function mergeAndSort(
   blog: PostMetadata[],

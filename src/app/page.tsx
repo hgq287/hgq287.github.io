@@ -18,7 +18,7 @@ function truncateExcerpt(text: string, max: number): string {
 
 export default async function Home() {
   const intro = IntroRepository.getIntro();
-  const feed = await getHomeFeed(3);
+  const feed = await getHomeFeed(5);
 
   return (
     <>

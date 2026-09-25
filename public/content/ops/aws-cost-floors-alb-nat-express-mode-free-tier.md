@@ -19,7 +19,7 @@ The cheap AWS trap is a false choice: a Kubernetes cluster you do not need, or a
 
 The useful question is **total cost of ownership**: cloud bill, operational overhead, security boundary, and what breaks when the one box dies.
 
-This note walks four layers of that question: a small EC2 bill, hardening a public origin, ECS Express Mode vs a pet host, and a serverless demo that stays near zero. Numbers are **On-Demand, Linux, 730-hour months**. The EC2 table uses **Asia Pacific (Singapore)** because that is where a `t3.small` actually lands near **$19**. Fargate unit prices below are **US East (N. Virginia)** from the public pricing page — treat them as a floor; Singapore is higher.
+This note walks four layers of that question: a small EC2 bill, hardening a public origin, ECS Express Mode vs a pet host, and a serverless demo that stays near zero. Numbers are **On-Demand, Linux, 730-hour months**. The EC2 table uses **Asia Pacific (Singapore)** because that is where a `t3.small` actually lands near **$19**. Fargate unit prices below are **US East (N. Virginia)** from the public pricing page - treat them as a floor; Singapore is higher.
 
 ## Why the bill is $77, not $19
 
@@ -29,10 +29,10 @@ Five small containers or Next.js apps behind an **Application Load Balancer** an
 | :--- | :--- | :--- |
 | EC2 `t3.small` | 2 vCPU burst, 2 GiB, On-Demand in `ap-southeast-1` (`$0.0264/hr`) | **~$19.27** |
 | NAT Gateway | `$0.045/hr` plus `$0.045/GB` processed (both directions) plus internet egress | **~$32.85** before data |
-| ALB | Hourly charge plus LCUs | **~$16–20** idle |
+| ALB | Hourly charge plus LCUs | **~$16-20** idle |
 | Public IPv4 | `$0.005/hr` **per address**, including ALB and NAT IPs | **~$3.65 each** |
 
-The **$77** headline undercounts. An internet-facing ALB in two AZs typically has **two** public IPv4s (~$7.30). The NAT Gateway has another (~$3.65). Before transfer, the real floor is closer to **$85–110**.
+The **$77** headline undercounts. An internet-facing ALB in two AZs typically has **two** public IPv4s (~$7.30). The NAT Gateway has another (~$3.65). Before transfer, the real floor is closer to **$85-110**.
 
 Two decisions are independent. Do not bundle them:
 
@@ -48,15 +48,15 @@ Public subnet, no NAT, no ALB, one Elastic IP on the instance:
 | Resource | Monthly |
 | :--- | :--- |
 | EC2 `t3.small` | ~$19.27 |
-| 30 GB `gp3` | ~$2.40–$2.70 |
+| 30 GB `gp3` | ~$2.40-$2.70 |
 | Public IPv4 | ~$3.65 |
 | ALB / NAT | $0 |
-| **Floor** | **~$25–26** |
+| **Floor** | **~$25-26** |
 
 Architecturally:
 
 - **Routing moves to the host.** Nginx (or Caddy) on the instance listens and fans out to the five containers.
-- **One failure domain.** There is no target group to drain. Replacing the only container is how you get a brief **502**, not `nginx -s reload` itself — reload is graceful.
+- **One failure domain.** There is no target group to drain. Replacing the only container is how you get a brief **502**, not `nginx -s reload` itself - reload is graceful.
 - **The origin is on the public internet.** Clients can hit the raw IP unless you lock the security group.
 
 That $52 “saving” is real on the invoice. It is not free in ops: patching, disk, log rotation, and the 2 a.m. kernel panic are now yours. Two hours of that work in a month erases the cloud delta.
@@ -66,7 +66,7 @@ That $52 “saving” is real on the invoice. It is not free in ops: patching, d
 If the instance has a public IPv4, anyone who finds `1.2.3.4` can bypass the CDN. Defense in depth still works. It is **not** $0 if you turn on WAF.
 
 ```text
-Internet  →  CloudFront (+ optional WAF)  →  security group (CloudFront prefix list)  →  Nginx
+Internet -> CloudFront (+ optional WAF) -> security group (CloudFront prefix list) -> Nginx
 ```
 
 ### Edge: Shield Standard vs WAF
@@ -87,7 +87,7 @@ Set CloudFront’s origin HTTP/HTTPS port to match. **8080 works** if the distri
 
 ### App: origin custom header
 
-Add an origin custom header on the distribution (a shared secret). Require it on Nginx. Prefer `map`, not `if` in `server` / `location` — Nginx `if` is a known footgun.
+Add an origin custom header on the distribution (a shared secret). Require it on Nginx. Prefer `map`, not `if` in `server` / `location` - Nginx `if` is a known footgun.
 
 ```nginx
 map $http_x_origin_secret $origin_ok {
@@ -123,16 +123,16 @@ This is a handshake, not cryptography. Rotate it, do not log it, do not echo it 
 
 It can share **one ALB across up to 25** Express services in the same VPC via host-header rules. That is the cost win versus one ALB per service. It does **not** delete the ALB.
 
-Default task size is **1 vCPU / 2 GB**. Always-on Linux/x86 in us-east-1 is about **$36/mo** compute (`$0.000011244` per vCPU-second + `$0.000001235` per GB-second). Add ALB (~$16–20) and two ALB public IPv4s (~$7). **One default Express service is ~$55–65/mo**, not $27–35.
+Default task size is **1 vCPU / 2 GB**. Always-on Linux/x86 in us-east-1 is about **$36/mo** compute (`$0.000011244` per vCPU-second + `$0.000001235` per GB-second). Add ALB (~$16-20) and two ALB public IPv4s (~$7). **One default Express service is ~$55-65/mo**, not $27-35.
 
 The $30-shaped bill only appears with a **tiny** task (0.25 vCPU / 0.5 GB ≈ $9) plus one ALB, and often by ignoring IPv4. That is **one** service, not five containers packed onto a `t3.small`.
 
 | Setup | Honest monthly floor | What you run |
 | :--- | :--- | :--- |
 | 5 containers on one public `t3.small` + Nginx | **~$25** | Shared kernel, one AZ, you patch |
-| 1 Express service, 0.25 vCPU | **~$30–40** including ALB | One web/API |
-| 1 Express service, default 1 vCPU / 2 GB | **~$55–65** | One web/API |
-| 5 Express services, tiny tasks, shared ALB | **~$60–80** | Five isolated tasks |
+| 1 Express service, 0.25 vCPU | **~$30-40** including ALB | One web/API |
+| 1 Express service, default 1 vCPU / 2 GB | **~$55-65** | One web/API |
+| 5 Express services, tiny tasks, shared ALB | **~$60-80** | Five isolated tasks |
 | 5 Express services, default size, shared ALB | **~$200+** | Five default tasks |
 
 Fargate isolation (Firecracker microVM per task) is the real product difference versus Docker on one EC2 kernel. The deploy API is `CreateExpressGatewayService` / `UpdateExpressGatewayService`, not “just `update-service`.” Express Mode is a **HTTPS web/API** shortcut. It is not every ECS workload.
@@ -157,7 +157,7 @@ Flash sales fail on **hot keys, inventory races, checkout fan-out, and connectio
 For a demo that should **idle cheap**, skip always-on compute.
 
 ```text
-CloudFront + S3  →  API Gateway HTTP API  →  Lambda  →  DynamoDB
+CloudFront + S3 -> API Gateway HTTP API -> Lambda -> DynamoDB
                          ↑ Cognito
                          SQS (async work)
 ```
@@ -168,7 +168,7 @@ CloudFront + S3  →  API Gateway HTTP API  →  Lambda  →  DynamoDB
 | :--- | :--- |
 | CloudFront | Pay-as-you-go Always Free is generous: **1 TB** data out + **10M** requests / month. Flat-rate Free plans are a different product (smaller allowance, some WAF/DNS bundled). |
 | S3 | Not magically free forever. Stay inside Always Free / credits / plan storage credits. Use **Origin Access Control**, not a public website bucket. |
-| Cognito | **10,000 MAU** on Lite/Essentials. **50,000 MAU is grandfathered** for older user pools (pre–22 Nov 2024). Plus tier has no free MAUs. SMS/email still bill via SNS/SES. |
+| Cognito | **10,000 MAU** on Lite/Essentials. **50,000 MAU is grandfathered** for older user pools (pre-22 Nov 2024). Plus tier has no free MAUs. SMS/email still bill via SNS/SES. |
 | API Gateway | **Not Always Free.** Legacy 12-month 1M calls for older accounts. Newer accounts get **credits**, then pay. HTTP APIs are ~$1/million; REST ~$3.50/million. |
 | Lambda | **Always Free:** 1M requests + 400,000 GB-seconds / month. |
 | DynamoDB | **Always Free on provisioned Standard:** 25 GB + **25 RCU + 25 WCU**. The “~200M requests” line is marketing math from that capacity. **On-demand has no request free tier.** |
