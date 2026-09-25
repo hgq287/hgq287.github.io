@@ -38,4 +38,4 @@ Patterns are not mandatory. Use them when they clearly improve clarity or flexib
 
 Refactoring.Guru uses a **consistent format** with diagrams, multi-language snippets, intent, and trade-offs for each pattern. It is good for learning the idea first, then applying it in your own stack (TypeScript, Swift, Kotlin, and more). The Refactoring and SOLID sections also pair well with patterns.
 
-**Link:** [Refactoring.Guru – Design Patterns](https://refactoring.guru/design-patterns)
+**Link:** [Refactoring.Guru - Design Patterns](https://refactoring.guru/design-patterns)

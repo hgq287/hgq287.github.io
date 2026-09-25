@@ -213,7 +213,7 @@ docker compose -f deploy/docker-compose.yaml exec web sh -c 'printenv | grep -E 
 2. Collect logs and runtime forensics (`docker inspect`, `docker diff`, process list).
 3. Compare image digest/tag with a clean CI build.
 4. Rotate secrets that might be exposed.
-5. Redeploy from a trusted source and watch closely for 24–48 hours.
+5. Redeploy from a trusted source and watch closely for 24-48 hours.
 
 ## 9. Docker/Compose handbook templates
 

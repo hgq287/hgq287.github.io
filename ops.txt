@@ -10,14 +10,333 @@ d:I[68027,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/c81d
 :HL["/_next/static/chunks/1dd946962db2aff3.css","style"]
 :HL["/_next/static/media/47df9ba1c7236d3b-s.p.7bbb93ea.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
 :HL["/_next/static/media/68d403cf9f2c68c5-s.p.f9f15f61.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
-0:{"P":null,"b":"Fqf6SEypzROlfW7_9SwAN","c":["","ops"],"q":"","i":false,"f":[[["",{"children":["ops",{"children":["__PAGE__",{}]}]},"$undefined","$undefined",true],[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/1dd946962db2aff3.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/_next/static/chunks/58689c96b0676c41.js","async":true,"nonce":"$undefined"}]],["$","html",null,{"lang":"en","suppressHydrationWarning":true,"className":"source_sans_3_ef15b96b-module__iXAkeG__variable source_serif_4_ee15e1dc-module__HXKgIG__variable","children":["$","body",null,{"className":"font-sans antialiased","children":[["$","script",null,{"type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"{\"@context\":\"https://schema.org\",\"@graph\":[{\"@type\":\"Person\",\"@id\":\"https://hgq287.github.io/#person\",\"name\":\"Hung Q. Truong\",\"url\":\"https://hgq287.github.io\",\"sameAs\":[\"https://www.linkedin.com/in/hgq287\",\"https://github.com/hgq287\",\"https://stackoverflow.com/users/12345813/hgq287\"],\"jobTitle\":\"Systems Architect; Principal AI Engineer\"},{\"@type\":\"WebSite\",\"@id\":\"https://hgq287.github.io/#website\",\"name\":\"Hg's Portfolio\",\"url\":\"https://hgq287.github.io\",\"description\":\"Systems Architect, 15+ years. Shared engines in Rust, Swift, and C++. Edge AI, on-device inference, and delivery on GCP and GitHub Actions.\",\"inLanguage\":\"en-US\",\"publisher\":{\"@id\":\"https://hgq287.github.io/#person\"}}]}"}}],["$","$L2",null,{"attribute":"data-theme","children":["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]]}]}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":["$L5",[["$","script","script-0",{"src":"/_next/static/chunks/a22b040cde76a1a9.js","async":true,"nonce":"$undefined"}],["$","script","script-1",{"src":"/_next/static/chunks/3c86dd9086b2f598.js","async":true,"nonce":"$undefined"}]],["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]]}],{},null,false,false]},null,false,false]},null,false,false],["$","$1","h",{"children":[null,["$","$L9",null,{"children":"$@a"}],["$","div",null,{"hidden":true,"children":["$","$Lb",null,{"children":["$","$7",null,{"name":"Next.Metadata","children":"$@c"}]}]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],false]],"m":"$undefined","G":["$d",[]],"S":true}
+0:{"P":null,"b":"rrGoOIWmKaAzaMY7DuA2_","c":["","ops"],"q":"","i":false,"f":[[["",{"children":["ops",{"children":["__PAGE__",{}]}]},"$undefined","$undefined",true],[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/1dd946962db2aff3.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/_next/static/chunks/58689c96b0676c41.js","async":true,"nonce":"$undefined"}]],["$","html",null,{"lang":"en","suppressHydrationWarning":true,"className":"source_sans_3_ef15b96b-module__iXAkeG__variable source_serif_4_ee15e1dc-module__HXKgIG__variable","children":["$","body",null,{"className":"font-sans antialiased","children":[["$","script",null,{"type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"{\"@context\":\"https://schema.org\",\"@graph\":[{\"@type\":\"Person\",\"@id\":\"https://hgq287.github.io/#person\",\"name\":\"Hung Q. Truong\",\"url\":\"https://hgq287.github.io\",\"sameAs\":[\"https://www.linkedin.com/in/hgq287\",\"https://github.com/hgq287\",\"https://stackoverflow.com/users/12345813/hgq287\"],\"jobTitle\":\"Systems Architect; Principal AI Engineer\"},{\"@type\":\"WebSite\",\"@id\":\"https://hgq287.github.io/#website\",\"name\":\"Hg's Portfolio\",\"url\":\"https://hgq287.github.io\",\"description\":\"Systems Architect, 15+ years. Shared engines in Rust, Swift, and C++. Edge AI, on-device inference, and delivery on GCP and GitHub Actions.\",\"inLanguage\":\"en-US\",\"publisher\":{\"@id\":\"https://hgq287.github.io/#person\"}}]}"}}],["$","$L2",null,{"attribute":"data-theme","children":["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]]}]}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":["$L5",[["$","script","script-0",{"src":"/_next/static/chunks/a22b040cde76a1a9.js","async":true,"nonce":"$undefined"}],["$","script","script-1",{"src":"/_next/static/chunks/3c86dd9086b2f598.js","async":true,"nonce":"$undefined"}]],["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]]}],{},null,false,false]},null,false,false]},null,false,false],["$","$1","h",{"children":[null,["$","$L9",null,{"children":"$@a"}],["$","div",null,{"hidden":true,"children":["$","$Lb",null,{"children":["$","$7",null,{"name":"Next.Metadata","children":"$@c"}]}]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],false]],"m":"$undefined","G":["$d",[]],"S":true}
 e:I[11997,["/_next/static/chunks/58689c96b0676c41.js","/_next/static/chunks/a22b040cde76a1a9.js","/_next/static/chunks/3c86dd9086b2f598.js"],"default"]
-f:T2d2b,
+f:T2677,
+Working across more than one AWS IAM user is normal: sandbox vs client, personal vs company, read-only vs deploy. The AWS CLI does that with **named profiles**. Most “wrong account” failures are not mysterious AWS behavior - they are a wrong profile, leftover environment keys, or Console and CLI pointing at different places.
+
+The model is simple once you see it:
+
+**one IAM user -> one access key pair -> one named profile -> select with `AWS_PROFILE` or `--profile` -> prove it with `sts get-caller-identity`.**
+
+Region is a separate dial. Confirm that too.
+
+## Why profiles exist
+
+Every CLI call needs three things:
+
+1. **Who you are** - IAM user or role 
+2. **Which account** - the 12-digit account ID 
+3. **Which region** - e.g. `ap-southeast-1`
+
+IAM users live inside accounts. Each can have access keys. Those keys should not be shared, and you should not overwrite a single global credential every time you change jobs.
+
+A **profile** is a named bundle of credentials plus optional defaults (region, output format). You pick a profile per shell or per command. The CLI signs requests as that identity.
+
+| Profile name | IAM user | Account | Use |
+| :--- | :--- | :--- | :--- |
+| `default` | personal / sandbox | Account A | casual fallback |
+| `cloudsol_devops_engineer` | same name as the user | Account B | client / prod ops |
+| `alice_admin` | `alice` | Account C | another team |
+
+Name the profile after the IAM username. Then “who am I?” stays obvious when you stare at `echo $AWS_PROFILE` at 1 a.m.
+
+## Two files under `~/.aws`
+
+### `credentials` - secrets only
+
+Section name equals profile name. No `profile` prefix.
+
+```ini
+[default]
+aws_access_key_id = AKIA................
+aws_secret_access_key = ........................................
+
+[cloudsol_devops_engineer]
+aws_access_key_id = AKIA................
+aws_secret_access_key = ........................................
+```
+
+### `config` - non-secrets
+
+Region, output, SSO, assume-role chains. Named profiles need the `profile` prefix. `default` does not.
+
+```ini
+[default]
+region = ap-southeast-1
+output = json
+
+[profile cloudsol_devops_engineer]
+region = ap-southeast-1
+output = json
+
+[profile alice_admin]
+region = us-east-1
+output = json
+```
+
+Keep credentials private (`chmod 600` is a good habit). Never commit either file. Never paste secrets into tickets or chat.
+
+## Create a profile for a new IAM user
+
+1. In the **correct** account console: IAM > Users > create user > attach least-privilege policies > Security credentials > Create access key > **CLI**. Save the secret once; you will not see it again.
+2. On your laptop:
+
+```bash
+aws configure --profile cloudsol_devops_engineer
+```
+
+Fill in key, secret, region, output. That writes both files.
+
+3. Confirm:
+
+```bash
+aws configure list-profiles
+aws configure list --profile cloudsol_devops_engineer
+```
+
+## How to select the user
+
+### Session (best for a stretch of work)
+
+```bash
+export AWS_PROFILE=cloudsol_devops_engineer
+echo "$AWS_PROFILE"
+```
+
+Every `aws` command in that shell uses it until you change or unset it.
+
+```bash
+unset AWS_PROFILE
+```
+
+After unset, the CLI falls back to `default` if that profile exists.
+
+### One command
+
+```bash
+aws s3 ls --profile cloudsol_devops_engineer
+aws ec2 describe-instances --profile alice_admin --region us-east-1
+```
+
+### Two terminals
+
+Leave each shell on a different profile. Profiles are per process. They do not fight.
+
+## The command you should run constantly
+
+```bash
+aws sts get-caller-identity
+```
+
+```json
+{
+  "UserId": "AIDAEXAMPLEID",
+  "Account": "422766738122",
+  "Arn": "arn:aws:iam::422766738122:user/cloudsol_devops_engineer"
+}
+```
+
+| Field | Read it as |
+| :--- | :--- |
+| `Arn` | Exact user or role |
+| `Account` | Exact account ID |
+| `UserId` | Internal principal ID |
+
+Short forms:
+
+```bash
+aws sts get-caller-identity --query Arn --output text
+aws sts get-caller-identity --query Account --output text
+aws sts get-caller-identity --profile cloudsol_devops_engineer
+```
+
+**Habit:** before anything that deletes, pushes images, or touches security groups, run `get-caller-identity` and check **both** user and account.
+
+## What wins when several credentials are set
+
+Rough priority, highest first:
+
+1. Env vars: `AWS_ACCESS_KEY_ID`, `AWS_SECRET_ACCESS_KEY`, and `AWS_SESSION_TOKEN` if present 
+2. Profile: `--profile`, or `AWS_PROFILE` / `AWS_DEFAULT_PROFILE` 
+3. The `default` profile in the credentials file 
+4. Instance / container / SSO / role chains on servers 
+
+### Trap: leftover env keys
+
+If you once did:
+
+```bash
+export AWS_ACCESS_KEY_ID=AKIA...
+export AWS_SECRET_ACCESS_KEY=...
+```
+
+those **override** `AWS_PROFILE`. You think you switched. You did not.
+
+```bash
+unset AWS_ACCESS_KEY_ID AWS_SECRET_ACCESS_KEY AWS_SESSION_TOKEN
+export AWS_PROFILE=cloudsol_devops_engineer
+aws sts get-caller-identity
+aws configure list
+```
+
+`aws configure list` shows whether the key and region came from env or from a file. Use it when the story feels wrong.
+
+## Region is independent of identity
+
+Ways to set it:
+
+1. Profile block in `~/.aws/config` 
+2. `export AWS_REGION=ap-southeast-1` (or `AWS_DEFAULT_REGION`) 
+3. `--region ap-southeast-1` on one command 
+
+```bash
+export AWS_PROFILE=cloudsol_devops_engineer
+export AWS_REGION=ap-southeast-1
+aws ec2 describe-instances
+```
+
+Console and CLI must match on **account and region**. Resources in Singapore will not appear if the Console region picker is still on Virginia.
+
+## Day-to-day loop
+
+**Start:**
+
+```bash
+export AWS_PROFILE=cloudsol_devops_engineer
+export AWS_REGION=ap-southeast-1
+aws sts get-caller-identity
+```
+
+**Switch:**
+
+```bash
+export AWS_PROFILE=alice_admin
+aws sts get-caller-identity
+```
+
+**One-off without changing the session:**
+
+```bash
+aws iam list-users --profile alice_admin
+```
+
+**Hygiene at the end of a session (optional):**
+
+```bash
+unset AWS_PROFILE
+unset AWS_ACCESS_KEY_ID AWS_SECRET_ACCESS_KEY AWS_SESSION_TOKEN
+```
+
+## Cross-account reality check
+
+An IAM user in account `111111111111` does not become account `222222222222` by changing region. Profiles map to **keys of a specific user in a specific account**.
+
+For two accounts you usually have either:
+
+- two IAM users -> two profiles, or 
+- one user that **assumes a role** in the other account (`role_arn` + `source_profile` in config)
+
+For most laptop multi-client setups, **one profile per IAM user** stays the low-drama path.
+
+## Where this bites: Docker + ECR
+
+ECR registries are account-scoped:
+
+```text
+<ACCOUNT_ID>.dkr.ecr.<REGION>.amazonaws.com
+```
+
+The login password must come from a principal **in that same account**:
+
+```bash
+export AWS_PROFILE=cloudsol_devops_engineer
+
+ACCOUNT=$(aws sts get-caller-identity --query Account --output text)
+REGION=ap-southeast-1
+
+aws ecr get-login-password --region "$REGION" \
+  | docker login --username AWS --password-stdin \
+    "${ACCOUNT}.dkr.ecr.${REGION}.amazonaws.com"
+```
+
+Log in with Profile A (account `9566…`) and push to a registry hostname for account `4227…`, and you get authorization / “no basic auth credentials” errors that look like Docker problems. They are account mismatches.
+
+Align all three:
+
+1. `AWS_PROFILE` 
+2. Account from `sts` 
+3. Account ID in the ECR hostname 
+
+## Console vs CLI when something “is missing”
+
+| Check | CLI | Console |
+| :--- | :--- | :--- |
+| Identity | `aws sts get-caller-identity` | Top-right account name / ID |
+| Region | profile / `AWS_REGION` / `--region` | Top-right region menu |
+| User | ARN ends with `/user/NAME` | Correct IAM login or federated role |
+
+Same account + same region. A correct profile does not help if the browser is still on another account.
+
+## Security habits worth keeping
+
+1. Prefer **named profiles** for anything important. Keep `default` empty, sandbox-only, or clearly labeled. 
+2. **One human, one set of keys.** Do not share access keys. 
+3. **Rotate** if a key shows up in chat, screenshots, tickets, or git history. 
+4. Never commit `~/.aws/credentials`. 
+5. Least privilege on the IAM user; split deploy vs read-only when it helps. 
+6. Prefer **SSO / temporary credentials** when the org supports it - same profile idea, shorter-lived secrets.
+
+### Optional: SSO profiles
+
+```bash
+aws configure sso --profile company_devops
+aws sso login --profile company_devops
+export AWS_PROFILE=company_devops
+aws sts get-caller-identity
+```
+
+You still switch with `AWS_PROFILE`. Only how credentials are obtained changes.
+
+## Troubleshooting
+
+| Symptom | Likely cause | Fix |
+| :--- | :--- | :--- |
+| Wrong account | Wrong profile or env keys overriding | `aws configure list`; unset env keys; set `AWS_PROFILE`; re-run `sts` |
+| `Unable to locate credentials` | No profile / empty credentials | `aws configure --profile NAME` |
+| Missing in Console | Wrong account or region in the browser | Match account ID + region to CLI |
+| `AccessDenied` | Right user, thin IAM policy | Fix permissions for that user |
+| ECR push auth errors | Login account ≠ registry account | Login with the profile that owns that account ID |
+| Profile “ignored” | `AWS_ACCESS_KEY_ID` still set | Unset access key env vars |
+
+## Cheat sheet
+
+```bash
+aws configure --profile MY_USER
+aws configure list-profiles
+
+export AWS_PROFILE=MY_USER
+export AWS_REGION=ap-southeast-1
+aws sts get-caller-identity
+
+aws s3 ls --profile OTHER_USER
+
+unset AWS_PROFILE
+unset AWS_ACCESS_KEY_ID AWS_SECRET_ACCESS_KEY AWS_SESSION_TOKEN
+aws configure list
+```
+
+## Closing
+
+Multi-user CLI work stays boring when you treat identity as a deliberate switch, not ambient luck. Verify before anything that creates, deletes, or pushes. Most mystery failures shrink to: wrong profile, leftover env keys, or Console/CLI account-region mismatch.
+
+Sibling note on AWS cost floors and Express Mode: [AWS cost floors: ALB, NAT, Express Mode, and free-tier traps](/ops/aws-cost-floors-alb-nat-express-mode-free-tier).
+10:T2cfd,
 The cheap AWS trap is a false choice: a Kubernetes cluster you do not need, or a single VM you cannot sleep on.
 
 The useful question is **total cost of ownership**: cloud bill, operational overhead, security boundary, and what breaks when the one box dies.
 
-This note walks four layers of that question: a small EC2 bill, hardening a public origin, ECS Express Mode vs a pet host, and a serverless demo that stays near zero. Numbers are **On-Demand, Linux, 730-hour months**. The EC2 table uses **Asia Pacific (Singapore)** because that is where a `t3.small` actually lands near **$19**. Fargate unit prices below are **US East (N. Virginia)** from the public pricing page — treat them as a floor; Singapore is higher.
+This note walks four layers of that question: a small EC2 bill, hardening a public origin, ECS Express Mode vs a pet host, and a serverless demo that stays near zero. Numbers are **On-Demand, Linux, 730-hour months**. The EC2 table uses **Asia Pacific (Singapore)** because that is where a `t3.small` actually lands near **$19**. Fargate unit prices below are **US East (N. Virginia)** from the public pricing page - treat them as a floor; Singapore is higher.
 
 ## Why the bill is $77, not $19
 
@@ -27,10 +346,10 @@ Five small containers or Next.js apps behind an **Application Load Balancer** an
 | :--- | :--- | :--- |
 | EC2 `t3.small` | 2 vCPU burst, 2 GiB, On-Demand in `ap-southeast-1` (`$0.0264/hr`) | **~$19.27** |
 | NAT Gateway | `$0.045/hr` plus `$0.045/GB` processed (both directions) plus internet egress | **~$32.85** before data |
-| ALB | Hourly charge plus LCUs | **~$16–20** idle |
+| ALB | Hourly charge plus LCUs | **~$16-20** idle |
 | Public IPv4 | `$0.005/hr` **per address**, including ALB and NAT IPs | **~$3.65 each** |
 
-The **$77** headline undercounts. An internet-facing ALB in two AZs typically has **two** public IPv4s (~$7.30). The NAT Gateway has another (~$3.65). Before transfer, the real floor is closer to **$85–110**.
+The **$77** headline undercounts. An internet-facing ALB in two AZs typically has **two** public IPv4s (~$7.30). The NAT Gateway has another (~$3.65). Before transfer, the real floor is closer to **$85-110**.
 
 Two decisions are independent. Do not bundle them:
 
@@ -46,15 +365,15 @@ Public subnet, no NAT, no ALB, one Elastic IP on the instance:
 | Resource | Monthly |
 | :--- | :--- |
 | EC2 `t3.small` | ~$19.27 |
-| 30 GB `gp3` | ~$2.40–$2.70 |
+| 30 GB `gp3` | ~$2.40-$2.70 |
 | Public IPv4 | ~$3.65 |
 | ALB / NAT | $0 |
-| **Floor** | **~$25–26** |
+| **Floor** | **~$25-26** |
 
 Architecturally:
 
 - **Routing moves to the host.** Nginx (or Caddy) on the instance listens and fans out to the five containers.
-- **One failure domain.** There is no target group to drain. Replacing the only container is how you get a brief **502**, not `nginx -s reload` itself — reload is graceful.
+- **One failure domain.** There is no target group to drain. Replacing the only container is how you get a brief **502**, not `nginx -s reload` itself - reload is graceful.
 - **The origin is on the public internet.** Clients can hit the raw IP unless you lock the security group.
 
 That $52 “saving” is real on the invoice. It is not free in ops: patching, disk, log rotation, and the 2 a.m. kernel panic are now yours. Two hours of that work in a month erases the cloud delta.
@@ -64,7 +383,7 @@ That $52 “saving” is real on the invoice. It is not free in ops: patching, d
 If the instance has a public IPv4, anyone who finds `1.2.3.4` can bypass the CDN. Defense in depth still works. It is **not** $0 if you turn on WAF.
 
 ```text
-Internet  →  CloudFront (+ optional WAF)  →  security group (CloudFront prefix list)  →  Nginx
+Internet -> CloudFront (+ optional WAF) -> security group (CloudFront prefix list) -> Nginx
 ```
 
 ### Edge: Shield Standard vs WAF
@@ -85,7 +404,7 @@ Set CloudFront’s origin HTTP/HTTPS port to match. **8080 works** if the distri
 
 ### App: origin custom header
 
-Add an origin custom header on the distribution (a shared secret). Require it on Nginx. Prefer `map`, not `if` in `server` / `location` — Nginx `if` is a known footgun.
+Add an origin custom header on the distribution (a shared secret). Require it on Nginx. Prefer `map`, not `if` in `server` / `location` - Nginx `if` is a known footgun.
 
 ```nginx
 map $http_x_origin_secret $origin_ok {
@@ -121,16 +440,16 @@ This is a handshake, not cryptography. Rotate it, do not log it, do not echo it 
 
 It can share **one ALB across up to 25** Express services in the same VPC via host-header rules. That is the cost win versus one ALB per service. It does **not** delete the ALB.
 
-Default task size is **1 vCPU / 2 GB**. Always-on Linux/x86 in us-east-1 is about **$36/mo** compute (`$0.000011244` per vCPU-second + `$0.000001235` per GB-second). Add ALB (~$16–20) and two ALB public IPv4s (~$7). **One default Express service is ~$55–65/mo**, not $27–35.
+Default task size is **1 vCPU / 2 GB**. Always-on Linux/x86 in us-east-1 is about **$36/mo** compute (`$0.000011244` per vCPU-second + `$0.000001235` per GB-second). Add ALB (~$16-20) and two ALB public IPv4s (~$7). **One default Express service is ~$55-65/mo**, not $27-35.
 
 The $30-shaped bill only appears with a **tiny** task (0.25 vCPU / 0.5 GB ≈ $9) plus one ALB, and often by ignoring IPv4. That is **one** service, not five containers packed onto a `t3.small`.
 
 | Setup | Honest monthly floor | What you run |
 | :--- | :--- | :--- |
 | 5 containers on one public `t3.small` + Nginx | **~$25** | Shared kernel, one AZ, you patch |
-| 1 Express service, 0.25 vCPU | **~$30–40** including ALB | One web/API |
-| 1 Express service, default 1 vCPU / 2 GB | **~$55–65** | One web/API |
-| 5 Express services, tiny tasks, shared ALB | **~$60–80** | Five isolated tasks |
+| 1 Express service, 0.25 vCPU | **~$30-40** including ALB | One web/API |
+| 1 Express service, default 1 vCPU / 2 GB | **~$55-65** | One web/API |
+| 5 Express services, tiny tasks, shared ALB | **~$60-80** | Five isolated tasks |
 | 5 Express services, default size, shared ALB | **~$200+** | Five default tasks |
 
 Fargate isolation (Firecracker microVM per task) is the real product difference versus Docker on one EC2 kernel. The deploy API is `CreateExpressGatewayService` / `UpdateExpressGatewayService`, not “just `update-service`.” Express Mode is a **HTTPS web/API** shortcut. It is not every ECS workload.
@@ -155,7 +474,7 @@ Flash sales fail on **hot keys, inventory races, checkout fan-out, and connectio
 For a demo that should **idle cheap**, skip always-on compute.
 
 ```text
-CloudFront + S3  →  API Gateway HTTP API  →  Lambda  →  DynamoDB
+CloudFront + S3 -> API Gateway HTTP API -> Lambda -> DynamoDB
                          ↑ Cognito
                          SQS (async work)
 ```
@@ -166,7 +485,7 @@ CloudFront + S3  →  API Gateway HTTP API  →  Lambda  →  DynamoDB
 | :--- | :--- |
 | CloudFront | Pay-as-you-go Always Free is generous: **1 TB** data out + **10M** requests / month. Flat-rate Free plans are a different product (smaller allowance, some WAF/DNS bundled). |
 | S3 | Not magically free forever. Stay inside Always Free / credits / plan storage credits. Use **Origin Access Control**, not a public website bucket. |
-| Cognito | **10,000 MAU** on Lite/Essentials. **50,000 MAU is grandfathered** for older user pools (pre–22 Nov 2024). Plus tier has no free MAUs. SMS/email still bill via SNS/SES. |
+| Cognito | **10,000 MAU** on Lite/Essentials. **50,000 MAU is grandfathered** for older user pools (pre-22 Nov 2024). Plus tier has no free MAUs. SMS/email still bill via SNS/SES. |
 | API Gateway | **Not Always Free.** Legacy 12-month 1M calls for older accounts. Newer accounts get **credits**, then pay. HTTP APIs are ~$1/million; REST ~$3.50/million. |
 | Lambda | **Always Free:** 1M requests + 400,000 GB-seconds / month. |
 | DynamoDB | **Always Free on provisioned Standard:** 25 GB + **25 RCU + 25 WCU**. The “~200M requests” line is marketing math from that capacity. **On-demand has no request free tier.** |
@@ -185,7 +504,7 @@ This shape **scales to zero**. It is not a high-concurrency marketplace. Lambda 
 - Serverless is the right **portfolio** default. Treat **$0** as quotas plus an alarm, not as Shopee-scale.
 
 GCP sibling of the same “cut noise and fixed cost before the origin” idea: [Cloud Run cost defense: Armor, CDN, and locked ingress](/ops/cloud-run-cost-defense-armor-cdn).
-10:T1d1b,
+11:T1d1b,
 ## Why the bill jumps
 
 Cloud Run billing spiked. Logs Explorer showed the usual scanner noise:
@@ -295,7 +614,7 @@ It is still cheaper than letting scanner concurrency drive **Cloud Run** instanc
 Middleware can express policy; it spends **container** resources. **Cloud Armor** on the backend service, **CDN negative caching** where safe, and **ingress locked to load balancing only** cut junk before your revision runs.
 
 For Terraform, codify the NEG, backend service, URL map, Armor attachment, and CDN flags next to the Cloud Run service, using the same split as in [Cloud delivery with Cloud Run, Terraform, and Artifact Registry](/ops/cloud-run-terraform-artifact-registry-delivery-flow).
-11:T270d,
+12:T270d,
 ## Why this stack works
 
 When we build a web app, coding is only half of the story.  
@@ -671,7 +990,7 @@ If your app is still very early, start small and introduce Terraform once servic
 - [ ] Verify rollback path before production release
 
 Cloud Run, Terraform, Artifact Registry, and Cloud Build work best as one delivery system. Wired together, deploys stay predictable and reviewable when something breaks at 2am.
-5:["$","$7",null,{"fallback":null,"children":["$","$Le",null,{"posts":[{"slug":"aws-cost-floors-alb-nat-express-mode-free-tier","title":"AWS cost floors: ALB, NAT, Express Mode, and free-tier traps","date":"2026-09-04T00:00:00.000Z","excerpt":"The bill is ALB + NAT, not the t3.small. What actually changes if you strip them, where ECS Express Mode lands, and why a $0 marketplace demo is a usage envelope.","tags":["AWS","ALB","NAT Gateway","ECS","Fargate","CloudFront","Cost optimization","Free Tier"],"featured":true,"content":"$f"},{"slug":"cloud-run-cost-defense-armor-cdn","title":"Cloud Run cost defense: Armor, CDN, and locked ingress","date":"2026-05-13T00:00:00.000Z","excerpt":"How we cut scanner noise before it burns Cloud Run budget: Cloud Armor at the LB, CDN negative caching, and no public *.run.app bypass.","tags":["Cloud Run","Cloud Armor","Cloud CDN","Google Cloud","Security","Cost optimization"],"featured":false,"content":"$10"},{"slug":"cloud-run-terraform-artifact-registry-delivery-flow","title":"Cloud delivery with Cloud Run, Terraform, and Artifact Registry","date":"2026-04-30T00:00:00.000Z","excerpt":"One clean path from Git to production: Cloud Build, versioned images, Terraform for infra, Cloud Run for runtime.","tags":["Cloud Run","Terraform","Artifact Registry","Cloud Build","DevOps","CI/CD"],"featured":false,"content":"$11"}],"basePath":"/ops","sectionTitle":"Ops","sidebarTitle":"All Articles","emptyLabel":"articles"}]}]
+5:["$","$7",null,{"fallback":null,"children":["$","$Le",null,{"posts":[{"slug":"aws-cli-named-profiles-multi-iam","title":"AWS CLI named profiles: switching IAM users without shooting the wrong account","date":"2026-09-16T00:00:00.000Z","excerpt":"One IAM user, one key pair, one named profile. How AWS_PROFILE works, why leftover env keys win, and the sts habit that stops wrong-account ECR pushes.","tags":["AWS","AWS CLI","IAM","Profiles","Credentials","ECR","DevOps"],"featured":true,"content":"$f"},{"slug":"aws-cost-floors-alb-nat-express-mode-free-tier","title":"AWS cost floors: ALB, NAT, Express Mode, and free-tier traps","date":"2026-09-04T00:00:00.000Z","excerpt":"The bill is ALB + NAT, not the t3.small. What actually changes if you strip them, where ECS Express Mode lands, and why a $0 marketplace demo is a usage envelope.","tags":["AWS","ALB","NAT Gateway","ECS","Fargate","CloudFront","Cost optimization","Free Tier"],"featured":true,"content":"$10"},{"slug":"cloud-run-cost-defense-armor-cdn","title":"Cloud Run cost defense: Armor, CDN, and locked ingress","date":"2026-05-13T00:00:00.000Z","excerpt":"How we cut scanner noise before it burns Cloud Run budget: Cloud Armor at the LB, CDN negative caching, and no public *.run.app bypass.","tags":["Cloud Run","Cloud Armor","Cloud CDN","Google Cloud","Security","Cost optimization"],"featured":false,"content":"$11"},{"slug":"cloud-run-terraform-artifact-registry-delivery-flow","title":"Cloud delivery with Cloud Run, Terraform, and Artifact Registry","date":"2026-04-30T00:00:00.000Z","excerpt":"One clean path from Git to production: Cloud Build, versioned images, Terraform for infra, Cloud Run for runtime.","tags":["Cloud Run","Terraform","Artifact Registry","Cloud Build","DevOps","CI/CD"],"featured":false,"content":"$12"}],"basePath":"/ops","sectionTitle":"Ops","sidebarTitle":"All Articles","emptyLabel":"articles"}]}]
 a:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
 c:[["$","title","0",{"children":"Ops | Hg's Portfolio"}],["$","meta","1",{"name":"description","content":"Cloud operations notes: AWS cost floors, ECS Express Mode, Cloud Run, Terraform, and delivery on GCP."}],["$","link","2",{"rel":"canonical","href":"https://hgq287.github.io/ops"}],["$","meta","3",{"name":"google-site-verification","content":"OHqTl_CUC6UNI90uBoGk9FSiU9orGMSq7dWROOccWms"}],["$","meta","4",{"property":"og:title","content":"Ops | Hg's Portfolio"}],["$","meta","5",{"property":"og:description","content":"AWS, GCP, Cloud Run, ECS, and cloud delivery notes."}],["$","meta","6",{"property":"og:url","content":"https://hgq287.github.io/ops"}],["$","meta","7",{"property":"og:image","content":"https://hgq287.github.io/og-default.png"}],["$","meta","8",{"property":"og:image:width","content":"1200"}],["$","meta","9",{"property":"og:image:height","content":"630"}],["$","meta","10",{"property":"og:image:alt","content":"Hung Q. Truong – Hg's Portfolio"}],["$","meta","11",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","12",{"name":"twitter:title","content":"Ops | Hg's Portfolio"}],["$","meta","13",{"name":"twitter:description","content":"AWS, GCP, Cloud Run, ECS, and cloud delivery notes."}],["$","meta","14",{"name":"twitter:image","content":"https://hgq287.github.io/og-default.png"}]]
 8:null
